@@ -9,7 +9,6 @@
     "https://listentolu.com/2025/03/kumamoto_sitelist/"
   ],
   "attractions": [
-
     {
       "id": "kumamoto-castle",
       "name": "熊本城",
@@ -24,9 +23,17 @@
       "stay_duration": "2-2.5小時",
       "cash_only": false,
       "description": "日本三大名城之一，2016年地震後歷經多年修復，已重新開放參觀。63棟石落、黑金色天守閣為其特徵。城內展示武將文物，周邊為賞櫻勝地。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["城堡", "熊本", "賞櫻", "日本三名城"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "城堡",
+        "熊本",
+        "賞櫻",
+        "日本三名城"
+      ],
+      "priority": 3,
+      "zone": "熊本"
     },
     {
       "id": "sakurajima",
@@ -42,9 +49,17 @@
       "stay_duration": "半天",
       "cash_only": false,
       "description": "鹿兒島象徵，世界上最活躍的複式火山之一。可乘坐渡輪接近火山，或乘坐周遊巴士至湯之平展望所近距離觀測火山地貌。运气好可看到火山爆發。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["火山", "鹿兒島", "自然", "奇景"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "火山",
+        "鹿兒島",
+        "自然",
+        "奇景"
+      ],
+      "priority": 3,
+      "zone": "鹿兒島"
     },
     {
       "id": "takachiho-gorge",
@@ -60,9 +75,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "入選日本百選峽谷，17km長的V型峽谷，十房的祖父大瀑布高約17m，水量豐沛。划船近距離欣賞翡翠綠水色是超人氣體驗。秋季賞楓，冬季有機會看到霧冰。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["峽谷", "宮崎", "賞楓", "划船"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "峽谷",
+        "宮崎",
+        "賞楓",
+        "划船"
+      ],
+      "priority": 3,
+      "zone": "宮崎·高千穗"
     },
     {
       "id": "yufuin",
@@ -78,9 +101,17 @@
       "stay_duration": "半天-整天",
       "cash_only": false,
       "description": "九州最人氣的溫泉度假小鎮，金鱗湖、湯之坪街道、休閒咖啡廳與精緻甜點聞名。建議住一晚享受溫泉旅館。秋季至冬季清晨可看到金鱗湖夢幻晨霧。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["溫泉", "由布院", "湖", "度假"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "溫泉",
+        "由布院",
+        "湖",
+        "度假"
+      ],
+      "priority": 3,
+      "zone": "別府·湯布院"
     },
     {
       "id": "beppu-hells",
@@ -96,9 +127,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "以地獄溫泉聞名，七個顏色各異的天然溫泉池，水溫最高達98度的「膽池」甚至養殖著抗熱藻類。建議購買周遊套票。是別府最具代表性的觀光資源。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["溫泉", "別府", "地獄", "奇景"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "溫泉",
+        "別府",
+        "地獄",
+        "奇景"
+      ],
+      "priority": 3,
+      "zone": "別府·湯布院"
     },
     {
       "id": "nagasaki Chinatown",
@@ -114,9 +153,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "日本三大中華街之一，春節期間張燈結彩最熱闘。必吃：強棒麵（ちゃんぽん）、什景飯（セわもり）、咖啡凍（卡斯特拉）。街道上處處可見穿旗袍的遊客與中國元素。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["中華街", "長崎", "美食", "文化"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "中華街",
+        "長崎",
+        "美食",
+        "文化"
+      ],
+      "priority": 3,
+      "zone": "長崎"
     },
     {
       "id": "gunkanjima",
@@ -132,9 +179,17 @@
       "stay_duration": "3-4小時（含船程）",
       "cash_only": false,
       "description": "2015年登錄UNESCO世界文化遺產，昔日煤礦開採島，建築密度極高被稱「軍艦」。電影《007：空降危機》取景地。可預約登島導覽（名額有限，建議提前一個月預訂）。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["世界遺產", "軍艦島", "煤礦", "長崎"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "世界遺產",
+        "軍艦島",
+        "煤礦",
+        "長崎"
+      ],
+      "priority": 3,
+      "zone": "長崎"
     },
     {
       "id": "saga-ariake",
@@ -150,9 +205,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "有明海以神秘潮汐聞名，夕陽將海域染成金橙色，被列為日本最佳夕陽觀賞地之一。附近海域是海苔養殖的主要產地。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["夕陽", "海", "長崎", "自然"],
-      "priority": 2
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "夕陽",
+        "海",
+        "長崎",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "長崎"
     },
     {
       "id": "hitoyoshi",
@@ -168,11 +231,18 @@
       "stay_duration": "半天",
       "cash_only": false,
       "description": "球磨川源頭所在，2016年洪水災害後正慢慢重建，擁有400年歷史的辦人街和炭火烤管理等傳統工藝。秋季可體驗球磨川急流趟河。",
-      "sources": ["https://listentolu.com/2025/03/kumamoto_sitelist/"],
-      "tags": ["老街", "熊本", "球磨川", "文化"],
-      "priority": 2
+      "sources": [
+        "https://listentolu.com/2025/03/kumamoto_sitelist/"
+      ],
+      "tags": [
+        "老街",
+        "熊本",
+        "球磨川",
+        "文化"
+      ],
+      "priority": 2,
+      "zone": "熊本"
     },
-
     {
       "id": "kokonoe-yunoto",
       "name": "九重「夢」大吊橋",
@@ -187,9 +257,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "日本最高（173m）最長（390m）的步行吊橋，跨越鳴子河溪谷。秋季楓葉季節橋上視野壯觀，可同時欣賞峽谷與山景。是九州近郊秘境的代表。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["秘境", "吊橋", "大分", "賞楓"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "秘境",
+        "吊橋",
+        "大分",
+        "賞楓"
+      ],
+      "priority": 2,
+      "zone": "別府·湯布院"
     },
     {
       "id": "yamaga-onsen",
@@ -205,9 +283,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "擁有千年歷史的八自伎內溫泉，據說八自伎內用了100個岩藏引導建造。每年8月15-16日的「山鹿燈籠祭」是最規模的文化祭。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["秘境", "溫泉", "山鹿", "燈籠"],
-      "priority": 2
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "秘境",
+        "溫泉",
+        "山鹿",
+        "燈籠"
+      ],
+      "priority": 2,
+      "zone": "熊本"
     },
     {
       "id": "nagasaki-beaches",
@@ -223,9 +309,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "新上五島町入選「死前必去的世界度假村」TOP100，辰巳隧道是連接島嶼的夢幻海底隧道，周邊白沙灣清澈見底，被列為日本海水透明度最高的地點之一。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["秘境", "沙灘", "新上五島", "海水"],
-      "priority": 2
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "秘境",
+        "沙灘",
+        "新上五島",
+        "海水"
+      ],
+      "priority": 2,
+      "zone": "長崎"
     },
     {
       "id": "matsumoto-round",
@@ -241,9 +335,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "杵築市的「水和土的故鄉」示範區，有600年歷史的燒酒藏（杵築藩）傳統工藝。名物「民話之里」可體驗榻榻米編織、藍染等傳統工藝。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["秘境", "傳統工藝", "大分", "城下町"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "秘境",
+        "傳統工藝",
+        "大分",
+        "城下町"
+      ],
+      "priority": 1,
+      "zone": "別府·湯布院"
     },
     {
       "id": "hitoyoshi-kuma-river",
@@ -259,9 +361,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "球磨川是日本三大急流之一，下鄉（乘坐木打造的河童舟）是最刺激的水上體驗，從船上視角欣賞兩岸峽谷與梯田，秋季賞楓時分景色最壯觀。",
-      "sources": ["https://listentolu.com/2025/03/kumamoto_sitelist/"],
-      "tags": ["秘境", "球磨川", "泛舟", "人吉"],
-      "priority": 2
+      "sources": [
+        "https://listentolu.com/2025/03/kumamoto_sitelist/"
+      ],
+      "tags": [
+        "秘境",
+        "球磨川",
+        "泛舟",
+        "人吉"
+      ],
+      "priority": 2,
+      "zone": "熊本"
     },
     {
       "id": "satsuma-shimada",
@@ -277,9 +387,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "只有退潮時才會出現的陸繋島，被選入「死前必去的世界度假村」之一。可沿沙灘漫步至島上，體驗沙蒸溫泉。戀人聖地。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["秘境", "島嶼", "指宿", "愛情"],
-      "priority": 2
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "秘境",
+        "島嶼",
+        "指宿",
+        "愛情"
+      ],
+      "priority": 2,
+      "zone": "鹿兒島"
     },
     {
       "id": "Mt-Aso",
@@ -295,9 +413,17 @@
       "stay_duration": "半天",
       "cash_only": false,
       "description": "世界最大級的破火山口之一，中央火山臼內最高峰「中岳」至今仍在活動。可乘坐纜車近距離觀測火山口（2024年重開），或於草千里享受騎馬體驗。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["秘境", "火山", "阿蘇", "自然"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "秘境",
+        "火山",
+        "阿蘇",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "熊本"
     },
     {
       "id": "kurokawa-onsen",
@@ -313,11 +439,18 @@
       "stay_duration": "3-4小時（推薦住一晚）",
       "cash_only": false,
       "description": "日本女性人氣第一的秘湯溫泉區，30間以上小型溫泉旅館沿山谷分布，保留濃厚的日式溫泉文化。推薦購買「入村手形」可進入3處公共浴池，是深度溫泉愛好者必訪。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["秘境", "溫泉", "黑川", "秘湯"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "秘境",
+        "溫泉",
+        "黑川",
+        "秘湯"
+      ],
+      "priority": 3,
+      "zone": "熊本"
     },
-
     {
       "id": "hakata-ramen",
       "name": "博多純伽羅（拉麵）",
@@ -332,9 +465,17 @@
       "stay_duration": "30分鐘",
       "cash_only": false,
       "description": "博多純伽羅是豚骨拉麵的代名詞，濃郁香醇的豚骨白湯為博多拉麵的標準。推薦「博多一蘭拉麵總本店」、「博多牛腸煮 ShinShin」也是博多代表性。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["美食", "拉麵", "博多", "豚骨"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "美食",
+        "拉麵",
+        "博多",
+        "豚骨"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "izakaya-kumamoto",
@@ -350,9 +491,17 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "熊本的酒館（下鄉）文化濃厚，馬肉刺身（桜肉）是當地代表美食，搭配熊本得來的在地酒，體驗最道地的熊本夜生活。",
-      "sources": ["https://listentolu.com/2025/03/kumamoto_sitelist/"],
-      "tags": ["美食", "馬肉", "熊本", "居酒屋"],
-      "priority": 2
+      "sources": [
+        "https://listentolu.com/2025/03/kumamoto_sitelist/"
+      ],
+      "tags": [
+        "美食",
+        "馬肉",
+        "熊本",
+        "居酒屋"
+      ],
+      "priority": 2,
+      "zone": "熊本"
     },
     {
       "id": "satsuma-shio-karashi",
@@ -368,9 +517,17 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "鹿兒島代表美食：黑豚火鍋（黒豚三郎）、黑薩摩軍雞（當地土雞）。肉質細嫩、味道浓郁。推薦「黒豚三郎」或「AMU PLAZA」頂樓景觀餐廳。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["美食", "黑豚", "鹿兒島", "在地"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "美食",
+        "黑豚",
+        "鹿兒島",
+        "在地"
+      ],
+      "priority": 2,
+      "zone": "鹿兒島"
     },
     {
       "id": "nagasaki-chanpon",
@@ -386,9 +543,17 @@
       "stay_duration": "40分鐘-1小時",
       "cash_only": false,
       "description": "中式皿缐與伊府麵底的混合體，加入海鮮、豬肉、蔬菜等食材，湯底濃郁。起源於明治時期的中華料理店「四海樓」，是前來長崎必吃的代表麵食。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["美食", "強棒麵", "長崎", "中華"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "美食",
+        "強棒麵",
+        "長崎",
+        "中華"
+      ],
+      "priority": 2,
+      "zone": "長崎"
     },
     {
       "id": "isfuca",
@@ -404,9 +569,17 @@
       "stay_duration": "40分鐘-1小時",
       "cash_only": false,
       "description": "以溫泉水製作的湯葉（腐皮）聞名，滑嫩入口即化，配上醬油或溜床享用。春日山溫泉的美肌之湯搭配湯葉，是溫泉旅行中的特別美味。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["美食", "湯葉", "大分", "溫泉"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "美食",
+        "湯葉",
+        "大分",
+        "溫泉"
+      ],
+      "priority": 1,
+      "zone": "別府·湯布院"
     },
     {
       "id": "karatsu-yaki",
@@ -422,9 +595,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "唐津燒是九州代表陶瓷，以「唐津道」聞名，常作為抹茶道具。詰 Garib嘔是唐津燒最知名的作品，在唐津的「お不上」咖啡館可品嚐用唐津燒盛裝的抹茶與和果子。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["美食", "唐津燒", "抹茶", "唐津"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "美食",
+        "唐津燒",
+        "抹茶",
+        "唐津"
+      ],
+      "priority": 1,
+      "zone": "筑豐"
     },
     {
       "id": "sake-brewing",
@@ -440,11 +621,18 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "唐津的名護屋城是400年前豐臣秀吉征伐朝鮮時的軍事基地，現為歷史公園。附近的「明治藏」是實際營運中的清酒釀造所，遊客可參觀並試飲。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["美食", "清酒", "唐津", "體驗"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "美食",
+        "清酒",
+        "唐津",
+        "體驗"
+      ],
+      "priority": 1,
+      "zone": "筑豐"
     },
-
     {
       "id": "tosu-outlet",
       "name": "鳥栖 Premium Outlets",
@@ -459,9 +647,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "加州南部風情建築，150+間店鋪，国际精品+運動品牌。品牌：Nike、Coach、Michael Kors、Polo Ralph Lauren、New Balance、The North Face、Le Creuset、URBAN RESEARCH。",
-      "sources": ["https://www.premiumoutlets.co.jp/cht/tosu/"],
-      "tags": ["OUTLET", "購物", "鳥栖", "佐賀"],
-      "priority": 3
+      "sources": [
+        "https://www.premiumoutlets.co.jp/cht/tosu/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鳥栖",
+        "佐賀"
+      ],
+      "priority": 3,
+      "zone": "佐賀縣"
     },
     {
       "id": "fukuoka-outlet",
@@ -477,9 +673,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "面對玄界灘與運河的景觀OUTLET，結合遊艇碼頭與OUTLET商場。品牌：Vivienne Westwood、Agnes b.、Beams OUTLET、Desigual、United Arrows OUTLET。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["OUTLET", "購物", "海之中道", "福岡"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "海之中道",
+        "福岡"
+      ],
+      "priority": 2,
+      "zone": "福岡縣"
     },
     {
       "id": "kagoshima-outlet",
@@ -495,9 +699,17 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "鹿兒島的在地OUTLET，以當地品牌和九州特產為主，附設海鮮市場和餐廳。可購買鹿兒島特產：薩摩燒酒、白甘諸、櫻島小蜜柑。",
-      "sources": ["https://bobbytravel.tw/kyushu-attractions/"],
-      "tags": ["OUTLET", "購物", "鹿兒島", "特產"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鹿兒島",
+        "特產"
+      ],
+      "priority": 2,
+      "zone": "鹿兒島"
     },
     {
       "id": "usa-hoshino",
@@ -513,9 +725,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "九州唯一大規模葡萄酒莊，使用當地種植的葡萄釀造，產品多次在國際比賽中獲獎。可參觀葡萄園與地下酒窖，試飲各款在地葡萄酒。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["OUTLET", "葡萄酒", "大分", "酒莊"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "OUTLET",
+        "葡萄酒",
+        "大分",
+        "酒莊"
+      ],
+      "priority": 1,
+      "zone": "別府·湯布院"
     },
     {
       "id": "beppu-toko-ichi",
@@ -531,10 +751,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "別府最大的溫泉湯葉和傳統工藝品商場，可以試飲溫泉水、品嚐溫泉蛋、購買明礬溫泉結晶模型。、別府代表特產：溫泉粉、明礬工藝品。",
-      "sources": ["https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"],
-      "tags": ["OUTLET", "溫泉", "特產", "別府"],
-      "priority": 1
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "tags": [
+        "OUTLET",
+        "溫泉",
+        "特產",
+        "別府"
+      ],
+      "priority": 1,
+      "zone": "別府·湯布院"
     }
-
   ]
 }

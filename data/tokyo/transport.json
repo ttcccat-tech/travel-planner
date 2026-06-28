@@ -1,0 +1,55 @@
+{
+  "name": "tokyo",
+  "display_name": "日本東京",
+  "city_type": "metropolitan",
+  "description": "全球最大都會區，電車網絡發達，自駕僅推薦往富士山/輕井澤等郊區。市區以PASMO/Suica+電車為主。",
+  "airport_to_city": {
+    "method": "京成電鐵/成田express/N'EX",
+    "route": "成田機場 → 東京（京成Narita Skyliner約36分/N'EX約53分）",
+    "estimated_time": "36-60分",
+    "estimated_cost": "2520-3250円"
+  },
+  "within_city": {
+    "main_transport": "JR（10條線+多条私鐵）、東京Metro（9條線）、都營地下鐵",
+    "suggested_card": "PASMO（押金500円，可加值）— JR/私鐵/Metro/巴士通用"
+  },
+  "ticket_options": [
+    {
+      "name": "JR東京廣域周遊券（3日）",
+      "price": "10150円",
+      "desc": "含JR廣域範圍（富士山/輕井澤/河口湖），外國人限定優惠"
+    },
+    {
+      "name": "Tokyo Subway Ticket（24/48/72h）",
+      "price": "800/1200/1500円",
+      "desc": "東京Metro+都營地鐵無限搭，超值"
+    },
+    {
+      "name": "Suicaamo",
+      "price": "1000円起",
+      "desc": "含1000円可用額+500円押金，可加值"
+    }
+  ],
+  "cash_prep": {
+    "recommendation": "每人每日建議準備2000-3000円現金",
+    "breakdown": "交通費約800-1500円+餐費1000-2000円+雜支500円",
+    "note": "大多數地方可刷卡，傳統商店街/自動贩卖機需現金"
+  },
+  "transfer_tips": [
+    {
+      "from": "成田機場",
+      "to": "東京市區",
+      "note": "京成電鐵最快，N'EX可直達東京/新宿/澀谷"
+    },
+    {
+      "from": "東京",
+      "to": "河口湖",
+      "note": "JR中央線+富士急行，或從新宿搭高速巴士（約2小時）"
+    },
+    {
+      "from": "東京",
+      "to": "輕井澤",
+      "note": "北陸新幹線約65分，適用JR東京廣域周遊券"
+    }
+  ]
+}

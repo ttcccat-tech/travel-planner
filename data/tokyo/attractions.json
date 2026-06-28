@@ -8,7 +8,6 @@
     "https://alinalife.tw/tokyo-attractions/"
   ],
   "attractions": [
-
     {
       "id": "senso-ji",
       "name": "淺草寺·雷門",
@@ -23,9 +22,17 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "東京最古老寺廟，創建於628年。雷門是打卡地標，仲見世通匯集人形燒、抹茶甜點、雷門糰子。建議清晨或傍晚避開人潮。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["寺廟", "淺草", "免費", "東京"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "寺廟",
+        "淺草",
+        "免費",
+        "東京"
+      ],
+      "priority": 3,
+      "zone": "淺草"
     },
     {
       "id": "tokyo-skytree",
@@ -41,9 +48,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "日本最高塔（634m），東京地標。推薦於天黑後登塔欣賞都會百萬夜景。附設晴空塔城商場與墨田水族館。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["塔", "夜景", "地標", "押上"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "塔",
+        "夜景",
+        "地標",
+        "押上"
+      ],
+      "priority": 3,
+      "zone": "淺草"
     },
     {
       "id": "tokyo-tower",
@@ -59,9 +74,17 @@
       "stay_duration": "45分鐘-1小時",
       "cash_only": false,
       "description": "東京經典地標（333m），以巴黎艾菲爾鐵塔為範本設計，夜晚亮起標誌性橙色燈光。可購票至展望台欣賞夜景，並走訪塔下，增上寺與東京鐵塔同框的打卡點。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["塔", "夜景", "港區", "經典"],
-      "priority": 3
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "塔",
+        "夜景",
+        "港區",
+        "經典"
+      ],
+      "priority": 3,
+      "zone": "台場"
     },
     {
       "id": "meiji-shrine",
@@ -77,9 +100,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "供奉明治天皇與昭憲皇太后，東京最重要的神社之一。廣闊的神宮森林是都市中的綠洲，每年新年首次參拜人數最多。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["神社", "代代木", "免費", "自然"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "神社",
+        "代代木",
+        "免費",
+        "自然"
+      ],
+      "priority": 3,
+      "zone": "澀谷"
     },
     {
       "id": "shibuya-crossing",
@@ -95,9 +126,16 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "全球最繁忙的交叉路口，每次紅燈約有3,000人同時穿越。忠犬八公像、八公派出所是打卡點。十字路口對面有咖啡廳可拍攝全景。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["地標", "澀谷", "十字路口"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "地標",
+        "澀谷",
+        "十字路口"
+      ],
+      "priority": 3,
+      "zone": "澀谷"
     },
     {
       "id": "teamlab-borderless",
@@ -113,9 +151,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "全球最紅的數位藝術博物館之一，2024年移師東京港區重新開幕。沉浸式互動藝術，作品會結合作者與其他作品進行互動，沒有地圖的數位藝術迷宮。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["藝術", "teamLab", "台場", "數位"],
-      "priority": 3
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "藝術",
+        "teamLab",
+        "台場",
+        "數位"
+      ],
+      "priority": 3,
+      "zone": "台場"
     },
     {
       "id": "odaiba-rainbow-bridge",
@@ -131,9 +177,17 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "東京灣人造假島，可遠眺彩虹橋夜景，打卡：1:3比例自由女神像、海濱公園、Fujisan直升机停機坪。是東京親子、科技與夜景複合型景點。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["台場", "夜景", "海濱", "自由女神"],
-      "priority": 2
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "台場",
+        "夜景",
+        "海濱",
+        "自由女神"
+      ],
+      "priority": 2,
+      "zone": "台場"
     },
     {
       "id": "ueno-zoo",
@@ -149,9 +203,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "日本最古老的動物園，明星動物是熊貓（力力與真真）。周邊的上野公園有美術館、博物館、國立西洋美術館（UNESCO世界文化遺產）。賞櫻熱點。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["動物園", "上野", "賞櫻", "熊貓"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "動物園",
+        "上野",
+        "賞櫻",
+        "熊貓"
+      ],
+      "priority": 3,
+      "zone": "上野"
     },
     {
       "id": "akihabara",
@@ -167,9 +229,17 @@
       "stay_duration": "1.5-3小時",
       "cash_only": false,
       "description": "動漫、遊戲、御宅族文化的聖地，各式電器商城、女僕咖啡廳、漫畫店、動漫模型店林立。電器商品建議在電器商店街比價。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["動漫", "電器", "秋葉原", "次文化"],
-      "priority": 2
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "動漫",
+        "電器",
+        "秋葉原",
+        "次文化"
+      ],
+      "priority": 2,
+      "zone": "秋葉原"
     },
     {
       "id": "ghibli-museum",
@@ -185,11 +255,18 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "宮崎駿工作室美術館，嚴禁拍照。館內有原創短篇動畫放映、工作室還原、龍貓迎賓巴士。票非常搶手，需一個月前在Lawson預訂。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["美術館", "吉卜力", "三鷹", "宮崎駿"],
-      "priority": 3
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "美術館",
+        "吉卜力",
+        "三鷹",
+        "宮崎駿"
+      ],
+      "priority": 3,
+      "zone": "吉祥寺·三鷹"
     },
-
     {
       "id": "kurama",
       "name": "藏前",
@@ -204,9 +281,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "有「東京布魯克林」之稱，隅田川河畔美景，聚集大量皮革工坊、手工藝品店、獨特文具雜貨店，是東京職人文化與文青挖寶的秘密基地。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "文青", "職人", "淺草"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "文青",
+        "職人",
+        "淺草"
+      ],
+      "priority": 2,
+      "zone": "淺草"
     },
     {
       "id": "shimokitazawa",
@@ -222,9 +307,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "東京次文化聖地，古著店、Live House、劇場、獨立咖啡廳密集區。昭和氛圍巷弄交織縱橫，夜晚居酒屋飄出陣陣香氣，是東京年輕人文化的縮影。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "古著", "次文化", "下北"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "古著",
+        "次文化",
+        "下北"
+      ],
+      "priority": 2,
+      "zone": "吉祥寺·三鷹"
     },
     {
       "id": "kiyosumi-garden",
@@ -240,9 +333,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "東京精品咖啡勝地，舊倉庫改建的大型咖啡館、藝廊林立。Blue Bottle Coffee亞洲一號店位於此區。鄰近清澄庭園，可享受一趟文青咖啡小旅行。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "咖啡", "清澄白河", "藍瓶"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "咖啡",
+        "清澄白河",
+        "藍瓶"
+      ],
+      "priority": 2,
+      "zone": "秋葉原"
     },
     {
       "id": "jimbocho",
@@ -258,9 +359,17 @@
       "stay_duration": "1.5-3小時",
       "cash_only": false,
       "description": "世界最大規模的古書街，愛書人尋寶天堂。同時是東京咖哩激戰區，車站周邊聚集上百間風格各異的咖哩店，是東京文化與美食的另類交叉點。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "古書", "咖哩", "神保町"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "古書",
+        "咖哩",
+        "神保町"
+      ],
+      "priority": 2,
+      "zone": "秋葉原"
     },
     {
       "id": "koenji",
@@ -276,9 +385,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "東京代表性次文化聖地，以阿波舞聞名，聚集大量特色古著店、獨立音樂Live House、平價個性居酒屋，充滿年輕狂放活力，是東京最真實的另類街區。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "古著", "次文化", "阿波舞"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "古著",
+        "次文化",
+        "阿波舞"
+      ],
+      "priority": 2,
+      "zone": "吉祥寺·三鷹"
     },
     {
       "id": "asagaya",
@@ -294,9 +411,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "深入東京在地人居住圈，湯之川美學氣息，洋溢中央線日常氣息。擁有活力在地商店街、百年以上歷史的純喫茶、復古獨立小店，適合慢節奏體驗老派東京生活。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "老街", "中央線", "深度"],
-      "priority": 1
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "老街",
+        "中央線",
+        "深度"
+      ],
+      "priority": 1,
+      "zone": "吉祥寺·三鷹"
     },
     {
       "id": "nishiogikubo",
@@ -312,9 +437,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "寧靜質感街區，巷弄內散落精緻骨董店、古道具屋、隱密老咖啡館，每間店都充滿故事，適合在安靜氛圍中挖寶，是東京人心中的秘密花園。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "骨董", "咖啡", "西荻窪"],
-      "priority": 1
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "骨董",
+        "咖啡",
+        "西荻窪"
+      ],
+      "priority": 1,
+      "zone": "吉祥寺·三鷹"
     },
     {
       "id": "kagurazaka",
@@ -330,9 +463,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "過去是繁華花街，保留高級料亭與藝妓文化，石板小巷如迷宮。同時因法國教育機構進駐而洋溢異國風情，是東京高檔住宅區中的秘境。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "老街", "石板路", "神樂坂"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "老街",
+        "石板路",
+        "神樂坂"
+      ],
+      "priority": 2,
+      "zone": "新宿"
     },
     {
       "id": "ningen-bucho",
@@ -348,9 +489,17 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "東京都內少數逃過戰火浩劫的老街，充滿江戶商人町氣息。甘酒橫丁可品嚐熱呼呼甘酒與日式點心，造訪傳承百年的老字號店舖，是東京下町文化的精華。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "下町", "江戶", "人形町"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "下町",
+        "江戶",
+        "人形町"
+      ],
+      "priority": 2,
+      "zone": "上野"
     },
     {
       "id": "yanaka",
@@ -366,9 +515,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "合稱「谷根千」，幸運躲過戰火保留大量老屋與蜿蜒坡道。谷中銀河商店街夕陽時分可近距離感受真實下町人情味，是東京巷弄文化的秘密寶藏。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "下町", "老街", "谷根千"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "下町",
+        "老街",
+        "谷根千"
+      ],
+      "priority": 2,
+      "zone": "上野"
     },
     {
       "id": "shakadji",
@@ -384,9 +541,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "日本國民電影《男人真命苦》舞台，車站出口即有還原電影場景的銅像。帝釋天參道兩側夾道烤丸子店、仙貝鋪，保留浓厚昭和下町風情。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "下町", "昭和", "柴又"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "下町",
+        "昭和",
+        "柴又"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
     {
       "id": "akabane",
@@ -402,9 +567,17 @@
       "stay_duration": "2-3小時",
       "cash_only": true,
       "description": "擁有熱鬧庶民商店街與錯綜複雜的平價居酒屋巷弄，孕育出知名「千圓喝到醉（せんべろ）」文化，可體驗在地人最真實的下班後生活，是東京人的秘密酒精基地。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "居酒屋", "赤羽", "千圓喝到醉"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "居酒屋",
+        "赤羽",
+        "千圓喝到醉"
+      ],
+      "priority": 2,
+      "zone": "北區"
     },
     {
       "id": "togoshi-ginza",
@@ -420,9 +593,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "東京最長商店街，是冠名「銀座」的商店街始祖，雲集各種平價小吃、炸物肉餅、日式甜點。與其他東京商圈相比更具家庭式在地氛圍，適合邊走邊吃的半日遊。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "商店街", "美食", "戶越"],
-      "priority": 1
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "商店街",
+        "美食",
+        "戶越"
+      ],
+      "priority": 1,
+      "zone": "品川"
     },
     {
       "id": "chofu-jindaiji",
@@ -438,9 +619,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "擁有超過千年歷史的深大寺，以除厄、結緣聞名，被蓊鬱森林與清泉圍繞。參道上聚集大量老字號蕎麥麵店（推薦「深大寺元祖嶋田家」），環境清幽，是東京近郊的秘境寺廟。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["秘境", "寺廟", "近郊", "蕎麥"],
-      "priority": 1
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "秘境",
+        "寺廟",
+        "近郊",
+        "蕎麥"
+      ],
+      "priority": 1,
+      "zone": "吉祥寺·三鷹"
     },
     {
       "id": "tsukiji-outer",
@@ -456,11 +645,18 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": true,
       "description": "世界最知名的批發市場，豐洲市場搬遷後的場外市場仍然熱鬧，雲集餐廳、海鮮代煮、乾貨、日本料理。必吃：鮪魚、解體表演、大海老天婦羅。",
-      "sources": ["https://wanderlustannie.com.tw/tokyo/"],
-      "tags": ["秘境", "市場", "海鮮", "築地"],
-      "priority": 2
+      "sources": [
+        "https://wanderlustannie.com.tw/tokyo/"
+      ],
+      "tags": [
+        "秘境",
+        "市場",
+        "海鮮",
+        "築地"
+      ],
+      "priority": 2,
+      "zone": "築地·月島"
     },
-
     {
       "id": "ginza",
       "name": "銀座",
@@ -475,9 +671,16 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "東京高級美食一級戰區，必吃：、和光牛排、數寄屋橋次的美式甜點。地下超市有精緻便當與洋菓子，適合作為用餐或下午茶的最後一站。",
-      "sources": ["https://wanderlustannie.com.tw/tokyo/"],
-      "tags": ["美食", "銀座", "高檔"],
-      "priority": 2
+      "sources": [
+        "https://wanderlustannie.com.tw/tokyo/"
+      ],
+      "tags": [
+        "美食",
+        "銀座",
+        "高檔"
+      ],
+      "priority": 2,
+      "zone": "築地·月島"
     },
     {
       "id": "tsukishima-monjayaki",
@@ -493,9 +696,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "月島是東京文字燒發源地，西仲通商店街兩側有近百年歷史的文字燒店。推薦「文字燒 あほり」，可以在鐵板上自己烹調文字燒，是很棒的東京體驗。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["美食", "文字燒", "月島", "東京"],
-      "priority": 2
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "美食",
+        "文字燒",
+        "月島",
+        "東京"
+      ],
+      "priority": 2,
+      "zone": "築地·月島"
     },
     {
       "id": "nakameguro",
@@ -511,9 +722,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "東京時尚餐飲一級戰區，代官山與中目黑交匯處，特色咖啡廳、酒吧、國際餐廳林立。目黑川沿岸是東京賞櫻熱點，秋季銀杏同樣動人。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["美食", "咖啡", "中目黑", "賞櫻"],
-      "priority": 2
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "美食",
+        "咖啡",
+        "中目黑",
+        "賞櫻"
+      ],
+      "priority": 2,
+      "zone": "澀谷"
     },
     {
       "id": "harajuku",
@@ -529,9 +748,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "東京時尚與次文化的交匯點。表參道是高端精品街，原宿小巷則是街頭時尚與美食的實驗室：可麗餅、彩虹吐司、抹茶甜點應有盡有。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["美食", "原宿", "甜點", "時尚"],
-      "priority": 2
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "美食",
+        "原宿",
+        "甜點",
+        "時尚"
+      ],
+      "priority": 2,
+      "zone": "澀谷"
     },
     {
       "id": "kappabashi",
@@ -547,9 +774,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "東京專業廚房道具街，800公尺街道雲集鍋碗瓢盆、專業廚刀。日本料理愛好者與專業廚人的挖寶勝地，也可買到逼真的食物模型當伴手禮。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["美食", "道具", "廚房", "淺草"],
-      "priority": 1
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "美食",
+        "道具",
+        "廚房",
+        "淺草"
+      ],
+      "priority": 1,
+      "zone": "淺草"
     },
     {
       "id": "gotanda",
@@ -565,11 +800,18 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "東京上班族下班後的秘密居酒屋激戰區，平價串燒、關東煮、味噌關東煮隱藏在小巷弄間。與東京主要觀光區相比更接近日本人的日常。",
-      "sources": ["https://tokyo.letsgojp.com/archives/697925/"],
-      "tags": ["美食", "居酒屋", "五反田", "在地"],
-      "priority": 1
+      "sources": [
+        "https://tokyo.letsgojp.com/archives/697925/"
+      ],
+      "tags": [
+        "美食",
+        "居酒屋",
+        "五反田",
+        "在地"
+      ],
+      "priority": 1,
+      "zone": "品川"
     },
-
     {
       "id": "akyabari-outlet",
       "name": "酒酒井 Princess Outlet",
@@ -584,9 +826,17 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "距離成田機場最近的OUTLET，聚集約90家品牌，包括COACH、Kate Spade、MICHAEL KORS、Tommy Hilfiger等精品，以及日本在地品牌。適合班機起降前後的血拼。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["OUTLET", "購物", "成田", "機場"],
-      "priority": 2
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "成田",
+        "機場"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
     {
       "id": "mitsui-udaoutlet",
@@ -602,9 +852,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "約300家店鋪，關東最大規模OUTLET之一，品牌密度高。品牌：Champs Jordan、GAPOUTLET、BEIGE、Under Armour、 Samsonite。附設美食廣場與嬰兒車借用語服務。",
-      "sources": ["https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"],
-      "tags": ["OUTLET", "購物", "埼玉", "最大規模"],
-      "priority": 3
+      "sources": [
+        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "埼玉",
+        "最大規模"
+      ],
+      "priority": 3,
+      "zone": "近郊"
     },
     {
       "id": "lalaport-toyoko",
@@ -620,9 +878,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "日本最大型複合商業設施之一，2023年擴建後店鋪數量增加。品牌：BEAMS、URBAN RESERCH、DANTON、日立高科技體驗館。附設EXPO LAND遊樂園。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["OUTLET", "購物", "EXPOCITY", "複合"],
-      "priority": 2
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "EXPOCITY",
+        "複合"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
     {
       "id": "shibuya-stream",
@@ -638,10 +904,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "2020年後陸續開幕的新形態複合商場。宮下公園結合商業設施與空中公園，澀谷STREAMS有無印良品、Lawson食堂、健身中心等。主打東京在地生活感的品牌。",
-      "sources": ["https://alinalife.tw/tokyo-attractions/"],
-      "tags": ["OUTLET", "購物", "澀谷", "新開幕"],
-      "priority": 1
+      "sources": [
+        "https://alinalife.tw/tokyo-attractions/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "澀谷",
+        "新開幕"
+      ],
+      "priority": 1,
+      "zone": "澀谷"
     }
-
   ]
 }

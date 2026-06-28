@@ -475,20 +475,102 @@ async function onGenerate() {
     state.attractions.filter(a => a.parent === id).forEach(c => { dontWantMap[c.id] = true; });
   });
 
-  // Apply filters to each day
-  const filteredDays = itin.days.map(day => ({
-    ...day,
-    activities: day.activities.map(act => {
-      if (act.type === 'transport' || act.type === 'shopping' || act.type === 'general') return act;
-      const attr = state.attractions.find(a => a.name === act.item);
-      if (!attr) return act;
-      if (dontWantMap[attr.id]) return { ...act, _skipped: true, _skipReason: '使用者已排除' };
-      if (!wantMap[attr.id] && wantIds.length > 0) {
-        // Not a must-visit, but not excluded either — keep
-      }
-      return act;
-    }).filter(act => !act._skipped)
-  }));
+  // Zone-aware random draw: rebuild each day's activities from the zone pool
+  const TIME_SLOTS = ['上午', '中午', '下午', '傍晚', '晚上'];
+  const filteredDays = itin.days.map((day, dayIdx) => {
+    // For arrival/departure, keep static transport/general activities
+    if (day.type === 'arrival' || day.type === 'departure') {
+      return {
+        ...day,
+        activities: day.activities.map(act => {
+          if (act.type === 'transport' || act.type === 'shopping' || act.type === 'general') return act;
+          const attr = state.attractions.find(a => a.name === act.item);
+          if (!attr) return act;
+          if (dontWantMap[attr.id]) return { ...act, _skipped: true };
+          return act;
+        }).filter(act => !act._skipped)
+      };
+    }
+
+    // Normal day: draw from zone pool with shuffle
+    const zones = day.zones || [];
+    // Collect candidates from all listed zones
+    const candidates = [];
+    zones.forEach(zone => {
+      state.attractions
+        .filter(a => a.zone === zone)
+        .forEach(a => candidates.push(a));
+    });
+
+    // Shuffle candidates (seeded by day index for reproducibility per session)
+    for (let i = candidates.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+    }
+
+    // Fill with shuffled attractions, respecting want/dontWant
+    const picked = [];
+    const added = new Set();
+    for (const attr of candidates) {
+      if (added.has(attr.id)) continue;
+      if (dontWantMap[attr.id]) continue;
+      picked.push(attr);
+      added.add(attr.id);
+      if (picked.length >= 4) break;
+    }
+
+    // If want items are specified and not yet covered, inject them
+    const pickedNames = new Set(picked.map(a => a.name));
+    wantIds.forEach(id => {
+      if (picked.length >= 5) return;
+      const attr = state.attractions.find(a => a.id === id);
+      if (!attr) return;
+      if (added.has(attr.id)) return;
+      if (dontWantMap[attr.id]) return;
+      // Zone filter: only add if in same zone as this day or no zone restriction
+      if (zones.length > 0 && attr.zone && !zones.includes(attr.zone)) return;
+      picked.push(attr);
+      added.add(attr.id);
+    });
+
+    // Build activity objects from picked attractions
+    const activities = picked.map((attr, i) => {
+      const timeSlot = TIME_SLOTS[i % TIME_SLOTS.length];
+      const srcs = attr.sources || [];
+      const youtube = srcs.find(s => s.includes('youtube')) || null;
+      const blog = srcs.find(s => s) || null;
+      return {
+        time: timeSlot,
+        item: attr.name,
+        type: attr.category || 'attraction',
+        stay: attr.stay_duration || '1小時',
+        ticket: attr.ticket || '免費',
+        need_reservation: attr.need_reservation || false,
+        details: {
+          note: attr.description || '',
+          google_maps: null,
+          youtube,
+          blog_article: blog,
+        }
+      };
+    });
+
+    // Fallback: if pool was too small, keep original activities
+    if (activities.length < 2) {
+      return {
+        ...day,
+        activities: day.activities.map(act => {
+          if (act.type === 'transport' || act.type === 'shopping' || act.type === 'general') return act;
+          const attr = state.attractions.find(a => a.name === act.item);
+          if (!attr) return act;
+          if (dontWantMap[attr.id]) return { ...act, _skipped: true };
+          return act;
+        }).filter(act => !act._skipped)
+      };
+    }
+
+    return { ...day, activities };
+  });
 
   // If wantItems includes things NOT in base itinerary, add them
   const baseItems = filteredDays.flatMap(d => d.activities.map(a => a.item));

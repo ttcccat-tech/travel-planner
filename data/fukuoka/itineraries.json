@@ -1,430 +1,12 @@
 {
   "region": "fukuoka",
   "last_updated": "2026-06-28",
-  "base_note": "以下為示範行程基底，各地點之間的交通時間已考慮在內。秘境/OUTLET排在對應景點的同一半天內。美食在午餐/晚餐時段自動插入。每天不排晚間行程，保留給彈性使用。所有景點均已附加 google_maps、youtube、blog_article 等連結，方便行前了解或現場驗證。",
-
+  "base_note": "fukuoka行程（Zone-Aware）。每天景點皆在同一交通圈內，每天隨機抽取區域內景點組成。景點資料庫持續擴充中。",
   "itineraries": {
     "3": {
       "name": "3天2夜 精華快閃",
-      "suitable_for": "假期有限的上班族",
-      "layout": "Day1(抵達)->Day2(核心)->Day3(午後返程)",
-      "days": [
-        {
-          "day": 1,
-          "type": "arrival",
-          "title": "抵達日 — 博多初印象",
-          "activities": [
-            {
-              "time": "下午",
-              "item": "抵達福岡機場 → 搭地下鐵空港線至博多",
-              "type": "transport",
-              "stay": null,
-              "ticket": "260円（地鐵）",
-              "details": {
-                "address": "福岡地下鐵：福岡空港站 → 博多站（約15分）",
-                "route": "國內線航站 → 步行至地下鐵福岡空港站 → 搭乘空港線直達天神/博多",
-                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
-                "youtube": null
-              }
-            },
-            {
-              "time": "下午",
-              "item": "寄行李後慢逛博多運河城",
-              "type": "attraction",
-              "stay": "2-3小時",
-              "ticket": "免費",
-              "details": {
-                "address": "福岡縣福岡市博多區住野1-2",
-                "phone": null,
-                "hours": "商店 10:00-21:00／餐廳 11:00-23:00",
-                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
-                "youtube": "https://www.youtube.com/watch?v=rvvwGTwVT9g",
-                "blog_article": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
-                "note": "建議在運河城內的拉麵店解決晚餐。2024年12月新開幕 GOOD MARKET KYUSHU 可買到九州各地特色伴手禮。"
-              }
-            },
-            {
-              "time": "晚上",
-              "item": "一蘭拉麵本社総本店（24小時）",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約1,000-1,500円",
-              "need_reservation": false,
-              "details": {
-                "address": "〒810-0801 福岡縣福岡市博多區中洲5-3-2",
-                "phone": "050-3733-2600",
-                "hours": "24小時",
-                "google_maps": "https://maps.app.goo.gl/YzQpL9NmVwXqR8sT6",
-                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
-                "blog_article": "https://zh-cht.ichiran.com/shop/kyushu/sohonten/",
-                "note": "每晚20:00-20:15有一蘭和樂隊現場演出。博多名物豚骨拉麵，不吃辣可選「天然とんこつらーめん」。"
-              }
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "type": "explore",
-          "title": "深度日 — 博多老街 × 天神",
-          "activities": [
-            {
-              "time": "上午",
-              "item": "櫛田神社（博多總鎮守）",
-              "type": "attraction",
-              "stay": "1小時",
-              "ticket": "免費",
-              "need_reservation": false,
-              "details": {
-                "address": "〒812-0026 福岡縣博多區上川端町1-41",
-                "phone": "+81 92-291-2951",
-                "hours": "自由參觀（宝物殿 9:00-16:30）",
-                "google_maps": "https://maps.app.goo.gl/4pbWYVhL4zKUZggP6",
-                "youtube": "https://www.youtube.com/watch?v=Dm3HAKOw1ss",
-                "blog_article": "https://hakatanomiryoku.com/spot/%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE",
-                "note": "博多祇園山笠祭典中心。參拜方式：二禮、二拍手、一禮。可順遊博多舊城區（長排屋）。"
-              }
-            },
-            {
-              "time": "中午",
-              "item": "川端商店街（博多最古老的商店街）",
-              "type": "food",
-              "stay": "1-1.5小時",
-              "ticket": "免費",
-              "need_reservation": false,
-              "details": {
-                "address": "福岡縣博多區川端通（從櫛田神社步行約3分鐘）",
-                "phone": null,
-                "hours": "約 9:00-18:00（各店不同）",
-                "google_maps": "https://maps.app.goo.gl/xpQmL8NvWxYR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=QwvTQ216giU",
-                "blog_article": "https://hakatanomiryoku.com/",
-                "note": "130年以上歷史，400公尺拱廊。推薦：「川端冰店」刨冰、「山笠烏龍麵」。"
-              }
-            },
-            {
-              "time": "下午",
-              "item": "大濠公園",
-              "type": "attraction",
-              "stay": "1.5小時",
-              "ticket": "免費（庭園200円）",
-              "need_reservation": false,
-              "details": {
-                "address": "〒810-0801 福岡縣中央區大濠公園1-2",
-                "phone": "092-781-1294",
-                "hours": "24小時開放（管理事務所 9:00-17:00）",
-                "google_maps": "https://maps.app.goo.gl/QxpLz9NmVwYqR5sT78",
-                "youtube": "https://www.youtube.com/watch?v=h-XpTVIP9xw",
-                "blog_article": "https://hakatanomiryoku.com/spot/%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
-                "note": "賞櫻勝地，湖畔可划船。庭園（100円）需另外購票。傍晚時分景色最美。"
-              }
-            },
-            {
-              "time": "傍晚",
-              "item": "天神地下街",
-              "type": "attraction",
-              "stay": "1-2小時",
-              "ticket": "免費",
-              "need_reservation": false,
-              "details": {
-                "address": "福岡縣中央區天神（各線天神站直連）",
-                "phone": null,
-                "hours": "約 10:00-20:00（各店不同）",
-                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
-                "blog_article": "https://www.youtube.com/watch?v=Iz4ZSbnd4XY",
-                "note": "連結天神站周邊各大百貨，18公尺拱廊設計如同歐洲地底藝術館。必逛：藥妝、百元店、UNIQLO。"
-              }
-            }
-          ]
-        },
-        {
-          "day": 3,
-          "type": "departure",
-          "title": "回程日 — 博多名產採買 × 機場",
-          "activities": [
-            {
-              "time": "早上",
-              "item": "退房寄行李，博多吃早餐",
-              "type": "food",
-              "stay": "40分鐘",
-              "details": {
-                "note": "推薦：便利商店飯糰＋溫泉蛋，或「咖啡美學」café 吃個輕食早午餐再出發。"
-              }
-            },
-            {
-              "time": "上午",
-              "item": "博多運河城／JR博多城 採買お土産",
-              "type": "shopping",
-              "stay": "1-2小時",
-              "ticket": null,
-              "details": {
-                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
-                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
-                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
-                "note": "必買：明太子（排名前三：やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕、GOOD MARKET KYUSHU 限定商品。"
-              }
-            },
-            {
-              "time": "中午",
-              "item": "JR博多站午餐 → 地下鐵至福岡空港",
-              "type": "transport",
-              "stay": null,
-              "ticket": "260円（地鐵）",
-              "details": {
-                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
-                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
-                "note": "地鐵至機場約15分，班次密集，建議起飛前60分鐘出發。"
-              }
-            }
-          ]
-        }
-      ]
-    },
-
-    "4": {
-      "name": "4天3夜 經典遊",
-      "suitable_for": "想體驗近郊與市區的旅客",
-      "layout": "Day1(抵達)->Day2(近郊)->Day3(市區)->Day4(午後返程)",
-      "days": [
-        {
-          "day": 1,
-          "type": "arrival",
-          "title": "抵達日 — 確認節奏",
-          "activities": [
-            {
-              "time": "下午",
-              "item": "抵達福岡機場 → 搭地鐵至博多",
-              "type": "transport"
-            },
-            {
-              "time": "下午",
-              "item": "博多運河城散步",
-              "type": "attraction",
-              "stay": "2小時",
-              "ticket": "免費"
-            },
-            {
-              "time": "晚上",
-              "item": "博多拉麵初體驗",
-              "type": "food",
-              "stay": "1小時"
-            }
-          ]
-        },
-        {
-          "day": 2,
-          "type": "suburbs",
-          "title": "近郊日 — 太宰府",
-          "activities": [
-            {
-              "time": "早上",
-              "item": "西鐵太宰府線：天神 → 太宰府（直達約30分）",
-              "type": "transport",
-              "stay": "30分鐘車程",
-              "ticket": "約800円（來回），或使用 SUNQ PASS",
-              "details": {
-                "address": "西鐵天神大牟田線至太宰府線（直達）",
-                "google_maps": "https://maps.app.goo.gl/JxpLz8NmVwYqR5sT79",
-                "youtube": "https://www.youtube.com/watch?v=LduHqxTcJ1w",
-                "note": "建議搭乘西鐵觀光列車「旅人」（旅人号），外觀為限定彩色，車程30分鐘直達太宰府。"
-              }
-            },
-            {
-              "time": "上午",
-              "item": "太宰府天滿宮",
-              "type": "attraction",
-              "stay": "1.5小時",
-              "ticket": "免費（宝物殿另收300円）",
-              "need_reservation": false,
-              "details": {
-                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1",
-                "phone": "092-922-8225",
-                "hours": "自由參觀（授与所 8:30-日落）",
-                "google_maps": "https://maps.app.goo.gl/K7pLm9NwXxYqR5sT81",
-                "youtube": "https://www.youtube.com/watch?v=RlcCuRUNu8c",
-                "blog_article": "https://bobbytravel.tw/dazaifu-tenmangu/",
-                "note": "學問之神菅原道真，適合考生參拜。境內可求御守（學業成就、交通安全）。每年新年超過800萬人參拜。請以二禮、二拍手、一禮方式參拜。"
-              }
-            },
-            {
-              "time": "中午",
-              "item": "表參道商店街 午餐：梅枝餅 + 定食",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約800-1,500円",
-              "need_reservation": false,
-              "details": {
-                "address": "太宰府表參道（太宰府天滿宮鳥居正前方）",
-                "google_maps": "https://maps.app.goo.gl/L9pLm8NwXxYqR5sT82",
-                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
-                "note": "必吃：梅枝餅（烤麻糬，5片1000円），配上店家特製黃豆粉。定食推薦：「田中師」或表參道上各大家常料理。"
-              }
-            },
-            {
-              "time": "下午",
-              "item": "星巴克太宰府表參道店（隈研吾建築）",
-              "type": "hidden_gem",
-              "stay": "30分鐘",
-              "ticket": "約400-600円（飲品）",
-              "need_reservation": false,
-              "details": {
-                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1（太宰府天滿宮鳥居旁）",
-                "phone": "092-918-3510",
-                "hours": "8:00-20:00",
-                "google_maps": "https://maps.app.goo.gl/M8pLm7NwXxYqR5sT83",
-                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
-                "blog_article": "https://www.mottimes.com/article/detail/6197",
-                "note": "世界知名建築師隈研吾設計，以上千根雪松木條層疊交織成洞窟般流動空間，號稱日本最美星巴克。必拍建築外觀。"
-              }
-            },
-            {
-              "time": "傍晚",
-              "item": "西鐵回天神，藥院咖啡廳 or 天神地下街 shopping",
-              "type": "attraction",
-              "stay": "1-2小時",
-              "ticket": null,
-              "details": {
-                "note": "回程可順路在天神/藥院站下车，探索 neighborhood 咖啡文化或繼續購物。"
-              }
-            },
-            {
-              "time": "晚上",
-              "item": "大山牛腸鍋 KITTE博多店",
-              "type": "food",
-              "stay": "1.5小時",
-              "need_reservation": true,
-              "details": {
-                "address": "〒812-0012 福岡縣博多區博多站中央街9-1 KITTE博多9F",
-                "phone": "092-260-6303",
-                "hours": "11:00-23:00（最後點餐22:30）",
-                "google_maps": "https://maps.app.goo.gl/N9pLm6NwXxYqR5sT84",
-                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
-                "blog_article": "https://kyushu.letsgojp.com/archives/559619/",
-                "note": "博多名物牛腸鍋，使用100%日本國產牛腸。建議提前在官網預約。午間套餐CP值高（套餐1,738円起）。"
-              }
-            }
-          ]
-        },
-        {
-          "day": 3,
-          "type": "city",
-          "title": "市區日 — 大濠 × 天神",
-          "activities": [
-            {
-              "time": "上午",
-              "item": "大濠公園",
-              "type": "attraction",
-              "stay": "1.5小時",
-              "ticket": "免費（庭園200円）",
-              "need_reservation": false,
-              "details": {
-                "address": "〒810-0801 福岡縣中央區大濠公園1-2",
-                "phone": "092-781-1294",
-                "hours": "24小時開放（管理事務所 9:00-17:00）",
-                "google_maps": "https://maps.app.goo.gl/QxpLz9NmVwYqR5sT78",
-                "youtube": "https://www.youtube.com/watch?v=h-XpTVIP9xw",
-                "blog_article": "https://hakatanomiryoku.com/spot/%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
-                "note": "賞櫻勝地，湖畔可划船。庭園（100円）需另外購票。傍晚時分景色最美。"
-              }
-            },
-            {
-              "time": "中午",
-              "item": "天神商圈午餐（推荐：天神地下街內餐廳）",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約800-1,500円",
-              "details": {
-                "address": "天神地下街內各餐廳",
-                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
-                "note": "推薦：「叙々苑」燒肉（CP值高）或地下街內的「とんこつ一蘭」天神店。"
-              }
-            },
-            {
-              "time": "下午",
-              "item": "天神地下街 shopping",
-              "type": "attraction",
-              "stay": "2小時",
-              "ticket": "免費",
-              "need_reservation": false,
-              "details": {
-                "address": "福岡縣中央區天神（各線天神站直連）",
-                "phone": null,
-                "hours": "約 10:00-20:00",
-                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
-                "blog_article": "https://www.youtube.com/watch?v=Iz4ZSbnd4XY",
-                "note": "必逛：DAISO大創百元店、驚安殿堂（唐吉訶德）、UNIQLO、藥妝（松本清/大國）。"
-              }
-            },
-            {
-              "time": "傍晚",
-              "item": "中洲屋台體驗",
-              "type": "food",
-              "stay": "1-2小時",
-              "need_reservation": false,
-              "details": {
-                "address": "福岡縣博多區中洲（從天神步行約10分鐘）",
-                "phone": null,
-                "hours": "約 17:00-凌晨 1:00（攤位陸續開始）",
-                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
-                "blog_article": "https://www.youtube.com/playlist?list=PLwKc9yAhs29mV6ThqInd6vx69w8KCjN30",
-                "note": "傍晚5點過後才陸續開始。建議先選定一家坐定，而非走動換攤。推薦品項：燒內臟、烤豬肉串、關東煮。平均消費 1,000-2,000円。"
-              }
-            }
-          ]
-        },
-        {
-          "day": 4,
-          "type": "departure",
-          "title": "回程日 — 博多名產 × 機場",
-          "activities": [
-            {
-              "time": "早上",
-              "item": "退房寄行李，早餐",
-              "type": "food",
-              "stay": "40分鐘",
-              "details": {
-                "note": "推薦便利商店早餐（飯糰＋溫泉蛋），或車站內「Kombini」購買直接帶上飛機。"
-              }
-            },
-            {
-              "time": "上午",
-              "item": "博多運河城採買お土産",
-              "type": "shopping",
-              "stay": "1小時",
-              "ticket": null,
-              "details": {
-                "address": "福岡縣福岡市博多區住野1-2",
-                "phone": null,
-                "hours": "商店 10:00-21:00",
-                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
-                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
-                "note": "必買：明太子（やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕。2024年12月新開幕 GOOD MARKET KYUSHU 可順路逛。"
-              }
-            },
-            {
-              "time": "中午",
-              "item": "JR博多站午餐 → 地下鐵至福岡空港",
-              "type": "transport",
-              "stay": null,
-              "ticket": "260円（地鐵）",
-              "details": {
-                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
-                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
-                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
-              }
-            }
-          ]
-        }
-      ]
-    },
-
-    "5": {
-      "name": "5天4夜 慢活度假",
-      "suitable_for": "多數旅客",
-      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(自由日)->Day5(午後返程)",
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
       "days": [
         {
           "day": 1,
@@ -433,189 +15,635 @@
           "activities": [
             {
               "time": "下午",
-              "item": "抵達福岡機場 → 地鐵至博多 → 飯店",
-              "type": "transport"
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             },
             {
               "time": "下午",
-              "item": "博多運河城",
-              "type": "attraction",
-              "stay": "2-3小時",
-              "ticket": "免費"
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             },
             {
               "time": "晚上",
-              "item": "ShinShin 或一蘭 博多本店",
-              "type": "food",
-              "stay": "1小時"
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             }
+          ],
+          "zones": [
+            "博多"
           ]
         },
         {
           "day": 2,
-          "type": "suburbs",
-          "title": "近郊日 — 太宰府",
+          "type": "normal",
+          "title": "Day 2",
           "activities": [
             {
-              "time": "早上",
-              "item": "西鐵太宰府線出發（30分鐘直達）",
-              "type": "transport"
-            },
-            {
               "time": "上午",
-              "item": "太宰府天滿宮",
+              "item": "九州國立博物館",
               "type": "attraction",
-              "stay": "1.5小時",
-              "ticket": "免費"
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
             },
             {
               "time": "中午",
-              "item": "表參道午餐 + 梅枝餅",
-              "type": "food"
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
             },
             {
               "time": "下午",
-              "item": "九州國立博物館 或 星巴克隈研吾建築",
-              "type": "hidden_gem",
-              "stay": "1.5-2小時",
-              "ticket": "博物館300円"
+              "item": "天神·大名潮牌街",
+              "type": "outlet",
+              "stay": "2-3小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
             },
             {
               "time": "傍晚",
-              "item": "回程，天神/藥院 free",
-              "type": "attraction"
-            },
-            {
-              "time": "晚上",
-              "item": "大山牛腸鍋（KITTE店）",
-              "type": "food",
-              "need_reservation": true
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
             }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
           ]
         },
         {
           "day": 3,
-          "type": "experience",
-          "title": "體驗日 — 柳川水鄉",
+          "type": "departure",
+          "title": "回程日",
           "activities": [
             {
               "time": "早上",
-              "item": "西鐵天神大牟田線至柳川（約50分，直達）",
-              "type": "transport",
-              "stay": "50分鐘車程",
-              "ticket": "約800-1,000円（來回）",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
               "details": {
-                "google_maps": "https://maps.app.goo.gl/P9pLm5NwXxYqR5sT85",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "note": "西鐵天神大牟田線搭乘至「西鐵柳川站」，出站步行約5分鐘到乘船碼頭。也可搭配「西鐵觀光套票」有優惠。"
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "上午",
-              "item": "柳川水上市場「川下り」遊船",
-              "type": "attraction",
-              "stay": "40分鐘-1小時",
-              "ticket": "成人1,300円（船公司各異）",
-              "need_reservation": true,
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
               "details": {
-                "address": "柳川觀光遊船（各船公司）：https://www.yanagawa-net.com/ohori/",
-                "phone": "0944-73-2118（柳川觀光案內所）",
-                "hours": "9:00-16:00（各船公司不同）",
-                "google_maps": "https://maps.app.goo.gl/Q8pLm4NwXxYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "blog_article": "https://bobbytravel.tw/yanagawa/",
-                "note": "木船行駛運河，聽船夫哼唱地方小調。建議提早预约（可網上預約），2-4月期間有「柳川雛祭」可以順遊。七大船家可選，推薦「川下行」傳統路線。"
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "中午",
-              "item": "柳川名物：蒸籠鰻魚飯（うなぎ蒸籠）",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約2,000-3,500円",
-              "need_reservation": true,
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
               "details": {
-                "address": "柳川市内各老字號鰻魚飯（推薦：若松屋）",
-                "google_maps": "https://maps.app.goo.gl/R7pLm3NwXxYqR5sT87",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "blog_article": "https://bobbytravel.tw/yanagawa/",
-                "note": "以傳統蒸籠方式炊煮的柳川名物鰻魚飯，配上香Q米飯與甜辣醬汁。推薦老字號「若松屋」或「元祖本吉」，建議提前預約。"
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "name": "4天3夜 經典遊",
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "下午",
-              "item": "柳川老街散步 → 14:00-15:00 回程",
-              "type": "hidden_gem",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
               "stay": "1小時",
               "ticket": "免費",
               "details": {
-                "google_maps": "https://maps.app.goo.gl/S6pLm2NwXxYqR5sT88",
-                "youtube": "https://www.youtube.com/watch?v=pf9D-PE8YEs",
-                "note": "柳川城下町保留江戶時代水鄉風情，漫步於運河畔與石板小路。可參觀李維世拉博物館、或在老街購買明信片/手工藝品。"
-              }
-            },
-            {
-              "time": "傍晚",
-              "item": "久留米站停留（可選：吃一碗豚骨拉麵）",
-              "type": "food",
-              "stay": "40分鐘",
-              "details": {
-                "google_maps": "https://maps.app.goo.gl/T5pLm1NwXxYqR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=8kSPBKfkoLM",
-                "note": "久留米是豚骨拉麵發源地，推薦老字號「大砲拉麵」或「久留米拉麵商店街」。如不回市中心，可在久留米站直接吃一碗再繼續。"
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "晚上",
-              "item": "中洲屋台體驗",
-              "type": "food",
-              "stay": "1-2小時",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
               "details": {
-                "address": "福岡縣博多區中洲",
-                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
-                "note": "傍晚5點過後才陸續開始。建議選定一家坐定，體驗福岡夜生活文化。"
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "野宮神社力清水（夕霧）",
+              "type": "hidden_gem",
+              "stay": "20分鐘",
+              "ticket": "甜點約200-400円",
+              "details": {
+                "note": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "天神·大名潮牌街",
+              "type": "outlet",
+              "stay": "2-3小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
+              "details": {
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "ShinShin（新宿式）",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約800-1,200円",
+              "details": {
+                "note": "博多豚骨拉麵代表名店之一，浓郁豚骨白湯為特色。排隊名店建議開店前抵達。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
           ]
         },
         {
           "day": 4,
-          "type": "free",
-          "title": "自由日（方案A/B/C 選一）",
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
+              "details": {
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "name": "5天4夜 慢活度假",
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
           "activities": [
             {
               "time": "上午",
-              "item": "方案A：福岡塔 → 海濱百道 → 下午鳥栖 Premium Outlets",
-              "type": "mixed",
-              "stay": "整天",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
               "details": {
-                "address": "福岡塔：〒814-0001 福岡縣福岡市早良區百道浜2-3-26",
-                "google_maps": "https://maps.app.goo.gl/U4pLm0NwXxYqR5sT80",
-                "youtube": "https://www.youtube.com/watch?v=tcoAAJ8vy1U",
-                "note": "福岡塔門票：成人800円（聯盟票有優惠）。建議傍晚17:00前抵達，可同時看夕陽與夜景。鳥栖OUTLET從天神搭高速巴士約45分鐘。"
+                "note": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/603822/"
               }
             },
             {
-              "time": "上午",
-              "item": "方案B：糸島半島自駕小旅行（二見浦夫婦岩 + 芥屋大門 + 糸島海鮮堂）",
-              "type": "mixed",
-              "stay": "整天",
+              "time": "中午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
               "details": {
-                "google_maps": "https://maps.app.goo.gl/V3pKm9NwXxYqR5sT81",
-                "youtube": "https://www.youtube.com/watch?v=lYdWzVtdK2k",
-                "note": "建議自駕。糸島半島位於福岡西海岸，夫婦岩是打卡景點，芥屋大門是玄武岩門型洞穴（乘船參觀），海鮮堂可品嚐新鮮海產。路程約1-1.5小時從市中心。"
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
-              "time": "全天",
-              "item": "方案C：完全自由日，睡到自然醒 + 天神/博多購物美食",
-              "type": "mixed",
-              "stay": "整天",
+              "time": "下午",
+              "item": "野宮神社力清水（夕霧）",
+              "type": "hidden_gem",
+              "stay": "20分鐘",
+              "ticket": "甜點約200-400円",
               "details": {
-                "note": "放慢腳步，早上在飯店附近找一家咖啡店吃早餐，下午在天神或博多 shopping，晚上安排一頓好的（牛腸鍋/海鮮/燒肉）。"
+                "note": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "福岡塔",
+              "type": "attraction",
+              "stay": "45分鐘-1小時",
+              "ticket": "成人1,000円",
+              "details": {
+                "note": "日本最高的海濱塔（234m），入選日本夜景100選，也是戀人聖地。建議日落前1小時抵達，可同時看夕陽與百萬夜景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
+              "details": {
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "柳川鰻魚飯",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "約2,000-3,500円",
+              "need_reservation": true,
+              "details": {
+                "note": "柳川名物，蓋上一層蒲燒鰻魚的蒸飯，鰻魚軟嫩、飯吸收了鰻魚醬汁。配上紅薑與抹茶，齒頰留香。需預約是因為鰻魚現烤需等待。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "Mio Donut",
+              "type": "food",
+              "stay": "20分鐘",
+              "ticket": "甜甜圈約150-300円",
+              "details": {
+                "note": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "なんばん往來（南蠻往來旗艦店）",
+              "type": "food",
+              "stay": "30分鐘",
+              "ticket": "甜點約200-500円",
+              "details": {
+                "note": "筑豐地區知名甜點名店，甜點名稱源於江戶時期南蠻貿易之路。必吃：經典南蠻往來（杏仁粉+果醬，上層酥脆、內裡鬆軟）、季節限定藍莓口味。附設咖啡廳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "舊伊藤傳右衛門邸",
+              "type": "hidden_gem",
+              "stay": "40分鐘-1小時",
+              "ticket": "310円",
+              "details": {
+                "note": "日本國家指定重要財產+名勝。前煤礦大亨伊藤傳右衛門為歌人妻子白蓮（天皇表妹）興建的日西合璧豪宅，使用義大利大理石與英國特製玻璃。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
           ]
         },
         {
@@ -625,42 +653,54 @@
           "activities": [
             {
               "time": "早上",
-              "item": "退房寄行李",
+              "item": "退房寄行李，便利商店早餐",
               "type": "general",
-              "stay": "30分鐘"
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             },
             {
               "time": "上午",
-              "item": "博多運河城／JR博多城 購買お土産",
+              "item": "最後 shopping + 購買お土産",
               "type": "shopping",
               "stay": "1小時",
+              "ticket": "免費",
               "details": {
-                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
-                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
-                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
-                "note": "必買：明太子、山笠かりんとう、鶴，乃我ままんじゅう、一口小魚餅、GOOD MARKET KYUSHU 限定伴手禮。"
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "中午",
-              "item": "JR博多站午餐 → 地鐵至福岡空港",
+              "item": "前往機場",
               "type": "transport",
-              "ticket": "260円（地鐵）",
+              "stay": "60分",
+              "ticket": "視距離",
               "details": {
-                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
-                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
-                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             }
+          ],
+          "zones": [
+            "博多"
           ]
         }
       ]
     },
-
     "6": {
       "name": "6天5夜 深度漫遊",
-      "suitable_for": "假期充裕的深度旅人",
-      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(彈性)->Day5(在地)->Day6(午後返程)",
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
       "days": [
         {
           "day": 1,
@@ -669,282 +709,299 @@
           "activities": [
             {
               "time": "下午",
-              "item": "抵達 → 地鐵至博多",
-              "type": "transport"
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             },
             {
               "time": "下午",
-              "item": "博多運河城",
-              "type": "attraction",
-              "stay": "2小時"
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             },
             {
               "time": "晚上",
-              "item": "博多拉麵",
-              "type": "food"
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
             }
+          ],
+          "zones": [
+            "博多"
           ]
         },
         {
           "day": 2,
-          "type": "suburbs",
-          "title": "近郊日 — 太宰府",
+          "type": "normal",
+          "title": "Day 2",
           "activities": [
             {
-              "time": "早上",
-              "item": "西鐵太宰府線：天神 → 太宰府（直達30分）",
-              "type": "transport",
-              "stay": "30分鐘車程",
-              "ticket": "約800円（來回）",
-              "details": {
-                "google_maps": "https://maps.app.goo.gl/JxpLz8NmVwYqR5sT79",
-                "youtube": "https://www.youtube.com/watch?v=LduHqxTcJ1w",
-                "note": "推薦搭乘西鐵觀光列車「旅人号」，限定彩色外觀，30分直達。"
-              }
-            },
-            {
               "time": "上午",
-              "item": "太宰府天滿宮",
+              "item": "大濠公園",
               "type": "attraction",
-              "stay": "1.5小時",
-              "ticket": "免費（宝物殿另收300円）",
-              "need_reservation": false,
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
               "details": {
-                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1",
-                "phone": "092-922-8225",
-                "hours": "自由參觀（授与所 8:30-日落）",
-                "google_maps": "https://maps.app.goo.gl/K7pLm9NwXxYqR5sT81",
-                "youtube": "https://www.youtube.com/watch?v=RlcCuRUNu8c",
-                "blog_article": "https://bobbytravel.tw/dazaifu-tenmangu/",
-                "note": "學問之神，適合考生參拜。請以二禮、二拍手、一禮方式參拜。境內可求御守。"
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
               "time": "中午",
-              "item": "表參道商店街 午餐（梅枝餅 + 定食）",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約800-1,500円",
+              "item": "天神·大名潮牌街",
+              "type": "outlet",
+              "stay": "2-3小時",
+              "ticket": "免費",
               "details": {
-                "address": "太宰府表參道",
-                "google_maps": "https://maps.app.goo.gl/L9pLm8NwXxYqR5sT82",
-                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
-                "note": "必吃：梅枝餅（5片1,000円）。定食推薦表參道上的家常料理店。"
+                "note": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
               }
             },
             {
               "time": "下午",
-              "item": "九州國立博物館",
+              "item": "野宮神社力清水（夕霧）",
               "type": "hidden_gem",
-              "stay": "1.5小時",
-              "ticket": "常設展300円（特別展另計）",
-              "need_reservation": false,
+              "stay": "20分鐘",
+              "ticket": "甜點約200-400円",
               "details": {
-                "address": "〒818-0192 福岡縣太宰府市石坂4-7-2",
-                "phone": "092-918-0111",
-                "hours": "9:30-17:00（最後入館16:30），週一休館",
-                "google_maps": "https://maps.app.goo.gl/X2pKm8NwXxYqR5sT83",
+                "note": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
+                "google_maps": null,
                 "youtube": null,
-                "blog_article": "https://www.kyuhaku.com/",
-                "note": "以「亞洲文化之十字路口」為主題，是九州最大的國立博物館。展示從史前到近代的亞洲文化交流。逛完可在 café 喝杯抹茶。"
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
               "time": "傍晚",
-              "item": "西鐵回天神，藥院咖啡廳 or 天神地下街",
+              "item": "星巴克太宰府表參道店",
               "type": "attraction",
-              "stay": "1-2小時",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
               "details": {
-                "note": "回程可順路在天神/藥院站下车，享受 neighborhood 咖啡文化或繼續購物。"
-              }
-            },
-            {
-              "time": "晚上",
-              "item": "大山牛腸鍋 KITTE博多店",
-              "type": "food",
-              "stay": "1.5小時",
-              "need_reservation": true,
-              "details": {
-                "address": "〒812-0012 福岡縣博多區博多站中央街9-1 KITTE博多9F",
-                "phone": "092-260-6303",
-                "hours": "11:00-23:00（最後點餐22:30）",
-                "google_maps": "https://maps.app.goo.gl/N9pLm6NwXxYqR5sT84",
-                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
-                "blog_article": "https://kyushu.letsgojp.com/archives/559619/",
-                "note": "博多名物，使用100%日本國產牛腸。午間套餐CP值高（1,738円起）。建議提前在官網預約。"
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
           ]
         },
         {
           "day": 3,
-          "type": "experience",
-          "title": "體驗日 — 柳川 + 久留米",
+          "type": "normal",
+          "title": "Day 3",
           "activities": [
             {
-              "time": "早上",
-              "item": "西鐵天神大牟田線至柳川（約50分，直達）",
-              "type": "transport",
-              "stay": "50分鐘",
-              "ticket": "約800-1,000円（來回）",
-              "details": {
-                "google_maps": "https://maps.app.goo.gl/P9pLm5NwXxYqR5sT85",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "note": "西鐵天神大牟田線至「西鐵柳川站」，出站步行約5分鐘到乘船碼頭。"
-              }
-            },
-            {
               "time": "上午",
-              "item": "柳川水上市場「川下り」遊船",
-              "type": "attraction",
-              "stay": "40分鐘-1小時",
-              "ticket": "成人1,300円",
+              "item": "大山牛腸鍋（KITTE店）",
+              "type": "food",
+              "stay": "1.5-2小時",
+              "ticket": "約3,000-4,000円/人",
               "need_reservation": true,
               "details": {
-                "address": "柳川觀光遊船：https://www.yanagawa-net.com/ohori/",
-                "phone": "0944-73-2118",
-                "hours": "9:00-16:00（各船公司不同）",
-                "google_maps": "https://maps.app.goo.gl/Q8pLm4NwXxYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "blog_article": "https://bobbytravel.tw/yanagawa/",
-                "note": "木船行駛運河聽船夫哼唱地方小調。建議提早網上預約。2-4月期間有「柳川雛祭」。"
+                "note": "博多名物牛腸鍋，以味噌或醬油底將牛腸、大蔥、高麗菜燉煮。需預約是因為食材準備。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
               "time": "中午",
-              "item": "柳川名物：蒸籠鰻魚飯",
+              "item": "ShinShin（新宿式）",
               "type": "food",
-              "stay": "1小時",
-              "ticket": "約2,000-3,500円",
-              "need_reservation": true,
+              "stay": "30分鐘-1小時",
+              "ticket": "約800-1,200円",
               "details": {
-                "address": "柳川市内（推薦：若松屋）",
-                "google_maps": "https://maps.app.goo.gl/R7pLm3NwXxYqR5sT87",
-                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
-                "blog_article": "https://bobbytravel.tw/yanagawa/",
-                "note": "傳統蒸籠方式炊煮，配上香Q米飯與甜辣醬汁。建議提前預約。"
+                "note": "博多豚骨拉麵代表名店之一，浓郁豚骨白湯為特色。排隊名店建議開店前抵達。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
               "time": "下午",
-              "item": "久留米（豚骨拉麵發源地）",
-              "type": "food",
-              "stay": "40分鐘",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
               "details": {
-                "google_maps": "https://maps.app.goo.gl/T5pLm1NwXxYqR5sT89",
-                "youtube": "https://www.youtube.com/watch?v=8kSPBKfkoLM",
-                "note": "久留米是豚骨拉麵發源地，推薦老字號「大砲拉麵」。可在久留米站直接吃一碗再繼續。"
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
               "time": "傍晚",
-              "item": "西鐵回博多",
-              "type": "transport",
-              "stay": null,
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
               "details": {
-                "note": "久留米站直接搭JR或西鐵回博多約40分鐘。"
-              }
-            },
-            {
-              "time": "晚上",
-              "item": "中洲屋台體驗",
-              "type": "food",
-              "stay": "1-2小時",
-              "details": {
-                "address": "福岡縣博多區中洲",
-                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
-                "note": "傍晚5點過後才陸續開始。建議選定一家坐定，體驗福岡夜生活文化。"
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
               }
             }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
           ]
         },
         {
           "day": 4,
-          "type": "free",
-          "title": "彈性日（方案A/B/C 選一）",
+          "type": "normal",
+          "title": "Day 4",
           "activities": [
             {
-              "time": "選項A",
-              "item": "門司港 + 下關（唐戶市場吃海鮮）",
-              "type": "mixed",
-              "stay": "整天",
-              "details": {
-                "google_maps": "https://maps.app.goo.gl/Y1pKj9NwXxYqR5sT85",
-                "youtube": "https://www.youtube.com/watch?v=Se9xGyiL8Bs",
-                "note": "門司港保留大正時代洋風建築，下關可吃河豚。唐戶市場海鮮CP值極高。兩地搭JR約1小時。"
-              }
-            },
-            {
-              "time": "選項B",
-              "item": "糸島（二見浦夫婦岩 + 芥屋大門 + 咖啡廳）",
-              "type": "mixed",
-              "stay": "整天",
-              "details": {
-                "google_maps": "https://maps.app.goo.gl/V3pKm9NwXxYqR5sT81",
-                "youtube": "https://www.youtube.com/watch?v=lYdWzVtdK2k",
-                "note": "建議自駕。夫婦岩打卡、芥屋大門乘船遊覽、海鮮堂吃午餐。路程約1-1.5小時。"
-              }
-            },
-            {
-              "time": "選項C",
-              "item": "完全自由日（天神/博多慢活）",
-              "type": "mixed",
-              "stay": "整天",
-              "details": {
-                "note": "睡到自然醒，在飯店附近咖啡店吃早餐，下午 shopping，晚上安排一頓好的。"
-              }
-            }
-          ]
-        },
-        {
-          "day": 5,
-          "type": "local",
-          "title": "在地生活日",
-          "activities": [
-            {
-              "time": "早上",
-              "item": "旦過市場（市民菜市場）體驗",
+              "time": "上午",
+              "item": "梅ケ谷清香",
               "type": "hidden_gem",
-              "stay": "1小時",
-              "ticket": "免費",
+              "stay": "1-1.5小時",
+              "ticket": "免費參觀（試飲另計）",
               "details": {
-                "address": "〒812-0026 福岡縣博多區上川端町",
-                "phone": null,
-                "hours": "約 8:00-18:00（各店不同）",
-                "google_maps": "https://maps.app.goo.gl/Z0pKj8NwXxYqR5sT86",
-                "youtube": "https://www.youtube.com/watch?v=QwvTQ216giU",
-                "note": "當地人買菜的傳統市場，氣氛活潑，可品嚐現買現吃的海鮮或小吃。理解福岡人日常的好去處。"
+                "note": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
               }
             },
             {
               "time": "中午",
-              "item": "在地定食屋午餐（<1,000円）",
-              "type": "food",
-              "stay": "1小時",
-              "ticket": "約600-1,000円",
+              "item": "岩屋神社·熊野神社",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
               "details": {
-                "note": "推薦在旦過市場周邊找一家定食屋，品嚐福岡家常味道套餐。"
+                "note": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
               }
             },
             {
               "time": "下午",
-              "item": "大濠公園坐一下午 / 漫畫咖啡廳 / 鳥栖Outlet",
-              "type": "mixed",
-              "stay": "2-4小時",
+              "item": "久留米拉麵（豚骨）",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約700-1,000円",
               "details": {
-                "note": "三選一：大濠公園划船賞景、漫畫咖啡廳體驗日本次文化、鳥栖 Premium Outlets 購物。"
+                "note": "久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
               }
             },
             {
-              "time": "晚上",
-              "item": "選擇一家最想再訪的餐廳完整享受",
+              "time": "傍晚",
+              "item": "Mio Donut",
               "type": "food",
-              "stay": "1.5-2小時",
+              "stay": "20分鐘",
+              "ticket": "甜甜圈約150-300円",
               "details": {
-                "note": "最後一晚推薦給最愛的餐廳。可以是燒肉、壽司、溫泉旅館的晚餐，或再訪牛腸鍋。"
+                "note": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
               }
             }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "旦過市場",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "免費（飲食約500-1,000円）",
+              "details": {
+                "note": "北九州市市民的「煮菜市場」，昭和氛圍滿溢，在地人食材補給站。可在市場內購買新鮮食材請店家教學或代煮。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "唐戶市場 活氣市場",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "海鮮現買現吃約500-1,500円",
+              "details": {
+                "note": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "唐戶市場",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費（海鮮現買現吃）",
+              "details": {
+                "note": "以河豚和海膽聞名的市場，週五週六有熱闘すし（壽司拼盤），500円起即可享用。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "糸島",
+              "type": "attraction",
+              "stay": "半天-整天",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "福岡近郊海濱度假勝地，有美麗沙灘、懸崖絕景、咖啡廳與餐廳。必訪：二見浦夫婦岩（戀人聖地）、芥屋大門。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "小倉·門司",
+            "糸島"
           ]
         },
         {
@@ -954,108 +1011,2107 @@
           "activities": [
             {
               "time": "早上",
-              "item": "退房寄行李，早餐",
+              "item": "退房寄行李，便利商店早餐",
               "type": "general",
-              "stay": "30分鐘",
+              "stay": "30分",
+              "ticket": "免費",
               "details": {
-                "note": "便利商店早餐或車站快速解決。"
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "上午",
-              "item": "博多最後 shopping（運河城/車站お土産）",
+              "item": "最後 shopping + 購買お土産",
               "type": "shopping",
               "stay": "1小時",
+              "ticket": "免費",
               "details": {
-                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
-                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
-                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
-                "note": "必買：明太子（やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕。"
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             },
             {
               "time": "中午",
-              "item": "JR博多站午餐 → 地鐵至福岡空港",
+              "item": "前往機場",
               "type": "transport",
-              "ticket": "260円（地鐵）",
+              "stay": "60分",
+              "ticket": "視距離",
               "details": {
-                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
-                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
-                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
               }
             }
+          ],
+          "zones": [
+            "博多"
           ]
         }
       ]
     },
-
     "7": {
       "name": "7天6夜 完整度假",
-      "suitable_for": "深度度假型旅客",
-      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(彈性)->Day5(在地)->Day6(Bonus)->Day7(午後返程)",
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
       "days": [
-        {"day": 1, "type": "arrival", "title": "抵達日", "activities": [
-          {"time": "下午", "item": "抵達 → 地鐵至博多 → 飯店", "type": "transport"},
-          {"time": "下午", "item": "博多運河城", "type": "attraction", "stay": "2小時"},
-          {"time": "晚上", "item": "博多拉麵", "type": "food"}
-        ]},
-        {"day": 2, "type": "suburbs", "title": "近郊日 — 太宰府", "activities": [
-          {"time": "早上", "item": "西鐵至太宰府", "type": "transport"},
-          {"time": "上午", "item": "太宰府天滿宮", "type": "attraction", "stay": "1.5小時"},
-          {"time": "中午", "item": "表參道午餐", "type": "food"},
-          {"time": "下午", "item": "九州國立博物館", "type": "hidden_gem", "stay": "1.5小時", "ticket": "300円"},
-          {"time": "傍晚", "item": "天神/藥院 free", "type": "attraction"},
-          {"time": "晚上", "item": "牛腸鍋", "type": "food", "need_reservation": true}
-        ]},
-        {"day": 3, "type": "experience", "title": "體驗日 — 柳川", "activities": [
-          {"time": "早上", "item": "西鐵至柳川（50分鐘）", "type": "transport"},
-          {"time": "上午", "item": "水上市場遊船", "type": "attraction", "stay": "40分鐘", "ticket": "1,300円"},
-          {"time": "中午", "item": "鰻魚飯", "type": "food", "need_reservation": true},
-          {"time": "下午", "item": "久留米吃拉麵", "type": "food"},
-          {"time": "傍晚", "item": "回博多", "type": "transport"},
-          {"time": "晚上", "item": "中洲屋台", "type": "food"}
-        ]},
-        {"day": 4, "type": "free", "title": "彈性日（Bonus Day）", "activities": [
-          {"time": "選項A", "item": "糸島完整日（天氣好時）", "type": "mixed"},
-          {"time": "選項B", "item": "門司港+下關", "type": "mixed"},
-          {"time": "選項C", "item": "完全自由", "type": "mixed"}
-        ]},
-        {"day": 5, "type": "local", "title": "在地生活日", "activities": [
-          {"time": "早上", "item": "旦過市場 / 在地超市", "type": "hidden_gem"},
-          {"time": "中午", "item": "在地定食屋午餐", "type": "food"},
-          {"time": "下午", "item": "大濠公園 / 漫畫咖啡廳 / Outlet", "type": "mixed"},
-          {"time": "晚上", "item": "再訪最愛餐廳", "type": "food"}
-        ]},
-        {"day": 6, "type": "bonus", "title": "補足日", "activities": [
-          {"time": "整天", "item": "補足前面沒去的景點 / 鳥栖Outlet / 大濠公園", "type": "mixed"}
-        ]},
-        {"day": 7, "type": "departure", "title": "回程日", "activities": [
-          {"time": "早上", "item": "退房寄行李", "type": "general"},
-          {"time": "上午", "item": "最後 shopping", "type": "shopping"},
-          {"time": "中午", "item": "前往機場", "type": "transport"}
-        ]}
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "BOSS E・ZO FUKUOKA",
+              "type": "outlet",
+              "stay": "2-4小時",
+              "ticket": "免費（娛樂設施各自購票）",
+              "details": {
+                "note": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "福岡塔",
+              "type": "attraction",
+              "stay": "45分鐘-1小時",
+              "ticket": "成人1,000円",
+              "details": {
+                "note": "日本最高的海濱塔（234m），入選日本夜景100選，也是戀人聖地。建議日落前1小時抵達，可同時看夕陽與百萬夜景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
+              "details": {
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "舊伊藤傳右衛門邸",
+              "type": "hidden_gem",
+              "stay": "40分鐘-1小時",
+              "ticket": "310円",
+              "details": {
+                "note": "日本國家指定重要財產+名勝。前煤礦大亨伊藤傳右衛門為歌人妻子白蓮（天皇表妹）興建的日西合璧豪宅，使用義大利大理石與英國特製玻璃。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "Cafe & Deli HISIMITU",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "2,480円/人（23種披薩吃到飽+沙拉）",
+              "details": {
+                "note": "120年歷史醬油倉庫改建的披薩吃到飽餐廳，使用添田柚子胡椒、在地蔬菜、自製醬油，薄脆pizza人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "梅ケ谷清香",
+              "type": "hidden_gem",
+              "stay": "1-1.5小時",
+              "ticket": "免費參觀（試飲另計）",
+              "details": {
+                "note": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "岩屋神社·熊野神社",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "THE OUTLETS 北九州",
+              "type": "outlet",
+              "stay": "3-6小時",
+              "ticket": "免費（消費視個人）",
+              "details": {
+                "note": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://hk.trip.com/blog/fukuoka-outlet/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "糸島",
+              "type": "attraction",
+              "stay": "半天-整天",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "福岡近郊海濱度假勝地，有美麗沙灘、懸崖絕景、咖啡廳與餐廳。必訪：二見浦夫婦岩（戀人聖地）、芥屋大門。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "旦過市場",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "免費（飲食約500-1,000円）",
+              "details": {
+                "note": "北九州市市民的「煮菜市場」，昭和氛圍滿溢，在地人食材補給站。可在市場內購買新鮮食材請店家教學或代煮。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "門司港",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（香蕉展示了/博物館個別購票）",
+              "details": {
+                "note": "明治到大正時期的洋風建築群，保留了大量歷史建築，充滿異國風情。必吃：門司港咖哩燒烏龍。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "小倉·門司",
+            "糸島"
+          ]
+        },
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "里山カフェ 棚田屋",
+              "type": "hidden_gem",
+              "stay": "1-1.5小時",
+              "ticket": "免費（餐飲另計）",
+              "details": {
+                "note": "位於日本百選梯田之上的咖啡廳，由專業廚師用在地食材烹調法式日式融合料理。落地窗外是梯田美景，餐具使用小石原燒/高取燒。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "カネハ窯（小石原燒）",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "體驗費用另計（作品燒製後可寄送）",
+              "need_reservation": true,
+              "details": {
+                "note": "350年歷史的小石原燒體驗窯，有50間以上窯元。以點點、刷紋花樣聞名。可在專業陶藝師指導下製作自己專屬的杯子，燒製後縮小20%寄送。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "東峰村梯田（棚田）",
+              "type": "hidden_gem",
+              "stay": "30分鐘-1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "小石原休息站",
+              "type": "hidden_gem",
+              "stay": "30分鐘",
+              "ticket": "免費（購物另計）",
+              "details": {
+                "note": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "日田·東峰"
+          ]
+        },
+        {
+          "day": 7,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
+              "details": {
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
       ]
     },
-
     "8": {
       "name": "8天7夜 深度探索",
-      "suitable_for": "想充分探索福岡+近郊的旅客",
-      "layout": "在前7天框架基礎上，Day4 改為糸島整天，Day6 補足市區景點（福岡塔/大濠）",
-      "days": "参考7天結構，Day4改為糸島整天，Day6補足市區"
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "天神·大名潮牌街",
+              "type": "outlet",
+              "stay": "2-3小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
+              "details": {
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "大山牛腸鍋（KITTE店）",
+              "type": "food",
+              "stay": "1.5-2小時",
+              "ticket": "約3,000-4,000円/人",
+              "need_reservation": true,
+              "details": {
+                "note": "博多名物牛腸鍋，以味噌或醬油底將牛腸、大蔥、高麗菜燉煮。需預約是因為食材準備。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "中洲屋台橫丁",
+              "type": "food",
+              "stay": "1-2小時",
+              "ticket": "約1,000-2,000円/人",
+              "details": {
+                "note": "福岡特色的路邊攤飲食文化，中洲屋台橫丁約有50間攤位。傍晚5點過後才開始營業。建議體驗一次屋台文化。⚠️只收現金。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "岩屋神社·熊野神社",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "Mio Donut",
+              "type": "food",
+              "stay": "20分鐘",
+              "ticket": "甜甜圈約150-300円",
+              "details": {
+                "note": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "梅ケ谷清香",
+              "type": "hidden_gem",
+              "stay": "1-1.5小時",
+              "ticket": "免費參觀（試飲另計）",
+              "details": {
+                "note": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "Cafe & Deli HISIMITU",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "2,480円/人（23種披薩吃到飽+沙拉）",
+              "details": {
+                "note": "120年歷史醬油倉庫改建的披薩吃到飽餐廳，使用添田柚子胡椒、在地蔬菜、自製醬油，薄脆pizza人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "THE OUTLETS 北九州",
+              "type": "outlet",
+              "stay": "3-6小時",
+              "ticket": "免費（消費視個人）",
+              "details": {
+                "note": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://hk.trip.com/blog/fukuoka-outlet/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "唐戶市場",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費（海鮮現買現吃）",
+              "details": {
+                "note": "以河豚和海膽聞名的市場，週五週六有熱闘すし（壽司拼盤），500円起即可享用。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "門司港",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（香蕉展示了/博物館個別購票）",
+              "details": {
+                "note": "明治到大正時期的洋風建築群，保留了大量歷史建築，充滿異國風情。必吃：門司港咖哩燒烏龍。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "唐戶市場 活氣市場",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "海鮮現買現吃約500-1,500円",
+              "details": {
+                "note": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "小倉·門司",
+            "糸島"
+          ]
+        },
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "カネハ窯（小石原燒）",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "體驗費用另計（作品燒製後可寄送）",
+              "need_reservation": true,
+              "details": {
+                "note": "350年歷史的小石原燒體驗窯，有50間以上窯元。以點點、刷紋花樣聞名。可在專業陶藝師指導下製作自己專屬的杯子，燒製後縮小20%寄送。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "東峰村梯田（棚田）",
+              "type": "hidden_gem",
+              "stay": "30分鐘-1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "小石原休息站",
+              "type": "hidden_gem",
+              "stay": "30分鐘",
+              "ticket": "免費（購物另計）",
+              "details": {
+                "note": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "甘木·朝倉杮の里",
+              "type": "hidden_gem",
+              "stay": "1-2小時",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "殘存戰國時代城下町氛圍的老街，江戶時代建築保存完整，遠離觀光客的清幽秘境。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "日田·東峰"
+          ]
+        },
+        {
+          "day": 7,
+          "type": "normal",
+          "title": "Day 7",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "BOSS E・ZO FUKUOKA",
+              "type": "outlet",
+              "stay": "2-4小時",
+              "ticket": "免費（娛樂設施各自購票）",
+              "details": {
+                "note": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "博多"
+          ]
+        },
+        {
+          "day": 8,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
+              "details": {
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
+      ]
     },
-
     "9": {
       "name": "9天8夜 悠閒深度",
-      "suitable_for": "不趕路，放鬆為主",
-      "layout": "在前7天框架基礎上，Day4改為門司港+下關，Day6改為在地生活日加強版",
-      "days": "参考7天結構，Day4改為門司港+下關，Day6加強在地體驗"
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "野宮神社力清水（夕霧）",
+              "type": "hidden_gem",
+              "stay": "20分鐘",
+              "ticket": "甜點約200-400円",
+              "details": {
+                "note": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "BOSS E・ZO FUKUOKA",
+              "type": "outlet",
+              "stay": "2-4小時",
+              "ticket": "免費（娛樂設施各自購票）",
+              "details": {
+                "note": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "博多運河城",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（劇場/電影院需購票）",
+              "details": {
+                "note": "大型購物商場，週末有水舞秀表演，140間店鋪+多間餐廳，是博多指標性複合商場。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://canalcity.co.jp/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "岩屋神社·熊野神社",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "なんばん往來（南蠻往來旗艦店）",
+              "type": "food",
+              "stay": "30分鐘",
+              "ticket": "甜點約200-500円",
+              "details": {
+                "note": "筑豐地區知名甜點名店，甜點名稱源於江戶時期南蠻貿易之路。必吃：經典南蠻往來（杏仁粉+果醬，上層酥脆、內裡鬆軟）、季節限定藍莓口味。附設咖啡廳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "梅ケ谷清香",
+              "type": "hidden_gem",
+              "stay": "1-1.5小時",
+              "ticket": "免費參觀（試飲另計）",
+              "details": {
+                "note": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "Mio Donut",
+              "type": "food",
+              "stay": "20分鐘",
+              "ticket": "甜甜圈約150-300円",
+              "details": {
+                "note": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "唐戶市場 活氣市場",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "海鮮現買現吃約500-1,500円",
+              "details": {
+                "note": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "旦過市場",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "免費（飲食約500-1,000円）",
+              "details": {
+                "note": "北九州市市民的「煮菜市場」，昭和氛圍滿溢，在地人食材補給站。可在市場內購買新鮮食材請店家教學或代煮。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "THE OUTLETS 北九州",
+              "type": "outlet",
+              "stay": "3-6小時",
+              "ticket": "免費（消費視個人）",
+              "details": {
+                "note": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://hk.trip.com/blog/fukuoka-outlet/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "糸島",
+              "type": "attraction",
+              "stay": "半天-整天",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "福岡近郊海濱度假勝地，有美麗沙灘、懸崖絕景、咖啡廳與餐廳。必訪：二見浦夫婦岩（戀人聖地）、芥屋大門。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "小倉·門司",
+            "糸島"
+          ]
+        },
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "甘木·朝倉杮の里",
+              "type": "hidden_gem",
+              "stay": "1-2小時",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "殘存戰國時代城下町氛圍的老街，江戶時代建築保存完整，遠離觀光客的清幽秘境。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "里山カフェ 棚田屋",
+              "type": "hidden_gem",
+              "stay": "1-1.5小時",
+              "ticket": "免費（餐飲另計）",
+              "details": {
+                "note": "位於日本百選梯田之上的咖啡廳，由專業廚師用在地食材烹調法式日式融合料理。落地窗外是梯田美景，餐具使用小石原燒/高取燒。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "小石原休息站",
+              "type": "hidden_gem",
+              "stay": "30分鐘",
+              "ticket": "免費（購物另計）",
+              "details": {
+                "note": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "東峰村梯田（棚田）",
+              "type": "hidden_gem",
+              "stay": "30分鐘-1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "日田·東峰"
+          ]
+        },
+        {
+          "day": 7,
+          "type": "normal",
+          "title": "Day 7",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "博多運河城",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（劇場/電影院需購票）",
+              "details": {
+                "note": "大型購物商場，週末有水舞秀表演，140間店鋪+多間餐廳，是博多指標性複合商場。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://canalcity.co.jp/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "BOSS E・ZO FUKUOKA",
+              "type": "outlet",
+              "stay": "2-4小時",
+              "ticket": "免費（娛樂設施各自購票）",
+              "details": {
+                "note": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "博多"
+          ]
+        },
+        {
+          "day": 8,
+          "type": "normal",
+          "title": "Day 8",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/603822/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "太宰府",
+            "天神"
+          ]
+        },
+        {
+          "day": 9,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
+              "details": {
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
+      ]
     },
-
     "10": {
       "name": "10天9夜 完整探索",
-      "suitable_for": "想完全掌握福岡的旅客",
-      "layout": "前8天每天1-2個主要景點不重複覆蓋，Day9補足所有想再訪的地點，Day10回程",
-      "days": "前8天覆蓋所有景點，Day9自由補完，Day10回程"
+      "suitable_for": "自由行遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵/利木津至市中心",
+              "type": "transport",
+              "stay": "30分",
+              "ticket": "依距離",
+              "details": {
+                "note": "寄行李後開始行程",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "市中心散步，熟悉環境",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "用雙腳認識城市",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "驅車前往夜市/商圈",
+              "type": "shopping",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "自由逛街覓食",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/603822/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "太宰府"
+          ]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "福岡塔",
+              "type": "attraction",
+              "stay": "45分鐘-1小時",
+              "ticket": "成人1,000円",
+              "details": {
+                "note": "日本最高的海濱塔（234m），入選日本夜景100選，也是戀人聖地。建議日落前1小時抵達，可同時看夕陽與百萬夜景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "海洋世界海之中道",
+              "type": "attraction",
+              "stay": "3-4小時",
+              "ticket": "成人2,500円",
+              "details": {
+                "note": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "博多",
+            "海濱"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "Cafe & Deli HISIMITU",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "2,480円/人（23種披薩吃到飽+沙拉）",
+              "details": {
+                "note": "120年歷史醬油倉庫改建的披薩吃到飽餐廳，使用添田柚子胡椒、在地蔬菜、自製醬油，薄脆pizza人氣超高。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "岩屋神社·熊野神社",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "柳川水鄉",
+              "type": "attraction",
+              "stay": "1-1.5小時（遊船40分鐘）",
+              "ticket": "遊船1,300円",
+              "details": {
+                "note": "水都柳川，乘小船穿梭在柳川城護城河與運河中，冬季可體驗傳統鰻魚養殖。秋季還可賞彼岸花。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "久留米拉麵（豚骨）",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約700-1,000円",
+              "details": {
+                "note": "久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "久留米"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "唐戶市場 活氣市場",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "海鮮現買現吃約500-1,500円",
+              "details": {
+                "note": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "門司港",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（香蕉展示了/博物館個別購票）",
+              "details": {
+                "note": "明治到大正時期的洋風建築群，保留了大量歷史建築，充滿異國風情。必吃：門司港咖哩燒烏龍。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "唐戶市場",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費（海鮮現買現吃）",
+              "details": {
+                "note": "以河豚和海膽聞名的市場，週五週六有熱闘すし（壽司拼盤），500円起即可享用。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "THE OUTLETS 北九州",
+              "type": "outlet",
+              "stay": "3-6小時",
+              "ticket": "免費（消費視個人）",
+              "details": {
+                "note": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://hk.trip.com/blog/fukuoka-outlet/"
+              }
+            }
+          ],
+          "zones": [
+            "小倉·門司",
+            "糸島"
+          ]
+        },
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "カネハ窯（小石原燒）",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "體驗費用另計（作品燒製後可寄送）",
+              "need_reservation": true,
+              "details": {
+                "note": "350年歷史的小石原燒體驗窯，有50間以上窯元。以點點、刷紋花樣聞名。可在專業陶藝師指導下製作自己專屬的杯子，燒製後縮小20%寄送。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "甘木·朝倉杮の里",
+              "type": "hidden_gem",
+              "stay": "1-2小時",
+              "ticket": "免費（個別設施另計）",
+              "details": {
+                "note": "殘存戰國時代城下町氛圍的老街，江戶時代建築保存完整，遠離觀光客的清幽秘境。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "東峰村梯田（棚田）",
+              "type": "hidden_gem",
+              "stay": "30分鐘-1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "小石原休息站",
+              "type": "hidden_gem",
+              "stay": "30分鐘",
+              "ticket": "免費（購物另計）",
+              "details": {
+                "note": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+              }
+            }
+          ],
+          "zones": [
+            "日田·東峰"
+          ]
+        },
+        {
+          "day": 7,
+          "type": "normal",
+          "title": "Day 7",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1-1.5小時",
+              "ticket": "免費（附設庭園200円）",
+              "details": {
+                "note": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            }
+          ],
+          "zones": [
+            "天神",
+            "博多"
+          ]
+        },
+        {
+          "day": 8,
+          "type": "normal",
+          "title": "Day 8",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "星巴克太宰府表參道店",
+              "type": "attraction",
+              "stay": "30分鐘",
+              "ticket": "免費（消費即可入座）",
+              "details": {
+                "note": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "免費",
+              "details": {
+                "note": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/603822/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "九州國立博物館",
+              "type": "attraction",
+              "stay": "1.5-2小時",
+              "ticket": "300円（常設展）",
+              "details": {
+                "note": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "BOSS E・ZO FUKUOKA",
+              "type": "outlet",
+              "stay": "2-4小時",
+              "ticket": "免費（娛樂設施各自購票）",
+              "details": {
+                "note": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://bobbytravel.tw/fukuoka-attractions/"
+              }
+            }
+          ],
+          "zones": [
+            "太宰府",
+            "天神"
+          ]
+        },
+        {
+          "day": 9,
+          "type": "normal",
+          "title": "Day 9",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "一蘭 博多本店",
+              "type": "food",
+              "stay": "30分鐘-1小時",
+              "ticket": "約900-1,300円",
+              "details": {
+                "note": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "中午",
+              "item": "博多運河城",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費（劇場/電影院需購票）",
+              "details": {
+                "note": "大型購物商場，週末有水舞秀表演，140間店鋪+多間餐廳，是博多指標性複合商場。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://canalcity.co.jp/"
+              }
+            },
+            {
+              "time": "下午",
+              "item": "川端商店街",
+              "type": "outlet",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://www.gltjp.com/zh-hant/article/item/20187/"
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": "https://kyushu.letsgojp.com/archives/692650/"
+              }
+            }
+          ],
+          "zones": [
+            "柳川",
+            "博多"
+          ]
+        },
+        {
+          "day": 10,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，便利商店早餐",
+              "type": "general",
+              "stay": "30分",
+              "ticket": "免費",
+              "details": {
+                "note": "",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping + 購買お土産",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "把握最後時間採買",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport",
+              "stay": "60分",
+              "ticket": "視距離",
+              "details": {
+                "note": "建議起飛前90分鐘出發",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "博多"
+          ]
+        }
+      ]
     }
   }
 }

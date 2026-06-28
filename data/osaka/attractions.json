@@ -9,7 +9,6 @@
     "https://matcha-jp.com/tw/2902"
   ],
   "attractions": [
-
     {
       "id": "usj",
       "name": "日本環球影城（USJ）",
@@ -24,9 +23,17 @@
       "stay_duration": "整天",
       "cash_only": false,
       "description": "大阪指標性主題樂園。2024年12月新開Donkey Kong園區，經典園區：超級任天堂世界（瑪利歐）、哈利波特魔法世界、小小兵、侏羅紀公園。建議購買提早入園券避開人潮。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["主題樂園", "USJ", "親子", "大阪"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "主題樂園",
+        "USJ",
+        "親子",
+        "大阪"
+      ],
+      "priority": 3,
+      "zone": "大阪城"
     },
     {
       "id": "osaka-aquarium",
@@ -42,9 +49,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "全球最大級的水族館之一，以「太平洋」為主題的巨型水槽引人注目，養有世界最大型的魚類—鯨鯊。親近企鵝區極受歡迎。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["水族館", "親子", "港灣", "大阪"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "水族館",
+        "親子",
+        "港灣",
+        "大阪"
+      ],
+      "priority": 3,
+      "zone": "港灣"
     },
     {
       "id": "shinsaibashi",
@@ -60,9 +75,17 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "大阪最熱鬧的購物與美食區，聚集精品小店、百貨、藥妝，與霓虹燈璀璨的道頓堀美食街相鄰。必訪：固力果跑跑人廣告牌。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["購物", "美食", "南區", "大阪"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "購物",
+        "美食",
+        "南區",
+        "大阪"
+      ],
+      "priority": 3,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "osaka-castle",
@@ -78,9 +101,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "豐臣秀吉統一天下的象徵，天守閣收藏文物與歷史展覽，頂層可俯瞰大阪全景。護城河、砲台塔遺址與西之丸庭園構成完整城下町風貌。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["城堡", "歷史", "大阪城", "賞櫻"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "城堡",
+        "歷史",
+        "大阪城",
+        "賞櫻"
+      ],
+      "priority": 3,
+      "zone": "大阪城"
     },
     {
       "id": "umedasky-building",
@@ -96,9 +127,17 @@
       "stay_duration": "45分鐘-1小時",
       "cash_only": false,
       "description": "兩棟超高大樓在39至40層以直通扶梯相連，形成360度開放式空中花園，是欣賞大阪夜景的經典場所。建議傍晚前往同時觀賞夕陽與夜景。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["夜景", "展望台", "梅田", "情侶"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "夜景",
+        "展望台",
+        "梅田",
+        "情侶"
+      ],
+      "priority": 3,
+      "zone": "梅田"
     },
     {
       "id": "abeno-harukas",
@@ -114,9 +153,17 @@
       "stay_duration": "45分鐘-1小時",
       "cash_only": false,
       "description": "日本最高大樓（300m），360度俯瞰關西全景，天王寺車站直連交通方便。60樓設有 Sky Garden 300 拍照點，附設美術館與萬豪酒店。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["夜景", "展望台", "天王寺", "日本最高"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "夜景",
+        "展望台",
+        "天王寺",
+        "日本最高"
+      ],
+      "priority": 3,
+      "zone": "天王寺"
     },
     {
       "id": "ku-ten-onsen",
@@ -132,9 +179,16 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "位於大阪都心的大型溫泉，主題室內外泳池含岩石浴、洞窟浴、天空花園等20種浴池。是一般大阪深度的泡湯首選。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["溫泉", "大阪市中心", "泡湯"],
-      "priority": 2
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "溫泉",
+        "大阪市中心",
+        "泡湯"
+      ],
+      "priority": 2,
+      "zone": "大阪城"
     },
     {
       "id": "nakanoshima-art",
@@ -150,11 +204,17 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "位於中之島公園內，建築融合現代與傳統，收藏從印象派到當代藝術的多元作品。擁有良好的休憩環境與紀念品商店。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["博物館", "藝術", "中之島"],
-      "priority": 2
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "博物館",
+        "藝術",
+        "中之島"
+      ],
+      "priority": 2,
+      "zone": "港灣"
     },
-
     {
       "id": "nakazakicho",
       "name": "中崎町",
@@ -169,9 +229,18 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "躲過戰火保留昭和初期木造長屋與復古街景，巷弄內有老屋改建的文青咖啡廳、古著店、手作雜貨店。是感受大阪文青氛圍的秘密基地。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "文青", "昭和", "老街", "咖啡"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "文青",
+        "昭和",
+        "老街",
+        "咖啡"
+      ],
+      "priority": 2,
+      "zone": "梅田"
     },
     {
       "id": "kitahama-retro",
@@ -187,9 +256,17 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "保留「大大阪時代」（明治至昭和初期）繁華面貌，林立多棟國家有形文化財等級的西式復古建築（如北濱復古大樓、生駒大樓），可於河畔咖啡廳享受下午茶。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "歷史建築", "河畔", "文青"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "歷史建築",
+        "河畔",
+        "文青"
+      ],
+      "priority": 2,
+      "zone": "大阪城"
     },
     {
       "id": "hozenji-yokocho",
@@ -205,9 +282,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "長約80公尺的復古石板小巷，兩側林立老字號料亭與居酒屋，可參拜法善寺內長滿青苔的「水掛不動明王」祈求好運，夜間紅燈籠亮起後懷舊氛圍浓厚。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "老街", "夜生活", "神社"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "老街",
+        "夜生活",
+        "神社"
+      ],
+      "priority": 2,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "senshuji-doguya",
@@ -223,9 +308,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "150公尺拱廊街道，支撐大阪「天下廚房」美譽的核心道具街，專賣鍋碗瓢盆、專業廚刀、章魚燒機，也可挖寶高質感日式餐具、逼真食物模型當伴手禮。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "道具街", "美食", "採購"],
-      "priority": 1
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "道具街",
+        "美食",
+        "採購"
+      ],
+      "priority": 1,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "suma-waterfall",
@@ -241,9 +334,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "入選日本瀑布百選，高低落差33公尺，氣勢磅礡，是大阪首屈一指的賞楓勝地。從梅田出發搭車約25分鐘，適合近郊一日遊。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "瀑布", "賞楓", "近郊"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "瀑布",
+        "賞楓",
+        "近郊"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
     {
       "id": "satsukiyama-zoo",
@@ -259,9 +360,18 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "隱身在五月山公園內的免費動物園，擁有全日本罕見的呆萌袋熊，也有羊駝、迷你豬、小袋鼠，設有動物互動區，是關西超佛心的親子秘境。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "動物園", "免費", "近郊", "親子"],
-      "priority": 1
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "動物園",
+        "免費",
+        "近郊",
+        "親子"
+      ],
+      "priority": 1,
+      "zone": "近郊"
     },
     {
       "id": "kishimoto-cycling",
@@ -277,9 +387,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "大自然環繞的腳踏車主題遊樂園，超過80種造型奇特的主題腳踏車任騎乘，還有單車版雲霄飛車、水陸兩用車等設施。健康系秘境遊樂園。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "單車", "遊樂園", "近郊"],
-      "priority": 1
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "單車",
+        "遊樂園",
+        "近郊"
+      ],
+      "priority": 1,
+      "zone": "近郊"
     },
     {
       "id": "ikoma-highland",
@@ -295,9 +413,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "擁有近百年歷史的昭和復古氛圍遊樂園，搭乘可愛動物造型纜車登上642公尺山頂，可搭乘日本現存最古老的大型遊樂設施「飛行塔」，360度俯瞰大阪平原與奈良盆地。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "遊樂園", "昭和", "復古"],
-      "priority": 1
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "遊樂園",
+        "昭和",
+        "復古"
+      ],
+      "priority": 1,
+      "zone": "奈良·近郊"
     },
     {
       "id": "samuhara-shrine",
@@ -313,9 +439,16 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "隱身在西區辦公大樓間的超人氣能量景點，以保佑「無傷無病、延年益壽」聞名，戰爭時期許多士兵上戰場前會來參拜，御守傳說有保佑死裡逃生的效力。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "神社", "能量景點"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "神社",
+        "能量景點"
+      ],
+      "priority": 2,
+      "zone": "西區"
     },
     {
       "id": "ikunitama-hokomiya",
@@ -331,9 +464,16 @@
       "stay_duration": "40分鐘-1小時",
       "cash_only": false,
       "description": "超過2700年歷史的大阪最古老神社，暱稱「生玉さん」，擁有11座各具特色的末社，包含祈求女性健康良緣的鴫野神社、保佑技藝精進的淨瑠璃神社。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "神社", "2700年"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "神社",
+        "2700年"
+      ],
+      "priority": 2,
+      "zone": "天王寺"
     },
     {
       "id": "osaka-life-museum",
@@ -349,9 +489,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "以大阪居住歷史為主題的博物館，實體重現江戶後期傳統街道、大正/昭和復古街景，可租借平價浴衣/和服漫步町家建築間拍照。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "博物館", "浴衣", "昭和"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "博物館",
+        "浴衣",
+        "昭和"
+      ],
+      "priority": 2,
+      "zone": "北區"
     },
     {
       "id": "nissin-cupnoodle-museum",
@@ -367,9 +515,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "台裔發明家安藤百福研發世界第一碗泡麵的發源地。館內有歷代泡麵牆，最受歡迎的「我的合味道工廠」可彩繪專屬杯身、挑選湯頭與配料，製作獨一無二的杯麵。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "博物館", "DIY", "泡麵"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "博物館",
+        "DIY",
+        "泡麵"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
     {
       "id": "asahi-beer-museum",
@@ -385,11 +541,18 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "朝日啤酒吹田工廠，參加預約導覽可近距離參觀啤酒生產線、透過VR體驗釀造過程，最後可品嚐工廠直送鮮生啤酒，無法喝酒者可換無酒精飲料。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["秘境", "啤酒", "博物館", "DIY"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "秘境",
+        "啤酒",
+        "博物館",
+        "DIY"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
-
     {
       "id": "kushida-ramen",
       "name": "道頓堀 固力果先生（推荐拉麵）",
@@ -404,9 +567,17 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "道頓堀是大阪美食精華區，必吃：章魚燒（推薦「本家章魚燒」）、串炸（推薦「串かつ一代松」）、大阪燒（推薦「千房」）、拉麵。固力果跑跑人是打卡地標。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["美食", "道頓堀", "拉麵", "章魚燒"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "美食",
+        "道頓堀",
+        "拉麵",
+        "章魚燒"
+      ],
+      "priority": 3,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "katsuo-ji-dining",
@@ -422,9 +593,16 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "從江戶時代延續至今的繁華餐飲街，江戶後期就是美食激戰區。推薦：北極星蛋包飯（明治8年創業）、自由軒咖喱飯、花田kapo的串揚。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["美食", "心齋橋", "歷史老店"],
-      "priority": 3
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "美食",
+        "心齋橋",
+        "歷史老店"
+      ],
+      "priority": 3,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "tsuruhashi-korean-town",
@@ -440,9 +618,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": false,
       "description": "西日本最大的生野韓國城，JR鶴橋站一出站即聞烤肉香，迷宮般巷弄內有上百家韓式燒肉店、道地泡菜攤、韓國美妝服飾店，CP值爆表的和牛燒肉是亮點。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["美食", "韓國城", "燒肉", "文化"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "美食",
+        "韓國城",
+        "燒肉",
+        "文化"
+      ],
+      "priority": 2,
+      "zone": "鶴橋"
     },
     {
       "id": "kizu-market",
@@ -458,9 +644,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": true,
       "description": "超過300年歷史的傳統批發市場，匯集價格親民的新鮮海產、當季蔬果、老字號玉子燒，推薦早晨前往品嚐豪華海鮮丼，感受大阪廚房的早晨活力。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["美食", "市場", "海鮮", "早市"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "美食",
+        "市場",
+        "海鮮",
+        "早市"
+      ],
+      "priority": 2,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "tenma-market",
@@ -476,9 +670,17 @@
       "stay_duration": "1.5-2.5小時",
       "cash_only": true,
       "description": "大阪首屈一指的高CP值美食激戰區，白天是傳統市場，入夜後化身居酒屋街，高掛上千盞紅燈籠的「燈籠通」兩側擠滿立食酒吧、海鮮居酒屋、串炸店。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["美食", "夜市", "居酒屋", "在地"],
-      "priority": 2
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "美食",
+        "夜市",
+        "居酒屋",
+        "在地"
+      ],
+      "priority": 2,
+      "zone": "北區"
     },
     {
       "id": "sennan-rocky-beef",
@@ -494,11 +696,18 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "大阪近郊的和牛燒肉秘境，使用A5、A4等級的日本國產牛，在寧靜的郊區享用高CP值的和牛燒肉，是內行人才知道的行程。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["美食", "和牛", "燒肉", "近郊"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "美食",
+        "和牛",
+        "燒肉",
+        "近郊"
+      ],
+      "priority": 2,
+      "zone": "近郊"
     },
-
     {
       "id": "toshi-mitsui-outlet",
       "name": "三井 Outlet Park 大阪門真",
@@ -513,9 +722,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "2023年4月開幕，關西最新，三井LaLaport + Outlet結合，250+間店鋪。品牌：BEAMS、Champion、mont-bell、BEAMS OUTLET、adhoc。附設近鐵海鮮市場與餐廳。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["OUTLET", "購物", "門真", "2023新開幕"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "門真",
+        "2023新開幕"
+      ],
+      "priority": 3,
+      "zone": "近郊"
     },
     {
       "id": "kobe-sanda-outlet",
@@ -531,9 +748,17 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "美式郊區風情建築，200+間店鋪，国际精品雲集。品牌：Balenciaga、Saint Laurent、Burberry、Givenchy、Jimmy Choo、Coach、Polo Ralph Lauren、Tommy Hilfiger。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["OUTLET", "購物", "神戶", "精品"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "神戶",
+        "精品"
+      ],
+      "priority": 3,
+      "zone": "近郊"
     },
     {
       "id": "rinku-premium-outlet",
@@ -549,9 +774,17 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "距離關西機場最近，2022年擴建，260+間店鋪。是班機起降前後血拼的好去處。提供外國遊客專屬折價券，可再享額外折扣。",
-      "sources": ["https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"],
-      "tags": ["OUTLET", "購物", "機場", "臨空城"],
-      "priority": 3
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "機場",
+        "臨空城"
+      ],
+      "priority": 3,
+      "zone": "臨空·關西空港"
     },
     {
       "id": "umeda-station-underground",
@@ -567,9 +800,17 @@
       "stay_duration": "1.5-3小時",
       "cash_only": false,
       "description": "隱藏在梅田高樓群中的上班族秘密基地，昭和復古通道內有數百間價格實惠的立吞居酒屋、老字號烏龍麵店、懷舊純喫茶，生啤酒與小菜價格親民。",
-      "sources": ["https://osaka.letsgojp.com/archives/698754/"],
-      "tags": ["OUTLET", "地下街", "美食", "昭和"],
-      "priority": 1
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "tags": [
+        "OUTLET",
+        "地下街",
+        "美食",
+        "昭和"
+      ],
+      "priority": 1,
+      "zone": "梅田"
     },
     {
       "id": "shinsaibashi-amerikamura",
@@ -585,9 +826,17 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "日系街頭潮流精華區，必訪：Supreme（季度）、Stussy、Champion、Beams、United Arrows。可感受大阪年輕人次文化，與道頓堀美食街相鄰。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["OUTLET", "潮牌", "購物", "美國村"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "OUTLET",
+        "潮牌",
+        "購物",
+        "美國村"
+      ],
+      "priority": 2,
+      "zone": "難波·心齋橋"
     },
     {
       "id": "kuromon-market",
@@ -603,10 +852,17 @@
       "stay_duration": "1-2小時",
       "cash_only": true,
       "description": "大阪的「廚房」，590公尺拱廊街道，170間店鋪雲集的新鮮海產、肉類、蔬果、乾貨攤。必吃：河豚、帝王蟹腿、現烤和牛。觀光客與本地人都愛。",
-      "sources": ["https://bobbytravel.tw/osaka-travel/"],
-      "tags": ["OUTLET", "市場", "海鮮", "美食"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "tags": [
+        "OUTLET",
+        "市場",
+        "海鮮",
+        "美食"
+      ],
+      "priority": 2,
+      "zone": "難波·心齋橋"
     }
-
   ]
 }

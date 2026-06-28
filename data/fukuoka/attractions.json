@@ -11,7 +11,6 @@
     "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
   ],
   "attractions": [
-
     {
       "id": "kushida-shrine",
       "name": "櫛田神社",
@@ -26,9 +25,17 @@
       "stay_duration": "1小時",
       "cash_only": false,
       "description": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
-      "sources": ["https://kyushu.letsgojp.com/archives/692650/"],
-      "tags": ["神社", "免費", "文化", "博多"],
-      "priority": 3
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": [
+        "神社",
+        "免費",
+        "文化",
+        "博多"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "canal-city",
@@ -44,9 +51,16 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "大型購物商場，週末有水舞秀表演，140間店鋪+多間餐廳，是博多指標性複合商場。",
-      "sources": ["https://canalcity.co.jp/"],
-      "tags": ["購物", "商場", "博多"],
-      "priority": 3
+      "sources": [
+        "https://canalcity.co.jp/"
+      ],
+      "tags": [
+        "購物",
+        "商場",
+        "博多"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "tenjin-underground",
@@ -62,9 +76,16 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["購物", "天神", "地下街"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "購物",
+        "天神",
+        "地下街"
+      ],
+      "priority": 2,
+      "zone": "天神"
     },
     {
       "id": "dazaifu-tenman",
@@ -80,9 +101,16 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
-      "sources": ["https://kyushu.letsgojp.com/archives/603822/"],
-      "tags": ["神社", "太宰府", "文化"],
-      "priority": 3
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/603822/"
+      ],
+      "tags": [
+        "神社",
+        "太宰府",
+        "文化"
+      ],
+      "priority": 3,
+      "zone": "太宰府"
     },
     {
       "id": "dazaifu-starbucks",
@@ -98,9 +126,16 @@
       "stay_duration": "30分鐘",
       "cash_only": false,
       "description": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["建築", "咖啡", "太宰府"],
-      "priority": 1
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "建築",
+        "咖啡",
+        "太宰府"
+      ],
+      "priority": 1,
+      "zone": "太宰府"
     },
     {
       "id": "dazaifu-museum",
@@ -116,9 +151,16 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["博物館", "太宰府", "文化"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "博物館",
+        "太宰府",
+        "文化"
+      ],
+      "priority": 2,
+      "zone": "太宰府"
     },
     {
       "id": "ohori-park",
@@ -134,9 +176,16 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["公園", "免費", "天神"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "公園",
+        "免費",
+        "天神"
+      ],
+      "priority": 2,
+      "zone": "天神"
     },
     {
       "id": "fukuoka-tower",
@@ -152,9 +201,17 @@
       "stay_duration": "45分鐘-1小時",
       "cash_only": false,
       "description": "日本最高的海濱塔（234m），入選日本夜景100選，也是戀人聖地。建議日落前1小時抵達，可同時看夕陽與百萬夜景。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["塔", "夜景", "海濱", "戀人聖地"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "塔",
+        "夜景",
+        "海濱",
+        "戀人聖地"
+      ],
+      "priority": 3,
+      "zone": "海濱"
     },
     {
       "id": "marine-world",
@@ -170,9 +227,16 @@
       "stay_duration": "3-4小時",
       "cash_only": false,
       "description": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["水族館", "親子", "海之中道"],
-      "priority": 3
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "水族館",
+        "親子",
+        "海之中道"
+      ],
+      "priority": 3,
+      "zone": "海濱"
     },
     {
       "id": "mineshima",
@@ -188,9 +252,16 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "明治到大正時期的洋風建築群，保留了大量歷史建築，充滿異國風情。必吃：門司港咖哩燒烏龍。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["老街", "異國風", "北九州"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "老街",
+        "異國風",
+        "北九州"
+      ],
+      "priority": 2,
+      "zone": "小倉·門司"
     },
     {
       "id": "yanagawa",
@@ -206,9 +277,16 @@
       "stay_duration": "1-1.5小時（遊船40分鐘）",
       "cash_only": false,
       "description": "水都柳川，乘小船穿梭在柳川城護城河與運河中，冬季可體驗傳統鰻魚養殖。秋季還可賞彼岸花。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["水都", "遊船", "柳川"],
-      "priority": 3
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "水都",
+        "遊船",
+        "柳川"
+      ],
+      "priority": 3,
+      "zone": "柳川"
     },
     {
       "id": "itoshima",
@@ -224,11 +302,18 @@
       "stay_duration": "半天-整天",
       "cash_only": false,
       "description": "福岡近郊海濱度假勝地，有美麗沙灘、懸崖絕景、咖啡廳與餐廳。必訪：二見浦夫婦岩（戀人聖地）、芥屋大門。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["海灘", "自然", "近郊", "咖啡廳"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "海灘",
+        "自然",
+        "近郊",
+        "咖啡廳"
+      ],
+      "priority": 2,
+      "zone": "糸島"
     },
-
     {
       "id": "iwaya-shrine",
       "name": "岩屋神社·熊野神社",
@@ -243,9 +328,17 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "神社", "自然", "嘉麻市"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "神社",
+        "自然",
+        "嘉麻市"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "itō-denbei-legacy",
@@ -261,9 +354,17 @@
       "stay_duration": "40分鐘-1小時",
       "cash_only": false,
       "description": "日本國家指定重要財產+名勝。前煤礦大亨伊藤傳右衛門為歌人妻子白蓮（天皇表妹）興建的日西合璧豪宅，使用義大利大理石與英國特製玻璃。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "歷史建築", "重要文化財", "飯塚"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "歷史建築",
+        "重要文化財",
+        "飯塚"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "umegatari-sake",
@@ -279,9 +380,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "清酒", "體驗", "桂川"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "清酒",
+        "體驗",
+        "桂川"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "kaneha-kiln",
@@ -297,9 +406,18 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "350年歷史的小石原燒體驗窯，有50間以上窯元。以點點、刷紋花樣聞名。可在專業陶藝師指導下製作自己專屬的杯子，燒製後縮小20%寄送。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "陶藝", "體驗", "東峰村", "小石原燒"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "陶藝",
+        "體驗",
+        "東峰村",
+        "小石原燒"
+      ],
+      "priority": 2,
+      "zone": "日田·東峰"
     },
     {
       "id": "satoyama-cafe-tambaya",
@@ -315,9 +433,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "位於日本百選梯田之上的咖啡廳，由專業廚師用在地食材烹調法式日式融合料理。落地窗外是梯田美景，餐具使用小石原燒/高取燒。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "咖啡廳", "梯田", "東峰村"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "咖啡廳",
+        "梯田",
+        "東峰村"
+      ],
+      "priority": 2,
+      "zone": "日田·東峰"
     },
     {
       "id": "tambara-rice-terrace",
@@ -333,9 +459,17 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "自然", "梯田", "東峰村"],
-      "priority": 1
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "自然",
+        "梯田",
+        "東峰村"
+      ],
+      "priority": 1,
+      "zone": "日田·東峰"
     },
     {
       "id": "amagi-old-town",
@@ -351,9 +485,16 @@
       "stay_duration": "1-2小時",
       "cash_only": false,
       "description": "殘存戰國時代城下町氛圍的老街，江戶時代建築保存完整，遠離觀光客的清幽秘境。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["秘境", "老街", "朝倉"],
-      "priority": 1
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "秘境",
+        "老街",
+        "朝倉"
+      ],
+      "priority": 1,
+      "zone": "日田·東峰"
     },
     {
       "id": "koishiwara-michinoeki",
@@ -369,9 +510,17 @@
       "stay_duration": "30分鐘",
       "cash_only": false,
       "description": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["秘境", "休息站", "特產", "東峰村"],
-      "priority": 1
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "秘境",
+        "休息站",
+        "特產",
+        "東峰村"
+      ],
+      "priority": 1,
+      "zone": "日田·東峰"
     },
     {
       "id": "yank don",
@@ -387,11 +536,18 @@
       "stay_duration": "20分鐘",
       "cash_only": false,
       "description": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["秘境", "甜點", "抹茶", "太宰府"],
-      "priority": 1
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "秘境",
+        "甜點",
+        "抹茶",
+        "太宰府"
+      ],
+      "priority": 1,
+      "zone": "太宰府"
     },
-
     {
       "id": "shin-shin",
       "name": "ShinShin（新宿式）",
@@ -406,9 +562,16 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "博多豚骨拉麵代表名店之一，浓郁豚骨白湯為特色。排隊名店建議開店前抵達。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["拉麵", "博多名物", "排隊店"],
-      "priority": 3
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "拉麵",
+        "博多名物",
+        "排隊店"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "ichiran",
@@ -424,9 +587,16 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["拉麵", "博多名物", "24小時"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "拉麵",
+        "博多名物",
+        "24小時"
+      ],
+      "priority": 2,
+      "zone": "博多"
     },
     {
       "id": "motsunabe",
@@ -442,9 +612,17 @@
       "stay_duration": "1.5-2小時",
       "cash_only": false,
       "description": "博多名物牛腸鍋，以味噌或醬油底將牛腸、大蔥、高麗菜燉煮。需預約是因為食材準備。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["牛腸鍋", "博多名物", "火鍋", "需預約"],
-      "priority": 3
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "牛腸鍋",
+        "博多名物",
+        "火鍋",
+        "需預約"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "nakasu-yatai",
@@ -460,9 +638,17 @@
       "stay_duration": "1-2小時",
       "cash_only": true,
       "description": "福岡特色的路邊攤飲食文化，中洲屋台橫丁約有50間攤位。傍晚5點過後才開始營業。建議體驗一次屋台文化。⚠️只收現金。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["屋台", "博多名物", "體驗", "現金"],
-      "priority": 3
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "屋台",
+        "博多名物",
+        "體驗",
+        "現金"
+      ],
+      "priority": 3,
+      "zone": "博多"
     },
     {
       "id": "nanpan-waiki",
@@ -478,9 +664,17 @@
       "stay_duration": "30分鐘",
       "cash_only": false,
       "description": "筑豐地區知名甜點名店，甜點名稱源於江戶時期南蠻貿易之路。必吃：經典南蠻往來（杏仁粉+果醬，上層酥脆、內裡鬆軟）、季節限定藍莓口味。附設咖啡廳。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["甜點", "咖啡廳", "飯塚", "南蠻"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "甜點",
+        "咖啡廳",
+        "飯塚",
+        "南蠻"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "mio-donut",
@@ -496,9 +690,17 @@
       "stay_duration": "20分鐘",
       "cash_only": false,
       "description": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["甜甜圈", "甜點", "飯塚", "排隊店"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "甜甜圈",
+        "甜點",
+        "飯塚",
+        "排隊店"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "unagi-yanagawa",
@@ -514,9 +716,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "柳川名物，蓋上一層蒲燒鰻魚的蒸飯，鰻魚軟嫩、飯吸收了鰻魚醬汁。配上紅薑與抹茶，齒頰留香。需預約是因為鰻魚現烤需等待。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["鰻魚飯", "柳川", "需預約", "博多名物"],
-      "priority": 3
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "鰻魚飯",
+        "柳川",
+        "需預約",
+        "博多名物"
+      ],
+      "priority": 3,
+      "zone": "柳川"
     },
     {
       "id": "kurume-ramen",
@@ -532,9 +742,17 @@
       "stay_duration": "30分鐘-1小時",
       "cash_only": false,
       "description": "久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["拉麵", "豚骨", "久留米", "博多名物"],
-      "priority": 2
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "拉麵",
+        "豚骨",
+        "久留米",
+        "博多名物"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "hisimitsu-pizza",
@@ -550,9 +768,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "120年歷史醬油倉庫改建的披薩吃到飽餐廳，使用添田柚子胡椒、在地蔬菜、自製醬油，薄脆pizza人氣超高。",
-      "sources": ["https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"],
-      "tags": ["披薩", "吃到飽", "體驗", "添田"],
-      "priority": 2
+      "sources": [
+        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
+      ],
+      "tags": [
+        "披薩",
+        "吃到飽",
+        "體驗",
+        "添田"
+      ],
+      "priority": 2,
+      "zone": "久留米"
     },
     {
       "id": "tanga-market",
@@ -568,9 +794,17 @@
       "stay_duration": "1小時",
       "cash_only": true,
       "description": "北九州市市民的「煮菜市場」，昭和氛圍滿溢，在地人食材補給站。可在市場內購買新鮮食材請店家教學或代煮。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["市場", "在地", "北九州", "現金"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "市場",
+        "在地",
+        "北九州",
+        "現金"
+      ],
+      "priority": 2,
+      "zone": "小倉·門司"
     },
     {
       "id": "karato-yokayata",
@@ -586,11 +820,18 @@
       "stay_duration": "1-1.5小時",
       "cash_only": true,
       "description": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["海鮮", "市場", "下關", "現金"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "海鮮",
+        "市場",
+        "下關",
+        "現金"
+      ],
+      "priority": 2,
+      "zone": "小倉·門司"
     },
-
     {
       "id": "tosu-premium-outlets",
       "name": "鳥栖 PREMIUM OUTLETS",
@@ -605,9 +846,18 @@
       "stay_duration": "3-5小時",
       "cash_only": false,
       "description": "加州南部風情建築，150+間店鋪，国际精品+運動品牌匯集。品牌：Nike、Coach、Michael Kors、Polo Ralph Lauren、New Balance、The North Face、Onitsuka Tiger、Samsonite、Le Creuset、URBAN RESEARCH、Columbia。園內有美食廣場。休息日：每年1次（通常是2月休息日）。",
-      "sources": ["https://www.premiumoutlets.co.jp/cht/tosu/"],
-      "tags": ["OUTLET", "購物", "鳥栖", "精品", "運動品牌"],
-      "priority": 3
+      "sources": [
+        "https://www.premiumoutlets.co.jp/cht/tosu/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鳥栖",
+        "精品",
+        "運動品牌"
+      ],
+      "priority": 3,
+      "zone": "佐賀縣鳥栖市"
     },
     {
       "id": "the-outlets-kitakyushu",
@@ -623,9 +873,18 @@
       "stay_duration": "3-6小時",
       "cash_only": false,
       "description": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
-      "sources": ["https://hk.trip.com/blog/fukuoka-outlet/"],
-      "tags": ["OUTLET", "購物", "北九州", "170店鋪", "親子"],
-      "priority": 3
+      "sources": [
+        "https://hk.trip.com/blog/fukuoka-outlet/"
+      ],
+      "tags": [
+        "OUTLET",
+        "購物",
+        "北九州",
+        "170店鋪",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "小倉·門司"
     },
     {
       "id": "boss-e-zo",
@@ -641,9 +900,18 @@
       "stay_duration": "2-4小時",
       "cash_only": false,
       "description": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["商場", "娛樂", "天神", "VIRTUAL", "夜景餐廳"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "商場",
+        "娛樂",
+        "天神",
+        "VIRTUAL",
+        "夜景餐廳"
+      ],
+      "priority": 2,
+      "zone": "天神"
     },
     {
       "id": "tenjin-daimyo-fashion",
@@ -659,9 +927,18 @@
       "stay_duration": "2-3小時",
       "cash_only": false,
       "description": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["潮牌", "購物", "天神", "日系", "選物店"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "潮牌",
+        "購物",
+        "天神",
+        "日系",
+        "選物店"
+      ],
+      "priority": 2,
+      "zone": "天神"
     },
     {
       "id": "kawabata-shopping",
@@ -677,9 +954,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
-      "sources": ["https://www.gltjp.com/zh-hant/article/item/20187/"],
-      "tags": ["商店街", "購物", "博多", "藥妝"],
-      "priority": 1
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": [
+        "商店街",
+        "購物",
+        "博多",
+        "藥妝"
+      ],
+      "priority": 1,
+      "zone": "博多"
     },
     {
       "id": "karato-market",
@@ -695,10 +980,17 @@
       "stay_duration": "1-1.5小時",
       "cash_only": true,
       "description": "以河豚和海膽聞名的市場，週五週六有熱闘すし（壽司拼盤），500円起即可享用。",
-      "sources": ["https://bobbytravel.tw/fukuoka-attractions/"],
-      "tags": ["海鮮", "市場", "下關", "OUTLET"],
-      "priority": 2
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "tags": [
+        "海鮮",
+        "市場",
+        "下關",
+        "OUTLET"
+      ],
+      "priority": 2,
+      "zone": "小倉·門司"
     }
-
   ]
 }

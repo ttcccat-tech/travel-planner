@@ -1,0 +1,55 @@
+{
+  "name": "osaka",
+  "display_name": "日本大阪",
+  "city_type": "metropolitan",
+  "description": "關西最大都會區，地下鐵+私鐵發達，自駕適合往奈良/高野山等郊區。",
+  "airport_to_city": {
+    "method": "南海電鐵/JR",
+    "route": "關西空港 → 難波（南海 Rapi:t 約38分 / JR HARUKA約50分）",
+    "estimated_time": "38-50分",
+    "estimated_cost": "930-1600円"
+  },
+  "within_city": {
+    "main_transport": "地下鐵（8條線）、南海電鐵、阪神、JR環狀線",
+    "suggested_card": "ICOCA（關西IC卡）— 地下鐵/私鐵/巴士通用"
+  },
+  "ticket_options": [
+    {
+      "name": "大阪周遊卡（1/2日）",
+      "price": "2700/3600円",
+      "desc": "含28處免費設施+地鐵無限搭，性價比極高"
+    },
+    {
+      "name": "關西周遊卡（2/3日）",
+      "price": "4700/5500円",
+      "desc": "適用關西多家私鐵+大阪地鐵，適合跨城市跑"
+    },
+    {
+      "name": "南海地圖票",
+      "price": "750円",
+      "desc": "南海電鐵一日券，往返關西空港推薦"
+    }
+  ],
+  "cash_prep": {
+    "recommendation": "每人每日建議準備3000-5000円現金",
+    "breakdown": "交通費約1000-1500円+餐費1500-3000円+雜支500円",
+    "note": "大多數商店可刷卡，路邊攤/屋台需現金"
+  },
+  "transfer_tips": [
+    {
+      "from": "關西空港",
+      "to": "難波/心齋橋",
+      "note": "南海 Rapi:t 較快，JR HARUKA 可直達大阪/天王寺"
+    },
+    {
+      "from": "大阪",
+      "to": "奈良",
+      "note": "JR大和路快速/近鐵奈良線，約45-60分"
+    },
+    {
+      "from": "大阪",
+      "to": "京都",
+      "note": "JR新快速/京阪電車，約30-50分"
+    }
+  ]
+}
