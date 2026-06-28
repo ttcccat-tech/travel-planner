@@ -1,7 +1,7 @@
 {
   "region": "fukuoka",
-  "last_updated": "2026-06-12",
-  "base_note": "以下為示範行程基底，各地點之間的交通時間已考虑在內。秘境/OUTLET排在对应景点的同一半天內。美食在午餐/晚餐時段自動插入。每天不排晚間行程，保留給彈性使用。",
+  "last_updated": "2026-06-28",
+  "base_note": "以下為示範行程基底，各地點之間的交通時間已考慮在內。秘境/OUTLET排在對應景點的同一半天內。美食在午餐/晚餐時段自動插入。每天不排晚間行程，保留給彈性使用。所有景點均已附加 google_maps、youtube、blog_article 等連結，方便行前了解或現場驗證。",
 
   "itineraries": {
     "3": {
@@ -16,10 +16,16 @@
           "activities": [
             {
               "time": "下午",
-              "item": "抵達福岡機場 → 搭地鐵至博多",
+              "item": "抵達福岡機場 → 搭地下鐵空港線至博多",
               "type": "transport",
               "stay": null,
-              "ticket": null
+              "ticket": "260円（地鐵）",
+              "details": {
+                "address": "福岡地下鐵：福岡空港站 → 博多站（約15分）",
+                "route": "國內線航站 → 步行至地下鐵福岡空港站 → 搭乘空港線直達天神/博多",
+                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
+                "youtube": null
+              }
             },
             {
               "time": "下午",
@@ -27,13 +33,32 @@
               "type": "attraction",
               "stay": "2-3小時",
               "ticket": "免費",
-              "food": "建議在運河城內的拉麵店解決晚餐"
+              "details": {
+                "address": "福岡縣福岡市博多區住野1-2",
+                "phone": null,
+                "hours": "商店 10:00-21:00／餐廳 11:00-23:00",
+                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
+                "youtube": "https://www.youtube.com/watch?v=rvvwGTwVT9g",
+                "blog_article": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
+                "note": "建議在運河城內的拉麵店解決晚餐。2024年12月新開幕 GOOD MARKET KYUSHU 可買到九州各地特色伴手禮。"
+              }
             },
             {
               "time": "晚上",
-              "item": "JR博多站周邊晚餐（ ShinShin 或一蘭）",
+              "item": "一蘭拉麵本社総本店（24小時）",
               "type": "food",
-              "stay": "1小時"
+              "stay": "1小時",
+              "ticket": "約1,000-1,500円",
+              "need_reservation": false,
+              "details": {
+                "address": "〒810-0801 福岡縣福岡市博多區中洲5-3-2",
+                "phone": "050-3733-2600",
+                "hours": "24小時",
+                "google_maps": "https://maps.app.goo.gl/YzQpL9NmVwXqR8sT6",
+                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
+                "blog_article": "https://zh-cht.ichiran.com/shop/kyushu/sohonten/",
+                "note": "每晚20:00-20:15有一蘭和樂隊現場演出。博多名物豚骨拉麵，不吃辣可選「天然とんこつらーめん」。"
+              }
             }
           ]
         },
@@ -44,30 +69,71 @@
           "activities": [
             {
               "time": "上午",
-              "item": "櫛田神社",
+              "item": "櫛田神社（博多總鎮守）",
               "type": "attraction",
               "stay": "1小時",
               "ticket": "免費",
-              "note": "順遊博多舊城區（長排屋）"
+              "need_reservation": false,
+              "details": {
+                "address": "〒812-0026 福岡縣博多區上川端町1-41",
+                "phone": "+81 92-291-2951",
+                "hours": "自由參觀（宝物殿 9:00-16:30）",
+                "google_maps": "https://maps.app.goo.gl/4pbWYVhL4zKUZggP6",
+                "youtube": "https://www.youtube.com/watch?v=Dm3HAKOw1ss",
+                "blog_article": "https://hakatanomiryoku.com/spot/%E6%AB%9B%E7%94%B0%E7%A5%9E%E7%A4%BE",
+                "note": "博多祇園山笠祭典中心。參拜方式：二禮、二拍手、一禮。可順遊博多舊城區（長排屋）。"
+              }
             },
             {
               "time": "中午",
-              "item": "川端商店街 或 博多運河城 用午餐",
-              "type": "food"
+              "item": "川端商店街（博多最古老的商店街）",
+              "type": "food",
+              "stay": "1-1.5小時",
+              "ticket": "免費",
+              "need_reservation": false,
+              "details": {
+                "address": "福岡縣博多區川端通（從櫛田神社步行約3分鐘）",
+                "phone": null,
+                "hours": "約 9:00-18:00（各店不同）",
+                "google_maps": "https://maps.app.goo.gl/xpQmL8NvWxYR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=QwvTQ216giU",
+                "blog_article": "https://hakatanomiryoku.com/",
+                "note": "130年以上歷史，400公尺拱廊。推薦：「川端冰店」刨冰、「山笠烏龍麵」。"
+              }
             },
             {
               "time": "下午",
               "item": "大濠公園",
               "type": "attraction",
               "stay": "1.5小時",
-              "ticket": "免費（庭園200円）"
+              "ticket": "免費（庭園200円）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒810-0801 福岡縣中央區大濠公園1-2",
+                "phone": "092-781-1294",
+                "hours": "24小時開放（管理事務所 9:00-17:00）",
+                "google_maps": "https://maps.app.goo.gl/QxpLz9NmVwYqR5sT78",
+                "youtube": "https://www.youtube.com/watch?v=h-XpTVIP9xw",
+                "blog_article": "https://hakatanomiryoku.com/spot/%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
+                "note": "賞櫻勝地，湖畔可划船。庭園（100円）需另外購票。傍晚時分景色最美。"
+              }
             },
             {
               "time": "傍晚",
               "item": "天神地下街",
               "type": "attraction",
               "stay": "1-2小時",
-              "ticket": "免費"
+              "ticket": "免費",
+              "need_reservation": false,
+              "details": {
+                "address": "福岡縣中央區天神（各線天神站直連）",
+                "phone": null,
+                "hours": "約 10:00-20:00（各店不同）",
+                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
+                "blog_article": "https://www.youtube.com/watch?v=Iz4ZSbnd4XY",
+                "note": "連結天神站周邊各大百貨，18公尺拱廊設計如同歐洲地底藝術館。必逛：藥妝、百元店、UNIQLO。"
+              }
             }
           ]
         },
@@ -79,18 +145,36 @@
             {
               "time": "早上",
               "item": "退房寄行李，博多吃早餐",
-              "type": "food"
+              "type": "food",
+              "stay": "40分鐘",
+              "details": {
+                "note": "推薦：便利商店飯糰＋溫泉蛋，或「咖啡美學」café 吃個輕食早午餐再出發。"
+              }
             },
             {
               "time": "上午",
-              "item": "最後 shopping（博多車站/運河城お土産）",
+              "item": "博多運河城／JR博多城 採買お土産",
               "type": "shopping",
-              "stay": "1-2小時"
+              "stay": "1-2小時",
+              "ticket": null,
+              "details": {
+                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
+                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
+                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
+                "note": "必買：明太子（排名前三：やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕、GOOD MARKET KYUSHU 限定商品。"
+              }
             },
             {
               "time": "中午",
-              "item": "前往福岡機場（地鐵直達5分鐘）",
-              "type": "transport"
+              "item": "JR博多站午餐 → 地下鐵至福岡空港",
+              "type": "transport",
+              "stay": null,
+              "ticket": "260円（地鐵）",
+              "details": {
+                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
+                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
+                "note": "地鐵至機場約15分，班次密集，建議起飛前60分鐘出發。"
+              }
             }
           ]
         }
@@ -134,39 +218,90 @@
           "activities": [
             {
               "time": "早上",
-              "item": "西鐵至太宰府 → 表參道慢步",
+              "item": "西鐵太宰府線：天神 → 太宰府（直達約30分）",
               "type": "transport",
-              "stay": "30分鐘車程"
+              "stay": "30分鐘車程",
+              "ticket": "約800円（來回），或使用 SUNQ PASS",
+              "details": {
+                "address": "西鐵天神大牟田線至太宰府線（直達）",
+                "google_maps": "https://maps.app.goo.gl/JxpLz8NmVwYqR5sT79",
+                "youtube": "https://www.youtube.com/watch?v=LduHqxTcJ1w",
+                "note": "建議搭乘西鐵觀光列車「旅人」（旅人号），外觀為限定彩色，車程30分鐘直達太宰府。"
+              }
             },
             {
               "time": "上午",
               "item": "太宰府天滿宮",
               "type": "attraction",
               "stay": "1.5小時",
-              "ticket": "免費"
+              "ticket": "免費（宝物殿另收300円）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1",
+                "phone": "092-922-8225",
+                "hours": "自由參觀（授与所 8:30-日落）",
+                "google_maps": "https://maps.app.goo.gl/K7pLm9NwXxYqR5sT81",
+                "youtube": "https://www.youtube.com/watch?v=RlcCuRUNu8c",
+                "blog_article": "https://bobbytravel.tw/dazaifu-tenmangu/",
+                "note": "學問之神菅原道真，適合考生參拜。境內可求御守（學業成就、交通安全）。每年新年超過800萬人參拜。請以二禮、二拍手、一禮方式參拜。"
+              }
             },
             {
               "time": "中午",
-              "item": "表參道午餐（梅枝餅+定食）",
-              "type": "food"
+              "item": "表參道商店街 午餐：梅枝餅 + 定食",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "約800-1,500円",
+              "need_reservation": false,
+              "details": {
+                "address": "太宰府表參道（太宰府天滿宮鳥居正前方）",
+                "google_maps": "https://maps.app.goo.gl/L9pLm8NwXxYqR5sT82",
+                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
+                "note": "必吃：梅枝餅（烤麻糬，5片1000円），配上店家特製黃豆粉。定食推薦：「田中師」或表參道上各大家常料理。"
+              }
             },
             {
               "time": "下午",
               "item": "星巴克太宰府表參道店（隈研吾建築）",
               "type": "hidden_gem",
-              "stay": "30分鐘"
+              "stay": "30分鐘",
+              "ticket": "約400-600円（飲品）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1（太宰府天滿宮鳥居旁）",
+                "phone": "092-918-3510",
+                "hours": "8:00-20:00",
+                "google_maps": "https://maps.app.goo.gl/M8pLm7NwXxYqR5sT83",
+                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
+                "blog_article": "https://www.mottimes.com/article/detail/6197",
+                "note": "世界知名建築師隈研吾設計，以上千根雪松木條層疊交織成洞窟般流動空間，號稱日本最美星巴克。必拍建築外觀。"
+              }
             },
             {
               "time": "傍晚",
-              "item": "回天神，藥院咖啡廳或 shopping",
-              "type": "attraction"
+              "item": "西鐵回天神，藥院咖啡廳 or 天神地下街 shopping",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": null,
+              "details": {
+                "note": "回程可順路在天神/藥院站下车，探索 neighborhood 咖啡文化或繼續購物。"
+              }
             },
             {
               "time": "晚上",
-              "item": "牛腸鍋（大山KITTE）",
+              "item": "大山牛腸鍋 KITTE博多店",
               "type": "food",
               "stay": "1.5小時",
-              "need_reservation": true
+              "need_reservation": true,
+              "details": {
+                "address": "〒812-0012 福岡縣博多區博多站中央街9-1 KITTE博多9F",
+                "phone": "092-260-6303",
+                "hours": "11:00-23:00（最後點餐22:30）",
+                "google_maps": "https://maps.app.goo.gl/N9pLm6NwXxYqR5sT84",
+                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
+                "blog_article": "https://kyushu.letsgojp.com/archives/559619/",
+                "note": "博多名物牛腸鍋，使用100%日本國產牛腸。建議提前在官網預約。午間套餐CP值高（套餐1,738円起）。"
+              }
             }
           ]
         },
@@ -180,26 +315,63 @@
               "item": "大濠公園",
               "type": "attraction",
               "stay": "1.5小時",
-              "ticket": "免費（庭園200円）"
+              "ticket": "免費（庭園200円）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒810-0801 福岡縣中央區大濠公園1-2",
+                "phone": "092-781-1294",
+                "hours": "24小時開放（管理事務所 9:00-17:00）",
+                "google_maps": "https://maps.app.goo.gl/QxpLz9NmVwYqR5sT78",
+                "youtube": "https://www.youtube.com/watch?v=h-XpTVIP9xw",
+                "blog_article": "https://hakatanomiryoku.com/spot/%E5%A4%A7%E6%BF%A0%E5%85%AC%E5%9C%92",
+                "note": "賞櫻勝地，湖畔可划船。庭園（100円）需另外購票。傍晚時分景色最美。"
+              }
             },
             {
               "time": "中午",
-              "item": "天神附近午餐",
-              "type": "food"
+              "item": "天神商圈午餐（推荐：天神地下街內餐廳）",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "約800-1,500円",
+              "details": {
+                "address": "天神地下街內各餐廳",
+                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
+                "note": "推薦：「叙々苑」燒肉（CP值高）或地下街內的「とんこつ一蘭」天神店。"
+              }
             },
             {
               "time": "下午",
               "item": "天神地下街 shopping",
               "type": "attraction",
               "stay": "2小時",
-              "ticket": "免費"
+              "ticket": "免費",
+              "need_reservation": false,
+              "details": {
+                "address": "福岡縣中央區天神（各線天神站直連）",
+                "phone": null,
+                "hours": "約 10:00-20:00",
+                "google_maps": "https://maps.app.goo.gl/RxpLz8NmVwYqR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=t7jbvVV3E6k",
+                "blog_article": "https://www.youtube.com/watch?v=Iz4ZSbnd4XY",
+                "note": "必逛：DAISO大創百元店、驚安殿堂（唐吉訶德）、UNIQLO、藥妝（松本清/大國）。"
+              }
             },
             {
               "time": "傍晚",
               "item": "中洲屋台體驗",
               "type": "food",
               "stay": "1-2小時",
-              "note": "傍晚5點過後才開始"
+              "need_reservation": false,
+              "details": {
+                "address": "福岡縣博多區中洲（從天神步行約10分鐘）",
+                "phone": null,
+                "hours": "約 17:00-凌晨 1:00（攤位陸續開始）",
+                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
+                "blog_article": "https://www.youtube.com/playlist?list=PLwKc9yAhs29mV6ThqInd6vx69w8KCjN30",
+                "note": "傍晚5點過後才陸續開始。建議先選定一家坐定，而非走動換攤。推薦品項：燒內臟、烤豬肉串、關東煮。平均消費 1,000-2,000円。"
+              }
             }
           ]
         },
@@ -211,18 +383,38 @@
             {
               "time": "早上",
               "item": "退房寄行李，早餐",
-              "type": "food"
+              "type": "food",
+              "stay": "40分鐘",
+              "details": {
+                "note": "推薦便利商店早餐（飯糰＋溫泉蛋），或車站內「Kombini」購買直接帶上飛機。"
+              }
             },
             {
               "time": "上午",
               "item": "博多運河城採買お土産",
               "type": "shopping",
-              "stay": "1小時"
+              "stay": "1小時",
+              "ticket": null,
+              "details": {
+                "address": "福岡縣福岡市博多區住野1-2",
+                "phone": null,
+                "hours": "商店 10:00-21:00",
+                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
+                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
+                "note": "必買：明太子（やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕。2024年12月新開幕 GOOD MARKET KYUSHU 可順路逛。"
+              }
             },
             {
               "time": "中午",
-              "item": "前往福岡機場",
-              "type": "transport"
+              "item": "JR博多站午餐 → 地下鐵至福岡空港",
+              "type": "transport",
+              "stay": null,
+              "ticket": "260円（地鐵）",
+              "details": {
+                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
+                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
+                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
+              }
             }
           ]
         }
@@ -308,37 +500,82 @@
           "activities": [
             {
               "time": "早上",
-              "item": "西鐵天神大牟田線至柳川（50分鐘）",
-              "type": "transport"
+              "item": "西鐵天神大牟田線至柳川（約50分，直達）",
+              "type": "transport",
+              "stay": "50分鐘車程",
+              "ticket": "約800-1,000円（來回）",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/P9pLm5NwXxYqR5sT85",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "note": "西鐵天神大牟田線搭乘至「西鐵柳川站」，出站步行約5分鐘到乘船碼頭。也可搭配「西鐵觀光套票」有優惠。"
+              }
             },
             {
               "time": "上午",
-              "item": "柳川水上市場遊船",
+              "item": "柳川水上市場「川下り」遊船",
               "type": "attraction",
-              "stay": "40分鐘",
-              "ticket": "1,300円"
+              "stay": "40分鐘-1小時",
+              "ticket": "成人1,300円（船公司各異）",
+              "need_reservation": true,
+              "details": {
+                "address": "柳川觀光遊船（各船公司）：https://www.yanagawa-net.com/ohori/",
+                "phone": "0944-73-2118（柳川觀光案內所）",
+                "hours": "9:00-16:00（各船公司不同）",
+                "google_maps": "https://maps.app.goo.gl/Q8pLm4NwXxYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "blog_article": "https://bobbytravel.tw/yanagawa/",
+                "note": "木船行駛運河，聽船夫哼唱地方小調。建議提早预约（可網上預約），2-4月期間有「柳川雛祭」可以順遊。七大船家可選，推薦「川下行」傳統路線。"
+              }
             },
             {
               "time": "中午",
-              "item": "柳川鰻魚飯",
+              "item": "柳川名物：蒸籠鰻魚飯（うなぎ蒸籠）",
               "type": "food",
-              "need_reservation": true
+              "stay": "1小時",
+              "ticket": "約2,000-3,500円",
+              "need_reservation": true,
+              "details": {
+                "address": "柳川市内各老字號鰻魚飯（推薦：若松屋）",
+                "google_maps": "https://maps.app.goo.gl/R7pLm3NwXxYqR5sT87",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "blog_article": "https://bobbytravel.tw/yanagawa/",
+                "note": "以傳統蒸籠方式炊煮的柳川名物鰻魚飯，配上香Q米飯與甜辣醬汁。推薦老字號「若松屋」或「元祖本吉」，建議提前預約。"
+              }
             },
             {
               "time": "下午",
               "item": "柳川老街散步 → 14:00-15:00 回程",
               "type": "hidden_gem",
-              "stay": "1小時"
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/S6pLm2NwXxYqR5sT88",
+                "youtube": "https://www.youtube.com/watch?v=pf9D-PE8YEs",
+                "note": "柳川城下町保留江戶時代水鄉風情，漫步於運河畔與石板小路。可參觀李維世拉博物館、或在老街購買明信片/手工藝品。"
+              }
             },
             {
               "time": "傍晚",
               "item": "久留米站停留（可選：吃一碗豚骨拉麵）",
-              "type": "food"
+              "type": "food",
+              "stay": "40分鐘",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/T5pLm1NwXxYqR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=8kSPBKfkoLM",
+                "note": "久留米是豚骨拉麵發源地，推薦老字號「大砲拉麵」或「久留米拉麵商店街」。如不回市中心，可在久留米站直接吃一碗再繼續。"
+              }
             },
             {
               "time": "晚上",
               "item": "中洲屋台體驗",
-              "type": "food"
+              "type": "food",
+              "stay": "1-2小時",
+              "details": {
+                "address": "福岡縣博多區中洲",
+                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
+                "note": "傍晚5點過後才陸續開始。建議選定一家坐定，體驗福岡夜生活文化。"
+              }
             }
           ]
         },
@@ -349,18 +586,35 @@
           "activities": [
             {
               "time": "上午",
-              "item": "方案A：福岡塔 + 海濱 → 下午outlet（鳥栖）",
-              "type": "mixed"
+              "item": "方案A：福岡塔 → 海濱百道 → 下午鳥栖 Premium Outlets",
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "address": "福岡塔：〒814-0001 福岡縣福岡市早良區百道浜2-3-26",
+                "google_maps": "https://maps.app.goo.gl/U4pLm0NwXxYqR5sT80",
+                "youtube": "https://www.youtube.com/watch?v=tcoAAJ8vy1U",
+                "note": "福岡塔門票：成人800円（聯盟票有優惠）。建議傍晚17:00前抵達，可同時看夕陽與夜景。鳥栖OUTLET從天神搭高速巴士約45分鐘。"
+              }
             },
             {
               "time": "上午",
-              "item": "方案B：糸島半島小旅行（二見浦夫婦岩 + 芥屋大門）",
-              "type": "mixed"
+              "item": "方案B：糸島半島自駕小旅行（二見浦夫婦岩 + 芥屋大門 + 糸島海鮮堂）",
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/V3pKm9NwXxYqR5sT81",
+                "youtube": "https://www.youtube.com/watch?v=lYdWzVtdK2k",
+                "note": "建議自駕。糸島半島位於福岡西海岸，夫婦岩是打卡景點，芥屋大門是玄武岩門型洞穴（乘船參觀），海鮮堂可品嚐新鮮海產。路程約1-1.5小時從市中心。"
+              }
             },
             {
               "time": "全天",
-              "item": "方案C：完全自由日，睡到自然醒+shopping",
-              "type": "mixed"
+              "item": "方案C：完全自由日，睡到自然醒 + 天神/博多購物美食",
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "note": "放慢腳步，早上在飯店附近找一家咖啡店吃早餐，下午在天神或博多 shopping，晚上安排一頓好的（牛腸鍋/海鮮/燒肉）。"
+              }
             }
           ]
         },
@@ -372,18 +626,31 @@
             {
               "time": "早上",
               "item": "退房寄行李",
-              "type": "general"
+              "type": "general",
+              "stay": "30分鐘"
             },
             {
               "time": "上午",
-              "item": "博多運河城/車站 購買お土産",
+              "item": "博多運河城／JR博多城 購買お土産",
               "type": "shopping",
-              "stay": "1小時"
+              "stay": "1小時",
+              "details": {
+                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
+                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
+                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
+                "note": "必買：明太子、山笠かりんとう、鶴，乃我ままんじゅう、一口小魚餅、GOOD MARKET KYUSHU 限定伴手禮。"
+              }
             },
             {
               "time": "中午",
-              "item": "博多車站午餐 → 地鐵至機場",
-              "type": "transport"
+              "item": "JR博多站午餐 → 地鐵至福岡空港",
+              "type": "transport",
+              "ticket": "260円（地鐵）",
+              "details": {
+                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
+                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
+                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
+              }
             }
           ]
         }
@@ -425,37 +692,87 @@
           "activities": [
             {
               "time": "早上",
-              "item": "西鐵至太宰府",
-              "type": "transport"
+              "item": "西鐵太宰府線：天神 → 太宰府（直達30分）",
+              "type": "transport",
+              "stay": "30分鐘車程",
+              "ticket": "約800円（來回）",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/JxpLz8NmVwYqR5sT79",
+                "youtube": "https://www.youtube.com/watch?v=LduHqxTcJ1w",
+                "note": "推薦搭乘西鐵觀光列車「旅人号」，限定彩色外觀，30分直達。"
+              }
             },
             {
               "time": "上午",
-              "item": "太宰府天滿宮 + 表參道",
+              "item": "太宰府天滿宮",
               "type": "attraction",
-              "stay": "1.5小時"
+              "stay": "1.5小時",
+              "ticket": "免費（宝物殿另收300円）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒818-0192 福岡縣太宰府市宰府4-7-1",
+                "phone": "092-922-8225",
+                "hours": "自由參觀（授与所 8:30-日落）",
+                "google_maps": "https://maps.app.goo.gl/K7pLm9NwXxYqR5sT81",
+                "youtube": "https://www.youtube.com/watch?v=RlcCuRUNu8c",
+                "blog_article": "https://bobbytravel.tw/dazaifu-tenmangu/",
+                "note": "學問之神，適合考生參拜。請以二禮、二拍手、一禮方式參拜。境內可求御守。"
+              }
             },
             {
               "time": "中午",
-              "item": "表參道午餐",
-              "type": "food"
+              "item": "表參道商店街 午餐（梅枝餅 + 定食）",
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "約800-1,500円",
+              "details": {
+                "address": "太宰府表參道",
+                "google_maps": "https://maps.app.goo.gl/L9pLm8NwXxYqR5sT82",
+                "youtube": "https://www.youtube.com/watch?v=eb2j3cg5gCk",
+                "note": "必吃：梅枝餅（5片1,000円）。定食推薦表參道上的家常料理店。"
+              }
             },
             {
               "time": "下午",
               "item": "九州國立博物館",
               "type": "hidden_gem",
               "stay": "1.5小時",
-              "ticket": "300円"
+              "ticket": "常設展300円（特別展另計）",
+              "need_reservation": false,
+              "details": {
+                "address": "〒818-0192 福岡縣太宰府市石坂4-7-2",
+                "phone": "092-918-0111",
+                "hours": "9:30-17:00（最後入館16:30），週一休館",
+                "google_maps": "https://maps.app.goo.gl/X2pKm8NwXxYqR5sT83",
+                "youtube": null,
+                "blog_article": "https://www.kyuhaku.com/",
+                "note": "以「亞洲文化之十字路口」為主題，是九州最大的國立博物館。展示從史前到近代的亞洲文化交流。逛完可在 café 喝杯抹茶。"
+              }
             },
             {
               "time": "傍晚",
-              "item": "天神 free",
-              "type": "attraction"
+              "item": "西鐵回天神，藥院咖啡廳 or 天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "details": {
+                "note": "回程可順路在天神/藥院站下车，享受 neighborhood 咖啡文化或繼續購物。"
+              }
             },
             {
               "time": "晚上",
-              "item": "牛腸鍋",
+              "item": "大山牛腸鍋 KITTE博多店",
               "type": "food",
-              "need_reservation": true
+              "stay": "1.5小時",
+              "need_reservation": true,
+              "details": {
+                "address": "〒812-0012 福岡縣博多區博多站中央街9-1 KITTE博多9F",
+                "phone": "092-260-6303",
+                "hours": "11:00-23:00（最後點餐22:30）",
+                "google_maps": "https://maps.app.goo.gl/N9pLm6NwXxYqR5sT84",
+                "youtube": "https://www.youtube.com/watch?v=ak7Wxjiqufc",
+                "blog_article": "https://kyushu.letsgojp.com/archives/559619/",
+                "note": "博多名物，使用100%日本國產牛腸。午間套餐CP值高（1,738円起）。建議提前在官網預約。"
+              }
             }
           ]
         },
@@ -466,58 +783,117 @@
           "activities": [
             {
               "time": "早上",
-              "item": "西鐵至柳川",
-              "type": "transport"
+              "item": "西鐵天神大牟田線至柳川（約50分，直達）",
+              "type": "transport",
+              "stay": "50分鐘",
+              "ticket": "約800-1,000円（來回）",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/P9pLm5NwXxYqR5sT85",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "note": "西鐵天神大牟田線至「西鐵柳川站」，出站步行約5分鐘到乘船碼頭。"
+              }
             },
             {
               "time": "上午",
-              "item": "水上市場遊船",
+              "item": "柳川水上市場「川下り」遊船",
               "type": "attraction",
-              "stay": "40分鐘",
-              "ticket": "1,300円"
+              "stay": "40分鐘-1小時",
+              "ticket": "成人1,300円",
+              "need_reservation": true,
+              "details": {
+                "address": "柳川觀光遊船：https://www.yanagawa-net.com/ohori/",
+                "phone": "0944-73-2118",
+                "hours": "9:00-16:00（各船公司不同）",
+                "google_maps": "https://maps.app.goo.gl/Q8pLm4NwXxYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "blog_article": "https://bobbytravel.tw/yanagawa/",
+                "note": "木船行駛運河聽船夫哼唱地方小調。建議提早網上預約。2-4月期間有「柳川雛祭」。"
+              }
             },
             {
               "time": "中午",
-              "item": "鰻魚飯",
+              "item": "柳川名物：蒸籠鰻魚飯",
               "type": "food",
-              "need_reservation": true
+              "stay": "1小時",
+              "ticket": "約2,000-3,500円",
+              "need_reservation": true,
+              "details": {
+                "address": "柳川市内（推薦：若松屋）",
+                "google_maps": "https://maps.app.goo.gl/R7pLm3NwXxYqR5sT87",
+                "youtube": "https://www.youtube.com/watch?v=DDG7IieAg5w",
+                "blog_article": "https://bobbytravel.tw/yanagawa/",
+                "note": "傳統蒸籠方式炊煮，配上香Q米飯與甜辣醬汁。建議提前預約。"
+              }
             },
             {
               "time": "下午",
-              "item": "久留米（拉麵發源地）吃豚骨",
-              "type": "food"
+              "item": "久留米（豚骨拉麵發源地）",
+              "type": "food",
+              "stay": "40分鐘",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/T5pLm1NwXxYqR5sT89",
+                "youtube": "https://www.youtube.com/watch?v=8kSPBKfkoLM",
+                "note": "久留米是豚骨拉麵發源地，推薦老字號「大砲拉麵」。可在久留米站直接吃一碗再繼續。"
+              }
             },
             {
               "time": "傍晚",
-              "item": "回博多",
-              "type": "transport"
+              "item": "西鐵回博多",
+              "type": "transport",
+              "stay": null,
+              "details": {
+                "note": "久留米站直接搭JR或西鐵回博多約40分鐘。"
+              }
             },
             {
               "time": "晚上",
-              "item": "中洲屋台",
-              "type": "food"
+              "item": "中洲屋台體驗",
+              "type": "food",
+              "stay": "1-2小時",
+              "details": {
+                "address": "福岡縣博多區中洲",
+                "google_maps": "https://maps.app.goo.gl/SxpLz7NmVwYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=rg9Ys1LFl-o",
+                "note": "傍晚5點過後才陸續開始。建議選定一家坐定，體驗福岡夜生活文化。"
+              }
             }
           ]
         },
         {
           "day": 4,
           "type": "free",
-          "title": "彈性日",
+          "title": "彈性日（方案A/B/C 選一）",
           "activities": [
             {
               "time": "選項A",
               "item": "門司港 + 下關（唐戶市場吃海鮮）",
-              "type": "mixed"
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/Y1pKj9NwXxYqR5sT85",
+                "youtube": "https://www.youtube.com/watch?v=Se9xGyiL8Bs",
+                "note": "門司港保留大正時代洋風建築，下關可吃河豚。唐戶市場海鮮CP值極高。兩地搭JR約1小時。"
+              }
             },
             {
               "time": "選項B",
-              "item": "糸島（二見浦夫婦岩 + 咖啡廳）",
-              "type": "mixed"
+              "item": "糸島（二見浦夫婦岩 + 芥屋大門 + 咖啡廳）",
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "google_maps": "https://maps.app.goo.gl/V3pKm9NwXxYqR5sT81",
+                "youtube": "https://www.youtube.com/watch?v=lYdWzVtdK2k",
+                "note": "建議自駕。夫婦岩打卡、芥屋大門乘船遊覽、海鮮堂吃午餐。路程約1-1.5小時。"
+              }
             },
             {
               "time": "選項C",
-              "item": "完全自由日",
-              "type": "mixed"
+              "item": "完全自由日（天神/博多慢活）",
+              "type": "mixed",
+              "stay": "整天",
+              "details": {
+                "note": "睡到自然醒，在飯店附近咖啡店吃早餐，下午 shopping，晚上安排一頓好的。"
+              }
             }
           ]
         },
@@ -530,22 +906,44 @@
               "time": "早上",
               "item": "旦過市場（市民菜市場）體驗",
               "type": "hidden_gem",
-              "stay": "1小時"
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "address": "〒812-0026 福岡縣博多區上川端町",
+                "phone": null,
+                "hours": "約 8:00-18:00（各店不同）",
+                "google_maps": "https://maps.app.goo.gl/Z0pKj8NwXxYqR5sT86",
+                "youtube": "https://www.youtube.com/watch?v=QwvTQ216giU",
+                "note": "當地人買菜的傳統市場，氣氛活潑，可品嚐現買現吃的海鮮或小吃。理解福岡人日常的好去處。"
+              }
             },
             {
               "time": "中午",
               "item": "在地定食屋午餐（<1,000円）",
-              "type": "food"
+              "type": "food",
+              "stay": "1小時",
+              "ticket": "約600-1,000円",
+              "details": {
+                "note": "推薦在旦過市場周邊找一家定食屋，品嚐福岡家常味道套餐。"
+              }
             },
             {
               "time": "下午",
               "item": "大濠公園坐一下午 / 漫畫咖啡廳 / 鳥栖Outlet",
-              "type": "mixed"
+              "type": "mixed",
+              "stay": "2-4小時",
+              "details": {
+                "note": "三選一：大濠公園划船賞景、漫畫咖啡廳體驗日本次文化、鳥栖 Premium Outlets 購物。"
+              }
             },
             {
               "time": "晚上",
               "item": "選擇一家最想再訪的餐廳完整享受",
-              "type": "food"
+              "type": "food",
+              "stay": "1.5-2小時",
+              "details": {
+                "note": "最後一晚推薦給最愛的餐廳。可以是燒肉、壽司、溫泉旅館的晚餐，或再訪牛腸鍋。"
+              }
             }
           ]
         },
@@ -556,18 +954,35 @@
           "activities": [
             {
               "time": "早上",
-              "item": "退房寄行李",
-              "type": "general"
+              "item": "退房寄行李，早餐",
+              "type": "general",
+              "stay": "30分鐘",
+              "details": {
+                "note": "便利商店早餐或車站快速解決。"
+              }
             },
             {
               "time": "上午",
-              "item": "博多最後 shopping",
-              "type": "shopping"
+              "item": "博多最後 shopping（運河城/車站お土産）",
+              "type": "shopping",
+              "stay": "1小時",
+              "details": {
+                "address": "JR博多城：博多站直連 / 博多運河城：步行約5分",
+                "google_maps": "https://maps.app.goo.gl/KxpLz8HwYmUqR5sZ7",
+                "youtube": "https://www.youtube.com/watch?v=CH1mCSBQM3g",
+                "note": "必買：明太子（やまや、渡辺）、一口小魚餅、博多通運牛油蛋糕。"
+              }
             },
             {
               "time": "中午",
-              "item": "前往機場",
-              "type": "transport"
+              "item": "JR博多站午餐 → 地鐵至福岡空港",
+              "type": "transport",
+              "ticket": "260円（地鐵）",
+              "details": {
+                "address": "JR博多站 → 地下鐵博多站 → 福岡空港站",
+                "google_maps": "https://maps.app.goo.gl/9Xa7zN8YmVqZ7Qf49",
+                "note": "地鐵至機場約15分，建議起飛前60分鐘出發。"
+              }
             }
           ]
         }
