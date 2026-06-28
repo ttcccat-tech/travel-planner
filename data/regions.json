@@ -6,5 +6,29 @@
     "city_type": "metropolitan",
     "country": "日本",
     "language": "日文（日常英語可通）"
+  },
+  {
+    "name": "osaka",
+    "display_name": "日本大阪",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  },
+  {
+    "name": "tokyo",
+    "display_name": "日本東京",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  },
+  {
+    "name": "kyushu",
+    "display_name": "九州（福岡/熊本/鹿兒島/長崎）",
+    "enabled": true,
+    "city_type": "multi-region",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
   }
 ]
