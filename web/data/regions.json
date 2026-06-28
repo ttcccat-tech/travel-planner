@@ -1,0 +1,10 @@
+[
+  {
+    "name": "fukuoka",
+    "display_name": "日本福岡",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  }
+]

@@ -1,0 +1,459 @@
+{
+  "region": "fukuoka",
+  "last_updated": "2026-06-12",
+  "sources": [
+    "https://kyushu.letsgojp.com/archives/692650/",
+    "https://www.gltjp.com/zh-hant/article/item/20187/",
+    "https://kyushu.letsgojp.com/archives/603822/",
+    "https://japanzerolag.com/?p=10502",
+    "https://fukuokainsider.com/article/fukuoka_unusual_destination/"
+  ],
+  "attractions": [
+    {
+      "id": "kushida-shrine",
+      "name": "櫛田神社",
+      "name_en": "Kushida Shrine",
+      "category": "attraction",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "博多",
+      "station": "地下鐵：中洲川端站/祇園站，步行約10分鐘",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "description": "博多總鎮守，創建於757年，每年七月舉辦「博多祇園山笠」是福岡夏季最大盛事",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["博多", "神社", "免費", "文化"],
+      "priority": 3
+    },
+    {
+      "id": "canal-city",
+      "name": "博多運河城",
+      "name_en": "Canal City Hakata",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "博多",
+      "station": "JR博多站步行約15分鐘",
+      "ticket": "免費（劇場/電影院需購票）",
+      "need_reservation": false,
+      "stay_duration": "2-3小時",
+      "description": "大型購物商場，週末有水舞秀表演，適合購物+用餐",
+      "sources": [
+        "https://canalcity.co.jp/"
+      ],
+      "tags": ["博多", "購物", "商場"],
+      "priority": 3
+    },
+    {
+      "id": "ohori-park",
+      "name": "大濠公園",
+      "name_en": "Ohori Park",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "博多",
+      "station": "地下鐵：大濠公園站",
+      "ticket": "免費（庭園部分200円）",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "description": "仿西湖設計的池泉迴遊式庭園，福岡市的綠肺，四季都有不同風情",
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "tags": ["博多", "公園", "自然", "免費"],
+      "priority": 4
+    },
+    {
+      "id": "fukuoka-tower",
+      "name": "福岡塔",
+      "name_en": "Fukuoka Tower",
+      "category": "attraction",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "西新",
+      "station": "地下鐵：西新站步行15分鐘 / 巴士直達",
+      "ticket": "成人800円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "description": "日本最南端的海濱鐵塔，晴朗时可远眺至糸島",
+      "sources": [
+        "https://www.fukuokatower.co.jp/"
+      ],
+      "tags": ["西新", "地標", "海景", "需門票"],
+      "priority": 3
+    },
+    {
+      "id": "tenjin-underground",
+      "name": "天神地下街",
+      "name_en": "Tenjin Underground Shopping Mall",
+      "category": "attraction",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "天神",
+      "station": "地下鐵：天神站、天神南站直通",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1-2小時",
+      "description": "九州最大的地下商業街，服飾/美妝/美食齊全",
+      "sources": [],
+      "tags": ["天神", "購物", "地下街", "免費"],
+      "priority": 4
+    },
+    {
+      "id": "nakasu-yatai",
+      "name": "中洲屋台街",
+      "name_en": "Nakasu Yatai Street",
+      "category": "attraction",
+      "sub_category": "food_experience",
+      "parent": null,
+      "location": "中洲",
+      "station": "地下鐵：中洲川端站步行5分鐘",
+      "ticket": "免費入場（消費約2,000-3,500円/人）",
+      "need_reservation": false,
+      "stay_duration": "1-2小時（晚餐時段）",
+      "description": "體驗福岡特色的屋台文化，關東煮、串物、麵類為主，傍晚5點過後才開始營業",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/603822/"
+      ],
+      "tags": ["中洲", "屋台", "美食體驗", "夜晚"],
+      "priority": 5,
+      "cash_only": true
+    },
+    {
+      "id": "dazaifu-tenmangu",
+      "name": "太宰府天滿宮",
+      "name_en": "Dazaifu Tenmangu",
+      "category": "attraction",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "太宰府",
+      "station": "西鐵太宰府線「太宰府站」步行約5分鐘",
+      "ticket": "免費（九州國立博物館另計300円）",
+      "need_reservation": false,
+      "stay_duration": "1.5-2小時",
+      "description": "供奉學問之神菅原道真，香火鼎盛，表參道有知名建築師隈研吾設計的Starbucks",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["太宰府", "神社", "歷史", "免費", "世界級"],
+      "priority": 2
+    },
+    {
+      "id": "dazaifu-starbucks",
+      "name": "星巴克太宰府表參道店",
+      "name_en": "Starbucks Dazaifu Omotesando",
+      "category": "hidden_gem",
+      "sub_category": "architecture",
+      "parent": "dazaifu-tenmangu",
+      "location": "太宰府表參道",
+      "station": "太宰府天滿宮步行1分鐘",
+      "ticket": "免費（消費即可入座）",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "description": "由建築大師隈研吾設計，採用2萬根杉木簾子交錯編織，是日本最具代表性的建築系星巴克",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["太宰府", "建築", "秘境", "咖啡廳"],
+      "priority": 5
+    },
+    {
+      "id": "kyushu-national-museum",
+      "name": "九州國立博物館",
+      "name_en": "Kyushu National Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": "dazaifu-tenmangu",
+      "location": "太宰府（天滿宮旁）",
+      "station": "太宰府天滿宮步行約5分鐘",
+      "ticket": "300円",
+      "need_reservation": false,
+      "stay_duration": "1.5-2小時",
+      "description": "日本第四座國立博物館，展示了從繩文時代到明治維新的九州歷史",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["太宰府", "博物館", "歷史", "需門票"],
+      "priority": 5
+    },
+    {
+      "id": "mojiko-retro",
+      "name": "門司港懷舊區",
+      "name_en": "Mojiko Retro District",
+      "category": "attraction",
+      "sub_category": "historic_district",
+      "parent": null,
+      "location": "門司港",
+      "station": "JR鹿兒島本線「門司港站」",
+      "ticket": "免費（鐵道博物館等個別設施需購票）",
+      "need_reservation": false,
+      "stay_duration": "3-4小時",
+      "description": "明治到大正時代的洋風建築群，品嚐門司港名物「燒咖哩」",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["門司港", "歷史建築", "洋風", "美食"],
+      "priority": 3
+    },
+    {
+      "id": "kokura-kanojo-bridge",
+      "name": "門司港「戀人橋」",
+      "name_en": "Mojiko Lover's Bridge",
+      "category": "hidden_gem",
+      "sub_category": "scenic_spot",
+      "parent": "mojiko-retro",
+      "location": "門司港",
+      "station": "門司港站步行15分鐘",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "20分鐘",
+      "description": "藍色的港灣大橋，是情侶聖地，可俯瞰整個關門海峽與下關",
+      "sources": [],
+      "tags": ["門司港", "秘境", "夜景", "免費"],
+      "priority": 6
+    },
+    {
+      "id": "yanagawa-cruise",
+      "name": "柳川水鄉遊船",
+      "name_en": "Yanagawa River Cruise",
+      "category": "attraction",
+      "sub_category": "experience",
+      "parent": null,
+      "location": "柳川",
+      "station": "西鐵天神大牟田線「柳川站」",
+      "ticket": "遊船1,300円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘-1小時",
+      "description": "在水上市場搭小船遊護城河，享受慢節奏的水都風光，建於江戶時代的水路縱橫",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/692650/"
+      ],
+      "tags": ["柳川", "水鄉", "體驗", "需門票"],
+      "priority": 2
+    },
+    {
+      "id": "yanagawa-old-town",
+      "name": "柳川老街",
+      "name_en": "Yanagawa Old Town",
+      "category": "hidden_gem",
+      "sub_category": "old_town",
+      "parent": "yanagawa-cruise",
+      "location": "柳川",
+      "station": "西鐵天神大牟田線「柳川站」",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "description": "江戶時代留下來的老街，保有傳統的和菓子店與工藝品店，適合散步",
+      "sources": [],
+      "tags": ["柳川", "老街", "散步", "免費"],
+      "priority": 5
+    },
+    {
+      "id": "karatsu-coast",
+      "name": "築田海濱",
+      "name_en": "Karatsu Beach",
+      "category": "hidden_gem",
+      "sub_category": "beach",
+      "parent": "yanagawa-cruise",
+      "location": "柳川近郊",
+      "station": "西鐵柳川站開車約20分鐘",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1-2小時",
+      "description": "面對玄界灘的黑沙沙灘，適合散步聽浪，是當地人夏天戲水勝地",
+      "sources": [],
+      "tags": ["柳川", "海邊", "秘境", "免費"],
+      "priority": 6
+    },
+    {
+      "id": "itoshima-shiratai",
+      "name": "二見が浦夫婦岩",
+      "name_en": "Futamigaura Couples Rock",
+      "category": "hidden_gem",
+      "sub_category": "scenic_spot",
+      "parent": null,
+      "location": "糸島",
+      "station": "JR筑肥線「筑前前原站」換乘巴士",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "description": "白色鳥居佇立在海邊，漲潮時鳥居根部會浸在水中，形成特殊景觀，是糸島最具代表性的秘境",
+      "sources": [
+        "https://fukuokainsider.com/article/fukuoka_unusual_destination/"
+      ],
+      "tags": ["糸島", "秘境", "鳥居", "海邊", "免費"],
+      "priority": 3
+    },
+    {
+      "id": "itoshima-keya-gate",
+      "name": "芥屋大門",
+      "name_en": "Keya Gate",
+      "category": "hidden_gem",
+      "sub_category": "natural_cave",
+      "parent": null,
+      "location": "糸島",
+      "station": "JR筑肥線「筑前前原站」開車約30分鐘",
+      "ticket": "渡船700円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時（需配合船班）",
+      "description": "40公尺高的巨型海蝕洞，只能划船或搭乘當地船隻進入，是糸島最神秘的自然奇景",
+      "sources": [
+        "https://fukuokainsider.com/article/fukuoka_unusual_destination/"
+      ],
+      "tags": ["糸島", "秘境", "自然奇景", "划船", "需門票"],
+      "priority": 3
+    },
+    {
+      "id": "itoshima-cafe",
+      "name": "糸島人氣咖啡廳巡禮",
+      "name_en": "Itoshima Cafe Tour",
+      "category": "hidden_gem",
+      "sub_category": "cafe",
+      "parent": null,
+      "location": "糸島",
+      "station": "JR筑肥線沿線",
+      "ticket": "消費約500-1,000円/人",
+      "need_reservation": false,
+      "stay_duration": "1-2小時",
+      "description": "糸島有許多質感海景咖啡廳，許多東京設計師/藝術家隱居於此，隨意走進一家常有驚喜",
+      "sources": [],
+      "tags": ["糸島", "咖啡廳", "海景", "網美", "需消費"],
+      "priority": 5
+    },
+    {
+      "id": "hakatagawa-unagi",
+      "name": "柳川 鰻魚飯",
+      "name_en": "Yanagawa Unagi",
+      "category": "food",
+      "sub_category": "local_specialty",
+      "parent": null,
+      "location": "柳川",
+      "station": "西鐵天神大牟田線「柳川站」",
+      "ticket": "約1,500-2,500円/份",
+      "need_reservation": true,
+      "stay_duration": "1小時",
+      "description": "柳川名物，鰻魚飯配上香甜的蒲燒醬汁，是福岡特色鄉土料理",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/603822/"
+      ],
+      "tags": ["柳川", "美食", "鰻魚飯", "傳統料理"],
+      "priority": 2
+    },
+    {
+      "id": "hakata-ramen-shinshin",
+      "name": "ShinShin 豚骨拉麵",
+      "name_en": "ShinShin Hakata Ramen",
+      "category": "food",
+      "sub_category": "ramen",
+      "parent": null,
+      "location": "天神",
+      "station": "地下鐵：天神站步行5分鐘",
+      "ticket": "約800-1,100円/碗",
+      "need_reservation": false,
+      "stay_duration": "30-45分鐘",
+      "description": "博多拉麵正統派，在地人最愛排隊名店之一，湯頭濃郁但不死鹹",
+      "sources": [
+        "https://japanzerolag.com/?p=10502"
+      ],
+      "tags": ["天神", "美食", "拉麵", "排隊名店"],
+      "priority": 2
+    },
+    {
+      "id": "motsunabe-ohm",
+      "name": "大山牛腸鍋（KITTE店）",
+      "name_en": "Ohyama Motsunabe (KITTE Branch)",
+      "category": "food",
+      "sub_category": "hotpot",
+      "parent": null,
+      "location": "博多",
+      "station": "JR博多站步行3分鐘（KITTE內）",
+      "ticket": "約3,000-4,000円/人",
+      "need_reservation": true,
+      "stay_duration": "1.5小時",
+      "description": "博多代表鍋物，牛小腸為主食材搭配高麗菜/韭菜/大蒜，濃郁鮮美。JR博多站直達，觀光客最容易抵達",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/603822/"
+      ],
+      "tags": ["博多", "美食", "牛腸鍋", "名物", "需預約"],
+      "priority": 2
+    },
+    {
+      "id": "fukuoka-yatai-experience",
+      "name": "中洲/天神屋台體驗",
+      "name_en": "Nakasu/Tenjin Yatai Experience",
+      "category": "food",
+      "sub_category": "food_experience",
+      "parent": null,
+      "location": "中洲/天神",
+      "station": "地下鐵：中洲川端站/天神站",
+      "ticket": "消費約2,000-3,500円/人",
+      "need_reservation": false,
+      "stay_duration": "1-2小時",
+      "description": "體驗福岡特有的屋台文化，關東煮、煎餃、麵類為主，傍晚5點過後才開始營業，多數只收現金",
+      "sources": [
+        "https://kyushu.letsgojp.com/archives/603822/"
+      ],
+      "tags": ["中洲", "天神", "屋台", "文化體驗", "現金"],
+      "priority": 3,
+      "cash_only": true
+    },
+    {
+      "id": "tamatori-bridge",
+      "name": "白糸瀑布",
+      "name_en": "Shiraito Falls",
+      "category": "hidden_gem",
+      "sub_category": "nature",
+      "parent": null,
+      "location": "嘉麻市",
+      "station": "JR飯塚站開車約30分鐘",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "description": "高度約30公尺的瀑布，周圍被原生林包圍，炎夏避暑勝地，知道的外國觀光客很少",
+      "sources": [
+        "https://fukuokainsider.com/article/fukuoka_unusual_destination/"
+      ],
+      "tags": ["嘉麻市", "秘境", "瀑布", "自然", "免費"],
+      "priority": 4
+    },
+    {
+      "id": "iizuka-meiji-building",
+      "name": "舊福岡縣公会堂貴賓館",
+      "name_en": "Old Fukuoka Prefectural Assembly VIP Hall",
+      "category": "hidden_gem",
+      "sub_category": "historic_building",
+      "parent": null,
+      "location": "飯塚市",
+      "station": "JR飯塚站步行約15分鐘",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "description": "建於1901年的洋風歷史建築，過去為接待貴賓的場所，現在免費開放參觀",
+      "sources": [
+        "https://fukuokainsider.com/article/fukuoka_unusual_destination/"
+      ],
+      "tags": ["飯塚", "秘境", "歷史建築", "免費"],
+      "priority": 5
+    },
+    {
+      "id": "shikine-outlet",
+      "name": "鳥栖 Premium Outlets",
+      "name_en": "Tosu Premium Outlets",
+      "category": "outlet",
+      "sub_category": "outlet",
+      "parent": null,
+      "location": "鳥栖",
+      "station": "JR「鳥栖站」搭免費接駁巴士（30分鐘，班次頻繁）",
+      "ticket": "免費入場（消費自費）",
+      "need_reservation": false,
+      "stay_duration": "2-3小時",
+      "description": "距離博多約30分鐘車程的的大型Outlet，匯集約150個品牌，是九州最具規模的購物天堂",
+      "sources": [],
+      "tags": ["鳥栖", "OUTLET", "購物", "免費入場"],
+      "priority": 4
+    }
+  ]
+}
