@@ -532,10 +532,15 @@ function renderDayCard(day) {
     const source = getSourceHtml(act);
     const timeLabel = act.time || '';
 
+    // Wrap activity name in link if google_maps is available
+    const itemLabel = (act.details?.google_maps)
+      ? `<a href="${act.details.google_maps}" target="_blank" class="activity-name-link">${act.item}</a>`
+      : act.item;
+
     return `<div class="activity-row">
       <div class="activity-time">${timeLabel}</div>
       <div class="activity-name">
-        ${act.item}
+        ${itemLabel}
         ${badge}
         ${source}
       </div>
