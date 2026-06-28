@@ -1,0 +1,646 @@
+{
+  "region": "fukuoka",
+  "last_updated": "2026-06-12",
+  "base_note": "以下為示範行程基底，各地點之間的交通時間已考虑在內。秘境/OUTLET排在对应景点的同一半天內。美食在午餐/晚餐時段自動插入。每天不排晚間行程，保留給彈性使用。",
+
+  "itineraries": {
+    "3": {
+      "name": "3天2夜 精華快閃",
+      "suitable_for": "假期有限的上班族",
+      "layout": "Day1(抵達)->Day2(核心)->Day3(午後返程)",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日 — 博多初印象",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達福岡機場 → 搭地鐵至博多",
+              "type": "transport",
+              "stay": null,
+              "ticket": null
+            },
+            {
+              "time": "下午",
+              "item": "寄行李後慢逛博多運河城",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費",
+              "food": "建議在運河城內的拉麵店解決晚餐"
+            },
+            {
+              "time": "晚上",
+              "item": "JR博多站周邊晚餐（ ShinShin 或一蘭）",
+              "type": "food",
+              "stay": "1小時"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "type": "explore",
+          "title": "深度日 — 博多老街 × 天神",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "櫛田神社",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "note": "順遊博多舊城區（長排屋）"
+            },
+            {
+              "time": "中午",
+              "item": "川端商店街 或 博多運河城 用午餐",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費（庭園200円）"
+            },
+            {
+              "time": "傍晚",
+              "item": "天神地下街",
+              "type": "attraction",
+              "stay": "1-2小時",
+              "ticket": "免費"
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "type": "departure",
+          "title": "回程日 — 博多名產採買 × 機場",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，博多吃早餐",
+              "type": "food"
+            },
+            {
+              "time": "上午",
+              "item": "最後 shopping（博多車站/運河城お土産）",
+              "type": "shopping",
+              "stay": "1-2小時"
+            },
+            {
+              "time": "中午",
+              "item": "前往福岡機場（地鐵直達5分鐘）",
+              "type": "transport"
+            }
+          ]
+        }
+      ]
+    },
+
+    "4": {
+      "name": "4天3夜 經典遊",
+      "suitable_for": "想體驗近郊與市區的旅客",
+      "layout": "Day1(抵達)->Day2(近郊)->Day3(市區)->Day4(午後返程)",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日 — 確認節奏",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達福岡機場 → 搭地鐵至博多",
+              "type": "transport"
+            },
+            {
+              "time": "下午",
+              "item": "博多運河城散步",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費"
+            },
+            {
+              "time": "晚上",
+              "item": "博多拉麵初體驗",
+              "type": "food",
+              "stay": "1小時"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "type": "suburbs",
+          "title": "近郊日 — 太宰府",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "西鐵至太宰府 → 表參道慢步",
+              "type": "transport",
+              "stay": "30分鐘車程"
+            },
+            {
+              "time": "上午",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費"
+            },
+            {
+              "time": "中午",
+              "item": "表參道午餐（梅枝餅+定食）",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "星巴克太宰府表參道店（隈研吾建築）",
+              "type": "hidden_gem",
+              "stay": "30分鐘"
+            },
+            {
+              "time": "傍晚",
+              "item": "回天神，藥院咖啡廳或 shopping",
+              "type": "attraction"
+            },
+            {
+              "time": "晚上",
+              "item": "牛腸鍋（大山KITTE）",
+              "type": "food",
+              "stay": "1.5小時",
+              "need_reservation": true
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "type": "city",
+          "title": "市區日 — 大濠 × 天神",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "大濠公園",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費（庭園200円）"
+            },
+            {
+              "time": "中午",
+              "item": "天神附近午餐",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "天神地下街 shopping",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費"
+            },
+            {
+              "time": "傍晚",
+              "item": "中洲屋台體驗",
+              "type": "food",
+              "stay": "1-2小時",
+              "note": "傍晚5點過後才開始"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "type": "departure",
+          "title": "回程日 — 博多名產 × 機場",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李，早餐",
+              "type": "food"
+            },
+            {
+              "time": "上午",
+              "item": "博多運河城採買お土産",
+              "type": "shopping",
+              "stay": "1小時"
+            },
+            {
+              "time": "中午",
+              "item": "前往福岡機場",
+              "type": "transport"
+            }
+          ]
+        }
+      ]
+    },
+
+    "5": {
+      "name": "5天4夜 慢活度假",
+      "suitable_for": "多數旅客",
+      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(自由日)->Day5(午後返程)",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達福岡機場 → 地鐵至博多 → 飯店",
+              "type": "transport"
+            },
+            {
+              "time": "下午",
+              "item": "博多運河城",
+              "type": "attraction",
+              "stay": "2-3小時",
+              "ticket": "免費"
+            },
+            {
+              "time": "晚上",
+              "item": "ShinShin 或一蘭 博多本店",
+              "type": "food",
+              "stay": "1小時"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "type": "suburbs",
+          "title": "近郊日 — 太宰府",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "西鐵太宰府線出發（30分鐘直達）",
+              "type": "transport"
+            },
+            {
+              "time": "上午",
+              "item": "太宰府天滿宮",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費"
+            },
+            {
+              "time": "中午",
+              "item": "表參道午餐 + 梅枝餅",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "九州國立博物館 或 星巴克隈研吾建築",
+              "type": "hidden_gem",
+              "stay": "1.5-2小時",
+              "ticket": "博物館300円"
+            },
+            {
+              "time": "傍晚",
+              "item": "回程，天神/藥院 free",
+              "type": "attraction"
+            },
+            {
+              "time": "晚上",
+              "item": "大山牛腸鍋（KITTE店）",
+              "type": "food",
+              "need_reservation": true
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "type": "experience",
+          "title": "體驗日 — 柳川水鄉",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "西鐵天神大牟田線至柳川（50分鐘）",
+              "type": "transport"
+            },
+            {
+              "time": "上午",
+              "item": "柳川水上市場遊船",
+              "type": "attraction",
+              "stay": "40分鐘",
+              "ticket": "1,300円"
+            },
+            {
+              "time": "中午",
+              "item": "柳川鰻魚飯",
+              "type": "food",
+              "need_reservation": true
+            },
+            {
+              "time": "下午",
+              "item": "柳川老街散步 → 14:00-15:00 回程",
+              "type": "hidden_gem",
+              "stay": "1小時"
+            },
+            {
+              "time": "傍晚",
+              "item": "久留米站停留（可選：吃一碗豚骨拉麵）",
+              "type": "food"
+            },
+            {
+              "time": "晚上",
+              "item": "中洲屋台體驗",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "type": "free",
+          "title": "自由日（方案A/B/C 選一）",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "方案A：福岡塔 + 海濱 → 下午outlet（鳥栖）",
+              "type": "mixed"
+            },
+            {
+              "time": "上午",
+              "item": "方案B：糸島半島小旅行（二見浦夫婦岩 + 芥屋大門）",
+              "type": "mixed"
+            },
+            {
+              "time": "全天",
+              "item": "方案C：完全自由日，睡到自然醒+shopping",
+              "type": "mixed"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李",
+              "type": "general"
+            },
+            {
+              "time": "上午",
+              "item": "博多運河城/車站 購買お土産",
+              "type": "shopping",
+              "stay": "1小時"
+            },
+            {
+              "time": "中午",
+              "item": "博多車站午餐 → 地鐵至機場",
+              "type": "transport"
+            }
+          ]
+        }
+      ]
+    },
+
+    "6": {
+      "name": "6天5夜 深度漫遊",
+      "suitable_for": "假期充裕的深度旅人",
+      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(彈性)->Day5(在地)->Day6(午後返程)",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達 → 地鐵至博多",
+              "type": "transport"
+            },
+            {
+              "time": "下午",
+              "item": "博多運河城",
+              "type": "attraction",
+              "stay": "2小時"
+            },
+            {
+              "time": "晚上",
+              "item": "博多拉麵",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "type": "suburbs",
+          "title": "近郊日 — 太宰府",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "西鐵至太宰府",
+              "type": "transport"
+            },
+            {
+              "time": "上午",
+              "item": "太宰府天滿宮 + 表參道",
+              "type": "attraction",
+              "stay": "1.5小時"
+            },
+            {
+              "time": "中午",
+              "item": "表參道午餐",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "九州國立博物館",
+              "type": "hidden_gem",
+              "stay": "1.5小時",
+              "ticket": "300円"
+            },
+            {
+              "time": "傍晚",
+              "item": "天神 free",
+              "type": "attraction"
+            },
+            {
+              "time": "晚上",
+              "item": "牛腸鍋",
+              "type": "food",
+              "need_reservation": true
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "type": "experience",
+          "title": "體驗日 — 柳川 + 久留米",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "西鐵至柳川",
+              "type": "transport"
+            },
+            {
+              "time": "上午",
+              "item": "水上市場遊船",
+              "type": "attraction",
+              "stay": "40分鐘",
+              "ticket": "1,300円"
+            },
+            {
+              "time": "中午",
+              "item": "鰻魚飯",
+              "type": "food",
+              "need_reservation": true
+            },
+            {
+              "time": "下午",
+              "item": "久留米（拉麵發源地）吃豚骨",
+              "type": "food"
+            },
+            {
+              "time": "傍晚",
+              "item": "回博多",
+              "type": "transport"
+            },
+            {
+              "time": "晚上",
+              "item": "中洲屋台",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "type": "free",
+          "title": "彈性日",
+          "activities": [
+            {
+              "time": "選項A",
+              "item": "門司港 + 下關（唐戶市場吃海鮮）",
+              "type": "mixed"
+            },
+            {
+              "time": "選項B",
+              "item": "糸島（二見浦夫婦岩 + 咖啡廳）",
+              "type": "mixed"
+            },
+            {
+              "time": "選項C",
+              "item": "完全自由日",
+              "type": "mixed"
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "type": "local",
+          "title": "在地生活日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "旦過市場（市民菜市場）體驗",
+              "type": "hidden_gem",
+              "stay": "1小時"
+            },
+            {
+              "time": "中午",
+              "item": "在地定食屋午餐（<1,000円）",
+              "type": "food"
+            },
+            {
+              "time": "下午",
+              "item": "大濠公園坐一下午 / 漫畫咖啡廳 / 鳥栖Outlet",
+              "type": "mixed"
+            },
+            {
+              "time": "晚上",
+              "item": "選擇一家最想再訪的餐廳完整享受",
+              "type": "food"
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "type": "departure",
+          "title": "回程日",
+          "activities": [
+            {
+              "time": "早上",
+              "item": "退房寄行李",
+              "type": "general"
+            },
+            {
+              "time": "上午",
+              "item": "博多最後 shopping",
+              "type": "shopping"
+            },
+            {
+              "time": "中午",
+              "item": "前往機場",
+              "type": "transport"
+            }
+          ]
+        }
+      ]
+    },
+
+    "7": {
+      "name": "7天6夜 完整度假",
+      "suitable_for": "深度度假型旅客",
+      "layout": "Day1(抵達)->Day2(近郊)->Day3(體驗)->Day4(彈性)->Day5(在地)->Day6(Bonus)->Day7(午後返程)",
+      "days": [
+        {"day": 1, "type": "arrival", "title": "抵達日", "activities": [
+          {"time": "下午", "item": "抵達 → 地鐵至博多 → 飯店", "type": "transport"},
+          {"time": "下午", "item": "博多運河城", "type": "attraction", "stay": "2小時"},
+          {"time": "晚上", "item": "博多拉麵", "type": "food"}
+        ]},
+        {"day": 2, "type": "suburbs", "title": "近郊日 — 太宰府", "activities": [
+          {"time": "早上", "item": "西鐵至太宰府", "type": "transport"},
+          {"time": "上午", "item": "太宰府天滿宮", "type": "attraction", "stay": "1.5小時"},
+          {"time": "中午", "item": "表參道午餐", "type": "food"},
+          {"time": "下午", "item": "九州國立博物館", "type": "hidden_gem", "stay": "1.5小時", "ticket": "300円"},
+          {"time": "傍晚", "item": "天神/藥院 free", "type": "attraction"},
+          {"time": "晚上", "item": "牛腸鍋", "type": "food", "need_reservation": true}
+        ]},
+        {"day": 3, "type": "experience", "title": "體驗日 — 柳川", "activities": [
+          {"time": "早上", "item": "西鐵至柳川（50分鐘）", "type": "transport"},
+          {"time": "上午", "item": "水上市場遊船", "type": "attraction", "stay": "40分鐘", "ticket": "1,300円"},
+          {"time": "中午", "item": "鰻魚飯", "type": "food", "need_reservation": true},
+          {"time": "下午", "item": "久留米吃拉麵", "type": "food"},
+          {"time": "傍晚", "item": "回博多", "type": "transport"},
+          {"time": "晚上", "item": "中洲屋台", "type": "food"}
+        ]},
+        {"day": 4, "type": "free", "title": "彈性日（Bonus Day）", "activities": [
+          {"time": "選項A", "item": "糸島完整日（天氣好時）", "type": "mixed"},
+          {"time": "選項B", "item": "門司港+下關", "type": "mixed"},
+          {"time": "選項C", "item": "完全自由", "type": "mixed"}
+        ]},
+        {"day": 5, "type": "local", "title": "在地生活日", "activities": [
+          {"time": "早上", "item": "旦過市場 / 在地超市", "type": "hidden_gem"},
+          {"time": "中午", "item": "在地定食屋午餐", "type": "food"},
+          {"time": "下午", "item": "大濠公園 / 漫畫咖啡廳 / Outlet", "type": "mixed"},
+          {"time": "晚上", "item": "再訪最愛餐廳", "type": "food"}
+        ]},
+        {"day": 6, "type": "bonus", "title": "補足日", "activities": [
+          {"time": "整天", "item": "補足前面沒去的景點 / 鳥栖Outlet / 大濠公園", "type": "mixed"}
+        ]},
+        {"day": 7, "type": "departure", "title": "回程日", "activities": [
+          {"time": "早上", "item": "退房寄行李", "type": "general"},
+          {"time": "上午", "item": "最後 shopping", "type": "shopping"},
+          {"time": "中午", "item": "前往機場", "type": "transport"}
+        ]}
+      ]
+    },
+
+    "8": {
+      "name": "8天7夜 深度探索",
+      "suitable_for": "想充分探索福岡+近郊的旅客",
+      "layout": "在前7天框架基礎上，Day4 改為糸島整天，Day6 補足市區景點（福岡塔/大濠）",
+      "days": "参考7天結構，Day4改為糸島整天，Day6補足市區"
+    },
+
+    "9": {
+      "name": "9天8夜 悠閒深度",
+      "suitable_for": "不趕路，放鬆為主",
+      "layout": "在前7天框架基礎上，Day4改為門司港+下關，Day6改為在地生活日加強版",
+      "days": "参考7天結構，Day4改為門司港+下關，Day6加強在地體驗"
+    },
+
+    "10": {
+      "name": "10天9夜 完整探索",
+      "suitable_for": "想完全掌握福岡的旅客",
+      "layout": "前8天每天1-2個主要景點不重複覆蓋，Day9補足所有想再訪的地點，Day10回程",
+      "days": "前8天覆蓋所有景點，Day9自由補完，Day10回程"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+services:
+  travel-planner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: travel-planner
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      # 資料持久化：相對路徑，統一放在 repo 根目錄的 data/ 下
+      - ./data:/usr/share/nginx/html/data
+    networks:
+      - travel-net
+
+networks:
+  travel-net:
+    driver: bridge
