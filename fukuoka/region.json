@@ -1,0 +1,8 @@
+{
+  "name": "fukuoka",
+  "display_name": "日本福岡",
+  "enabled": true,
+  "last_updated": "2026-06-12",
+  "next_update_due": "2026-07-12",
+  "update_frequency_days": 30
+}
