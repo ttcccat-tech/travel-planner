@@ -318,6 +318,35 @@ header .subtitle { opacity: 0.85; font-size: 0.95rem; }
   margin-top: 2px;
 }
 
+.activity-source-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.source-link {
+  font-size: 0.72rem;
+  color: #1565c0;
+  text-decoration: none;
+  padding: 1px 6px;
+  border: 1px solid #bbdefb;
+  border-radius: 4px;
+  background: #e3f2fd;
+  white-space: nowrap;
+}
+
+.source-link:hover {
+  background: #bbdefb;
+  text-decoration: underline;
+}
+
+.source-contact-inline {
+  font-size: 0.72rem;
+  color: #7f8c8d;
+}
+
 .activity-source a { color: #90a4ae; text-decoration: underline; }
 
 /* ===== Responsive ===== */

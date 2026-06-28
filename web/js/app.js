@@ -529,7 +529,7 @@ function renderDayCard(day) {
   let activitiesHtml = day.activities.map(act => {
     const badge = getBadgeHtml(act);
     const meta = getMetaHtml(act);
-    const source = getSourceHtml(act.item);
+    const source = getSourceHtml(act);
     const timeLabel = act.time || '';
 
     return `<div class="activity-row">
@@ -590,11 +590,40 @@ function getMetaHtml(act) {
   return meta || '<span style="color:#bdbdbd">—</span>';
 }
 
-function getSourceHtml(itemName) {
-  const attr = state.attractions.find(a => a.name === itemName);
-  if (!attr || !attr.sources || attr.sources.length === 0) return '';
-  const src = attr.sources[0];
-  return `<div class="activity-source">📎 ${src}</div>`;
+// ===== Render Source Links =====
+function getSourceHtml(act) {
+  const links = [];
+
+  // Priority 1: act.details (enriched itinerary data)
+  if (act.details) {
+    if (act.details.google_maps)
+      links.push(`<a href="${act.details.google_maps}" target="_blank" class="source-link">📍 Google Maps</a>`);
+    if (act.details.youtube)
+      links.push(`<a href="${act.details.youtube}" target="_blank" class="source-link">🎬 YouTube</a>`);
+    if (act.details.blog_article)
+      links.push(`<a href="${act.details.blog_article}" target="_blank" class="source-link">📝 部落格</a>`);
+    if (act.details.address && act.details.phone)
+      links.push(`<span class="source-contact">📞 ${act.details.phone}</span>`);
+  }
+
+  // Priority 2: fall back to state.attractions sources
+  if (links.length === 0) {
+    const attr = state.attractions.find(a => a.name === act.item);
+    if (attr?.sources?.length > 0) {
+      links.push(`<div class="activity-source">📎 ${attr.sources[0]}</div>`);
+    }
+  }
+
+  if (links.length === 0) return '';
+
+  // Render contact info (if present)
+  const contactHtml = links.filter(l => l.includes('source-contact')).map(l => l.replace('source-contact', 'source-link')).join('');
+  const linkHtml = links.filter(l => !l.includes('source-contact')).join('');
+
+  let html = `<div class="activity-source-links">${linkHtml}`;
+  if (contactHtml) html += `<span class="source-contact-inline">${contactHtml}</span>`;
+  html += '</div>';
+  return html;
 }
 
 // ===== Find Attraction by Name =====
