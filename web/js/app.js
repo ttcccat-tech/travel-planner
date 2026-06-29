@@ -146,7 +146,8 @@ async function onRegionChange(e) {
   const region = e.target.value;
   console.log('[DEBUG] onRegionChange called, region =', region);
   if (!region) {
-    document.getElementById('days-select').disabled = true;
+    const daysSelect = document.getElementById('days-select');
+    if (daysSelect) daysSelect.disabled = true;
     document.getElementById('generate-btn').disabled = true;
     document.getElementById('transport-panel').classList.add('hidden');
     return;
