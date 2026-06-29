@@ -203,6 +203,8 @@ def patch(region):
     hits = fallbacks = 0
 
     for att in data["attractions"]:
+        if "details" not in att:
+            att["details"] = {}
         links = db.get(att["id"])
         if links:
             att["details"]["blog_article"] = links.get("blog", [])
@@ -221,7 +223,7 @@ def patch(region):
 
 if __name__ == "__main__":
     total_h = total_f = 0
-    for region in ["tokyo", "fukuoka", "seoul", "busan", "okinawa"]:
+    for region in ["osaka", "tokyo", "fukuoka", "kyushu", "seoul", "busan", "okinawa"]:
         h, f = patch(region)
         print(f"OK {region}: {h} 精確連結 | {f} fallback gmaps")
         total_h += h

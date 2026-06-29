@@ -24,10 +24,14 @@
         "夏季"
       ],
       "priority": 3,
-      "zone": "海雲台耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "海雲台區",
+      "station_id": "busan_037",
       "nearby_stations": [
-        "busan_001"
+        "busan_037",
+        "busan_038",
+        "busan_039",
+        "busan_041",
+        "busan_042"
       ],
       "details": {
         "blog_article": [
@@ -61,10 +65,13 @@
         "打卡"
       ],
       "priority": 3,
-      "zone": "土城耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "沙下區",
+      "station_id": "busan_003",
       "nearby_stations": [
-        "busan_001"
+        "busan_003",
+        "busan_004",
+        "busan_005",
+        "busan_026"
       ],
       "details": {
         "blog_article": [
@@ -98,10 +105,12 @@
         "釜山"
       ],
       "priority": 3,
-      "zone": "札嘎其耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -135,10 +144,10 @@
         "浪漫"
       ],
       "priority": 3,
-      "zone": "広安耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "廣安區",
+      "station_id": "busan_045",
       "nearby_stations": [
-        "busan_001"
+        "busan_045"
       ],
       "details": {
         "blog_article": [
@@ -172,10 +181,12 @@
         "冒險"
       ],
       "priority": 3,
-      "zone": "南浦耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -209,10 +220,14 @@
         "夜景"
       ],
       "priority": 3,
-      "zone": "海雲台耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "海雲台區",
+      "station_id": "busan_037",
       "nearby_stations": [
-        "busan_001"
+        "busan_037",
+        "busan_038",
+        "busan_039",
+        "busan_041",
+        "busan_042"
       ],
       "details": {
         "blog_article": [
@@ -246,10 +261,11 @@
         "打卡"
       ],
       "priority": 3,
-      "zone": "松島海水浴場耳鼻咽喉",
+      "zone": "中央區",
       "station_id": "busan_001",
       "nearby_stations": [
-        "busan_001"
+        "busan_001",
+        "busan_002"
       ],
       "details": {
         "blog_article": [
@@ -283,10 +299,12 @@
         "夜景"
       ],
       "priority": 3,
-      "zone": "南浦耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -320,10 +338,12 @@
         "新OPEN"
       ],
       "priority": 3,
-      "zone": "多大浦耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "西區",
+      "station_id": "busan_049",
       "nearby_stations": [
-        "busan_001"
+        "busan_049",
+        "busan_050",
+        "busan_058"
       ],
       "details": {
         "blog_article": [
@@ -357,10 +377,12 @@
         "購物"
       ],
       "priority": 2,
-      "zone": "南浦耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -394,10 +416,13 @@
         "新OPEN"
       ],
       "priority": 2,
-      "zone": "土城耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "沙下區",
+      "station_id": "busan_003",
       "nearby_stations": [
-        "busan_001"
+        "busan_003",
+        "busan_004",
+        "busan_005",
+        "busan_026"
       ],
       "details": {
         "blog_article": [
@@ -431,10 +456,10 @@
         "打卡"
       ],
       "priority": 2,
-      "zone": "広安耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "廣安區",
+      "station_id": "busan_045",
       "nearby_stations": [
-        "busan_001"
+        "busan_045"
       ],
       "details": {
         "blog_article": [
@@ -468,10 +493,12 @@
         "雨天"
       ],
       "priority": 2,
-      "zone": "南浦耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -505,10 +532,14 @@
         "深夜"
       ],
       "priority": 2,
-      "zone": "蔚山耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "江西區",
+      "station_id": "busan_006",
       "nearby_stations": [
-        "busan_001"
+        "busan_006",
+        "busan_007",
+        "busan_008",
+        "busan_009",
+        "busan_010"
       ],
       "details": {
         "blog_article": [
@@ -542,10 +573,12 @@
         "釜山"
       ],
       "priority": 3,
-      "zone": "札嘎其耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南浦區",
+      "station_id": "busan_027",
       "nearby_stations": [
-        "busan_001"
+        "busan_027",
+        "busan_028",
+        "busan_029"
       ],
       "details": {
         "blog_article": [
@@ -579,10 +612,14 @@
         "米其林"
       ],
       "priority": 3,
-      "zone": "海雲台耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "海雲台區",
+      "station_id": "busan_037",
       "nearby_stations": [
-        "busan_001"
+        "busan_037",
+        "busan_038",
+        "busan_039",
+        "busan_041",
+        "busan_042"
       ],
       "details": {
         "blog_article": [
@@ -616,10 +653,11 @@
         "美食"
       ],
       "priority": 3,
-      "zone": "西面耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "西面",
+      "station_id": "busan_035",
       "nearby_stations": [
-        "busan_001"
+        "busan_035",
+        "busan_036"
       ],
       "details": {
         "blog_article": [
@@ -653,10 +691,10 @@
         "打卡"
       ],
       "priority": 3,
-      "zone": "広安耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "廣安區",
+      "station_id": "busan_045",
       "nearby_stations": [
-        "busan_001"
+        "busan_045"
       ],
       "details": {
         "blog_article": [
@@ -690,10 +728,14 @@
         "能量"
       ],
       "priority": 3,
-      "zone": "海雲台耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "海雲台區",
+      "station_id": "busan_037",
       "nearby_stations": [
-        "busan_001"
+        "busan_037",
+        "busan_038",
+        "busan_039",
+        "busan_041",
+        "busan_042"
       ],
       "details": {
         "blog_article": [
@@ -727,10 +769,14 @@
         "梵魚寺"
       ],
       "priority": 3,
-      "zone": "梵魚寺耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "北區",
+      "station_id": "busan_018",
       "nearby_stations": [
-        "busan_001"
+        "busan_018",
+        "busan_019",
+        "busan_022",
+        "busan_023",
+        "busan_024"
       ],
       "details": {
         "blog_article": [
@@ -764,10 +810,10 @@
         "新OPEN"
       ],
       "priority": 2,
-      "zone": "南南区庁耳鼻咽喉",
-      "station_id": "busan_001",
+      "zone": "南區",
+      "station_id": "busan_059",
       "nearby_stations": [
-        "busan_001"
+        "busan_059"
       ],
       "details": {
         "blog_article": [

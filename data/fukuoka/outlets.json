@@ -6,7 +6,7 @@
       "name": "鳥栖 PREMIUM OUTLETS",
       "name_en": "Tosu Premium Outlets",
       "zone": "佐賀縣鳥栖市",
-      "station_id": "fukuoka_station_001",
+      "station_id": "fukuoka_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -29,7 +29,7 @@
       "name": "THE OUTLETS 北九州",
       "name_en": "THE OUTLETS KITAKYUSHU",
       "zone": "小倉·門司",
-      "station_id": "fukuoka_station_001",
+      "station_id": "fukuoka_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -52,9 +52,11 @@
       "name": "BOSS E・ZO FUKUOKA",
       "name_en": "BOSS E・ZO FUKUOKA",
       "zone": "天神",
-      "station_id": "fukuoka_station_005",
+      "station_id": "fukuoka_004",
       "nearby_stations": [
-        "fukuoka_station_005"
+        "fukuoka_004",
+        "fukuoka_005",
+        "fukuoka_006"
       ],
       "details": {
         "fee": "免費",
@@ -77,9 +79,11 @@
       "name": "天神·大名潮牌街",
       "name_en": "Tenjin-Daimyo Fashion District",
       "zone": "天神",
-      "station_id": "fukuoka_station_005",
+      "station_id": "fukuoka_004",
       "nearby_stations": [
-        "fukuoka_station_005"
+        "fukuoka_004",
+        "fukuoka_005",
+        "fukuoka_006"
       ],
       "details": {
         "fee": "免費",
@@ -102,9 +106,9 @@
       "name": "川端商店街",
       "name_en": "Kawabata Shopping Street",
       "zone": "博多",
-      "station_id": "fukuoka_station_001",
+      "station_id": "fukuoka_001",
       "nearby_stations": [
-        "fukuoka_station_001"
+        "fukuoka_001"
       ],
       "details": {
         "fee": "免費",
@@ -126,7 +130,7 @@
       "name": "唐戶市場",
       "name_en": "Karato Market",
       "zone": "小倉·門司",
-      "station_id": "fukuoka_station_001",
+      "station_id": "fukuoka_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",

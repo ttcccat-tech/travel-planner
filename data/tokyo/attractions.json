@@ -24,11 +24,9 @@
         "冰雪奇緣"
       ],
       "priority": 3,
-      "zone": "Disney Land站",
+      "zone": "Disney Land",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.tokyodisneyresort.jp/tc/index.html"
@@ -61,10 +59,11 @@
         "押上"
       ],
       "priority": 3,
-      "zone": "押上站",
+      "zone": "押上",
       "station_id": "tokyo_007",
       "nearby_stations": [
-        "tokyo_007"
+        "tokyo_007",
+        "tokyo_015"
       ],
       "details": {
         "blog_article": [
@@ -97,11 +96,9 @@
         "芝公園"
       ],
       "priority": 3,
-      "zone": "芝公園站",
+      "zone": "芝公園",
       "station_id": "tokyo_032",
-      "nearby_stations": [
-        "tokyo_032"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/34/index.html"
@@ -134,11 +131,9 @@
         "teamLab"
       ],
       "priority": 3,
-      "zone": "青海站",
+      "zone": "青海",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.teamlab.art/zh-hant/e/tokyo/"
@@ -170,7 +165,7 @@
         "澀谷"
       ],
       "priority": 3,
-      "zone": "澀谷站",
+      "zone": "澀谷",
       "station_id": "tokyo_003",
       "nearby_stations": [
         "tokyo_003"
@@ -207,7 +202,7 @@
         "景觀"
       ],
       "priority": 3,
-      "zone": "澀谷站",
+      "zone": "澀谷",
       "station_id": "tokyo_003",
       "nearby_stations": [
         "tokyo_003"
@@ -244,7 +239,7 @@
         "動漫街"
       ],
       "priority": 3,
-      "zone": "秋葉原站",
+      "zone": "秋葉原",
       "station_id": "tokyo_008",
       "nearby_stations": [
         "tokyo_008"
@@ -281,10 +276,12 @@
         "博物館"
       ],
       "priority": 3,
-      "zone": "上野站",
+      "zone": "上野",
       "station_id": "tokyo_005",
       "nearby_stations": [
-        "tokyo_005"
+        "tokyo_005",
+        "tokyo_041",
+        "tokyo_042"
       ],
       "details": {
         "blog_article": [
@@ -318,10 +315,11 @@
         "能量景點"
       ],
       "priority": 3,
-      "zone": "原宿站",
+      "zone": "原宿",
       "station_id": "tokyo_019",
       "nearby_stations": [
-        "tokyo_019"
+        "tokyo_019",
+        "tokyo_018"
       ],
       "details": {
         "blog_article": [
@@ -355,7 +353,7 @@
         "仲見世"
       ],
       "priority": 3,
-      "zone": "淺草站",
+      "zone": "淺草",
       "station_id": "tokyo_006",
       "nearby_stations": [
         "tokyo_006"
@@ -392,11 +390,9 @@
         "夜景"
       ],
       "priority": 3,
-      "zone": "東京站",
+      "zone": "東京",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/31/index.html"
@@ -429,10 +425,10 @@
         "名牌"
       ],
       "priority": 3,
-      "zone": "銀座駅",
-      "station_id": "tokyo_001",
+      "zone": "銀座",
+      "station_id": "tokyo_013",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_013"
       ],
       "details": {
         "blog_article": [
@@ -466,11 +462,9 @@
         "新宿"
       ],
       "priority": 3,
-      "zone": "新宿御苑前駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "新宿御苑前",
+      "station_id": "tokyo_075",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/40/index.html"
@@ -503,10 +497,10 @@
         "動漫"
       ],
       "priority": 3,
-      "zone": "三鷹駅",
-      "station_id": "tokyo_001",
+      "zone": "三鷹",
+      "station_id": "tokyo_088",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_088"
       ],
       "details": {
         "blog_article": [
@@ -540,10 +534,10 @@
         "根津"
       ],
       "priority": 3,
-      "zone": "根津駅",
-      "station_id": "tokyo_001",
+      "zone": "根津",
+      "station_id": "tokyo_040",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_040"
       ],
       "details": {
         "blog_article": [
@@ -577,10 +571,11 @@
         "青少年"
       ],
       "priority": 3,
-      "zone": "原宿駅",
-      "station_id": "tokyo_001",
+      "zone": "原宿",
+      "station_id": "tokyo_019",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_019",
+        "tokyo_018"
       ],
       "details": {
         "blog_article": [
@@ -614,11 +609,9 @@
         "彩虹橋"
       ],
       "priority": 3,
-      "zone": "台場海濱公園駅",
+      "zone": "台場海濱公園",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/83/index.html"
@@ -651,10 +644,10 @@
         "美食"
       ],
       "priority": 3,
-      "zone": "淺草駅",
-      "station_id": "tokyo_001",
+      "zone": "淺草",
+      "station_id": "tokyo_006",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_006"
       ],
       "details": {
         "blog_article": [
@@ -688,10 +681,10 @@
         "池袋"
       ],
       "priority": 3,
-      "zone": "池袋駅",
-      "station_id": "tokyo_001",
+      "zone": "池袋",
+      "station_id": "tokyo_004",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_004"
       ],
       "details": {
         "blog_article": [
@@ -725,11 +718,9 @@
         "美食"
       ],
       "priority": 3,
-      "zone": "築地市場駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "築地市場",
+      "station_id": "tokyo_049",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/36/index.html"
@@ -762,11 +753,9 @@
         "名牌"
       ],
       "priority": 3,
-      "zone": "明治神宮前駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "明治神宮前",
+      "station_id": "tokyo_018",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/57/index.html"
@@ -799,10 +788,10 @@
         "藝術"
       ],
       "priority": 3,
-      "zone": "六本木駅",
-      "station_id": "tokyo_001",
+      "zone": "六本木",
+      "station_id": "tokyo_071",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_071"
       ],
       "details": {
         "blog_article": [
@@ -836,10 +825,12 @@
         "小吃"
       ],
       "priority": 3,
-      "zone": "上野駅",
-      "station_id": "tokyo_001",
+      "zone": "上野",
+      "station_id": "tokyo_005",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_005",
+        "tokyo_041",
+        "tokyo_042"
       ],
       "details": {
         "blog_article": [
@@ -873,10 +864,11 @@
         "老街"
       ],
       "priority": 3,
-      "zone": "日本橋駅",
-      "station_id": "tokyo_001",
+      "zone": "日本橋",
+      "station_id": "tokyo_046",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_046",
+        "tokyo_047"
       ],
       "details": {
         "blog_article": [
@@ -910,11 +902,9 @@
         "散步"
       ],
       "priority": 2,
-      "zone": "中目黑駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "中目黑",
+      "station_id": "tokyo_059",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/50/index.html"
@@ -947,10 +937,11 @@
         "散步"
       ],
       "priority": 2,
-      "zone": "日暮里駅",
-      "station_id": "tokyo_001",
+      "zone": "日暮里",
+      "station_id": "tokyo_028",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_028",
+        "tokyo_029"
       ],
       "details": {
         "blog_article": [
@@ -984,10 +975,10 @@
         "下北澤"
       ],
       "priority": 2,
-      "zone": "下北澤駅",
-      "station_id": "tokyo_001",
+      "zone": "下北澤",
+      "station_id": "tokyo_089",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_089"
       ],
       "details": {
         "blog_article": [
@@ -1021,10 +1012,10 @@
         "咖啡"
       ],
       "priority": 2,
-      "zone": "高円寺駅",
-      "station_id": "tokyo_001",
+      "zone": "高円寺",
+      "station_id": "tokyo_081",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_081"
       ],
       "details": {
         "blog_article": [
@@ -1058,10 +1049,10 @@
         "宜居"
       ],
       "priority": 2,
-      "zone": "吉祥寺駅",
-      "station_id": "tokyo_001",
+      "zone": "吉祥寺",
+      "station_id": "tokyo_087",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_087"
       ],
       "details": {
         "blog_article": [
@@ -1095,11 +1086,9 @@
         "書店"
       ],
       "priority": 2,
-      "zone": "中目黑駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "中目黑",
+      "station_id": "tokyo_059",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/49/index.html"
@@ -1132,10 +1121,10 @@
         "飯田橋"
       ],
       "priority": 2,
-      "zone": "飯田橋駅",
-      "station_id": "tokyo_001",
+      "zone": "飯田橋",
+      "station_id": "tokyo_034",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_034"
       ],
       "details": {
         "blog_article": [
@@ -1169,10 +1158,11 @@
         "秘境"
       ],
       "priority": 2,
-      "zone": "原宿駅",
-      "station_id": "tokyo_001",
+      "zone": "原宿",
+      "station_id": "tokyo_019",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_019",
+        "tokyo_018"
       ],
       "details": {
         "blog_article": [
@@ -1206,11 +1196,9 @@
         "情有"
       ],
       "priority": 2,
-      "zone": "雑司ヶ谷駅",
+      "zone": "雑司ヶ谷",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/47/index.html"
@@ -1243,11 +1231,9 @@
         "西荻窪"
       ],
       "priority": 2,
-      "zone": "西荻窪駅",
+      "zone": "西荻窪",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/53/index.html"
@@ -1280,10 +1266,10 @@
         "在地"
       ],
       "priority": 2,
-      "zone": "荻窪駅",
-      "station_id": "tokyo_001",
+      "zone": "荻窪",
+      "station_id": "tokyo_085",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_085"
       ],
       "details": {
         "blog_article": [
@@ -1317,14 +1303,12 @@
         "新OPEN"
       ],
       "priority": 2,
-      "zone": "大久保駅",
+      "zone": "大久保",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=大久保・戸田橋+大久保駅",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大久保・戸田橋+大久保",
         "youtube": []
       }
     },
@@ -1350,11 +1334,9 @@
         "排隊"
       ],
       "priority": 3,
-      "zone": "築地市場駅",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "築地市場",
+      "station_id": "tokyo_049",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/36/index.html"
@@ -1387,10 +1369,10 @@
         "米其林"
       ],
       "priority": 3,
-      "zone": "銀座駅",
-      "station_id": "tokyo_001",
+      "zone": "銀座",
+      "station_id": "tokyo_013",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_013"
       ],
       "details": {
         "blog_article": [
@@ -1424,10 +1406,14 @@
         "昭和"
       ],
       "priority": 3,
-      "zone": "新宿駅",
-      "station_id": "tokyo_001",
+      "zone": "新宿",
+      "station_id": "tokyo_002",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_002",
+        "tokyo_021",
+        "tokyo_022",
+        "tokyo_075",
+        "tokyo_023"
       ],
       "details": {
         "blog_article": [
@@ -1461,10 +1447,11 @@
         "小食"
       ],
       "priority": 3,
-      "zone": "原宿耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "原宿",
+      "station_id": "tokyo_019",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_019",
+        "tokyo_018"
       ],
       "details": {
         "blog_article": [
@@ -1498,10 +1485,10 @@
         "咖啡"
       ],
       "priority": 3,
-      "zone": "秋葉原駅",
-      "station_id": "tokyo_001",
+      "zone": "秋葉原",
+      "station_id": "tokyo_008",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_008"
       ],
       "details": {
         "blog_article": [
@@ -1535,10 +1522,12 @@
         "深夜"
       ],
       "priority": 3,
-      "zone": "上野耳鼻咽喉不忍口",
-      "station_id": "tokyo_001",
+      "zone": "上野",
+      "station_id": "tokyo_005",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_005",
+        "tokyo_041",
+        "tokyo_042"
       ],
       "details": {
         "blog_article": [
@@ -1572,10 +1561,10 @@
         "義式"
       ],
       "priority": 3,
-      "zone": "澀谷耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "澀谷",
+      "station_id": "tokyo_003",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_003"
       ],
       "details": {
         "blog_article": [
@@ -1609,11 +1598,9 @@
         "購物"
       ],
       "priority": 3,
-      "zone": "東京駅",
+      "zone": "東京",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/31/index.html"
@@ -1646,10 +1633,10 @@
         "美食"
       ],
       "priority": 3,
-      "zone": "淺草耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "淺草",
+      "station_id": "tokyo_006",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_006"
       ],
       "details": {
         "blog_article": [
@@ -1683,10 +1670,10 @@
         "能量景點"
       ],
       "priority": 3,
-      "zone": "淺草耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "淺草",
+      "station_id": "tokyo_006",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_006"
       ],
       "details": {
         "blog_article": [
@@ -1720,10 +1707,11 @@
         "能量景點"
       ],
       "priority": 3,
-      "zone": "原宿耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "原宿",
+      "station_id": "tokyo_019",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_019",
+        "tokyo_018"
       ],
       "details": {
         "blog_article": [
@@ -1757,10 +1745,10 @@
         "古蹟"
       ],
       "priority": 3,
-      "zone": "根津耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "根津",
+      "station_id": "tokyo_040",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_040"
       ],
       "details": {
         "blog_article": [
@@ -1794,11 +1782,9 @@
         "古蹟"
       ],
       "priority": 3,
-      "zone": "神保町耳鼻咽喉",
+      "zone": "神保町",
       "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/24/index.html"
@@ -1831,10 +1817,10 @@
         "賞櫻"
       ],
       "priority": 3,
-      "zone": "九段下耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "九段下",
+      "station_id": "tokyo_035",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_035"
       ],
       "details": {
         "blog_article": [
@@ -1868,11 +1854,9 @@
         "賞櫻"
       ],
       "priority": 2,
-      "zone": "芝公園耳鼻咽喉",
-      "station_id": "tokyo_001",
-      "nearby_stations": [
-        "tokyo_001"
-      ],
+      "zone": "芝公園",
+      "station_id": "tokyo_032",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gotokyo.org/tw/spot/32/index.html"
@@ -1905,10 +1889,10 @@
         "小眾"
       ],
       "priority": 2,
-      "zone": "秋葉原耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "秋葉原",
+      "station_id": "tokyo_008",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_008"
       ],
       "details": {
         "blog_article": [
@@ -1942,10 +1926,10 @@
         "宗教"
       ],
       "priority": 2,
-      "zone": "水道橋耳鼻咽喉",
-      "station_id": "tokyo_001",
+      "zone": "水道橋",
+      "station_id": "tokyo_033",
       "nearby_stations": [
-        "tokyo_001"
+        "tokyo_033"
       ],
       "details": {
         "blog_article": [

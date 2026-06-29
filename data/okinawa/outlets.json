@@ -1,7 +1,55 @@
 {
   "region": "okinawa",
   "outlets": [
-    {"id":"okinawa_outlet_001","name":"ASHIBINA OUTLET","name_en":"Okinawa Outlet Mall Ashibina","zone":"南部","nearby_stations":["okinawa_001"],"details":{"fee":"免費","stay_time":"2~3小時"},"tags":["OUTLET","購物","那霸"],"sources":[],"priority":3},
-    {"id":"okinawa_outlet_002","name":"DFS 旗下 T廣場 沖繩","name_en":"T Galleria Okinawa by DFS","zone":"那霸","nearby_stations":["okinawa_009"],"details":{"fee":"免費","stay_time":"1~2小時"},"tags":["免稅","精品","那霸"],"sources":[],"priority":3}
+    {
+      "id": "okinawa_outlet_001",
+      "name": "ASHIBINA OUTLET",
+      "name_en": "Okinawa Outlet Mall Ashibina",
+      "zone": "南部",
+      "nearby_stations": [
+        "okinawa_station_035",
+        "okinawa_station_036",
+        "okinawa_station_037",
+        "okinawa_station_038",
+        "okinawa_station_039"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2~3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "那霸"
+      ],
+      "sources": [],
+      "priority": 3,
+      "station_id": "okinawa_station_035"
+    },
+    {
+      "id": "okinawa_outlet_002",
+      "name": "DFS 旗下 T廣場 沖繩",
+      "name_en": "T Galleria Okinawa by DFS",
+      "zone": "那霸",
+      "nearby_stations": [
+        "okinawa_station_001",
+        "okinawa_station_002",
+        "okinawa_station_003",
+        "okinawa_station_004",
+        "okinawa_station_005"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "1~2小時"
+      },
+      "tags": [
+        "免稅",
+        "精品",
+        "那霸"
+      ],
+      "sources": [],
+      "priority": 3,
+      "station_id": "okinawa_station_001"
+    }
   ]
 }

@@ -156,11 +156,195 @@ STATION_LISTS = {
         {"name": "由布院", "name_en": "Yufuin Station", "company": "JR", "line": ["JR久大本線"], "zone": "湯布院"},
         {"name": "日田", "name_en": "Hita Station", "company": "JR", "line": ["JR久大本線"], "zone": "日田"},
         # 福岡縣
-        {"name": "鳥栖", "name_en": "Tosu Station", "company": "JR", "line": ["JR九州新幹線", "JR鹿兒島線"], "zone": "鳥栖"},
-        # 佐賀
-        {"name": "佐賀", "name_en": "Saga Station", "company": "JR", "line": ["JR長崎線", "JR唐津線"], "zone": "佐賀"},
-        {"name": "唐津", "name_en": "Karatsu Station", "company": "JR", "line": ["JR唐津線", "昭和鐵道線"], "zone": "唐津"},
-    ]
+        # 慶良間（渡嘉敷 / 座間味 / 阿嘉）
+        {
+            "name": "渡嘉敷", "name_en": "Tokashiki Island Port", "company": "公船", "line": ["渡嘉敷船運"], "zone": "慶良間"
+        },
+        {
+            "name": "座間味", "name_en": "Zamami Island Port", "company": "公船", "line": ["座間味船運"], "zone": "慶良間"
+        },
+        {
+            "name": "阿嘉", "name_en": "Aka Island Port", "company": "公船", "line": ["阿嘉船運"], "zone": "慶良間"
+        },
+    ],
+
+    "okinawa": [
+        # === 那霸都市圈（都市單軌 + 重要據點）===
+        # 都市單軌
+        {
+            "name": "那霸機場", "name_en": "Naha Airport Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "赤崗", "name_en": "Akamine Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "小祿", "name_en": "Oroku Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "赤嶺", "name_en": "Akamine Station (South)", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "旭橋", "name_en": "Asahibashi Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "壺川", "name_en": "Tsubogawa Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "美榮橋", "name_en": "Miebashi Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "縣廳前", "name_en": "Kencho-mae Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "牧志", "name_en": "Makishi Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "安里", "name_en": "Asato Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "分校前", "name_en": "Bungakubu-mae Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "首里"
+        },
+        {
+            "name": "首里", "name_en": "Shuri Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "首里"
+        },
+        {
+            "name": "山川", "name_en": "Yamakawa Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "首里"
+        },
+        {
+            "name": "儀金", "name_en": "Yorigamine Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "首里"
+        },
+        {
+            "name": "玉那霸", "name_en": "Tamanaha Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "首里"
+        },
+        # 那霸市區重要據點
+        {
+            "name": "新都心", "name_en": "Omoromachi Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "奧武山公園", "name_en": "Onoyama Park Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "經塚", "name_en": "Kyokuzuka Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        {
+            "name": "市立病院前", "name_en": "Chuo Hospital Station", "company": "都市單軌", "line": ["那霸都市單軌"], "zone": "那霸"
+        },
+        # === 中部（嘉手納以北，美軍基地沿線 + 恩納度假帶）===
+        {
+            "name": "石川", "name_en": "Ishikawa Station", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "嘉手納", "name_en": "Kadena Air Base", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "北谷", "name_en": "Chatan Station", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "北谷Perry", "name_en": "Chatan Perry", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "勝連城跡", "name_en": "Katsurenjo-mae Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "讀谷", "name_en": "Yomitan Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "恩納休憩所", "name_en": "Onna Rest Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "万座毛", "name_en": "Manzamo Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "琉球村", "name_en": "Ryukyu Village Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "泡瀨", "name_en": "Awase Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "真榮田", "name_en": "Maeda Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "與那城", "name_en": "Yonashiro Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "北中城", "name_en": "Kitanakagusuku Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "具志川", "name_en": "Gushikawa Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        {
+            "name": "石川池原", "name_en": "Ishikawa Ikehara", "company": "公車", "line": ["琉球巴士"], "zone": "中部"
+        },
+        # === 南部（糸滿・玉泉洞・平和祈念・齋場）===
+        {
+            "name": "瀨長島", "name_en": "Senagajima Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "糸滿", "name_en": "Itoman Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "玉泉洞", "name_en": "Gyokusendo Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "平和祈念資料館", "name_en": "Heiwa Kinen Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "齋場御嶽", "name_en": "Sefa Utaki Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "知念", "name_en": "Chinen Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "八重瀨", "name_en": "Yaese Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "南城", "name_en": "Nanjo Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "豐崎", "name_en": "Toyosu Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        {
+            "name": "南風原", "name_en": "Haebaru Bus Stop", "company": "公車", "line": ["琉球巴士"], "zone": "南部"
+        },
+        # === 北部（本部半島 + 今歸仁 + 古宇利）===
+        {
+            "name": "美之海水族館", "name_en": "Churaumi Aquarium Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "本部", "name_en": "Motobu Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "備瀨", "name_en": "Bise Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "今歸仁", "name_en": "Nakijin Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "古宇利大橋", "name_en": "Kouri Ohashi Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "運天港", "name_en": "Unten Port Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "屋部", "name_en": "Yabu Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "名護", "name_en": "Nago Bus Stop", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        {
+            "name": "沖繩水族館入口", "name_en": "Okinawa Aquarium Gate", "company": "公車", "line": ["琉球巴士北部線"], "zone": "北部"
+        },
+        # === 慶良間（公船）===
+        {
+            "name": "渡嘉敷", "name_en": "Tokashiki Island Port", "company": "公船", "line": ["渡嘉敷船運"], "zone": "慶良間"
+        },
+        {
+            "name": "座間味", "name_en": "Zamami Island Port", "company": "公船", "line": ["座間味船運"], "zone": "慶良間"
+        },
+        {
+            "name": "阿嘉", "name_en": "Aka Island Port", "company": "公船", "line": ["阿嘉船運"], "zone": "慶良間"
+        },
+    ],
 }
 
 # ---------- Nominatim 查詢 ----------
@@ -170,7 +354,7 @@ NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 def geocode_station(station, region):
     """用 Nominatim 以英文名查詢座標，回傳 (lat, lng) 或 (None, None)"""
     name_en = station.get("name_en") or station["name"]
-    region_map = {"osaka": "Osaka", "fukuoka": "Fukuoka", "tokyo": "Tokyo", "kyushu": "Japan"}
+    region_map = {"osaka": "Osaka", "fukuoka": "Fukuoka", "tokyo": "Tokyo", "kyushu": "Japan", "okinawa": "Okinawa Japan"}
     region_str = region_map.get(region, "Japan")
     query = f"{name_en}, {region_str}"
     params = {
@@ -247,7 +431,7 @@ def generate_stations(region):
 
 def main():
     parser = argparse.ArgumentParser(description="產生各地區 stations.json")
-    parser.add_argument("--region", default="all", choices=["osaka", "fukuoka", "tokyo", "kyushu", "all"])
+    parser.add_argument("--region", default="all", choices=["osaka", "fukuoka", "tokyo", "kyushu", "okinawa", "all"])
     args = parser.parse_args()
 
     regions = list(STATION_LISTS.keys()) if args.region == "all" else [args.region]

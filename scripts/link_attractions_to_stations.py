@@ -60,6 +60,9 @@ def find_nearest_stations(attraction_zone, attraction_lat, attraction_lng, stati
         # zone 精確匹配
         zone_match = attraction_zone == station.get("zone", "")
 
+        # station name 匹配：attraction zone 可能是 station name（對 Okinawa 很重要）
+        station_name_match = fuzzy_match(attraction_zone, station.get("name", ""))
+
         # 若有座標 → 計算距離
         if attraction_lat and attraction_lng:
             dist = haversine(attraction_lat, attraction_lng, station["lat"], station["lng"])
@@ -71,6 +74,8 @@ def find_nearest_stations(attraction_zone, attraction_lat, attraction_lng, stati
         score = 0
         if zone_match:
             score += 100
+        if station_name_match:
+            score += 80  # station name 匹配也有高權重
         if in_radius:
             score += 50
         score -= dist / 100  # 距離越近分數越高
@@ -80,6 +85,7 @@ def find_nearest_stations(attraction_zone, attraction_lat, attraction_lng, stati
             "dist": dist,
             "score": score,
             "zone_match": zone_match,
+            "station_name_match": station_name_match,
             "in_radius": in_radius
         })
 
@@ -188,7 +194,7 @@ def process_region(region):
 
 
 def main():
-    regions = ["osaka", "fukuoka", "tokyo", "kyushu"]
+    regions = ["osaka", "fukuoka", "tokyo", "kyushu", "seoul", "busan", "okinawa"]
     all_results = {}
 
     for region in regions:

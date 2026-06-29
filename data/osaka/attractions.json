@@ -27,24 +27,12 @@
       "zone": "大阪城",
       "station_id": "osaka_station_008",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
-        "blog_article": [
-          {
-            "url": "https://rebecca1003.pixnet.net/blog/posts/10357408210",
-            "title": "【大阪 景點】日本環球影城攻略 VIP3 環球影城購票交通遊玩美食"
-          },
-          {
-            "url": "https://ectomy.pixnet.net/blog/posts/4045680417",
-            "title": "【2025日本大阪環球影城VIP最全教學購票攻略】免排隊勇闖瑪利歐"
-          },
-          {
-            "url": "https://www.backpackers.com.tw/forum/classified.php?kw=%E7%92%B0%E7%90%83%E5%BD%B1%E5%9F%8E&f=55",
-            "title": "環球影城相關網站 - 背包客棧"
-          }
-        ],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E7%92%B0%E7%90%83%E5%BD%B1%E5%9F%8E%EF%BC%88USJ%EF%BC%89+Osaka",
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=日本環球影城（USJ）+大阪城",
         "youtube": []
       }
     },
@@ -77,7 +65,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%B5%B7%E9%81%8A%E9%A4%A8+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪海遊館+港灣",
         "youtube": []
       }
     },
@@ -106,11 +94,11 @@
       ],
       "priority": 3,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E9%BD%8B%E6%A9%8B%C2%B7%E9%81%93%E9%A0%93%E5%A0%80+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=心齋橋·道頓堀+難波·心齋橋",
         "youtube": []
       }
     },
@@ -141,24 +129,12 @@
       "zone": "大阪城",
       "station_id": "osaka_station_008",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://jeje4fp.pixnet.net/blog/posts/17329548480",
-            "title": "日本(9): 大阪(1): 大阪城天守閣 - JeJe4咖照"
-          },
-          {
-            "url": "https://rebecca1003.pixnet.net/blog/posts/10357094657",
-            "title": "【大阪 自助旅行】大阪六天五夜親子行程規劃"
-          }
-        ],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9F%8E+Osaka",
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪城+大阪城",
         "youtube": []
       }
     },
@@ -189,11 +165,13 @@
       "zone": "梅田",
       "station_id": "osaka_station_001",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%E8%97%8D%E5%A4%A9%E5%A4%A7%E5%BB%88+%E7%A9%BA%E4%B8%AD%E5%9C%92+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=梅田藍天大廈+空中園+梅田",
         "youtube": []
       }
     },
@@ -224,11 +202,12 @@
       "zone": "天王寺",
       "station_id": "osaka_station_003",
       "nearby_stations": [
-        "osaka_station_003"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%80%8D%E9%87%8E+Harukas+300+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=阿倍野+Harukas+300+天王寺",
         "youtube": []
       }
     },
@@ -258,11 +237,12 @@
       "zone": "大阪城",
       "station_id": "osaka_station_008",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%A4%A9%E6%BA%AB%E6%B3%89+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=九天溫泉+大阪城",
         "youtube": []
       }
     },
@@ -294,7 +274,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E7%BE%8E%E8%A1%93%E5%B1%95%E7%A4%BA%E5%AE%A4+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中之島美術展示室+港灣",
         "youtube": []
       }
     },
@@ -326,11 +306,13 @@
       "zone": "梅田",
       "station_id": "osaka_station_001",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B4%8E%E7%94%BA+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中崎町+梅田",
         "youtube": []
       }
     },
@@ -361,11 +343,12 @@
       "zone": "大阪城",
       "station_id": "osaka_station_008",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E5%BE%A9%E5%8F%A4%E5%BB%BA%E7%AF%89%E8%A1%97+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北濱復古建築街+大阪城",
         "youtube": []
       }
     },
@@ -394,11 +377,11 @@
       ],
       "priority": 2,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%96%84%E5%AF%BA%E6%A9%AB%E4%B8%81+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=法善寺橫丁+難波·心齋橋",
         "youtube": []
       }
     },
@@ -427,11 +410,11 @@
       ],
       "priority": 1,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=千日前道具屋筋+難波·心齋橋",
         "youtube": []
       }
     },
@@ -464,7 +447,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%AE%95%E9%9D%A2%E5%A4%A7%E7%80%91%E5%B8%83+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=箕面大瀑布+近郊",
         "youtube": []
       }
     },
@@ -498,7 +481,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%9C%88%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=五月山動物園+近郊",
         "youtube": []
       }
     },
@@ -531,7 +514,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E8%A5%BF%E5%96%AE%E8%BB%8A%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=關西單車運動中心+近郊",
         "youtube": []
       }
     },
@@ -564,7 +547,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E9%A7%92%E5%B1%B1%E4%B8%8A%E9%81%8A%E6%A8%82%E5%9C%92+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=生駒山上遊樂園+奈良·近郊",
         "youtube": []
       }
     },
@@ -596,7 +579,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%A0%E3%83%8F%E3%83%A9%E7%A5%9E%E7%A4%BE+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=サムハラ神社+西區",
         "youtube": []
       }
     },
@@ -626,11 +609,12 @@
       "zone": "天王寺",
       "station_id": "osaka_station_003",
       "nearby_stations": [
-        "osaka_station_003"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E5%9C%8B%E9%AD%82%E7%A5%9E%E7%A4%BE+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=生國魂神社+天王寺",
         "youtube": []
       }
     },
@@ -663,7 +647,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%94%9F%E6%B4%BB%E4%BB%8A%E6%98%94%E9%A4%A8+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪生活今昔館+北區",
         "youtube": []
       }
     },
@@ -696,7 +680,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%B8%85%E6%B3%A1%E9%BA%B5%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%88%E6%B1%A0%E7%94%B0%E6%B3%A1%E9%BA%B5%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%89+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=日清泡麵博物館（池田泡麵博物館）+近郊",
         "youtube": []
       }
     },
@@ -729,7 +713,7 @@
       "nearby_stations": [],
       "details": {
         "blog_article": [],
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9D%E6%97%A5%E5%95%A4%E9%85%92%E5%8D%9A%E7%89%A9%E9%A4%A8+Osaka",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=朝日啤酒博物館+近郊",
         "youtube": []
       }
     },
@@ -758,10 +742,10 @@
       ],
       "priority": 3,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/7WJfihfFWYEdPsMF8",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=道頓堀+固力果先生（推荐拉麵）+難波·心齋橋",
         "youtube": [],
         "blog_article": [],
         "description": "大阪最具代表性的打卡地標，固力果跑跑人與運河全景，建議傍晚拍夜景。"
@@ -791,10 +775,10 @@
       ],
       "priority": 3,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/4ExnvW6wAkJMJiSM7",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=心齋橋·筋吃不踩雷美食+難波·心齋橋",
         "youtube": [],
         "blog_article": [],
         "description": "江戶後期餐飲激戰區，推薦北極星蛋包飯、自由軒咖喱飯、串揚專賣店。"
@@ -830,7 +814,7 @@
         "osaka_station_006"
       ],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/KXDZBkJZLRYgs4mb8",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=鶴橋韓國城+鶴橋",
         "youtube": [],
         "blog_article": [],
         "description": "大阪最大的韓國城，聚集超過100家韓國餐廳、烤肉、韓妝、超市，JR鶴橋站步行3分鐘。"
@@ -861,10 +845,10 @@
       ],
       "priority": 2,
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/CXZp9h8bNwqL3uNN6",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=木津批發市場+難波·心齋橋",
         "youtube": [],
         "blog_article": [],
         "description": "日本規模最大民間批發市場，清晨4:00營業，海鮮丼、平價生魚片必吃，附設業務超市。"
@@ -898,7 +882,7 @@
       "station_id": "osaka_station_001",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/b8QJCMmCKCmHZnZTA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天滿市場+北區",
         "youtube": [],
         "blog_article": [],
         "description": "大阪人的厨房，餐飲區6:00-14:00營業，串炸、章魚燒、拉麵選擇多元，體驗LOCAL美食文化。"
@@ -932,7 +916,7 @@
       "station_id": "osaka_station_001",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://maps.app.goo.gl/8XWqMWPQEYPKB9hZA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=河南市+黑毛和牛燒肉+近郊",
         "youtube": [],
         "blog_article": [],
         "description": "關西頂級A5黑毛和牛燒肉，入口即化，建議提前預約套餐。"
@@ -965,10 +949,12 @@
       "priority": 3,
       "zone": "梅田",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%AB%99%E5%89%8D%E5%A4%A7%E6%A8%93%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪站前大樓+梅田",
         "youtube": [],
         "blog_article": []
       }
@@ -1000,10 +986,12 @@
       "priority": 2,
       "zone": "梅田",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=GRAND%20GREEN%20%E5%A4%A7%E9%98%AA%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=GRAND+GREEN+大阪+梅田",
         "youtube": [],
         "blog_article": []
       }
@@ -1032,10 +1020,12 @@
       "priority": 3,
       "zone": "梅田",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%E5%9C%B0%E4%B8%8B%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=梅田地下街+梅田",
         "youtube": [],
         "blog_article": []
       }
@@ -1066,10 +1056,12 @@
       "priority": 3,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_004"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2%E5%85%AB%E9%98%AA%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=難波八阪神社+難波",
         "youtube": [],
         "blog_article": []
       }
@@ -1083,7 +1075,7 @@
       "parent": null,
       "location": "難波",
       "station": "南海難波",
-      "station_id": "osaka_station_033",
+      "station_id": "osaka_station_004",
       "ticket": "依劇目而異",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -1099,10 +1091,12 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_033"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2%E8%B1%AA%E8%8F%AF%E6%88%B2%E6%9B%B2%E8%88%9E%E5%8F%B0%20%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=難波豪華戲曲舞台+めっちゃ+難波",
         "youtube": [],
         "blog_article": []
       }
@@ -1116,7 +1110,7 @@
       "parent": null,
       "location": "難波",
       "station": "地下鐵心齋橋 / 地下鐵難波",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_004",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "15分鐘",
@@ -1134,10 +1128,12 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BA%E5%8A%9B%E6%9E%9C%E8%B7%91%E8%B7%91%E4%BA%BA%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=固力果跑跑人+難波",
         "youtube": [],
         "blog_article": []
       }
@@ -1151,7 +1147,7 @@
       "parent": null,
       "location": "難波",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_004",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "15分鐘",
@@ -1166,10 +1162,12 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%88%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=戎橋+難波",
         "youtube": [],
         "blog_article": []
       }
@@ -1183,7 +1181,7 @@
       "parent": null,
       "location": "難波",
       "station": "南海難波 / 地下鐵難波",
-      "station_id": "osaka_station_033",
+      "station_id": "osaka_station_004",
       "ticket": "大人800円〜",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -1201,10 +1199,12 @@
       "priority": 3,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_033"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E5%B7%9D%E9%81%8A%E8%88%B9%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=道頓堀川遊船+難波",
         "youtube": [],
         "blog_article": []
       }
@@ -1218,7 +1218,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋 / 四橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "2~4小時",
@@ -1235,10 +1235,10 @@
       "priority": 2,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E9%BD%8B%E6%A9%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=心齋橋商店街+心齋橋",
         "youtube": [],
         "blog_article": []
       }
@@ -1252,7 +1252,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋 / 四橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1270,10 +1270,10 @@
       "priority": 3,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪美國村+心齋橋",
         "youtube": [],
         "blog_article": []
       }
@@ -1287,7 +1287,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵日本橋",
-      "station_id": "osaka_station_024",
+      "station_id": "osaka_station_013",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -1302,10 +1302,10 @@
       "priority": 4,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_024"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E6%A8%B9%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=橘樹通商店街+心齋橋",
         "youtube": [],
         "blog_article": []
       }
@@ -1319,7 +1319,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1337,10 +1337,10 @@
       "priority": 3,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%B8%B8%E5%BF%83%E9%BD%8B%E6%A9%8B%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大丸心齋橋本店+心齋橋",
         "youtube": [],
         "blog_article": []
       }
@@ -1354,7 +1354,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -1369,10 +1369,10 @@
       "priority": 4,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%90%E5%B8%9B%E5%A5%B3%E5%AD%90%E6%99%82%E5%B0%9A%E5%95%86%E6%A5%AD%E5%A4%A7%E6%A8%93%20%E5%A4%A7%E9%98%AA",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=斐帛女子時尚商業大樓+心齋橋",
         "youtube": [],
         "blog_article": []
       }
@@ -1386,7 +1386,7 @@
       "parent": null,
       "location": "新世界",
       "station": "地下鐵惠美須町 / 地下鐵動物園前",
-      "station_id": "osaka_station_026",
+      "station_id": "osaka_station_001",
       "ticket": "展望台700円／通天閣滑梯1000円（需預約）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1403,31 +1403,11 @@
       ],
       "priority": 2,
       "zone": "新世界",
-      "nearby_stations": [
-        "osaka_station_026"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%80%9A%E5%A4%A9%E9%96%A3%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%80%9A%E5%A4%A9%E9%96%A3%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "通天閣 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://medium.com/%E8%B5%AB%E5%A4%AB%E5%B8%95%E5%A4%AB%E5%B0%8F%E5%89%AA%E5%88%80/%E5%A4%A7%E9%98%AA%E4%BA%AC%E9%83%BD-day2-%E5%A4%A7%E9%98%AA%E4%B8%80%E6%97%A5%E9%81%8A-dive-walk-c403f6be1135",
-            "title": "大阪京都Day2：大阪一日遊(Dive & Walk)"
-          },
-          {
-            "url": "https://medium.com/tag/%E9%80%9A%E5%A4%A9%E9%96%A3",
-            "title": "The most insightful stories about 通天閣- Medium"
-          },
-          {
-            "url": "https://hndsmhsu.medium.com/2019-12-30-1315a8c518ac",
-            "title": "京阪神遊記- BennyXu - Medium"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=通天閣+新世界",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1439,7 +1419,7 @@
       "parent": null,
       "location": "新世界",
       "station": "地下鐵惠美須町",
-      "station_id": "osaka_station_026",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1456,23 +1436,11 @@
       ],
       "priority": 3,
       "zone": "新世界",
-      "nearby_stations": [
-        "osaka_station_026"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E4%B8%96%E7%95%8C%E6%9C%AC%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%96%B0%E4%B8%96%E7%95%8C%E6%9C%AC%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "新世界本通商店街 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://bobbytravel.tw/shinsaibashi/",
-            "title": "【2026心齋橋攻略】最強逛街地圖！必吃美食、百貨藥妝＆交通避雷"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=新世界本通商店街+新世界",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1484,7 +1452,7 @@
       "parent": null,
       "location": "新世界",
       "station": "地下鐵惠美須町",
-      "station_id": "osaka_station_026",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -1499,17 +1467,10 @@
       ],
       "priority": 4,
       "zone": "新世界",
-      "nearby_stations": [
-        "osaka_station_026"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%8F%98%E9%8F%98%E6%A9%AB%E4%B8%81%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%8F%98%E9%8F%98%E6%A9%AB%E4%B8%81%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "鏘鏘橫丁 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=鏘鏘橫丁+新世界",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1522,7 +1483,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "地下鐵天王寺 / JR天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": "中心伽藍300円／庭園100円",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1540,26 +1501,13 @@
       "priority": 2,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "四天王寺 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
-            "title": "人生第一次獨旅，一個人決定去哪裡"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=四天王寺+天王寺",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1571,7 +1519,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "地下鐵天王寺 / JR天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": "大人500円",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -1589,26 +1537,13 @@
       "priority": 3,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%8B%95%E7%89%A9%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%8B%95%E7%89%A9%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天王寺動物園 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
-            "title": "就從我的角度看世界 - 人生第一次獨旅"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天王寺動物園+天王寺",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1620,7 +1555,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "地下鐵天王寺 / JR天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -1638,26 +1573,13 @@
       "priority": 3,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天王寺公園 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
-            "title": "就從我的角度看世界 - 人生第一次獨旅"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天王寺公園+天王寺",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1669,7 +1591,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "地下鐵天王寺 / JR天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": "常設展250円（依展覽而異）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1687,16 +1609,12 @@
       "priority": 3,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪市立美術館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪市立美術館+天王寺",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1709,7 +1627,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "地下鐵天王寺 / JR天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": "150円",
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -1725,16 +1643,12 @@
       "priority": 4,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%85%B6%E6%BE%A4%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%85%B6%E6%BE%A4%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "慶澤園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=慶澤園+天王寺",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1747,7 +1661,7 @@
       "parent": null,
       "location": "住吉",
       "station": "南海住吉大社前 / 地下鐵住吉大社",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1765,13 +1679,8 @@
       "zone": "住吉",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E5%A4%A7%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E5%A4%A7%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住吉大社 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住吉大社+住吉",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1784,7 +1693,7 @@
       "parent": null,
       "location": "住吉",
       "station": "南海住吉大社前",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -1802,13 +1711,8 @@
       "zone": "住吉",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住吉神社 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住吉神社+住吉",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1839,16 +1743,12 @@
       "priority": 3,
       "zone": "大阪城",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=JO-TERRACE%20OSAKA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=JO-TERRACE%20OSAKA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "JO-TERRACE OSAKA YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=JO-TERRACE+OSAKA+大阪城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1861,7 +1761,7 @@
       "parent": null,
       "location": "大阪城",
       "station": "地下鐵森之宮",
-      "station_id": null,
+      "station_id": "osaka_station_008",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -1875,15 +1775,13 @@
       ],
       "priority": 4,
       "zone": "大阪城",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_008",
+        "osaka_station_036"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E4%B9%8B%E5%AE%AE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%A3%AE%E4%B9%8B%E5%AE%AE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "森之宮 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=森之宮+大阪城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1914,16 +1812,12 @@
       "priority": 3,
       "zone": "大阪城",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪水上巴士 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪水上巴士+大阪城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -1951,30 +1845,13 @@
       "priority": 4,
       "zone": "大阪城",
       "nearby_stations": [
-        "osaka_station_008"
+        "osaka_station_008",
+        "osaka_station_036"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9F%8E%E5%85%AC%E9%96%8B%E7%8E%A9%E5%85%B7%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%9F%8E%E5%85%AC%E9%96%8B%E7%8E%A9%E5%85%B7%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪城公開玩具博物館 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://jeje4fp.pixnet.net/blog/posts/17329548480",
-            "title": "日本(9): 大阪(1): 大阪城天守閣 - JeJe4咖照"
-          },
-          {
-            "url": "https://rebecca1003.pixnet.net/blog/posts/10357094657",
-            "title": "【大阪 自助旅行】大阪六天五夜親子行程規劃"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪城公開玩具博物館+大阪城",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -1986,7 +1863,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": "大人900円",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -2003,17 +1880,10 @@
       ],
       "priority": 3,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%91%A9%E5%A4%A9%E8%BC%AA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%91%A9%E5%A4%A9%E8%BC%AA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天保山摩天輪 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天保山摩天輪+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2026,7 +1896,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": "大人1600円（黃昏 cruise 2000円）",
       "need_reservation": false,
       "stay_duration": "45分鐘~1小時",
@@ -2043,17 +1913,10 @@
       ],
       "priority": 3,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B8%86%E8%88%B9%E5%9E%8B%E8%A7%80%E5%85%89%E8%88%B9%20%E8%81%96%E7%91%AA%E9%BA%97%E4%BA%9E%E8%99%9F%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B8%86%E8%88%B9%E5%9E%8B%E8%A7%80%E5%85%89%E8%88%B9%20%E8%81%96%E7%91%AA%E9%BA%97%E4%BA%9E%E8%99%9F%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "帆船型觀光船 聖瑪麗亞號 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=帆船型觀光船+聖瑪麗亞號+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2066,7 +1929,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2082,17 +1945,10 @@
       ],
       "priority": 3,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天保山購物中心 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天保山購物中心+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2105,7 +1961,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": "大人2900円／小孩2100円（線上預購有優惠）",
       "need_reservation": false,
       "stay_duration": "3~4小時",
@@ -2122,17 +1978,10 @@
       ],
       "priority": 3,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%A8%82%E9%AB%98%E6%A8%82%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E6%A8%82%E9%AB%98%E6%A8%82%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪樂高樂園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪樂高樂園+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2145,7 +1994,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -2161,17 +2010,10 @@
       ],
       "priority": 3,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%B8%AF%E7%81%A3%E6%9D%91%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%B8%AF%E7%81%A3%E6%9D%91%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天保山港灣村 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天保山港灣村+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2184,7 +2026,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 EXPOCITY站",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "大人800円",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2203,13 +2045,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=Nifrel%20EXPOCITY%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=Nifrel%20EXPOCITY%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "Nifrel EXPOCITY YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Nifrel+EXPOCITY+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2222,7 +2059,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 EXPOCITY站",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -2241,13 +2078,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=EXPOCITY%20%E8%90%AC%E5%8D%9A%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=EXPOCITY%20%E8%90%AC%E5%8D%9A%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "EXPOCITY 萬博購物中心 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=EXPOCITY+萬博購物中心+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2260,7 +2092,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 EXPOCITY站 / 地下鐵山田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費（太陽之塔另行購票）",
       "need_reservation": false,
       "stay_duration": "2~4小時",
@@ -2279,13 +2111,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "萬博紀念公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=萬博紀念公園+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2298,7 +2125,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 EXPOCITY站",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "大人500円",
       "need_reservation": false,
       "stay_duration": "1~1.5小時",
@@ -2317,13 +2144,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%A1%94%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%A1%94%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "太陽之塔 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=太陽之塔+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2336,7 +2158,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 EXPOCITY站",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -2355,13 +2177,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%8D%9A%E8%87%AA%E7%84%B6%E6%96%87%E5%8C%96%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E8%90%AC%E5%8D%9A%E8%87%AA%E7%84%B6%E6%96%87%E5%8C%96%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "萬博自然文化園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=萬博自然文化園+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2395,27 +2212,9 @@
         "osaka_station_024"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E9%96%80%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%BB%91%E9%96%80%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "黑門市場 YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://kimi77228.pixnet.net/blog/posts/10357401283",
-            "title": "【大阪美食＆散步】大阪的廚房「黑門市場」千日前必訪"
-          },
-          {
-            "url": "https://fengotraveling.pixnet.net/blog/posts/16142726507",
-            "title": "【2024年七天六夜日本京阪自由行】大阪必吃美食不可錯過"
-          },
-          {
-            "url": "https://m420697016.pixnet.net/blog/posts/9577988922",
-            "title": "黑門市場//日本橋| 幸福角落"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=黑門市場+日本橋",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -2448,13 +2247,8 @@
         "osaka_station_024"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "千日前道具屋筋商店街 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=千日前道具屋筋商店街+日本橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2467,7 +2261,7 @@
       "parent": null,
       "location": "日本橋",
       "station": "地下鐵難波 / JR難波",
-      "station_id": "osaka_station_004",
+      "station_id": "osaka_station_024",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2484,16 +2278,11 @@
       "priority": 3,
       "zone": "日本橋",
       "nearby_stations": [
-        "osaka_station_004"
+        "osaka_station_024"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2Park%20Town%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%9B%A3%E6%B3%A2Park%20Town%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "難波Park Town YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=難波Park+Town+日本橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2506,7 +2295,7 @@
       "parent": null,
       "location": "日本橋",
       "station": "南海難波 / 地下鐵難波",
-      "station_id": "osaka_station_033",
+      "station_id": "osaka_station_024",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2523,16 +2312,11 @@
       "priority": 3,
       "zone": "日本橋",
       "nearby_stations": [
-        "osaka_station_033"
+        "osaka_station_024"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2City%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%9B%A3%E6%B3%A2City%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "難波City YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=難波City+日本橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2545,7 +2329,7 @@
       "parent": null,
       "location": "日本橋",
       "station": "JR難波",
-      "station_id": "osaka_station_004",
+      "station_id": "osaka_station_024",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2563,16 +2347,11 @@
       "priority": 3,
       "zone": "日本橋",
       "nearby_stations": [
-        "osaka_station_004"
+        "osaka_station_024"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=OCAT%EF%BC%88%E9%9B%A3%E6%B3%A2%E5%9F%8E%E5%B8%82%E8%88%AA%E7%A9%BA%E5%A4%A7%E6%A8%93%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=OCAT%EF%BC%88%E9%9B%A3%E6%B3%A2%E5%9F%8E%E5%B8%82%E8%88%AA%E7%A9%BA%E5%A4%A7%E6%A8%93%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "OCAT（難波城市航空大樓） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=OCAT（難波城市航空大樓）+日本橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2585,7 +2364,7 @@
       "parent": null,
       "location": "堺",
       "station": "南海石津川 / JR鳳",
-      "station_id": null,
+      "station_id": "osaka_station_105",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2602,15 +2381,12 @@
       ],
       "priority": 2,
       "zone": "堺",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_105"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%BE%B7%E5%A4%A9%E7%9A%87%E9%99%B5%E5%8F%A4%E4%BA%8B%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BB%81%E5%BE%B7%E5%A4%A9%E7%9A%87%E9%99%B5%E5%8F%A4%E4%BA%8B%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "仁德天皇陵古事 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=仁德天皇陵古事+堺",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2623,7 +2399,7 @@
       "parent": null,
       "location": "堺",
       "station": "南海堺",
-      "station_id": null,
+      "station_id": "osaka_station_105",
       "ticket": "常設展免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2640,15 +2416,12 @@
       ],
       "priority": 4,
       "zone": "堺",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_105"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%BA%E5%B8%82%E7%AB%8Bmuseum%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A0%BA%E5%B8%82%E7%AB%8Bmuseum%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "堺市立museum YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=堺市立museum+堺",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2661,7 +2434,7 @@
       "parent": null,
       "location": "京橋",
       "station": "JR京橋 / 地下鐵京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_007",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2677,16 +2450,11 @@
       "priority": 4,
       "zone": "京橋",
       "nearby_stations": [
-        "osaka_station_006"
+        "osaka_station_007"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%A9%8B%20art%20street%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BA%AC%E6%A9%8B%20art%20street%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "京橋 art street YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=京橋+art+street+京橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2699,7 +2467,7 @@
       "parent": null,
       "location": "京橋",
       "station": "JR京橋 / 地下鐵京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_007",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -2715,16 +2483,11 @@
       "priority": 4,
       "zone": "京橋",
       "nearby_stations": [
-        "osaka_station_006"
+        "osaka_station_007"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%AF%9B%E9%A6%AC%E9%96%92%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%AF%9B%E9%A6%AC%E9%96%92%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "毛馬閒道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=毛馬閒道+京橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2737,7 +2500,7 @@
       "parent": null,
       "location": "北濱",
       "station": "地下鐵北濱 / 地下鐵淀屋橋",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_059",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -2752,16 +2515,11 @@
       "priority": 4,
       "zone": "北濱",
       "nearby_stations": [
-        "osaka_station_017"
+        "osaka_station_059"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E7%93%B7%E5%99%A8%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%BF%B1%E7%93%B7%E5%99%A8%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "北濱瓷器街 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北濱瓷器街+北濱",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2774,7 +2532,7 @@
       "parent": null,
       "location": "淀屋橋",
       "station": "JR北新地 / 地下鐵淀屋橋",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_012",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -2789,16 +2547,11 @@
       "priority": 4,
       "zone": "淀屋橋",
       "nearby_stations": [
-        "osaka_station_017"
+        "osaka_station_012"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%82%E5%B3%B6%20CROSS%20GATE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A0%82%E5%B3%B6%20CROSS%20GATE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "堂島 CROSS GATE YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=堂島+CROSS+GATE+淀屋橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2811,7 +2564,7 @@
       "parent": null,
       "location": "萬博",
       "station": "大阪單軌 南茨木 / 地下鐵澤田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -2829,13 +2582,8 @@
       "zone": "萬博",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=LaLaport%20EXPOCITY%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=LaLaport%20EXPOCITY%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "LaLaport EXPOCITY YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=LaLaport+EXPOCITY+萬博",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2848,7 +2596,7 @@
       "parent": null,
       "location": "天神橋",
       "station": "地下鐵天神橋筋六丁目 / JR天滿",
-      "station_id": "osaka_station_019",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -2865,17 +2613,10 @@
       ],
       "priority": 2,
       "zone": "天神橋",
-      "nearby_stations": [
-        "osaka_station_019"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天神橋筋商店街 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天神橋筋商店街+天神橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2888,7 +2629,7 @@
       "parent": null,
       "location": "天神橋",
       "station": "JR大阪天滿宮 / 地下鐵南森町",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -2907,13 +2648,8 @@
       "zone": "天神橋",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BB%BF%E5%AE%AE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BB%BF%E5%AE%AE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪天滿宮 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪天滿宮+天神橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2926,7 +2662,7 @@
       "parent": null,
       "location": "中之島",
       "station": "地下鐵淀屋橋 / 地下鐵北濱",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -2943,17 +2679,10 @@
       ],
       "priority": 3,
       "zone": "中之島",
-      "nearby_stations": [
-        "osaka_station_017"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "中之島公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中之島公園+中之島",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -2966,7 +2695,7 @@
       "parent": null,
       "location": "中之島",
       "station": "地下鐵淀屋橋 / 地下鐵北濱",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_001",
       "ticket": "參觀免費（活動另行購票）",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -2983,17 +2712,10 @@
       ],
       "priority": 4,
       "zone": "中之島",
-      "nearby_stations": [
-        "osaka_station_017"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%85%AC%E6%9C%83%E5%A0%82%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%85%AC%E6%9C%83%E5%A0%82%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪市中央公會堂 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪市中央公會堂+中之島",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3006,7 +2728,7 @@
       "parent": null,
       "location": "中之島",
       "station": "地下鐵淀屋橋 / 地下鐵北濱",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_001",
       "ticket": "依展覽而異",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3023,17 +2745,10 @@
       ],
       "priority": 3,
       "zone": "中之島",
-      "nearby_stations": [
-        "osaka_station_017"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E7%AB%8B%E5%9C%8B%E9%9A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%9B%BD%E7%AB%8B%E5%9C%8B%E9%9A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "国立國際美術館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=国立國際美術館+中之島",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3046,7 +2761,7 @@
       "parent": null,
       "location": "中之島",
       "station": "地下鐵淀屋橋",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_001",
       "ticket": "大人400円",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -3063,17 +2778,10 @@
       ],
       "priority": 3,
       "zone": "中之島",
-      "nearby_stations": [
-        "osaka_station_017"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%A7%91%E5%AD%B8%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E7%A7%91%E5%AD%B8%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪科學館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪科學館+中之島",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3086,7 +2794,7 @@
       "parent": null,
       "location": "天神橋",
       "station": "地下鐵天神橋筋六丁目",
-      "station_id": "osaka_station_019",
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -3100,17 +2808,10 @@
       ],
       "priority": 4,
       "zone": "天神橋",
-      "nearby_stations": [
-        "osaka_station_019"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%85%AD%E4%B8%81%E7%9B%AE%E4%B8%80%E7%95%AA%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%85%AD%E4%B8%81%E7%9B%AE%E4%B8%80%E7%95%AA%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天神橋筋六丁目一番街 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天神橋筋六丁目一番街+天神橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3123,7 +2824,7 @@
       "parent": null,
       "location": "北濱",
       "station": "地下鐵北濱",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_059",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "15分鐘",
@@ -3138,16 +2839,11 @@
       "priority": 4,
       "zone": "北濱",
       "nearby_stations": [
-        "osaka_station_017"
+        "osaka_station_059"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E5%B9%B3%E5%92%8C%20matters%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%BF%B1%E5%B9%B3%E5%92%8C%20matters%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "北濱平和 matters YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北濱平和+matters+北濱",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3160,7 +2856,7 @@
       "parent": null,
       "location": "淀屋橋",
       "station": "JR北新地 / 地下鐵淀屋橋",
-      "station_id": "osaka_station_017",
+      "station_id": "osaka_station_012",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3176,16 +2872,11 @@
       "priority": 4,
       "zone": "淀屋橋",
       "nearby_stations": [
-        "osaka_station_017"
+        "osaka_station_012"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%82%E5%B3%B6%20Cafe%20Street%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A0%82%E5%B3%B6%20Cafe%20Street%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "堂島 Cafe Street YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=堂島+Cafe+Street+淀屋橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3198,7 +2889,7 @@
       "parent": null,
       "location": "泉州",
       "station": "南海泉佐野",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費（活動時期）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3214,13 +2905,8 @@
       "zone": "泉州",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%BB%8B%E6%85%B6%E5%AD%B8%E5%9C%92%20COMGATE%20%E6%B3%89%E5%B7%9E%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%BB%8B%E6%85%B6%E5%AD%B8%E5%9C%92%20COMGATE%20%E6%B3%89%E5%B7%9E%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "滋慶學園 COMGATE 泉州 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=滋慶學園+COMGATE+泉州+泉州",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3233,7 +2919,7 @@
       "parent": null,
       "location": "箕面",
       "station": "能勢電鐵瀧鄉 / 箕面",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -3252,13 +2938,8 @@
       "zone": "箕面",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E5%B0%BE%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8B%9D%E5%B0%BE%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "勝尾寺 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=勝尾寺+箕面",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3271,7 +2952,7 @@
       "parent": null,
       "location": "枚方",
       "station": "京阪枚方公園",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "入園免費（遊具另行付費）",
       "need_reservation": false,
       "stay_duration": "3~5小時",
@@ -3289,13 +2970,8 @@
       "zone": "枚方",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9E%9A%E6%96%B9%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%9E%9A%E6%96%B9%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "枚方公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=枚方公園+枚方",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3308,7 +2984,7 @@
       "parent": null,
       "location": "枚方",
       "station": "京阪枚方",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3324,13 +3000,8 @@
       "zone": "枚方",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9E%9A%E6%96%B9%E6%B9%96%E7%95%94%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%9E%9A%E6%96%B9%E6%B9%96%E7%95%94%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "枚方湖畔廣場 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=枚方湖畔廣場+枚方",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3343,7 +3014,7 @@
       "parent": null,
       "location": "鞍馬",
       "station": "睿山電車鞍馬",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費（纜車另行付費）",
       "need_reservation": false,
       "stay_duration": "3~5小時",
@@ -3362,13 +3033,8 @@
       "zone": "鞍馬",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9E%8D%E9%A6%AC%E5%B1%B1%EF%BC%88%E9%9E%8D%E9%A6%AC%E5%AF%BA%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%9E%8D%E9%A6%AC%E5%B1%B1%EF%BC%88%E9%9E%8D%E9%A6%AC%E5%AF%BA%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "鞍馬山（鞍馬寺） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=鞍馬山（鞍馬寺）+鞍馬",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3381,7 +3047,7 @@
       "parent": null,
       "location": "岸和田",
       "station": "南海岸和田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費（天守閣另行）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3399,13 +3065,8 @@
       "zone": "岸和田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%E5%9F%8E%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%E5%9F%8E%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "岸和田城 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=岸和田城+岸和田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3418,7 +3079,7 @@
       "parent": null,
       "location": "岸和田",
       "station": "南海岸和田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -3436,13 +3097,8 @@
       "zone": "岸和田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "岸和田神社 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=岸和田神社+岸和田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3455,7 +3111,7 @@
       "parent": null,
       "location": "吹田",
       "station": "JR吹田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "依賽事而異",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -3474,13 +3130,8 @@
       "zone": "吹田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%E8%B6%B3%E7%90%83%E5%A0%B4%EF%BC%88Panasonic%20Stadium%20Suita%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%E8%B6%B3%E7%90%83%E5%A0%B4%EF%BC%88Panasonic%20Stadium%20Suita%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "吹田足球場（Panasonic Stadium Suita） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=吹田足球場（Panasonic+Stadium+Suita）+吹田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3493,7 +3144,7 @@
       "parent": null,
       "location": "此花",
       "station": "JR西九條 / 地下鐵九條",
-      "station_id": "osaka_station_036",
+      "station_id": "osaka_station_001",
       "ticket": "依活動而異",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -3507,17 +3158,10 @@
       ],
       "priority": 4,
       "zone": "此花",
-      "nearby_stations": [
-        "osaka_station_036"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=Yanmar%20Mare%20Osaka%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=Yanmar%20Mare%20Osaka%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "Yanmar Mare Osaka YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Yanmar+Mare+Osaka+此花",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3530,7 +3174,7 @@
       "parent": null,
       "location": "此花",
       "station": "JR西九條 / JR宇野先",
-      "station_id": "osaka_station_036",
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3545,17 +3189,10 @@
       ],
       "priority": 4,
       "zone": "此花",
-      "nearby_stations": [
-        "osaka_station_036"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%92%8C%E5%B3%B6%E8%B3%9E%E9%B3%A5%E9%AB%98%E5%8F%B0%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B9%B3%E5%92%8C%E5%B3%B6%E8%B3%9E%E9%B3%A5%E9%AB%98%E5%8F%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "平和島賞鳥高台 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=平和島賞鳥高台+此花",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3568,7 +3205,7 @@
       "parent": null,
       "location": "此花",
       "station": "JR西九條 / 地下鐵千日前線世界堤",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3585,13 +3222,8 @@
       "zone": "此花",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B8%AF%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%B8%AF%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "北港綠地 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北港綠地+此花",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3604,7 +3236,7 @@
       "parent": null,
       "location": "鶴橋",
       "station": "JR鶴橋 / 近鐵鶴橋",
-      "station_id": "osaka_station_007",
+      "station_id": "osaka_station_006",
       "ticket": "依店家而異",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3622,16 +3254,11 @@
       "priority": 3,
       "zone": "鶴橋",
       "nearby_stations": [
-        "osaka_station_007"
+        "osaka_station_006"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E6%A9%8B%E7%87%92%E8%82%89%E8%A1%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%B6%B4%E6%A9%8B%E7%87%92%E8%82%89%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "鶴橋燒肉街 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=鶴橋燒肉街+鶴橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3644,7 +3271,7 @@
       "parent": null,
       "location": "難波",
       "station": "地下鐵心齋橋 / 地下鐵難波",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_004",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -3660,16 +3287,13 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E6%95%A3%E6%AD%A5%E5%B0%8F%E8%B7%AF%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%E6%95%A3%E6%AD%A5%E5%B0%8F%E8%B7%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "道頓堀散步小路 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=道頓堀散步小路+難波",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3682,7 +3306,7 @@
       "parent": null,
       "location": "難波",
       "station": "地下鐵心齋橋 / 地下鐵難波",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_004",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -3698,16 +3322,13 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E6%98%AD%E5%92%8C%E6%B5%AA%E6%BC%AB%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%E6%98%AD%E5%92%8C%E6%B5%AA%E6%BC%AB%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "道頓堀昭和浪漫街道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=道頓堀昭和浪漫街道+難波",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3720,7 +3341,7 @@
       "parent": null,
       "location": "難波",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_004",
       "ticket": "200~300円",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -3736,16 +3357,13 @@
       "priority": 4,
       "zone": "難波",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_004",
+        "osaka_station_014",
+        "osaka_station_044"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%20%E9%AF%9B%E9%AD%9A%E7%87%92%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%20%E9%AF%9B%E9%AD%9A%E7%87%92%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "道頓堀 鯛魚燒街道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=道頓堀+鯛魚燒街道+難波",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3776,16 +3394,13 @@
       "priority": 3,
       "zone": "梅田",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E9%BA%97%E6%80%9D%E5%8D%A1%E7%88%BE%E9%A0%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E9%BA%97%E6%80%9D%E5%8D%A1%E7%88%BE%E9%A0%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪麗思卡爾頓 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪麗思卡爾頓+梅田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3798,7 +3413,7 @@
       "parent": null,
       "location": "環球城",
       "station": "JR環球城",
-      "station_id": "osaka_station_035",
+      "station_id": "osaka_station_009",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3814,16 +3429,11 @@
       "priority": 4,
       "zone": "環球城",
       "nearby_stations": [
-        "osaka_station_035"
+        "osaka_station_009"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=USJ%20ANNIVERSARY%20%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=USJ%20ANNIVERSARY%20%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "USJ ANNIVERSARY 街道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=USJ+ANNIVERSARY+街道+環球城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3836,7 +3446,7 @@
       "parent": null,
       "location": "島原",
       "station": "JR大阪 / 地下鐵玉出",
-      "station_id": "osaka_station_026",
+      "station_id": "osaka_station_001",
       "ticket": "750円",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -3852,17 +3462,10 @@
       ],
       "priority": 3,
       "zone": "島原",
-      "nearby_stations": [
-        "osaka_station_026"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B3%B6%E5%8E%9F%E6%BA%AB%E6%B3%89%20%E5%A4%A7%E6%BA%AB%E6%B9%AF%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B3%B6%E5%8E%9F%E6%BA%AB%E6%B3%89%20%E5%A4%A7%E6%BA%AB%E6%B9%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "島原溫泉 大溫湯 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=島原溫泉+大溫湯+島原",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3875,7 +3478,7 @@
       "parent": null,
       "location": "此花",
       "station": "JR西九條",
-      "station_id": "osaka_station_036",
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -3890,17 +3493,10 @@
       ],
       "priority": 4,
       "zone": "此花",
-      "nearby_stations": [
-        "osaka_station_036"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%98%AD%E5%92%8C%E7%9A%84%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%A3%E6%AD%A5%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%98%AD%E5%92%8C%E7%9A%84%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%A3%E6%AD%A5%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "昭和的女人的散步道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=昭和的女人的散步道+此花",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3913,7 +3509,7 @@
       "parent": null,
       "location": "天滿橋",
       "station": "地下鐵天滿橋 / JR京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_037",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -3928,17 +3524,10 @@
       ],
       "priority": 4,
       "zone": "天滿橋",
-      "nearby_stations": [
-        "osaka_station_006"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%BB%BF%E6%A9%8B%20%E6%99%82%E7%A9%BA%E5%B0%8F%E5%BA%97%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E6%BB%BF%E6%A9%8B%20%E6%99%82%E7%A9%BA%E5%B0%8F%E5%BA%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天滿橋 時空小店 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天滿橋+時空小店+天滿橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3951,7 +3540,7 @@
       "parent": null,
       "location": "臨空城",
       "station": "JR臨空城",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "2~4小時",
@@ -3970,13 +3559,8 @@
       "zone": "臨空城",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%87%A8%E7%A9%BA%E5%9F%8E%20Premium%20Outlets%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E8%87%A8%E7%A9%BA%E5%9F%8E%20Premium%20Outlets%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "臨空城 Premium Outlets YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=臨空城+Premium+Outlets+臨空城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -3989,7 +3573,7 @@
       "parent": null,
       "location": "臨空城",
       "station": "JR臨空城",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4006,13 +3590,8 @@
       "zone": "臨空城",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%87%A8%E7%A9%BA%E5%9F%8E%E6%B5%B7%E9%82%8A%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E8%87%A8%E7%A9%BA%E5%9F%8E%E6%B5%B7%E9%82%8A%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "臨空城海邊公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=臨空城海邊公園+臨空城",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4025,7 +3604,7 @@
       "parent": null,
       "location": "關西機場",
       "station": "南海關西機場 / JR關西機場",
-      "station_id": null,
+      "station_id": "osaka_station_099",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4042,15 +3621,12 @@
       ],
       "priority": 3,
       "zone": "關西機場",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_099"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E8%A5%BF%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E5%80%99%E6%A9%9F%E6%A5%BC%E8%A7%80%E6%99%AF%E5%BB%B3%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%97%9C%E8%A5%BF%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E5%80%99%E6%A9%9F%E6%A5%BC%E8%A7%80%E6%99%AF%E5%BB%B3%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "關西機場 第一候機楼觀景廳 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=關西機場+第一候機楼觀景廳+關西機場",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4063,7 +3639,7 @@
       "parent": null,
       "location": "住之江",
       "station": "地下鐵住之江公園",
-      "station_id": null,
+      "station_id": "osaka_station_058",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4080,15 +3656,12 @@
       ],
       "priority": 4,
       "zone": "住之江",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_058"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AAATC%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AAATC%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "大阪ATC博物館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪ATC博物館+住之江",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4101,7 +3674,7 @@
       "parent": null,
       "location": "住之江",
       "station": "地下鐵住之江公園",
-      "station_id": null,
+      "station_id": "osaka_station_058",
       "ticket": "免費（依設施而異）",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -4118,15 +3691,12 @@
       ],
       "priority": 3,
       "zone": "住之江",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_058"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住之江公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住之江公園+住之江",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4139,7 +3709,7 @@
       "parent": null,
       "location": "住之江",
       "station": "地下鐵住之江公園",
-      "station_id": null,
+      "station_id": "osaka_station_058",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4154,15 +3724,12 @@
       ],
       "priority": 4,
       "zone": "住之江",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_058"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E7%B6%A0%E5%9C%B0%EF%BC%88%20Spain%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E7%B6%A0%E5%9C%B0%EF%BC%88%20Spain%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住之江綠地（ Spain） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住之江綠地（+Spain）+住之江",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4175,7 +3742,7 @@
       "parent": null,
       "location": "豐中",
       "station": "大阪モノレール柴原",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -4194,13 +3761,8 @@
       "zone": "豐中",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%8D%E9%83%A8%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%9C%8D%E9%83%A8%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "服部綠地 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=服部綠地+豐中",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4213,7 +3775,7 @@
       "parent": null,
       "location": "千里",
       "station": "大阪モノレール千里",
-      "station_id": null,
+      "station_id": "osaka_station_065",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4228,15 +3790,13 @@
       ],
       "priority": 4,
       "zone": "千里",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_065",
+        "osaka_station_073"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E9%87%8CNEWtown%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%8D%83%E9%87%8CNEWtown%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "千里NEWtown YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=千里NEWtown+千里",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4249,7 +3809,7 @@
       "parent": null,
       "location": "吹田",
       "station": "大阪モノレール千里",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -4266,13 +3826,8 @@
       "zone": "吹田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%E5%8D%83%E9%87%8CNEWtown%20%E5%BB%BA%E7%AF%89%E8%A6%8B%E5%AD%B8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%E5%8D%83%E9%87%8CNEWtown%20%E5%BB%BA%E7%AF%89%E8%A6%8B%E5%AD%B8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "吹田千里NEWtown 建築見學 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=吹田千里NEWtown+建築見學+吹田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4285,7 +3840,7 @@
       "parent": null,
       "location": "放出",
       "station": "JR放出",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4301,13 +3856,8 @@
       "zone": "放出",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%94%BE%E5%87%BA%EF%BC%88HANARERU%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%94%BE%E5%87%BA%EF%BC%88HANARERU%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "放出（HANARERU） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=放出（HANARERU）+放出",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4320,7 +3870,7 @@
       "parent": null,
       "location": "京橋",
       "station": "JR京橋 / 地下鐵京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_007",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4335,16 +3885,11 @@
       "priority": 4,
       "zone": "京橋",
       "nearby_stations": [
-        "osaka_station_006"
+        "osaka_station_007"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%A9%8B%E6%8B%B1%E5%9E%8B%E5%95%86%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BA%AC%E6%A9%8B%E6%8B%B1%E5%9E%8B%E5%95%86%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "京橋拱型商場 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=京橋拱型商場+京橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4357,7 +3902,7 @@
       "parent": null,
       "location": "京橋",
       "station": "JR京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_007",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "15分鐘",
@@ -4372,16 +3917,11 @@
       "priority": 4,
       "zone": "京橋",
       "nearby_stations": [
-        "osaka_station_006"
+        "osaka_station_007"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%A4%A7%E6%A9%8B%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%96%B0%E5%A4%A7%E6%A9%8B%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "新大橋 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=新大橋+京橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4394,7 +3934,7 @@
       "parent": null,
       "location": "京橋",
       "station": "JR京橋",
-      "station_id": "osaka_station_006",
+      "station_id": "osaka_station_007",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -4409,16 +3949,11 @@
       "priority": 4,
       "zone": "京橋",
       "nearby_stations": [
-        "osaka_station_006"
+        "osaka_station_007"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%93%A2%E7%AE%AA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E7%93%A2%E7%AE%AA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "瓢箪 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=瓢箪+京橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4431,7 +3966,7 @@
       "parent": null,
       "location": "天神橋",
       "station": "JR大阪天滿宮",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費（餐飲另行）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4450,13 +3985,8 @@
       "zone": "天神橋",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%BB%BF%E5%A4%A9%E7%A5%9E%E7%B9%81%E7%9B%9B%E6%9C%83%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E6%BB%BF%E5%A4%A9%E7%A5%9E%E7%B9%81%E7%9B%9B%E6%9C%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天滿天神繁盛會 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天滿天神繁盛會+天神橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4469,7 +3999,7 @@
       "parent": null,
       "location": "天神橋",
       "station": "地下鐵天神橋筋六丁目",
-      "station_id": "osaka_station_019",
+      "station_id": "osaka_station_001",
       "ticket": "500円~（飲品）",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4484,17 +4014,10 @@
       ],
       "priority": 4,
       "zone": "天神橋",
-      "nearby_stations": [
-        "osaka_station_019"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%98%AD%E5%92%8C%E6%87%B7%E8%88%8A%E5%92%96%E5%95%A1%20Cafe%201948%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E6%98%AD%E5%92%8C%E6%87%B7%E8%88%8A%E5%92%96%E5%95%A1%20Cafe%201948%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "昭和懷舊咖啡 Cafe 1948 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=昭和懷舊咖啡+Cafe+1948+天神橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4507,7 +4030,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -4523,16 +4046,11 @@
       "priority": 4,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9C%B0%E4%B8%8B%E9%90%B5%20%E6%98%AD%E5%92%8C%E4%B9%8B%E5%BF%83%20%E5%B1%95%E7%A4%BA%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%9C%B0%E4%B8%8B%E9%90%B5%20%E6%98%AD%E5%92%8C%E4%B9%8B%E5%BF%83%20%E5%B1%95%E7%A4%BA%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9",
-            "title": "大阪地下鐵 昭和之心 展示館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大阪地下鐵+昭和之心+展示館+心齋橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4545,7 +4063,7 @@
       "parent": null,
       "location": "心齋橋",
       "station": "地下鐵心齋橋",
-      "station_id": "osaka_station_012",
+      "station_id": "osaka_station_013",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "15分鐘",
@@ -4563,16 +4081,11 @@
       "priority": 4,
       "zone": "心齋橋",
       "nearby_stations": [
-        "osaka_station_012"
+        "osaka_station_013"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E4%B8%89%E8%A7%92%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E4%B8%89%E8%A7%92%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "美國村 三角公園 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=美國村+三角公園+心齋橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4585,7 +4098,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "JR天王寺 / 地下鐵天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4602,16 +4115,12 @@
       "priority": 3,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=Q%27s%20Mall%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=Q%27s%20Mall%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "Q's Mall YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Q's+Mall+天王寺",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4624,7 +4133,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "JR天王寺 / 地下鐵天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4641,26 +4150,13 @@
       "priority": 3,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20MIO%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20MIO%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天王寺 MIO YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
-            "title": "就從我的角度看世界 - 人生第一次獨旅"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天王寺+MIO+天王寺",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -4672,7 +4168,7 @@
       "parent": null,
       "location": "天王寺",
       "station": "JR天王寺 / 地下鐵天王寺",
-      "station_id": "osaka_station_005",
+      "station_id": "osaka_station_003",
       "ticket": "依劇目而異",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -4688,26 +4184,13 @@
       "priority": 4,
       "zone": "天王寺",
       "nearby_stations": [
-        "osaka_station_005"
+        "osaka_station_003",
+        "osaka_station_051"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20Theater%20Edge%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20Theater%20Edge%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天王寺 Theater Edge YouTube 搜尋"
-          }
-        ],
-        "blog_article": [
-          {
-            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
-            "title": "盤點大阪旅遊必去的25個熱門景點"
-          },
-          {
-            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
-            "title": "就從我的角度看世界 - 人生第一次獨旅"
-          }
-        ]
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天王寺+Theater+Edge+天王寺",
+        "youtube": [],
+        "blog_article": []
       }
     },
     {
@@ -4719,7 +4202,7 @@
       "parent": null,
       "location": "住吉",
       "station": "南海住吉大社前",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4736,13 +4219,8 @@
       "zone": "住吉",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E5%9C%98%E5%9C%B0%20%E6%98%AD%E5%92%8C%E9%A2%A8%E6%99%AF%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E5%9C%98%E5%9C%B0%20%E6%98%AD%E5%92%8C%E9%A2%A8%E6%99%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住吉團地 昭和風景 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住吉團地+昭和風景+住吉",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4755,7 +4233,7 @@
       "parent": null,
       "location": "住之江",
       "station": "地下鐵住之江",
-      "station_id": null,
+      "station_id": "osaka_station_058",
       "ticket": "100円~（投注）",
       "need_reservation": false,
       "stay_duration": "2~3小時",
@@ -4771,15 +4249,12 @@
       ],
       "priority": 4,
       "zone": "住之江",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_058"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E8%B3%BD%E9%A6%AC%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E8%B3%BD%E9%A6%AC%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "住之江賽馬場 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=住之江賽馬場+住之江",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4792,7 +4267,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵宇宙廣場",
-      "station_id": "osaka_station_031",
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -4807,17 +4282,10 @@
       ],
       "priority": 4,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_031"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%92%B2%E6%B4%B2%E5%BB%B3%E8%88%8D%EF%BC%88WORLD%20PORT%20DRINK%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%92%B2%E6%B4%B2%E5%BB%B3%E8%88%8D%EF%BC%88WORLD%20PORT%20DRINK%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "咲洲廳舍（WORLD PORT DRINK） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=咲洲廳舍（WORLD+PORT+DRINK）+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4830,7 +4298,7 @@
       "parent": null,
       "location": "灣區",
       "station": "地下鐵大阪港",
-      "station_id": "osaka_station_030",
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4845,17 +4313,10 @@
       ],
       "priority": 4,
       "zone": "灣區",
-      "nearby_stations": [
-        "osaka_station_030"
-      ],
+      "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%20%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%20%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "天保山 資料館 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天保山+資料館+灣區",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4868,7 +4329,7 @@
       "parent": null,
       "location": "貝塚",
       "station": "水間鐵道貝塚",
-      "station_id": null,
+      "station_id": "osaka_station_109",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4882,15 +4343,12 @@
       ],
       "priority": 4,
       "zone": "貝塚",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_109"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E5%AF%BA%EF%BC%88Seiku-dera%EF%BC%89%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E7%A9%BA%E5%AF%BA%EF%BC%88Seiku-dera%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "空寺（Seiku-dera） YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=空寺（Seiku-dera）+貝塚",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4903,7 +4361,7 @@
       "parent": null,
       "location": "岸和田",
       "station": "南海岸和田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": null,
       "need_reservation": false,
       "stay_duration": "30分鐘~1小時",
@@ -4920,13 +4378,8 @@
       "zone": "岸和田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%20%E8%8A%B1%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%20%E8%8A%B1%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "岸和田 花街道 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=岸和田+花街道+岸和田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4939,7 +4392,7 @@
       "parent": null,
       "location": "吹田",
       "station": "JR吹田",
-      "station_id": null,
+      "station_id": "osaka_station_001",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -4956,13 +4409,8 @@
       "zone": "吹田",
       "nearby_stations": [],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%20%E7%B6%A0%E5%9C%B0%20%E8%83%BD%E9%87%8F%20Spot%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%20%E7%B6%A0%E5%9C%B0%20%E8%83%BD%E9%87%8F%20Spot%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "吹田 綠地 能量 Spot YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=吹田+綠地+能量+Spot+吹田",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -4975,7 +4423,7 @@
       "parent": null,
       "location": "鶴橋",
       "station": "JR鶴橋",
-      "station_id": "osaka_station_007",
+      "station_id": "osaka_station_006",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "30分鐘",
@@ -4991,16 +4439,11 @@
       "priority": 4,
       "zone": "鶴橋",
       "nearby_stations": [
-        "osaka_station_007"
+        "osaka_station_006"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E6%A9%8B%20%E8%AA%A0%E7%85%A7%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%B6%B4%E6%A9%8B%20%E8%AA%A0%E7%85%A7%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "鶴橋 誠照寺 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=鶴橋+誠照寺+鶴橋",
+        "youtube": [],
         "blog_article": []
       }
     },
@@ -5013,7 +4456,7 @@
       "parent": null,
       "location": "住之江",
       "station": "地下鐵住之江",
-      "station_id": null,
+      "station_id": "osaka_station_058",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1~2小時",
@@ -5028,15 +4471,12 @@
       ],
       "priority": 4,
       "zone": "住之江",
-      "nearby_stations": [],
+      "nearby_stations": [
+        "osaka_station_058"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%8B%E6%B2%B3%E5%B1%95%E7%A4%BA%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
-        "youtube": [
-          {
-            "url": "https://www.youtube.com/results?search_query=%E9%81%8B%E6%B2%B3%E5%B1%95%E7%A4%BA%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
-            "title": "運河展示廣場 YouTube 搜尋"
-          }
-        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=運河展示廣場+住之江",
+        "youtube": [],
         "blog_article": []
       }
     }

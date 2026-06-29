@@ -6,7 +6,7 @@
       "name": "酒酒井 Princess Outlet",
       "name_en": "Shisui Preme Outlets",
       "zone": "近郊",
-      "station_id": "tokyo_station_001",
+      "station_id": "tokyo_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -28,7 +28,7 @@
       "name": "三井 Outlet Park 入間",
       "name_en": "Mitsui Outlet Park Iruma",
       "zone": "近郊",
-      "station_id": "tokyo_station_001",
+      "station_id": "tokyo_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -50,7 +50,7 @@
       "name": "啦啦寶都 EXPOCITY",
       "name_en": "Lalaport EXPOCITY",
       "zone": "近郊",
-      "station_id": "tokyo_station_001",
+      "station_id": "tokyo_001",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -72,9 +72,9 @@
       "name": "澀谷 STREAMS / 宮下公園",
       "name_en": "Shibuya Streams & Miyashita Park",
       "zone": "澀谷",
-      "station_id": "tokyo_station_009",
+      "station_id": "tokyo_003",
       "nearby_stations": [
-        "tokyo_station_009"
+        "tokyo_003"
       ],
       "details": {
         "fee": "免費",

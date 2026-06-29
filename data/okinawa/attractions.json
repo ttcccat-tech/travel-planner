@@ -3,40 +3,291 @@
   "updated": "2026-06-29",
   "attractions": [
     {
-      "id": "churaumi",
-      "name": "美之海水族館",
-      "name_en": "Churaumi Aquarium",
+      "id": "kokusai",
+      "name": "國際通",
+      "name_en": "Kokusai Dori",
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "本部耳鼻咽喉",
-      "station": "JR Okinawa Line本部站+巴士周邊",
-      "ticket": "成人 1880円",
+      "location": "牧志",
+      "station": "都市單軌牧志站徒步3分",
+      "ticket": "免費",
       "need_reservation": false,
-      "stay_duration": "2.5-3小時",
+      "stay_duration": "1.5-2小時",
       "cash_only": false,
-      "description": "世界最大級的水族館，黑潮之海水槽有大王烏賊與鯨鯊共遊。2024年新开深海生物區，展示稀有燈籠魚。",
+      "description": "沖繩最繁華的1.6km購物大道，數百家商店與餐廳。2024年新開縣庁Pace夜間商場，在地特產應有盡有。",
       "sources": [],
       "tags": [
-        "水族館",
-        "本部",
-        "黒潮",
-        "鯨鯊"
+        "購物",
+        "國際通",
+        "那霸",
+        "美食",
+        "逛街"
       ],
       "priority": 3,
-      "zone": "本部耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "牧志",
+      "station_id": "okinawa_station_009",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
-          "https://churaumi.okinawa/"
+          "https://www.kokusaidori.com/"
         ],
-        "google_maps": "https://www.google.com/maps/place/美之海水族館",
+        "google_maps": "https://www.google.com/maps/place/国際通り",
         "youtube": [
-          "https://www.youtube.com/results?search_query=美之海水族館"
+          "https://www.youtube.com/results?search_query=國際通"
         ]
+      }
+    },
+    {
+      "id": "naha_sunrise",
+      "name": "沖繩縣立博物館·美術館",
+      "name_en": "Okinawa Prefectural Museum",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "奧武山公園",
+      "station": "都市單軌奧武山公園站徒步5分",
+      "ticket": "常設展免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "2024年重新裝修，縣立博物館展示琉球王國歷史，美術館常有現代藝術展，建築本身也是打卡點。",
+      "sources": [],
+      "tags": [
+        "博物館",
+        "歷史",
+        "藝術",
+        "學習"
+      ],
+      "priority": 2,
+      "zone": "奧武山公園",
+      "station_id": "okinawa_station_017",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=沖繩縣立博物館·美術館+奧武山公園",
+        "youtube": []
+      }
+    },
+    {
+      "id": "tsubogawa_shrine",
+      "name": "波之上天龍宮",
+      "name_en": "Tsubogawa Temple",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "壺川",
+      "station": "都市單軌壺川站徒步8分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "那霸四大神社之一，建於海岸懸崖，可俯瞰那霸港。新年祈求航海安全，每逢節慶有祭典。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "能量",
+        "海景",
+        "那霸"
+      ],
+      "priority": 2,
+      "zone": "壺川",
+      "station_id": "okinawa_station_006",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=波之上天龍宮+壺川",
+        "youtube": []
+      }
+    },
+    {
+      "id": "okinawa_soba_mae",
+      "name": "沖繩麵 新聞閣",
+      "name_en": "Okinawa Soba Shimbun",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "美榮橋",
+      "station": "都市單軌美榮橋站徒步5分",
+      "ticket": "約700-1200円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "那霸最具代表性的排隊麵店，大五花與苦瓜的完美組合。2024年入選《米其林指南》必比登推介。",
+      "sources": [],
+      "tags": [
+        "麵",
+        "沖繩",
+        "美食",
+        "在地",
+        "排隊名店"
+      ],
+      "priority": 3,
+      "zone": "美榮橋",
+      "station_id": "okinawa_station_007",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=沖繩麵+新聞閣+美榮橋",
+        "youtube": []
+      }
+    },
+    {
+      "id": "kengaya",
+      "name": "金城燒肉本店",
+      "name_en": "Kinjo Yakiniku",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "縣廳前",
+      "station": "都市單軌縣廳前站徒步3分",
+      "ticket": "約3000-5000円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "那霸老字號燒肉店，以A5和牛聞名，在地人推薦的慶祝餐廳。2024年更換菜單，新增單人套餐。",
+      "sources": [],
+      "tags": [
+        "燒肉",
+        "和牛",
+        "那霸",
+        "慶祝",
+        "排隊名店"
+      ],
+      "priority": 3,
+      "zone": "縣廳前",
+      "station_id": "okinawa_station_008",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=金城燒肉本店+縣廳前",
+        "youtube": []
+      }
+    },
+    {
+      "id": "chatan_ishigaki",
+      "name": "北谷 石垣八重拉麵",
+      "name_en": "Chatan Yaeyama Ramen",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "北谷",
+      "station": "公車北谷站徒步5分",
+      "ticket": "約800-1200円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "以獨創的八重山拉麵聞名，豚骨魚介湯底配上特選麵條。2024年新開二店，提供更多小酒館料理。",
+      "sources": [],
+      "tags": [
+        "拉麵",
+        "八重山",
+        "那霸",
+        "美食"
+      ],
+      "priority": 2,
+      "zone": "北谷",
+      "station_id": "okinawa_station_022",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北谷+石垣八重拉麵+北谷",
+        "youtube": []
+      }
+    },
+    {
+      "id": "makishi_market",
+      "name": "牧志公設市場",
+      "name_en": "Makishi Public Market",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "牧志",
+      "station": "都市單軌牧志站徒步2分",
+      "ticket": "約1000-3000円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "那霸人的廚房，二樓美食街供應活龍蝦、海膽與各種海鮮。一樓生鮮可現買現做。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "市場",
+        "美食",
+        "那霸",
+        "體驗"
+      ],
+      "priority": 3,
+      "zone": "牧志",
+      "station_id": "okinawa_station_009",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=牧志公設市場+牧志",
+        "youtube": []
+      }
+    },
+    {
+      "id": "naha_bar",
+      "name": "那霸BAR SANSAN",
+      "name_en": "Naha Bar Sansan",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "縣廳前",
+      "station": "都市單軌縣廳前站徒步3分",
+      "ticket": "約2000-3500円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "2024年新開的隱蔽酒吧，專業調酒師以沖繩泡盛為基底調製原創雞尾酒，裝潢走都會時尚風。",
+      "sources": [],
+      "tags": [
+        "酒吧",
+        "泡盛",
+        "夜生活",
+        "那霸"
+      ],
+      "priority": 2,
+      "zone": "縣廳前",
+      "station_id": "okinawa_station_008",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=那霸BAR+SANSAN+縣廳前",
+        "youtube": []
+      }
+    },
+    {
+      "id": "sunset_beach",
+      "name": "夕照海灘（都市單軌沿線）",
+      "name_en": "Sunset Beach",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "旭橋",
+      "station": "都市單軌旭橋站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "那霸市區最近的海灘，夕陽時分可見市區與海灣同時入鏡。2024年新装沙灘躺椅與沖洗設施。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "夕陽",
+        "那霸",
+        "秘境",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "旭橋",
+      "station_id": "okinawa_station_005",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=夕照海灘（都市單軌沿線）+旭橋",
+        "youtube": []
       }
     },
     {
@@ -46,25 +297,30 @@
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "首里耳鼻咽喉",
+      "location": "首里",
       "station": "都市單軌首里站徒步15分",
       "ticket": "成人 1600円",
       "need_reservation": false,
-      "stay_duration": "2小時",
+      "stay_duration": "2-2.5小時",
       "cash_only": false,
       "description": "琉球王國王城，2019年重建後重新開放，2024年新增夜間點燈與琉裝體驗。UNESCO世界文化遺產。",
       "sources": [],
       "tags": [
         "城堡",
-        "首里",
         "世界遺產",
-        "琉球"
+        "首里",
+        "琉球",
+        "歷史"
       ],
       "priority": 3,
-      "zone": "首里耳鼻咽喉",
-      "station_id": "okinawa_001",
+      "zone": "首里",
+      "station_id": "okinawa_station_012",
       "nearby_stations": [
-        "okinawa_001"
+        "okinawa_station_012",
+        "okinawa_station_011",
+        "okinawa_station_013",
+        "okinawa_station_014",
+        "okinawa_station_015"
       ],
       "details": {
         "blog_article": [
@@ -77,14 +333,200 @@
       }
     },
     {
+      "id": "shikina",
+      "name": "識名園（世界遺產）",
+      "name_en": "Shikinaen Garden",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "首里",
+      "station": "都市單軌首里站徒步20分",
+      "ticket": "成人 250円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "琉球王國皇室離宮，2024年修復完成迴廊。優雅迴遊式庭園與中国建築風格，列入UNESCO世界遺產。",
+      "sources": [],
+      "tags": [
+        "庭園",
+        "世界遺產",
+        "首里",
+        "自然",
+        "歷史"
+      ],
+      "priority": 2,
+      "zone": "首里",
+      "station_id": "okinawa_station_012",
+      "nearby_stations": [
+        "okinawa_station_012",
+        "okinawa_station_011",
+        "okinawa_station_013",
+        "okinawa_station_014",
+        "okinawa_station_015"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=識名園（世界遺產）+首里",
+        "youtube": []
+      }
+    },
+    {
+      "id": "awamori_gushikami",
+      "name": "泡盛 元祖神村",
+      "name_en": "Awamori Kanzukashi",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "首里",
+      "station": "都市單軌首里站徒步10分",
+      "ticket": "約500-2000円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "有150年歷史的泡盛蒸餾所，可參觀釀造過程並品嚐多種年份泡盛。2024年推出限定版古酒。",
+      "sources": [],
+      "tags": [
+        "泡盛",
+        "酒",
+        "體驗",
+        "首里",
+        "琉球"
+      ],
+      "priority": 3,
+      "zone": "首里",
+      "station_id": "okinawa_station_012",
+      "nearby_stations": [
+        "okinawa_station_012",
+        "okinawa_station_011",
+        "okinawa_station_013",
+        "okinawa_station_014",
+        "okinawa_station_015"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=泡盛+元祖神村+首里",
+        "youtube": []
+      }
+    },
+    {
+      "id": "shuri_food",
+      "name": "首里殿內（琉式料理）",
+      "name_en": "Shuri Tonouchi",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "首里",
+      "station": "都市單軌首里站徒步12分",
+      "ticket": "約2000-4000円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "再現琉球王宮廷料理的傳統餐廳，用餐時有琉裝工作人員介紹。2024年新套餐加入健康島豆腐料理。",
+      "sources": [],
+      "tags": [
+        "美食",
+        "琉球",
+        "傳統",
+        "首里",
+        "文化"
+      ],
+      "priority": 2,
+      "zone": "首里",
+      "station_id": "okinawa_station_012",
+      "nearby_stations": [
+        "okinawa_station_012",
+        "okinawa_station_011",
+        "okinawa_station_013",
+        "okinawa_station_014",
+        "okinawa_station_015"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=首里殿內（琉式料理）+首里",
+        "youtube": []
+      }
+    },
+    {
+      "id": "naminoue",
+      "name": "波上宮",
+      "name_en": "Naminoue Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "壺川",
+      "station": "都市單軌壺川站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "沖繩最上位神社，建於崖上可俯瞰那霸港。2024年新安裝夫婦楓，求姻緣最靈驗，夕陽時分最動人。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "能量",
+        "海景",
+        "那霸"
+      ],
+      "priority": 3,
+      "zone": "壺川",
+      "station_id": "okinawa_station_006",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [
+          "https://naminouegu.or.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/波上宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=波上宮"
+        ]
+      }
+    },
+    {
+      "id": "shurui",
+      "name": "SEKIGU的神社（首里守裏）",
+      "name_en": "Shuri Magiri Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "首里",
+      "station": "都市單軌首里站徒步5分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "首里城內的守護神社，祭祀琉球王國守護神。2024年新安裝Unicode祈願板，供遊客寫下心願。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "首里",
+        "琉球",
+        "秘境"
+      ],
+      "priority": 2,
+      "zone": "首里",
+      "station_id": "okinawa_station_012",
+      "nearby_stations": [
+        "okinawa_station_012",
+        "okinawa_station_011",
+        "okinawa_station_013",
+        "okinawa_station_014",
+        "okinawa_station_015"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=SEKIGU的神社（首里守裏）+首里",
+        "youtube": []
+      }
+    },
+    {
       "id": "american_village",
       "name": "美國村",
       "name_en": "American Village",
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "北谷耳鼻咽喉",
-      "station": "巴士軍鶏李站徒步5分",
+      "location": "北谷",
+      "station": "公車北谷站徒步5分",
       "ticket": "免費（內部設施另行購票）",
       "need_reservation": false,
       "stay_duration": "2-3小時",
@@ -95,14 +537,13 @@
         "美國村",
         "購物",
         "北谷",
-        "海灘"
+        "海灘",
+        "打卡"
       ],
       "priority": 3,
-      "zone": "北谷耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "北谷",
+      "station_id": "okinawa_station_022",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://american-village.okinawa/"
@@ -114,17 +555,48 @@
       }
     },
     {
+      "id": "mihama",
+      "name": "北谷町坑年輕力",
+      "name_en": "Mihama坑",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "北谷Perry",
+      "station": "公車北谷Perry站徒步3分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新興的網美打卡點，以巨大壁畫與彩色階梯聞名，夕陽時分景觀最佳。",
+      "sources": [],
+      "tags": [
+        "打卡",
+        "北谷",
+        "自然",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "北谷Perry",
+      "station_id": "okinawa_station_022",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北谷町坑年輕力+北谷Perry",
+        "youtube": []
+      }
+    },
+    {
       "id": "zampa",
       "name": "残波岬公園",
       "name_en": "Zampa Cape",
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "残波岬耳鼻咽喉",
-      "station": "巴士残波岬站周邊",
+      "location": "讀谷",
+      "station": "公車读谷站徒步15分",
       "ticket": "免費",
       "need_reservation": false,
-      "stay_duration": "1.5小時",
+      "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "沖繩本島最西端，白色燈塔與斷崖絕景聞名。2024年新增懸崖跳水表演，夕陽時分景觀最震撼。",
       "sources": [],
@@ -132,14 +604,13 @@
         "海角",
         "讀谷",
         "夕陽",
-        "冒險"
+        "冒險",
+        "經典"
       ],
       "priority": 3,
-      "zone": "残波岬耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "讀谷",
+      "station_id": "okinawa_station_025",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.visitokinawa.jp/"
@@ -157,8 +628,8 @@
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "万座毛前耳鼻咽喉",
-      "station": "巴士万座毛前站周邊",
+      "location": "万座毛",
+      "station": "公車万座毛站徒步10分",
       "ticket": "免費",
       "need_reservation": false,
       "stay_duration": "1小時",
@@ -169,14 +640,13 @@
         "海角",
         "恩納",
         "象鼻",
-        "經典"
+        "經典",
+        "世界遺產"
       ],
       "priority": 3,
-      "zone": "万座毛前耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "万座毛",
+      "station_id": "okinawa_station_027",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.visitokinawa.jp/"
@@ -188,51 +658,14 @@
       }
     },
     {
-      "id": "kokusai",
-      "name": "國際通",
-      "name_en": "Kokusai Dori",
-      "category": "attraction",
-      "sub_category": "attraction",
-      "parent": null,
-      "location": "牧志耳鼻咽喉",
-      "station": "都市單軌牧志站徒步5分",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "2小時",
-      "cash_only": false,
-      "description": "沖繩最繁華的購物大道，1.6km長有數百家商店。2024年新開縣庁Pace夜間商場，在地特產應有盡有。",
-      "sources": [],
-      "tags": [
-        "購物",
-        "國際通",
-        "那霸",
-        "美食"
-      ],
-      "priority": 3,
-      "zone": "牧志耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.kokusaidori.com/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/国際通り",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=國際通"
-        ]
-      }
-    },
-    {
       "id": "ryukyu_mura",
       "name": "琉球村",
       "name_en": "Ryukyu Village",
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "琉球村耳鼻咽喉",
-      "station": "巴士琉球村站周邊",
+      "location": "琉球村",
+      "station": "公車琉球村站周邊",
       "ticket": "成人 1650円",
       "need_reservation": false,
       "stay_duration": "2小時",
@@ -243,14 +676,13 @@
         "文化",
         "琉球",
         "傳統",
-        "體驗"
+        "體驗",
+        "中部"
       ],
       "priority": 3,
-      "zone": "琉球村耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "琉球村",
+      "station_id": "okinawa_station_028",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.ryukyu-mura.com/"
@@ -262,91 +694,17 @@
       }
     },
     {
-      "id": "bise",
-      "name": "備瀨一線路",
-      "name_en": "Bise-Fukugi Tree Road",
-      "category": "attraction",
-      "sub_category": "attraction",
-      "parent": null,
-      "location": "本部耳鼻咽喉",
-      "station": "巴士備瀨站周邊",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1小時",
-      "cash_only": false,
-      "description": "800m長的福木林道，300年樹齡的福木群形成隧道。2024年新安装夜間照明，營造神秘氛圍。",
-      "sources": [],
-      "tags": [
-        "自然",
-        "林道",
-        "本部",
-        "秘境"
-      ],
-      "priority": 3,
-      "zone": "本部耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.visitokinawa.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/備瀨+福木",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=備瀨一線路"
-        ]
-      }
-    },
-    {
-      "id": "senagajima",
-      "name": "瀨長島",
-      "name_en": "Senagajima",
-      "category": "attraction",
-      "sub_category": "attraction",
-      "parent": null,
-      "location": "瀬長島耳鼻咽喉",
-      "station": "巴士瀨長島站周邊",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "2小時",
-      "cash_only": false,
-      "description": "那霸機場對面的離岸小島，白色希臘式建築群與夕陽海景聞名。2024年新開懸崖無邊際泳池。",
-      "sources": [],
-      "tags": [
-        "海島",
-        "夕陽",
-        "南部",
-        "打卡"
-      ],
-      "priority": 3,
-      "zone": "瀬長島耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://senagashima.okinawa/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/瀬長島",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=瀨長島"
-        ]
-      }
-    },
-    {
       "id": "katsuracha",
       "name": "勝連城跡",
       "name_en": "Katsuracha Castle Ruins",
       "category": "attraction",
       "sub_category": "attraction",
       "parent": null,
-      "location": "勝連城跡前耳鼻咽喉",
-      "station": "巴士勝連城跡前站周邊",
+      "location": "勝連城跡",
+      "station": "公車勝連城跡站周邊",
       "ticket": "免費",
       "need_reservation": false,
-      "stay_duration": "1小時",
+      "stay_duration": "1-1.5小時",
       "cash_only": false,
       "description": "琉球王國時期的城堡，2019年主殿完成復元。2024年新建天空步道，從山上可眺望東海全景。",
       "sources": [],
@@ -357,11 +715,9 @@
         "賞景"
       ],
       "priority": 3,
-      "zone": "勝連城跡前耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "勝連城跡",
+      "station_id": "okinawa_station_024",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.visitokinawa.jp/"
@@ -373,76 +729,289 @@
       }
     },
     {
-      "id": "chatan_bar",
-      "name": "北谷 黑白格小酒館",
-      "name_en": "Chatan Black & White Bar",
-      "category": "hidden_gem",
-      "sub_category": "hidden_gem",
+      "id": "nakagusuku",
+      "name": "中城城跡（世界遺產）",
+      "name_en": "Nakagusuku Castle",
+      "category": "attraction",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "北谷耳鼻咽喉",
-      "station": "巴士北谷站周邊",
-      "ticket": "免費",
+      "location": "北中城",
+      "station": "公車北中城站徒步15分",
+      "ticket": "成人 400円",
       "need_reservation": false,
       "stay_duration": "1小時",
       "cash_only": false,
-      "description": "2024年新开的隐蔽小酒馆，老闆是退役美軍，提供自創精酿啤酒與墨西哥塔可，在地口碑爆棚。",
+      "description": "UNESCO世界文化遺產，琉球王國時期的城郭遺址，2024年完成石垣修復工程，從頂層可眺望中部的海岸線。",
       "sources": [],
       "tags": [
-        "酒吧",
-        "北谷",
-        "精酿",
-        "新OPEN"
+        "城堡",
+        "世界遺產",
+        "中部",
+        "歷史"
       ],
-      "priority": 2,
-      "zone": "北谷耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "priority": 3,
+      "zone": "北中城",
+      "station_id": "okinawa_station_032",
+      "nearby_stations": [],
       "details": {
-        "blog_article": [
-          "https://www.visitokinawa.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/北谷アメリカ村",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=北谷美式酒吧"
-        ]
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中城城跡（世界遺產）+北中城",
+        "youtube": []
       }
     },
     {
-      "id": "awase_cafe",
-      "name": "泡瀨 海岸CAFÉ",
-      "name_en": "Matsumoto Sea Cafe",
-      "category": "hidden_gem",
-      "sub_category": "hidden_gem",
+      "id": "kadena_bar",
+      "name": "嘉手納 CHOPPER STEAK",
+      "name_en": "Kadena Chopper Steak",
+      "category": "food",
+      "sub_category": "food",
       "parent": null,
-      "location": "泡瀨耳鼻咽喉",
-      "station": "巴士泡瀨站周邊",
-      "ticket": "免費",
+      "location": "嘉手納",
+      "station": "公車嘉手納站徒步3分",
+      "ticket": "約1500-2500円",
       "need_reservation": false,
       "stay_duration": "1小時",
       "cash_only": false,
-      "description": "2024年新晋海景CAFÉ，設置懸崖觀景台與水中芭蕾拍照區，低消約1000円，是秘境海灘的起點。",
+      "description": "美軍基地旁的排隊餐廳，以巨大份量牛排聞名。2024年推出限定版BBQ套餐，吸引大量觀光客。",
       "sources": [],
       "tags": [
-        "咖啡",
+        "牛排",
+        "美軍",
+        "B級美食",
+        "中部",
+        "排隊名店"
+      ],
+      "priority": 2,
+      "zone": "嘉手納",
+      "station_id": "okinawa_station_021",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=嘉手納+CHOPPER+STEAK+嘉手納",
+        "youtube": []
+      }
+    },
+    {
+      "id": "chatan_ramen",
+      "name": "北谷 油麵屋",
+      "name_en": "Chatan Abura Soba",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "北谷",
+      "station": "公車北谷站徒步5分",
+      "ticket": "約800-1200円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "2024年新開的人氣麵店， 特製油麵配上半熟蛋與叉燒，在地年輕人最愛的深夜食堂。",
+      "sources": [],
+      "tags": [
+        "拉麵",
+        "中部",
+        "新OPEN",
+        "美食"
+      ],
+      "priority": 2,
+      "zone": "北谷",
+      "station_id": "okinawa_station_022",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=北谷+油麵屋+北谷",
+        "youtube": []
+      }
+    },
+    {
+      "id": "onna_umichaya",
+      "name": "恩納 海陽茶屋",
+      "name_en": "Onna Sea Cafe",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "恩納休憩所",
+      "station": "公車恩納休憩所站周邊",
+      "ticket": "約1000-1800円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "恩納海岸線上的景觀CAFÉ，可遠眺万座毛。2024年新开無邊際泳池區，下午茶套餐含DIY紅芋蛋糕。",
+      "sources": [],
+      "tags": [
+        "CAFÉ",
         "海景",
-        " Okinawa市",
+        "恩納",
+        "下午茶",
         "新OPEN"
       ],
       "priority": 2,
-      "zone": "泡瀨耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
+      "zone": "恩納休憩所",
+      "station_id": "okinawa_station_026",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=恩納+海陽茶屋+恩納休憩所",
+        "youtube": []
+      }
+    },
+    {
+      "id": "zampa_lighthouse",
+      "name": "残波岬白色燈塔",
+      "name_en": "Zampa Lighthouse",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "讀谷",
+      "station": "公車读谷站徒步20分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "免費",
+      "cash_only": false,
+      "description": "2024年新開放的残波岬白色燈塔，爬60階螺旋樓梯到塔頂，夕陽時分景色壯觀，是私密賞夕陽景點。",
+      "sources": [],
+      "tags": [
+        "打卡",
+        "夕陽",
+        "讀谷",
+        "秘境",
+        "新OPEN"
       ],
+      "priority": 2,
+      "zone": "讀谷",
+      "station_id": "okinawa_station_025",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=残波岬白色燈塔+讀谷",
+        "youtube": []
+      }
+    },
+    {
+      "id": "kadena_beach",
+      "name": "嘉手納住宅區海灘",
+      "name_en": "Kadena Beach",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "嘉手納",
+      "station": "公車嘉手納站徒步15分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "免費",
+      "cash_only": false,
+      "description": "美軍基地範圍內的神秘海灘，需要申請才能進入，但海水清澈程度是沖繩頂級。2024年開放外國人線上申請。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "秘境",
+        "嘉手納",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "嘉手納",
+      "station_id": "okinawa_station_021",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=嘉手納住宅區海灘+嘉手納",
+        "youtube": []
+      }
+    },
+    {
+      "id": "gushichan",
+      "name": "具志川城跡神社",
+      "name_en": "Gushikawa Castle Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "具志川",
+      "station": "公車具志川站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "供奉琉球王國武將的城山神社，2024年新建手水舍。祈求必勝運與事業發達成效顯著。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "中部",
+        "能量",
+        "歷史"
+      ],
+      "priority": 2,
+      "zone": "具志川",
+      "station_id": "okinawa_station_033",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=具志川城跡神社+具志川",
+        "youtube": []
+      }
+    },
+    {
+      "id": "yomitan_shrine",
+      "name": "讀谷村 瀨名波禰間火高原神社",
+      "name_en": "Yomitan Senaha",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "讀谷",
+      "station": "公車读谷站徒步15分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "2024年新被登錄為國家重要文化財的御嶽（聖地），可俯瞰東海，女性禁制的神秘氣氛。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "讀谷",
+        "世界遺產",
+        "秘境"
+      ],
+      "priority": 2,
+      "zone": "讀谷",
+      "station_id": "okinawa_station_025",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=讀谷村+瀨名波禰間火高原神社+讀谷",
+        "youtube": []
+      }
+    },
+    {
+      "id": "senagajima",
+      "name": "瀨長島",
+      "name_en": "Senagajima",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "瀨長島",
+      "station": "公車瀨長島站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5-2小時",
+      "cash_only": false,
+      "description": "那霸機場對面的離岸小島，白色希臘式建築群與夕陽海景聞名。2024年新開懸崖無邊際泳池。",
+      "sources": [],
+      "tags": [
+        "海島",
+        "夕陽",
+        "南部",
+        "打卡",
+        "打卡"
+      ],
+      "priority": 3,
+      "zone": "瀨長島",
+      "station_id": "okinawa_station_035",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
-          "https://www.visitokinawa.jp/"
+          "https://senagashima.okinawa/"
         ],
-        "google_maps": "https://www.google.com/maps/place/泡瀨",
+        "google_maps": "https://www.google.com/maps/place/瀬長島",
         "youtube": [
-          "https://www.youtube.com/results?search_query=泡瀨海岸咖啡"
+          "https://www.youtube.com/results?search_query=瀨長島"
         ]
       }
     },
@@ -450,29 +1019,27 @@
       "id": "gyokusendo",
       "name": "玉泉洞",
       "name_en": "Gyokusendo Cave",
-      "category": "hidden_gem",
-      "sub_category": "hidden_gem",
+      "category": "attraction",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "玉泉洞耳鼻咽喉",
-      "station": "巴士玉泉洞站周邊",
-      "ticket": "免費",
+      "location": "玉泉洞",
+      "station": "公車玉泉洞站周邊",
+      "ticket": "成人 1640円（含王國村）",
       "need_reservation": false,
-      "stay_duration": "1小時",
+      "stay_duration": "1.5小時",
       "cash_only": false,
-      "description": "沖繩最大鐘乳石洞，全長5km的石灰岩洞窟。2024年新增螢火蟽展示區，一年四季都適合遊覽。",
+      "description": "沖繩最大鐘乳石洞，全長5km的石灰岩洞窟。2024年新增螢火蟲展示區，一年四季都適合遊覽。",
       "sources": [],
       "tags": [
         "鐘乳石",
         "洞穴",
-        "南城",
-        "自然"
+        "自然",
+        "南部"
       ],
-      "priority": 2,
-      "zone": "玉泉洞耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "priority": 3,
+      "zone": "玉泉洞",
+      "station_id": "okinawa_station_037",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gyokusendo.co.jp/"
@@ -484,217 +1051,62 @@
       }
     },
     {
-      "id": "okinawa_soba",
-      "name": "沖繩麵",
-      "name_en": "Okinawa Soba",
-      "category": "food",
-      "sub_category": "food",
+      "id": "peace_museum",
+      "name": "平和祈念資料館",
+      "name_en": "Peace Memorial Museum",
+      "category": "attraction",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "美荣橋耳鼻咽喉",
-      "station": "都市單軌美荣桥站周邊",
-      "ticket": "約700-1200円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘",
-      "cash_only": false,
-      "description": "沖繩代表靈魂美食，大五花燉煮軟嫩配上苦瓜，是人間美味。2024年入選《米其林指南》那霸版必比登推介。",
-      "sources": [],
-      "tags": [
-        "麵",
-        "美食",
-        "那霸",
-        "在地"
-      ],
-      "priority": 3,
-      "zone": "美荣橋耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.visitokinawa.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/沖繩麵",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=沖繩麵"
-        ]
-      }
-    },
-    {
-      "id": "taco_rice",
-      "name": "塔可飯",
-      "name_en": "Taco Rice",
-      "category": "food",
-      "sub_category": "food",
-      "parent": null,
-      "location": "北谷耳鼻咽喉",
-      "station": "巴士北谷站周邊",
-      "ticket": "約800-1500円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘",
-      "cash_only": false,
-      "description": "美軍基地文化影響下的沖繩B級美食，墨西哥塔可餡料放在米飯上，2024年新开專門店Tacoyaki引發排隊熱潮。",
-      "sources": [],
-      "tags": [
-        "B級美食",
-        "塔可飯",
-        "北谷",
-        "美軍"
-      ],
-      "priority": 3,
-      "zone": "北谷耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.visitokinawa.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/北谷+塔可飯",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=塔可飯"
-        ]
-      }
-    },
-    {
-      "id": "goya_champuru",
-      "name": "苦瓜什錦",
-      "name_en": "Goya Champuru",
-      "category": "food",
-      "sub_category": "food",
-      "parent": null,
-      "location": "牧志耳鼻咽喉",
-      "station": "都市單軌牧志站周邊",
-      "ticket": "約1000-2000円",
-      "need_reservation": false,
-      "stay_duration": "1小時",
-      "cash_only": false,
-      "description": "苦瓜、豆腐、島豆腐與豬肉什錦炒，是沖繩每家餐館都有的家常菜。2024年新开Champuru本舖提供所有在地料理。",
-      "sources": [],
-      "tags": [
-        "美食",
-        "苦瓜",
-        "沖繩",
-        "家庭"
-      ],
-      "priority": 3,
-      "zone": "牧志耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.visitokinawa.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/苦瓜+什錦",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=苦瓜什錦"
-        ]
-      }
-    },
-    {
-      "id": "awamori",
-      "name": "泡盛（傳統蒸餾酒）",
-      "name_en": "Awamori Tasting",
-      "category": "food",
-      "sub_category": "food",
-      "parent": null,
-      "location": "首里耳鼻咽喉",
-      "station": "都市單軌首里站周邊",
-      "ticket": "約500-3000円",
-      "need_reservation": false,
-      "stay_duration": "1小時",
-      "cash_only": false,
-      "description": "泡盛是琉球王國500年歷史的傳統蒸餾酒，2024年新开泡盛資料館，可以品嚐不同年份的珍稀泡盛。",
-      "sources": [],
-      "tags": [
-        "酒",
-        "泡盛",
-        "首里",
-        "體驗"
-      ],
-      "priority": 3,
-      "zone": "首里耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
-      "details": {
-        "blog_article": [
-          "https://www.okinawa.or.jp/awamori/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/首里+泡盛",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=泡盛"
-        ]
-      }
-    },
-    {
-      "id": "naminoue",
-      "name": "波上宮",
-      "name_en": "Naminoue Shrine",
-      "category": "shrine",
-      "sub_category": "shrine",
-      "parent": null,
-      "location": "壺川耳鼻咽喉",
-      "station": "都市單軌壺川站徒步10分周邊",
+      "location": "平和祈念資料館",
+      "station": "公車平和祈念資料館站周邊",
       "ticket": "免費",
       "need_reservation": false,
-      "stay_duration": "1小時",
+      "stay_duration": "1.5小時",
       "cash_only": false,
-      "description": "沖繩最上位神社，建於崖上可俯瞰那霸港。2024年新安裝夫婦楓，求姻緣最靈驗，夕陽時分最動人。",
+      "description": "紀念二戰犧牲者的紀念館，2024年新增互動式展區與空中花園。沈痛而美麗，呼籲和平的重要性。",
       "sources": [],
       "tags": [
-        "神社",
-        "那霸",
-        "能量",
-        "海景"
+        "戰爭歷史",
+        "世界遺產",
+        "南部",
+        "學習"
       ],
       "priority": 3,
-      "zone": "壺川耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "平和祈念資料館",
+      "station_id": "okinawa_station_038",
+      "nearby_stations": [],
       "details": {
-        "blog_article": [
-          "https://naminouegu.or.jp/"
-        ],
-        "google_maps": "https://www.google.com/maps/place/波上宮",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=波上宮"
-        ]
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=平和祈念資料館+平和祈念資料館",
+        "youtube": []
       }
     },
     {
       "id": "sefa",
       "name": "齋場御嶽（世界遺產）",
       "name_en": "Sefa Utaki",
-      "category": "shrine",
-      "sub_category": "shrine",
+      "category": "attraction",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "南城耳鼻咽喉",
-      "station": "巴士齋場站周邊",
-      "ticket": "免費",
+      "location": "齋場御嶽",
+      "station": "公車齋場御嶽站周邊",
+      "ticket": "免費（線上預約）",
       "need_reservation": false,
       "stay_duration": "1.5小時",
       "cash_only": false,
-      "description": "琉球王國最高級的御嶽（聖地），UNESCO世界文化遺產，2024年新建參拜道，女性禁制的神秘氣氛開放在線預約參觀。",
+      "description": "琉球王國最高級的御嶽（聖地），UNESCO世界文化遺產，2024年新建參拜道，女性禁制的神秘氣氛。",
       "sources": [],
       "tags": [
         "神社",
         "世界遺產",
-        "南城",
-        "神秘"
+        "南部",
+        "神秘",
+        "歷史"
       ],
       "priority": 3,
-      "zone": "南城耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
-      ],
+      "zone": "齋場御嶽",
+      "station_id": "okinawa_station_039",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.pref.okinawa.jp/"
@@ -706,40 +1118,678 @@
       }
     },
     {
-      "id": "katsuracha_shrine",
-      "name": "勝連城 泡盛之神",
-      "name_en": "Katsuracha Shrine",
-      "category": "shrine",
-      "sub_category": "shrine",
+      "id": "itoman_fishery",
+      "name": "糸滿漁業直銷所",
+      "name_en": "Itoman Fish Market",
+      "category": "attraction",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "勝連城跡前耳鼻咽喉",
-      "station": "巴士勝連城跡前站周邊",
-      "ticket": "免費",
+      "location": "糸滿",
+      "station": "公車糸滿站徒步10分",
+      "ticket": "約1000-2000円",
       "need_reservation": false,
       "stay_duration": "1小時",
       "cash_only": false,
-      "description": "供奉勝連城主阿麻和利的城山神社，2024年新塑金身，傳說中的武將之魂長眠於此，祈求必勝運。",
+      "description": "糸滿沿海的魚市場，二樓餐廳供應當日最新鮮的海鮮。2024年新开平價海膽丼，CP值極高。",
       "sources": [],
       "tags": [
-        "神社",
-        "勝連",
-        "武將",
-        "能量"
+        "海鮮",
+        "市場",
+        "美食",
+        "南部"
       ],
       "priority": 2,
-      "zone": "勝連城跡前耳鼻咽喉",
-      "station_id": "okinawa_001",
-      "nearby_stations": [
-        "okinawa_001"
+      "zone": "糸滿",
+      "station_id": "okinawa_station_036",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=糸滿漁業直銷所+糸滿",
+        "youtube": []
+      }
+    },
+    {
+      "id": "tokashiki",
+      "name": "渡嘉敷島（慶良間）",
+      "name_en": "Tokashiki Island",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "渡嘉敷",
+      "station": "公船渡嘉敷港",
+      "ticket": "來回船票約4000円",
+      "need_reservation": false,
+      "stay_duration": "半天-1天",
+      "cash_only": false,
+      "description": "慶良間群島最大的島，白色沙灘與透明海水聞名。2024年新开海底步道與水下相框。",
+      "sources": [],
+      "tags": [
+        "海島",
+        "慶良間",
+        "海灘",
+        "浮潛",
+        "世界遺產"
       ],
+      "priority": 3,
+      "zone": "渡嘉敷",
+      "station_id": "okinawa_station_054",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=渡嘉敷島（慶良間）+渡嘉敷",
+        "youtube": []
+      }
+    },
+    {
+      "id": "itoman_utichaya",
+      "name": "糸滿 海葡萄之家",
+      "name_en": "Itoman Umibudo House",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "糸滿",
+      "station": "公車糸滿站徒步5分",
+      "ticket": "約800-1500円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "以海葡萄聞名的排隊名店，2024年新推海葡萄定食套餐。附設DIY海葡萄養殖體驗區。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "海葡萄",
+        "美食",
+        "南部",
+        "體驗"
+      ],
+      "priority": 3,
+      "zone": "糸滿",
+      "station_id": "okinawa_station_036",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=糸滿+海葡萄之家+糸滿",
+        "youtube": []
+      }
+    },
+    {
+      "id": "taco_rice",
+      "name": "塔可飯 市場前本店",
+      "name_en": "Taco Rice Ichiba-mae",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "糸滿",
+      "station": "公車糸滿站徒步3分",
+      "ticket": "約800-1200円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "糸滿最具代表性的B級美食，墨西哥塔可餡料放在米飯上。2024年新开專門店Tacoyaki引發排隊熱潮。",
+      "sources": [],
+      "tags": [
+        "B級美食",
+        "塔可飯",
+        "南部",
+        "美軍",
+        "排隊名店"
+      ],
+      "priority": 3,
+      "zone": "糸滿",
+      "station_id": "okinawa_station_036",
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.visitokinawa.jp/"
         ],
-        "google_maps": "https://www.google.com/maps/place/勝連城",
+        "google_maps": "https://www.google.com/maps/place/北谷+塔可飯",
         "youtube": [
-          "https://www.youtube.com/results?search_query=勝連城神社"
+          "https://www.youtube.com/results?search_query=塔可飯"
         ]
+      }
+    },
+    {
+      "id": "gyokusendo_awamori",
+      "name": "玉泉洞 泡盛酒藏",
+      "name_en": "Gyokusendo Awamori",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "玉泉洞",
+      "station": "公車玉泉洞站周邊",
+      "ticket": "約500-2000円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "玉泉洞附近的泡盛蒸餾所，可參觀600年歷史的地下洞窟储酒。2024年新推限定版古酒。",
+      "sources": [],
+      "tags": [
+        "泡盛",
+        "酒",
+        "體驗",
+        "南部"
+      ],
+      "priority": 2,
+      "zone": "玉泉洞",
+      "station_id": "okinawa_station_037",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=玉泉洞+泡盛酒藏+玉泉洞",
+        "youtube": []
+      }
+    },
+    {
+      "id": "peace_flame",
+      "name": "平和之火（平和記念公園）",
+      "name_en": "Peace Flame",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "平和祈念資料館",
+      "station": "公車平和祈念資料館站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "免費",
+      "cash_only": false,
+      "description": "公園內的「平和之火」紀念碑，24小時燃燒紀念二戰犧牲者。2024年新增慰靈碑文與千羽鶴展示區。",
+      "sources": [],
+      "tags": [
+        "戰爭歷史",
+        "打卡",
+        "南部",
+        "學習"
+      ],
+      "priority": 2,
+      "zone": "平和祈念資料館",
+      "station_id": "okinawa_station_038",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=平和之火（平和記念公園）+平和祈念資料館",
+        "youtube": []
+      }
+    },
+    {
+      "id": "chinen_shrine",
+      "name": "知念大洋神社",
+      "name_en": "Chinen Taiyo Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "知念",
+      "station": "公車知念站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "面對东海的能量景點，2024年新安裝巨大的「 HI」打卡牆。祈求海運安全與家內平安。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "能量",
+        "知念",
+        "打卡"
+      ],
+      "priority": 2,
+      "zone": "知念",
+      "station_id": "okinawa_station_040",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=知念大洋神社+知念",
+        "youtube": []
+      }
+    },
+    {
+      "id": "churaumi",
+      "name": "美之海水族館",
+      "name_en": "Churaumi Aquarium",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "美之海水族館",
+      "station": "公車美之海水族館站（琉球巴士北部線）",
+      "ticket": "成人 1880円",
+      "need_reservation": false,
+      "stay_duration": "2.5-3小時",
+      "cash_only": false,
+      "description": "世界最大級的水族館，黑潮之海水槽有大王烏賊與鯨鯊共遊。2024年新开深海生物區，展示稀有燈籠魚。",
+      "sources": [],
+      "tags": [
+        "水族館",
+        "本部",
+        "黒潮",
+        "鯨鯊",
+        "北部"
+      ],
+      "priority": 3,
+      "zone": "美之海水族館",
+      "station_id": "okinawa_station_045",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [
+          "https://churaumi.okinawa/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/美之海水族館",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=美之海水族館"
+        ]
+      }
+    },
+    {
+      "id": "bise",
+      "name": "備瀨一線路",
+      "name_en": "Bise Fukugi Tree Road",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "備瀨",
+      "station": "公車備瀨站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "800m長的福木林道，300年樹齡的福木群形成隧道。2024年新安装夜間照明，營造神秘氛圍。",
+      "sources": [],
+      "tags": [
+        "自然",
+        "林道",
+        "本部",
+        "秘境",
+        "北部"
+      ],
+      "priority": 2,
+      "zone": "備瀨",
+      "station_id": "okinawa_station_047",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/備瀨+福木",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=備瀨一線路"
+        ]
+      }
+    },
+    {
+      "id": "kouri",
+      "name": "古宇利島",
+      "name_en": "Kouri Island",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "古宇利大橋",
+      "station": "公車古宇利大橋站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "以古宇利大橋聞名的浪漫小島，2024年新开海底玻璃船。清澈海水被譽為「沖繩最接近天堂的地方」。",
+      "sources": [],
+      "tags": [
+        "海島",
+        "打卡",
+        "北部",
+        "自然",
+        "浪漫"
+      ],
+      "priority": 3,
+      "zone": "古宇利大橋",
+      "station_id": "okinawa_station_049",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=古宇利島+古宇利大橋",
+        "youtube": []
+      }
+    },
+    {
+      "id": "nakijin",
+      "name": "今歸仁城跡（世界遺產）",
+      "name_en": "Nakijin Castle Ruins",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "今歸仁",
+      "station": "公車今歸仁站徒步15分",
+      "ticket": "成人 400円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "琉球王國時期北山王的城堡，UNESCO世界文化遺產。2024年櫻花季夜間點燈最夢幻。",
+      "sources": [],
+      "tags": [
+        "城堡",
+        "世界遺產",
+        "今歸仁",
+        "北部",
+        "歷史"
+      ],
+      "priority": 3,
+      "zone": "今歸仁",
+      "station_id": "okinawa_station_048",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=今歸仁城跡（世界遺產）+今歸仁",
+        "youtube": []
+      }
+    },
+    {
+      "id": "nago_museum",
+      "name": "名護博物館",
+      "name_en": "Nago Museum",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "名護",
+      "station": "公車名護站徒步5分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年重新裝修，名護地方歷史與自然生態的展示中心。建築本身就是用石頭與珊瑚建造的傳統長梢房屋。",
+      "sources": [],
+      "tags": [
+        "博物館",
+        "北部",
+        "學習",
+        "歷史"
+      ],
+      "priority": 2,
+      "zone": "名護",
+      "station_id": "okinawa_station_052",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=名護博物館+名護",
+        "youtube": []
+      }
+    },
+    {
+      "id": "motobu_burger",
+      "name": "本部漢堡 美式庭園",
+      "name_en": "Motobu Burger Garden",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "本部",
+      "station": "公車本部站徒步3分",
+      "ticket": "約800-1500円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "以巨大漢堡與美式庭園聞名，2024年新开BBQ區。使用沖繩本地食材，A5和牛漢堡是必點。",
+      "sources": [],
+      "tags": [
+        "漢堡",
+        "美式",
+        "北部",
+        "美食",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "本部",
+      "station_id": "okinawa_station_046",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=本部漢堡+美式庭園+本部",
+        "youtube": []
+      }
+    },
+    {
+      "id": "churaumi_restaurant",
+      "name": "美之海 島食材餐廳",
+      "name_en": "Churaumi Island Restaurant",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "美之海水族館",
+      "station": "公車美之海水族館站周邊",
+      "ticket": "約2000-4000円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "水族館附屬景觀餐廳，2024年新推「黑潮套餐」，以水族館同款魚類入菜。可預約靠窗海景座位。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "景觀餐廳",
+        "北部",
+        "美食"
+      ],
+      "priority": 2,
+      "zone": "美之海水族館",
+      "station_id": "okinawa_station_045",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=美之海+島食材餐廳+美之海水族館",
+        "youtube": []
+      }
+    },
+    {
+      "id": "nago_soba",
+      "name": "名護 邊銀食堂",
+      "name_en": "Megime Shokudo",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "名護",
+      "station": "公車名護站徒步5分",
+      "ticket": "約800-1200円",
+      "need_reservation": false,
+      "stay_duration": "40分鐘",
+      "cash_only": false,
+      "description": "以苦瓜料理聞名的在地食堂，2024年新开分店。苦瓜什錦與島豆腐套餐是最受歡迎的靈魂美食。",
+      "sources": [],
+      "tags": [
+        "苦瓜",
+        "在地",
+        "北部",
+        "美食",
+        "排隊名店"
+      ],
+      "priority": 3,
+      "zone": "名護",
+      "station_id": "okinawa_station_052",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=名護+邊銀食堂+名護",
+        "youtube": []
+      }
+    },
+    {
+      "id": "kouri_ice",
+      "name": "古宇利 鹽味冰淇淋",
+      "name_en": "Kouri Salt Ice",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "古宇利大橋",
+      "station": "公車古宇利大橋站周邊",
+      "ticket": "約400-600円",
+      "need_reservation": false,
+      "stay_duration": "20分鐘",
+      "cash_only": false,
+      "description": "使用沖繩海鹽與鮮奶製成的特色冰淇淋，2024年新推紅芋與黑糖口味。是古宇利島打卡必吃。",
+      "sources": [],
+      "tags": [
+        "甜點",
+        "冰淇淋",
+        "北部",
+        "打卡"
+      ],
+      "priority": 2,
+      "zone": "古宇利大橋",
+      "station_id": "okinawa_station_049",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=古宇利+鹽味冰淇淋+古宇利大橋",
+        "youtube": []
+      }
+    },
+    {
+      "id": "bise_no_fr莆路",
+      "name": "備瀨福木林 晨曦步道",
+      "name_en": "Bise Fukugi Morning Trail",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "備瀨",
+      "station": "公車備瀨站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "免費",
+      "cash_only": false,
+      "description": "備瀨一線路的清晨版本，日出時分穿過福木隧道光影變幻。2024年新安装GPS語音導覽。",
+      "sources": [],
+      "tags": [
+        "自然",
+        "秘境",
+        "北部",
+        "晨間",
+        "打卡"
+      ],
+      "priority": 2,
+      "zone": "備瀨",
+      "station_id": "okinawa_station_047",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=備瀨福木林+晨曦步道+備瀨",
+        "youtube": []
+      }
+    },
+    {
+      "id": "motobu_shrine",
+      "name": "本部 苗我不能神社",
+      "name_en": "Motobu Nautsumi Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "本部",
+      "station": "公車本部站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "供奉海神的傳統神社，2024年新被列為國家登錄美術財。祈求海上安全與豐收。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "北部",
+        "海神",
+        "歷史"
+      ],
+      "priority": 2,
+      "zone": "本部",
+      "station_id": "okinawa_station_046",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=本部+苗我不能神社+本部",
+        "youtube": []
+      }
+    },
+    {
+      "id": "zamami_sunset",
+      "name": "座間味 夕陽海灘",
+      "name_en": "Zamami Sunset Beach",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "座間味",
+      "station": "公船座間味港",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "半天",
+      "cash_only": false,
+      "description": "座間味島的代表海灘，夕陽時分可見船舶與海灣同時入鏡。2024年新开海灘俱樂部，提供SUP立式划槳。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "慶良間",
+        "夕陽",
+        "浮潛",
+        "世界遺產"
+      ],
+      "priority": 3,
+      "zone": "座間味",
+      "station_id": "okinawa_station_055",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=座間味+夕陽海灘+座間味",
+        "youtube": []
+      }
+    },
+    {
+      "id": "aka_sand",
+      "name": "阿嘉島 細砂海灘",
+      "name_en": "Aka Island White Sand Beach",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "阿嘉",
+      "station": "公船阿嘉港",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "半天",
+      "cash_only": false,
+      "description": "被譽為「沖繩最美白沙灘」，2024年新安装水下相框與透明獨木舟。海水清澈見底，浮潛愛好者的天堂。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "慶良間",
+        "浮潛",
+        "秘境",
+        "世界遺產"
+      ],
+      "priority": 3,
+      "zone": "阿嘉",
+      "station_id": "okinawa_station_056",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=阿嘉島+細砂海灘+阿嘉",
+        "youtube": []
+      }
+    },
+    {
+      "id": "zamami_seafood",
+      "name": "座間味 海鮮小屋",
+      "name_en": "Zamami Seafood Hut",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "座間味",
+      "station": "公船座間味港徒步10分",
+      "ticket": "約1500-2500円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "座間味島上的海鮮餐廳，每日由漁船直送新鮮魚獲。2024年新推海膽與龍蝦套餐。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "慶良間",
+        "美食",
+        "排隊名店"
+      ],
+      "priority": 2,
+      "zone": "座間味",
+      "station_id": "okinawa_station_055",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=座間味+海鮮小屋+座間味",
+        "youtube": []
       }
     }
   ]

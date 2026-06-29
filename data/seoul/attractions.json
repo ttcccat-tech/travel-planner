@@ -24,9 +24,10 @@
         "傳統"
       ],
       "priority": 3,
-      "zone": "首爾耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -61,10 +62,10 @@
         "美食"
       ],
       "priority": 3,
-      "zone": "明洞耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "明洞",
+      "station_id": "seoul_016",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_016"
       ],
       "details": {
         "blog_article": [
@@ -98,9 +99,10 @@
         "纜車"
       ],
       "priority": 3,
-      "zone": "龍山耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -135,10 +137,11 @@
         "世界文化遺產"
       ],
       "priority": 3,
-      "zone": "景福宮耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "景福宮",
+      "station_id": "seoul_023",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_023",
+        "seoul_059"
       ],
       "details": {
         "blog_article": [
@@ -172,10 +175,11 @@
         "購物"
       ],
       "priority": 3,
-      "zone": "安國耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "三清洞",
+      "station_id": "seoul_024",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_024",
+        "seoul_056"
       ],
       "details": {
         "blog_article": [
@@ -209,9 +213,10 @@
         "夜景"
       ],
       "priority": 3,
-      "zone": "首爾耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -246,10 +251,14 @@
         "音樂"
       ],
       "priority": 3,
-      "zone": "弘大入口耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "麻浦",
+      "station_id": "seoul_007",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_007",
+        "seoul_003",
+        "seoul_004",
+        "seoul_005",
+        "seoul_006"
       ],
       "details": {
         "blog_article": [
@@ -283,10 +292,14 @@
         "咖啡"
       ],
       "priority": 3,
-      "zone": "窟山耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "麻浦",
+      "station_id": "seoul_007",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_007",
+        "seoul_003",
+        "seoul_004",
+        "seoul_005",
+        "seoul_006"
       ],
       "details": {
         "blog_article": [
@@ -320,10 +333,10 @@
         "室內"
       ],
       "priority": 3,
-      "zone": "奉恩寺耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "江南",
+      "station_id": "seoul_067",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_067"
       ],
       "details": {
         "blog_article": [
@@ -357,10 +370,10 @@
         "打卡"
       ],
       "priority": 3,
-      "zone": "楽天世界耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "江邊",
+      "station_id": "seoul_036",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_036"
       ],
       "details": {
         "blog_article": [
@@ -394,10 +407,10 @@
         "賞花"
       ],
       "priority": 3,
-      "zone": "首爾林耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "聖水",
+      "station_id": "seoul_054",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_054"
       ],
       "details": {
         "blog_article": [
@@ -431,10 +444,14 @@
         "K-POP"
       ],
       "priority": 3,
-      "zone": "弘大入口耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "麻浦",
+      "station_id": "seoul_007",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_007",
+        "seoul_003",
+        "seoul_004",
+        "seoul_005",
+        "seoul_006"
       ],
       "details": {
         "blog_article": [
@@ -468,10 +485,10 @@
         "自然"
       ],
       "priority": 3,
-      "zone": "南怡島耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "上鳳",
+      "station_id": "seoul_037",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_037"
       ],
       "details": {
         "blog_article": [
@@ -505,10 +522,10 @@
         "打卡"
       ],
       "priority": 3,
-      "zone": "清平耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "上鳳",
+      "station_id": "seoul_037",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_037"
       ],
       "details": {
         "blog_article": [
@@ -542,10 +559,10 @@
         "體驗"
       ],
       "priority": 3,
-      "zone": "江村耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "江邊",
+      "station_id": "seoul_036",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_036"
       ],
       "details": {
         "blog_article": [
@@ -579,10 +596,11 @@
         "東大门"
       ],
       "priority": 3,
-      "zone": "東大门耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "東大門",
+      "station_id": "seoul_029",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_029",
+        "seoul_030"
       ],
       "details": {
         "blog_article": [
@@ -616,9 +634,10 @@
         "散歩"
       ],
       "priority": 3,
-      "zone": "首爾耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -653,10 +672,10 @@
         "工廠"
       ],
       "priority": 2,
-      "zone": "聖水耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "聖水",
+      "station_id": "seoul_054",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_054"
       ],
       "details": {
         "blog_article": [
@@ -690,10 +709,14 @@
         "文青"
       ],
       "priority": 2,
-      "zone": "上水耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "麻浦",
+      "station_id": "seoul_007",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_007",
+        "seoul_003",
+        "seoul_004",
+        "seoul_005",
+        "seoul_006"
       ],
       "details": {
         "blog_article": [
@@ -727,10 +750,10 @@
         "攝影"
       ],
       "priority": 2,
-      "zone": "土城耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "西村",
+      "station_id": "seoul_058",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_058"
       ],
       "details": {
         "blog_article": [
@@ -764,10 +787,11 @@
         "散歩"
       ],
       "priority": 2,
-      "zone": "安國耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "三清洞",
+      "station_id": "seoul_024",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_024",
+        "seoul_056"
       ],
       "details": {
         "blog_article": [
@@ -801,9 +825,10 @@
         "深度"
       ],
       "priority": 2,
-      "zone": "龍山耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -838,9 +863,10 @@
         "明洞"
       ],
       "priority": 3,
-      "zone": "首爾耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -875,10 +901,10 @@
         "街頭"
       ],
       "priority": 3,
-      "zone": "明洞耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "明洞",
+      "station_id": "seoul_016",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_016"
       ],
       "details": {
         "blog_article": [
@@ -912,10 +938,14 @@
         "夜生活"
       ],
       "priority": 3,
-      "zone": "弘大入口耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "麻浦",
+      "station_id": "seoul_007",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_007",
+        "seoul_003",
+        "seoul_004",
+        "seoul_005",
+        "seoul_006"
       ],
       "details": {
         "blog_article": [
@@ -949,10 +979,11 @@
         "網紅"
       ],
       "priority": 3,
-      "zone": "江南耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "瑞草",
+      "station_id": "seoul_069",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_069",
+        "seoul_068"
       ],
       "details": {
         "blog_article": [
@@ -986,10 +1017,11 @@
         "米其林"
       ],
       "priority": 3,
-      "zone": "安國耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "三清洞",
+      "station_id": "seoul_024",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_024",
+        "seoul_056"
       ],
       "details": {
         "blog_article": [
@@ -1023,10 +1055,10 @@
         "在地"
       ],
       "priority": 3,
-      "zone": "明洞耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "明洞",
+      "station_id": "seoul_016",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_016"
       ],
       "details": {
         "blog_article": [
@@ -1060,10 +1092,11 @@
         "銀杏"
       ],
       "priority": 3,
-      "zone": "安國耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "三清洞",
+      "station_id": "seoul_024",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_024",
+        "seoul_056"
       ],
       "details": {
         "blog_article": [
@@ -1097,10 +1130,10 @@
         "新羅"
       ],
       "priority": 3,
-      "zone": "奉恩寺耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "江南",
+      "station_id": "seoul_067",
       "nearby_stations": [
-        "seoul_001"
+        "seoul_067"
       ],
       "details": {
         "blog_article": [
@@ -1134,9 +1167,10 @@
         "拍照"
       ],
       "priority": 2,
-      "zone": "龍山耳鼻咽喉",
-      "station_id": "seoul_001",
+      "zone": "龍山",
+      "station_id": "seoul_002",
       "nearby_stations": [
+        "seoul_002",
         "seoul_001"
       ],
       "details": {
@@ -1171,11 +1205,9 @@
         "賞花"
       ],
       "priority": 2,
-      "zone": "軍浦耳鼻咽喉",
+      "zone": "軍浦",
       "station_id": "seoul_001",
-      "nearby_stations": [
-        "seoul_001"
-      ],
+      "nearby_stations": [],
       "details": {
         "blog_article": [
           "https://www.gimpo.go.kr/"

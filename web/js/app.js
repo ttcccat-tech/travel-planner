@@ -572,10 +572,16 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   const zones = day.zones || [];
   const selectedZones = zones.length ? zones : forcedZones.slice(0, 2);
 
-  // Collect candidates from selected zones
+  // Collect candidates from selected zones (景點/秘境 only；美食/shrine/hotel 不在景點 pool)
   const candidates = [];
   selectedZones.forEach(z => {
-    if (zoneMap[z]) candidates.push(...zoneMap[z]);
+    if (zoneMap[z]) {
+      zoneMap[z].forEach(a => {
+        if (a.category === 'attraction' || a.category === 'hidden_gem') {
+          candidates.push(a);
+        }
+      });
+    }
   });
 
   const planned = new Set();
@@ -593,9 +599,24 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   });
 
   // 2. Add user-selected want items (priority over template)
+  // 分離景點/秘境與美食：美食轉 meal activity，景點正常加入 chosen
+  const foodActivities = [];
   finalItems.filter(w => !planned.has(w.id)).forEach(w => {
-    chosen.push(w);
-    planned.add(w.id);
+    if (w.category === 'food') {
+      // 美食 → 轉成 meal activity 並附加 details 連結
+      foodActivities.push({
+        type: 'meal',
+        item: w.name,
+        item_id: w.id,
+        slot: '中午',          // 預設午餐時段
+        note: `${w.name}`,
+        details: w.details || {},
+      });
+      planned.add(w.id);
+    } else {
+      chosen.push(w);
+      planned.add(w.id);
+    }
   });
 
   // 3. Fill remaining slots (max 2 per normal day)
@@ -624,17 +645,34 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     });
   }
 
-  // Meals
+  // Meals — 美食 activity 直接替換彈性用餐（先到先取）
   const mealSlots = ['上午', '中午', '下午', '傍晚', '晚上'];
   const foodPref = otherNeeds || state.selectedFoods.join('、');
 
-  mealSlots.forEach(slot => {
-    activities.push({
-      type: 'meal',
-      slot,
-      note: `🍽️ ${slot} — 彈性用餐（${foodPref || '參考用餐習慣'})`
+  if (foodActivities.length > 0) {
+    const foodUsed = new Set();
+    mealSlots.forEach(slot => {
+      const food = foodActivities.find(f => f.slot === slot && !foodUsed.has(f.item_id));
+      if (food) {
+        foodUsed.add(food.item_id);
+        activities.push(food);  // 真實美食，帶 details 連結
+      } else {
+        activities.push({
+          type: 'meal',
+          slot,
+          note: `${slot} — 彈性用餐（${foodPref || '參考用餐習慣'})`
+        });
+      }
     });
-  });
+  } else {
+    mealSlots.forEach(slot => {
+      activities.push({
+        type: 'meal',
+        slot,
+        note: `${slot} — 彈性用餐（${foodPref || '參考用餐習慣'})`
+      });
+    });
+  }
 
   // Attractions
   chosen.forEach(attr => {
@@ -647,7 +685,7 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
       ticket: attr.ticket || '',
       description: attr.description || '',
       details: attr.details || {},
-      sources: attr.sources || [],  // Phase 3: 來源標註
+      sources: attr.sources || [],
     });
   });
 
@@ -664,8 +702,8 @@ function buildSpecialDay(day) {
   return {
     ...day,
     activities: (day.activities || []).filter(act => {
-      // Keep transport / shopping / general; skip others
-      return ['transport', 'shopping', 'general'].includes(act.type);
+      // Keep transport / shopping / general / food; skip pure "meal placeholder"
+      return ['transport', 'shopping', 'general', 'food'].includes(act.type);
     })
   };
 }
@@ -702,11 +740,17 @@ function renderActivity(act) {
     </div>`;
   }
   if (act.type === 'meal') {
+    const linksHtml = (act.details?.google_maps || act.details?.youtube || act.details?.blog_article)
+      ? `<div class="act-links">
+          ${act.details.google_maps ? `<a href="${act.details.google_maps}" target="_blank" rel="noopener" class="act-link-btn">📍 Maps</a>` : ''}
+          ${act.details.youtube    ? `<a href="${act.details.youtube}" target="_blank" rel="noopener" class="act-link-btn">🎬 YouTube</a>` : ''}
+          ${act.details.blog_article ? `<a href="${act.details.blog_article}" target="_blank" rel="noopener" class="act-link-btn">📖 部落格</a>` : ''}
+         </div>` : '';
     return `<div class="activity activity-meal">
       <div class="act-icon">🍽️</div>
       <div class="act-content">
-        <div class="act-title">${act.slot} — 彈性用餐</div>
-        <div class="act-note">${act.note.replace(/^🍽️\s*/, '')}</div>
+        <div class="act-title">${act.note}</div>
+        ${linksHtml}
       </div>
     </div>`;
   }
@@ -730,7 +774,8 @@ function renderActivity(act) {
   }
 
   // Attraction
-  const icon = act.type === 'outlet' ? '🛍️' : '📍';
+  // Attraction / outlet (food/shrine/hotel don't use the 📍 icon path)
+  const icon = act.type === 'outlet' ? '🛍️' : (act.type === 'food' ? '🍽️' : (act.type === 'shrine' ? '⛩️' : '📍'));
   const ticketInfo = act.ticket ? `<div class="act-ticket">🎟️ ${act.ticket}</div>` : '';
   const descInfo   = act.description ? `<div class="act-desc">${act.description.slice(0, 100)}${act.description.length > 100 ? '…' : ''}</div>` : '';
   const details    = act.details || {};

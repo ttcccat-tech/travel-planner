@@ -1,7 +1,47 @@
 [
   {
+    "name": "seoul",
+    "display_name": "韓國首爾",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "韓國",
+    "language": "韓文（部分店家提供英語）"
+  },
+  {
+    "name": "busan",
+    "display_name": "韓國釜山",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "韓國",
+    "language": "韓文（部分店家提供英語）"
+  },
+  {
+    "name": "okinawa",
+    "display_name": "日本沖繩",
+    "enabled": true,
+    "city_type": "island",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  },
+  {
     "name": "fukuoka",
     "display_name": "日本福岡",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  },
+  {
+    "name": "osaka",
+    "display_name": "日本大阪",
+    "enabled": true,
+    "city_type": "metropolitan",
+    "country": "日本",
+    "language": "日文（日常英語可通）"
+  },
+  {
+    "name": "tokyo",
+    "display_name": "日本東京",
     "enabled": true,
     "city_type": "metropolitan",
     "country": "日本",

@@ -74,7 +74,9 @@
       "zone": "梅田",
       "station_id": "osaka_station_001",
       "nearby_stations": [
-        "osaka_station_001"
+        "osaka_station_001",
+        "osaka_station_042",
+        "osaka_station_047"
       ],
       "details": {
         "fee": "免費",
@@ -96,7 +98,7 @@
       "name": "心齋橋·美國村",
       "name_en": "Shinsaibashi & Amerikamura",
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
@@ -118,7 +120,7 @@
       "name": "黑門市場",
       "name_en": "Kuromon Market",
       "zone": "難波·心齋橋",
-      "station_id": "osaka_station_001",
+      "station_id": "osaka_station_013",
       "nearby_stations": [],
       "details": {
         "fee": "免費",
