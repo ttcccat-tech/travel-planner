@@ -862,17 +862,37 @@ function renderTransportInfo(trans) {
 
 // ----- Helpers -----
 function findItemByName(name) {
-  return state.attractions.find(a => a.name === name) ||
-         state.outlets.find(a => a.name === name) ||
-         null;
+  return state.attractions.find(a =>
+    a.name === name ||
+    a.name_en === name ||
+    a.name.includes(name) ||
+    (a.name_en && a.name_en.toLowerCase().includes(name.toLowerCase()))
+  ) || state.outlets.find(a =>
+    a.name === name ||
+    a.name_en === name ||
+    a.name.includes(name) ||
+    (a.name_en && a.name_en.toLowerCase().includes(name.toLowerCase()))
+  ) || null;
 }
 
 function findOutletByName(name) {
-  return state.outlets.find(a => a.name === name) || null;
+  return state.outlets.find(a =>
+    a.name === name ||
+    a.name_en === name ||
+    a.name.includes(name) ||
+    (a.name_en && a.name_en.toLowerCase().includes(name.toLowerCase()))
+  ) || null;
 }
 
 function findStationByName(name) {
-  return state.stations.find(s => s.name === name || s.name_en === name) || null;
+  return state.stations.find(s =>
+    s.name === name ||
+    s.name_en === name ||
+    s.name.includes(name) ||
+    name.includes(s.name) ||
+    (s.name_en && (s.name_en.toLowerCase() === name.toLowerCase() || s.name_en.toLowerCase().includes(name.toLowerCase()))) ||
+    (name_en => s.name_en && name.toLowerCase().includes(s.name_en.toLowerCase()))(s.name_en)
+  ) || null;
 }
 
 function shuffle(arr) {

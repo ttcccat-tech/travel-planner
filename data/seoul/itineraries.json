@@ -1,0 +1,166 @@
+{
+  "itineraries": {
+    "3": {
+      "name": "3天2夜 精華快閃",
+      "suitable_for": "初次遊客",
+      "layout": "漸進式（由近到遠）",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            { "time": "下午", "item": "抵達仁川機場 → AREX/巴士至市區", "type": "transport", "stay": "1小時", "ticket": "依距離", "details": { "note": "寄行李後開始行程", "google_maps": null, "youtube": null, "blog_article": null } },
+            { "time": "下午", "item": "明洞散步、兌換韓幣", "type": "general", "stay": "1小時", "ticket": "免費", "details": { "note": "熟悉環境", "google_maps": null, "youtube": null, "blog_article": null } },
+            { "time": "晚上", "item": "明洞美食探索", "type": "meal", "slot": "晚上", "note": "明洞烤雞肉串/路邊攤", "details": {} }
+          ],
+          "zones": ["明洞"]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            { "time": "上午", "item": "景福宮", "type": "attraction", "stay": "1.5-2小時", "ticket": "免費（守門將交接儀式）", "details": {} },
+            { "time": "中午", "item": "午餐—仁寺洞傳統料理", "type": "meal", "slot": "中午", "note": "仁寺洞", "details": {} },
+            { "time": "下午", "item": "仁寺洞、北村韓屋村", "type": "attraction", "stay": "2小時", "ticket": "免費", "details": {} },
+            { "time": "傍晚", "item": "光化門廣場、清溪川", "type": "attraction", "stay": "1小時", "ticket": "免費", "details": {} },
+            { "time": "晚上", "item": "東大门設計廣場（DDP）", "type": "shopping", "stay": "2小時", "ticket": "免費", "details": {} }
+          ],
+          "zones": ["鐘路區", "中區"]
+        },
+        {
+          "day": 3,
+          "type": "departure",
+          "title": "出發日",
+          "activities": [
+            { "time": "上午", "item": "廣藏市場早午餐", "type": "meal", "slot": "上午", "note": "綠豆煎餅", "details": {} },
+            { "time": "中午", "item": "最後購物 → 前往機場", "type": "transport", "stay": "1小時", "ticket": "依距離", "details": { "note": "建議提前3小時出發", "google_maps": null, "youtube": null, "blog_article": null } }
+          ],
+          "zones": ["中區"]
+        }
+      ]
+    },
+    "4": {
+      "name": "4天3夜 經典深度",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            { "time": "下午", "item": "抵達 → 市廳/明洞飯店", "type": "transport", "stay": "1小時", "ticket": "依距離", "details": { "note": "寄行李後開始行程", "google_maps": null, "youtube": null, "blog_article": null } },
+            { "time": "下午", "item": "市廳散步、德壽宮", "type": "general", "stay": "1小時", "ticket": "免費", "details": { "note": "石牆路散步", "google_maps": null, "youtube": null, "blog_article": null } },
+            { "time": "晚上", "item": "首爾站/南山塔夜景", "type": "attraction", "stay": "2小時", "ticket": "纜車來回 W9,000", "details": {} }
+          ],
+          "zones": ["中區", "龍山區"]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            { "time": "上午", "item": "景福宮（守門將儀式）", "type": "attraction", "stay": "1.5小時", "ticket": "免費", "details": {} },
+            { "time": "中午", "item": "土俗村蔘雞湯", "type": "meal", "slot": "中午", "note": "景福宮站", "details": {} },
+            { "time": "下午", "item": "三清洞、北村韓屋村", "type": "attraction", "stay": "2小時", "ticket": "免費", "details": {} },
+            { "time": "傍晚", "item": "仁寺洞傳統工藝", "type": "shopping", "stay": "1.5小時", "ticket": "免費", "details": {} },
+            { "time": "晚上", "item": "東大门批發購物", "type": "shopping", "stay": "2小時", "ticket": "免費", "details": {} }
+          ],
+          "zones": ["鐘路區", "中區"]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            { "time": "上午", "item": "弘大自由市場、延南洞CAFÉ", "type": "attraction", "stay": "2小時", "ticket": "免費", "details": {} },
+            { "time": "中午", "item": "弘大啤酒BAR一條街", "type": "meal", "slot": "中午", "note": "弘大", "details": {} },
+            { "time": "下午", "item": "樂天世界塔水族館", "type": "attraction", "stay": "2小時", "ticket": "W39,000", "details": {} },
+            { "time": "傍晚", "item": "首爾森林生態林", "type": "attraction", "stay": "1小時", "ticket": "免費", "details": {} }
+          ],
+          "zones": ["麻浦區", "松坡區"]
+        },
+        {
+          "day": 4,
+          "type": "departure",
+          "title": "出發日",
+          "activities": [
+            { "time": "上午", "item": "廣藏市場早午餐", "type": "meal", "slot": "上午", "note": "綠豆煎餅", "details": {} },
+            { "time": "中午", "item": "明洞最後購物", "type": "shopping", "stay": "1.5小時", "ticket": "免費", "details": {} },
+            { "time": "下午", "item": "前往機場", "type": "transport", "stay": "1小時", "ticket": "AREX W9,000", "details": { "note": "建議提前3小時出發", "google_maps": null, "youtube": null, "blog_article": null } }
+          ],
+          "zones": ["中區"]
+        }
+      ]
+    },
+    "5": {
+      "name": "5天4夜 完整攻略",
+      "suitable_for": "深度遊客",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            { "time": "下午", "item": "抵達 → 市區飯店", "type": "transport", "stay": "1小時", "ticket": "依距離", "details": { "note": "寄行李", "google_maps": null, "youtube": null, "blog_article": null } },
+            { "time": "下午", "item": "明洞散步、兌換韓幣", "type": "general", "stay": "1.5小時", "ticket": "免費", "details": {} },
+            { "time": "晚上", "item": "明洞美食探索", "type": "meal", "slot": "晚上", "note": "烤雞肉串/路邊攤", "details": {} }
+          ],
+          "zones": ["明洞"]
+        },
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            { "time": "上午", "item": "景福宮、國立民俗博物館", "type": "attraction", "stay": "2小時", "ticket": "免費", "details": {} },
+            { "time": "中午", "item": "土俗村蔘雞湯", "type": "meal", "slot": "中午", "note": "景福宮站", "details": {} },
+            { "time": "下午", "item": "北村韓屋村、三清洞", "type": "attraction", "stay": "2.5小時", "ticket": "免費", "details": {} },
+            { "time": "傍晚", "item": "光化門廣場、清溪川", "type": "attraction", "stay": "1小時", "ticket": "免費", "details": {} },
+            { "time": "晚上", "item": "仁寺洞傳統茶屋", "type": "meal", "slot": "晚上", "note": "仁寺洞", "details": {} }
+          ],
+          "zones": ["鐘路區", "中區"]
+        },
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            { "time": "上午", "item": "南怡島（冬季初戀）", "type": "attraction", "stay": "3小時", "ticket": "W10,000", "details": {} },
+            { "time": "中午", "item": "南怡島內餐廳", "type": "meal", "slot": "中午", "note": "島上簡餐", "details": {} },
+            { "time": "下午", "item": "小法國村（來自星星的你）", "type": "attraction", "stay": "2小時", "ticket": "W10,000", "details": {} },
+            { "time": "傍晚", "item": "晨靜林木園（季節限定）", "type": "attraction", "stay": "1.5小時", "ticket": "W7,000", "details": {} }
+          ],
+          "zones": ["京畿道"]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            { "time": "上午", "item": "弘大自由市場、延南洞CAFÉ", "type": "attraction", "stay": "2小時", "ticket": "免費", "details": {} },
+            { "time": "中午", "item": "弘大啤酒BAR一條街", "type": "meal", "slot": "中午", "note": "弘大", "details": {} },
+            { "time": "下午", "item": "COEX MALL + 地下海底世界", "type": "attraction", "stay": "2.5小時", "ticket": "W25,000", "details": {} },
+            { "time": "傍晚", "item": "奉恩寺禪體驗", "type": "attraction", "stay": "1小時", "ticket": "免費", "details": {} },
+            { "time": "晚上", "item": "江南網紅蛋糕", "type": "meal", "slot": "晚上", "note": "江南站", "details": {} }
+          ],
+          "zones": ["麻浦區", "江南區"]
+        },
+        {
+          "day": 5,
+          "type": "departure",
+          "title": "出發日",
+          "activities": [
+            { "time": "上午", "item": "廣藏市場早午餐", "type": "meal", "slot": "上午", "note": "綠豆煎餅", "details": {} },
+            { "time": "中午", "item": "明洞/市廳最後購物", "type": "shopping", "stay": "1.5小時", "ticket": "免費", "details": {} },
+            { "time": "下午", "item": "前往仁川機場", "type": "transport", "stay": "1小時", "ticket": "AREX W9,000", "details": { "note": "建議提前3小時出發", "google_maps": null, "youtube": null, "blog_article": null } }
+          ],
+          "zones": ["中區"]
+        }
+      ]
+    }
+  }
+}
