@@ -2,54 +2,56 @@
   "name": "tokyo",
   "display_name": "日本東京",
   "city_type": "metropolitan",
-  "description": "全球最大都會區，電車網絡發達，自駕僅推薦往富士山/輕井澤等郊區。市區以PASMO/Suica+電車為主。",
+  "description": "全球最大都會區，大眾交通極度發達，地鐵+JR+私鐵共十幾家業者營運，Suica/PASMO一卡通關。自駕僅推薦前往河口湖、輕井澤等郊區。",
+
+  "from_taiwan": {
+    "flight_time": "約3.5-4小時（桃園TPE ↔ 成田NRT 或 羽田HND）",
+    "airlines": [
+      {"name": "中華航空（CI）", "price_range": "TWD 10,000-20,000（來回含稅）"},
+      {"name": "長榮航空（BR）", "price_range": "TWD 11,000-22,000（來回含稅）"},
+      {"name": "星宇航空（JX）", "price_range": "TWD 12,000-22,000（來回含稅）"},
+      {"name": "台灣虎航（IT）", "price_range": "TWD 7,000-15,000（來回含稅，廉航）"},
+      {"name": "香草航空（JW）", "price_range": "TWD 6,000-12,000（來回含稅，廉航）"}
+    ],
+    "booking_tips": "每年ITF旅展（11月）、双十一期間常有大特價。成田航班多且票價多樣，羽田離市區較近但票價較高。"
+  },
+
   "airport_to_city": {
-    "method": "京成電鐵/成田express/N'EX",
-    "route": "成田機場 → 東京（京成Narita Skyliner約36分/N'EX約53分）",
-    "estimated_time": "36-60分",
-    "estimated_cost": "2520-3250円"
+    "method": "Skyliner / N'EX / 利木津巴士 / 機場計程車",
+    "route": "成田機場 → Skyliner至日暮里/上野（約36-41分）；或N'EX直達東京/新宿/澀谷（約55-85分）",
+    "alternative": "利木津巴士：直達東京/新宿/池袋/台場各大飯店（約70-110分，2,300-3,600円）；京成本線：經濟實惠直達上野（約75分，1,050円）",
+    "estimated_time": "Skyliner 36-41分 / N'EX 55-85分 / 利木津巴士 70-110分 / 京成本線 75分",
+    "estimated_cost": "Skyliner 2,580円 / N'EX 3,140-3,330円 / 利木津 2,300-3,600円 / 京成線 1,050-1,170円"
   },
+
   "within_city": {
-    "main_transport": "JR（10條線+多条私鐵）、東京Metro（9條線）、都營地下鐵",
-    "suggested_card": "PASMO（押金500円，可加值）— JR/私鐵/Metro/巴士通用"
+    "main_transport": "JR（山手線為核心）、東京Metro地鐵、都營地鐵、私鐵（多家）",
+    "suggested_card": "Suica（西瓜卡）— 手機Suica免押金，直接用iPhone開卡；實體卡押金500円，機場/車站皆可購買與退卡",
+    "ticket_options": [
+      {"name": "Tokyo Subway Ticket（24/48/72小時）", "price": "1,000/1,500/2,000円", "desc": "外國人限定，含Metro+都營全線，72小時版本平均500円/天，性價比極高"},
+      {"name": "JR東京廣域周遊券", "price": "10,000円/3日", "desc": "含成田機場至市區+日光+河口湖+輕井澤等近郊，跨城市移動推薦"},
+      {"name": "Suica PASMO IC卡", "price": "押金500円（可退）", "desc": "JR/地鐵/私鐵/巴士/便利商店全線通用，餘額可退還"}
+    ]
   },
-  "ticket_options": [
-    {
-      "name": "JR東京廣域周遊券（3日）",
-      "price": "10150円",
-      "desc": "含JR廣域範圍（富士山/輕井澤/河口湖），外國人限定優惠"
-    },
-    {
-      "name": "Tokyo Subway Ticket（24/48/72h）",
-      "price": "800/1200/1500円",
-      "desc": "東京Metro+都營地鐵無限搭，超值"
-    },
-    {
-      "name": "Suicaamo",
-      "price": "1000円起",
-      "desc": "含1000円可用額+500円押金，可加值"
-    }
-  ],
+
+  "driving_assessment": {
+    "recommendation": "市區強烈不建議自駕（停車費每小時300-600円、道路複雜、左駕）。郊區來回（河口湖、鎌倉、日光、輕井澤）可考慮自駕或搭觀光列車。",
+    "rental_tips": "成田機場出境大廳有租車櫃台（Toyota/Nissan/Times），建議提前預約。郊區道路狀況佳，適合自駕跑景點",
+    "license_note": "台灣遊客需攜帶護照+國際駕照（IDP），日本不承認台灣駕照日文譯本",
+    "highway_note": "高速公路過路費昂貴（成田至東京約2,000-3,000円），建議使用ETC卡；郊區道路普遍良好"
+  },
+
   "cash_prep": {
-    "recommendation": "每人每日建議準備2000-3000円現金",
-    "breakdown": "交通費約800-1500円+餐費1000-2000円+雜支500円",
-    "note": "大多數地方可刷卡，傳統商店街/自動贩卖機需現金"
+    "recommendation": "每人建議換日幣現金約 TWD 10,000-20,000（5天行程）",
+    "breakdown": "交通費約800-1,500円/天 / 餐飲費約1,500-3,000円/天 / 門票+順遊費約1,000-2,000円/天",
+    "note": "大多數商店、餐廳、便利店可刷卡，但路邊攤、部分的士、部分觀光景點只收現金，建議每日備1,000-2,000円零鈔"
   },
+
   "transfer_tips": [
-    {
-      "from": "成田機場",
-      "to": "東京市區",
-      "note": "京成電鐵最快，N'EX可直達東京/新宿/澀谷"
-    },
-    {
-      "from": "東京",
-      "to": "河口湖",
-      "note": "JR中央線+富士急行，或從新宿搭高速巴士（約2小時）"
-    },
-    {
-      "from": "東京",
-      "to": "輕井澤",
-      "note": "北陸新幹線約65分，適用JR東京廣域周遊券"
-    }
+    {"from": "成田機場", "to": "新宿", "note": "N'EX直達約80分鐘；或Skyliner至日暮里轉山手線約60分"},
+    {"from": "成田機場", "to": "淺草", "note": "ACCESS特快直達約59分，票價1,290円，無需轉車"},
+    {"from": "東京站", "to": "河口湖", "note": "JR中央東線至大月站轉富士急行，約2小時；或高速巴士約3.5小時"},
+    {"from": "新宿", "to": "鎌倉", "note": "JR湘南新宿線直達，約1小時"},
+    {"from": "澀谷", "to": "台場", "note": "百合鷗號海鷗線（Yurikamome）直達成田，約25分，風景佳"}
   ]
 }
