@@ -3,7 +3,8 @@
 // ============================================================
 
 // ----- State -----
-const state = {
+// Expose as window.state for debugging / monkey-patching
+window.state = state = {
   regions: [],
   currentRegion: null,
 
@@ -143,6 +144,7 @@ function wireEvents() {
 // ----- Region Change -----
 async function onRegionChange(e) {
   const region = e.target.value;
+  console.log('[DEBUG] onRegionChange called, region =', region);
   if (!region) {
     document.getElementById('days-select').disabled = true;
     document.getElementById('generate-btn').disabled = true;
@@ -154,31 +156,49 @@ async function onRegionChange(e) {
   state.currentRegion = region;
 
   // Load all region data in parallel via API
-  // 生產環境用相對路徑（nginx reverse proxy）或環境變量
-  const API_BASE = window.__API_BASE__ || '/api';
-  const [attRes, staRes, outRes, itinRes] = await Promise.all([
-    fetch(`${API_BASE}/${region}/attractions`).catch(() => new Response('[]')),
-    fetch(`${API_BASE}/${region}/stations`).catch(() => new Response('[]')),
-    fetch(`${API_BASE}/${region}/outlets`).catch(() => new Response('[]')),
-    fetch(`${API_BASE}/${region}/itineraries`).catch(() => new Response('[]')),
-    // transport.json 暫時保留 static fetch（尚未資料庫化）
-    fetch(`data/${region}/transport.json`).catch(() => new Response('{}')),
-  ]);
+  // 生產：nginx reverse proxy /api/ → FastAPI（docker network）
+  // 開發：直接連 API（window.__API_BASE__ 可外部注入）
+  const API_BASE = window.__API_BASE__ || (location.hostname === 'localhost' ? 'http://localhost:8001/api' : '/api');
 
-  const [attData, staData, outData, itinData, transData] = await Promise.all([
-    attRes.json().catch(() => []),
-    staRes.json().catch(() => []),
-    outRes.json().catch(() => []),
-    itinRes.json().catch(() => ({})),
-    transRes.json().catch(() => ({})),
-  ]);
+  let attData = [], staData = [], outData = [], itinData = {}, transData = {};
+  try {
+    const [attRes, staRes, outRes, itinRes, transRes] = await Promise.all([
+      fetch(`${API_BASE}/${region}/attractions`),
+      fetch(`${API_BASE}/${region}/stations`),
+      fetch(`${API_BASE}/${region}/outlets`),
+      fetch(`${API_BASE}/${region}/itineraries`),
+      fetch(`data/${region}/transport.json`),
+    ]);
+
+    [attData, staData, outData, itinData, transData] = await Promise.all([
+      attRes.json().catch(() => []),
+      staRes.json().catch(() => []),
+      outRes.json().catch(() => []),
+      itinRes.json().catch(() => ({})),
+      transRes.json().catch(() => ({})),
+    ]);
+  } catch(err) {
+    console.error('[DEBUG] loadRegionData FAILED:', err.message);
+    return;
+  }
 
   // API returns raw arrays / dict; JSON wrapped data needs .attractions accessor
   state.attractions = attData.attractions || attData.data || attData || [];
   state.stations    = staData.stations    || staData.data || staData || [];
   state.outlets     = outData.outlets     || outData.data || outData || [];
-  state.itineraries = itinData.itineraries || itinData || {};
+  // API returns raw arrays / dict; JSON wrapped data needs .attractions accessor
+  // 重要：itineraries API 回傳 array，但舊程式期待 dict {day_key: row}，需要轉換
+  const rawItineraries = itinData.itineraries || itinData || [];
+  state.itineraries = Array.isArray(rawItineraries)
+    ? Object.fromEntries(rawItineraries.map(r => [String(r.day_key), r]))
+    : (itinData.itineraries || itinData || {});
   state.transport    = transData || {};
+
+  console.log('[DEBUG] state after load:', {
+    attractions: state.attractions.length,
+    stations: state.stations.length,
+    itineraries_isArray: Array.isArray(state.itineraries),
+  });
 
   // Init days slider max based on available itineraries
   const availableDays = Object.keys(state.itineraries).map(Number).filter(d => !isNaN(d));
@@ -454,7 +474,7 @@ function handleOutletSelect(itemId, slot) {
 
 async function onGenerate() {
   clearAlerts();
-
+  try {
   const days = state.selectedDays;
   const wantItems    = state.wantItems.filter(w => w).map(name => findItemByName(name)).filter(Boolean);
   const wantOutlets  = state.wantOutlets.filter(w => w).map(name => findOutletByName(name)).filter(Boolean);
@@ -531,11 +551,14 @@ async function onGenerate() {
     return;
   }
 
+  const itinDays = itin.days_json || itin.days || [];
+  console.log('[DEBUG] itinDays:', itinDays, 'type:', typeof itinDays, 'isArray:', Array.isArray(itinDays));
+
   // --- Zone pools ---
   const zonePools = buildZonePools(wantStations, finalItems);
 
   // --- Generate each day ---
-  const generatedDays = itin.days.map((day, dayIdx) => {
+  const generatedDays = itinDays.map((day, dayIdx) => {
     if (day.type === 'arrival' || day.type === 'departure') {
       return buildSpecialDay(day);
     }
@@ -546,6 +569,9 @@ async function onGenerate() {
   renderItinerary(generatedDays, days);
   document.getElementById('itinerary-output').classList.remove('hidden');
   document.getElementById('empty-state').classList.add('hidden');
+  } catch(err) {
+    console.error('[onGenerate ERROR]:', err.message, err.stack);
+  }
 }
 
 // ----- Build zone pools (attractions grouped by zone, with station anchors) -----
@@ -948,5 +974,6 @@ function renderAlerts(alerts) {
 }
 
 function clearAlerts() {
-  document.getElementById('alerts-container').innerHTML = '';
+  const c = document.getElementById('alerts-container');
+  if (c) c.innerHTML = '';
 }
