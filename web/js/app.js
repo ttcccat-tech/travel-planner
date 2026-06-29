@@ -574,7 +574,11 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
 
   // Collect candidates from selected zones (景點/秘境 only；美食/shrine/hotel 不在景點 pool)
   const candidates = [];
-  selectedZones.forEach(z => {
+  // Fallback: 如果 selectedZones 全都沒有對上 zoneMap，就用所有有景點的 zone
+  const allZoneNames = Object.keys(zoneMap);
+  const zonesWithCandidates = selectedZones.filter(z => zoneMap[z] && zoneMap[z].length > 0);
+  const finalZones = zonesWithCandidates.length > 0 ? zonesWithCandidates : (allZoneNames.length > 0 ? allZoneNames.slice(0, 2) : []);
+  finalZones.forEach(z => {
     if (zoneMap[z]) {
       zoneMap[z].forEach(a => {
         if (a.category === 'attraction' || a.category === 'hidden_gem') {
