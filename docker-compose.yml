@@ -24,6 +24,8 @@ services:
     restart: unless-stopped
     ports:
       - "8001:8001"
+    volumes:
+      - ./backend:/app
     networks:
       - travel-net
 
