@@ -1,0 +1,1680 @@
+{
+  "region": "osaka",
+  "updated": "2026-06-29",
+  "stations": [
+    {
+      "id": "osaka_station_001",
+      "name": "大阪（ Osaka）",
+      "name_en": "Osaka Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR京都線",
+        "JR神戶線"
+      ],
+      "zone": "梅田",
+      "lat": 34.7025087,
+      "lng": 135.4961773,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_002",
+      "name": "新大阪",
+      "name_en": "Shin-Osaka Station",
+      "company": "JR",
+      "line": [
+        "JR京都線",
+        "JR神戶線",
+        "東海道新幹線"
+      ],
+      "zone": "新大阪",
+      "lat": 34.7335385,
+      "lng": 135.5001888,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_003",
+      "name": "天王寺",
+      "name_en": "Tennoji Station Osaka",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR關西機場線",
+        "JR和歌山線"
+      ],
+      "zone": "天王寺",
+      "lat": 34.6473432,
+      "lng": 135.5152413,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_004",
+      "name": "難波（JR）",
+      "name_en": "JR Namba Station",
+      "company": "JR",
+      "line": [
+        "JR大和路線"
+      ],
+      "zone": "難波",
+      "lat": 34.6677995,
+      "lng": 135.4961219,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_005",
+      "name": "新今宮",
+      "name_en": "Shin-Imamiya Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR關西機場線"
+      ],
+      "zone": "新今宮",
+      "lat": 34.6498493,
+      "lng": 135.502195,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_006",
+      "name": "鶴橋",
+      "name_en": "Tsuruhashi Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR關西機場線"
+      ],
+      "zone": "鶴橋",
+      "lat": 34.6652508,
+      "lng": 135.5307389,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_007",
+      "name": "京橋",
+      "name_en": "Kyobashi Station Osaka",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR片町線"
+      ],
+      "zone": "京橋",
+      "lat": 34.6969888,
+      "lng": 135.5321662,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_008",
+      "name": "大阪城公園",
+      "name_en": "Osakajokoen Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線"
+      ],
+      "zone": "大阪城",
+      "lat": 34.6877568,
+      "lng": 135.5344012,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_009",
+      "name": "環球城",
+      "name_en": "Universal-City Station Osaka",
+      "company": "JR",
+      "line": [
+        "JRゆめ咲線"
+      ],
+      "zone": "環球城",
+      "lat": 34.6679419,
+      "lng": 135.4386758,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_010",
+      "name": "西九條",
+      "name_en": "Nishikujo Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JRゆめ咲線"
+      ],
+      "zone": "西九條",
+      "lat": 34.6822701,
+      "lng": 135.4663099,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_011",
+      "name": "江坂",
+      "name_en": "Esaka Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "江坂",
+      "lat": 34.7588662,
+      "lng": 135.4970992,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_012",
+      "name": "淀屋橋",
+      "name_en": "Yodoyabashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "淀屋橋",
+      "lat": 34.6916371,
+      "lng": 135.5009538,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_013",
+      "name": "心齋橋",
+      "name_en": "Shinsaibashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線",
+        "地下鐵四橋線"
+      ],
+      "zone": "心齋橋",
+      "lat": 34.6745173,
+      "lng": 135.5003566,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_014",
+      "name": "難波（地下鐵）",
+      "name_en": "Namba Station Osaka Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線",
+        "地下鐵四橋線",
+        "地下鐵千日前線"
+      ],
+      "zone": "難波",
+      "lat": 34.665192,
+      "lng": 135.498271,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_015",
+      "name": "天王寺（地下鐵）",
+      "name_en": "Tennoji Station Osaka Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線",
+        "地下鐵谷町線"
+      ],
+      "zone": "天王寺",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_016",
+      "name": "西大橋",
+      "name_en": "Nishi-Ohashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵四橋線"
+      ],
+      "zone": "西大橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_017",
+      "name": "玉出",
+      "name_en": "Tamedani Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵四橋線"
+      ],
+      "zone": "玉出",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_018",
+      "name": "東天滿",
+      "name_en": "Higashi-Temma Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵谷町線"
+      ],
+      "zone": "東天滿",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_019",
+      "name": "天神橋筋六丁目",
+      "name_en": "Tenjinbashi-Suji Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵谷町線"
+      ],
+      "zone": "天神橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_020",
+      "name": "京橋（地下鐵）",
+      "name_en": "Kyobashi Station Osaka Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵鶴見綠地線"
+      ],
+      "zone": "京橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_021",
+      "name": "大阪港",
+      "name_en": "Osakako Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵中央線"
+      ],
+      "zone": "大阪港",
+      "lat": 34.6539299,
+      "lng": 135.4344143,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_022",
+      "name": "宇宙廣場",
+      "name_en": "Cosmo-Square Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵中央線"
+      ],
+      "zone": "宇宙廣場",
+      "lat": 34.6425771,
+      "lng": 135.4122147,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_023",
+      "name": "野田籐井",
+      "name_en": "Noda-Fujita Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵千日前線"
+      ],
+      "zone": "野田",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_024",
+      "name": "日本橋",
+      "name_en": "Nippombashi Station Osaka",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵千日前線",
+        "地下鐵堺筋線"
+      ],
+      "zone": "日本橋",
+      "lat": 34.6671327,
+      "lng": 135.5064118,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_025",
+      "name": "惠美須町",
+      "name_en": "Ebisucho Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵堺筋線"
+      ],
+      "zone": "惠美須町",
+      "lat": 34.6555982,
+      "lng": 135.5056642,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_026",
+      "name": "大正",
+      "name_en": "Taisho Station Osaka",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵長堀鶴見綠地線"
+      ],
+      "zone": "大正",
+      "lat": 34.665439,
+      "lng": 135.4803368,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_027",
+      "name": "難波（南海）",
+      "name_en": "Namba Station Nankai",
+      "company": "南海",
+      "line": [
+        "南海高野線",
+        "南海空港線"
+      ],
+      "zone": "難波",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_028",
+      "name": "天下茶屋",
+      "name_en": "Tengachaya Station",
+      "company": "南海",
+      "line": [
+        "南海高野線",
+        "地下鐵堺筋線"
+      ],
+      "zone": "天下茶屋",
+      "lat": 34.6371552,
+      "lng": 135.4966595,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_029",
+      "name": "大阪難波（阪神）",
+      "name_en": "Hanshin Namba Station",
+      "company": "阪神",
+      "line": [
+        "阪神難波線"
+      ],
+      "zone": "難波",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_030",
+      "name": "大阪上本町",
+      "name_en": "Osaka-Uehonmachi Station",
+      "company": "近鐵",
+      "line": [
+        "近鐵大阪線",
+        "近鐵奈良線"
+      ],
+      "zone": "上本町",
+      "lat": 34.6655807,
+      "lng": 135.5201501,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_031",
+      "name": "中和岡",
+      "name_en": "Chuo-Oka Station",
+      "company": "泉北",
+      "line": [
+        "泉北高速鐵道線"
+      ],
+      "zone": "泉北",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_032",
+      "name": "蘆原橋",
+      "name_en": "Ashiharacho Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線"
+      ],
+      "zone": "蘆原橋",
+      "lat": 34.6605071,
+      "lng": 135.4864615,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_033",
+      "name": "今宮",
+      "name_en": "Imamiya Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線"
+      ],
+      "zone": "今宮",
+      "lat": 34.6539549,
+      "lng": 135.4930343,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_034",
+      "name": "玉造",
+      "name_en": "Tamatsukuri Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線"
+      ],
+      "zone": "玉造",
+      "lat": 34.6732044,
+      "lng": 135.5328575,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_035",
+      "name": "森之宮",
+      "name_en": " Morinomiya Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR中央線"
+      ],
+      "zone": "森之宮",
+      "lat": 34.6804474,
+      "lng": 135.5340047,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_036",
+      "name": "大阪城北詰",
+      "name_en": "Osakajokitazume Station",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "大阪城",
+      "lat": 34.6939692,
+      "lng": 135.5262454,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_037",
+      "name": "天滿",
+      "name_en": "Temma Station",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR東西線"
+      ],
+      "zone": "天滿",
+      "lat": 34.7049249,
+      "lng": 135.5123175,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_038",
+      "name": "福岛",
+      "name_en": "Fukushima Station Osaka",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線",
+        "JR東西線"
+      ],
+      "zone": "福岛",
+      "lat": 34.6972584,
+      "lng": 135.4868438,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_039",
+      "name": "野田（JR）",
+      "name_en": "Noda Station Osaka",
+      "company": "JR",
+      "line": [
+        "JR大阪環狀線"
+      ],
+      "zone": "野田",
+      "lat": 34.6944174,
+      "lng": 135.4761842,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_040",
+      "name": "大阪天滿宮",
+      "name_en": "Osaka-Temmangu Station",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "天滿",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_041",
+      "name": "新大阪（JR東西線）",
+      "name_en": "Shin-Osaka Station JR",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "新大阪",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_042",
+      "name": "大阪",
+      "name_en": "Osaka Station",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "梅田",
+      "lat": 34.7014968,
+      "lng": 135.4947171,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_043",
+      "name": "小路",
+      "name_en": "Shoji Station",
+      "company": "JR",
+      "line": [
+        "JR大和路線"
+      ],
+      "zone": "小路",
+      "lat": 34.804265,
+      "lng": 135.4754296,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_044",
+      "name": "JR難波（升陽）",
+      "name_en": "JR Namba Station",
+      "company": "JR",
+      "line": [
+        "JR大和路線"
+      ],
+      "zone": "難波",
+      "lat": 34.6673477,
+      "lng": 135.4965434,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_045",
+      "name": "新大阪（地下鐵）",
+      "name_en": "Shin-Osaka Station Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "新大阪",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_046",
+      "name": "西中島南方",
+      "name_en": "Nishinakajima-Minamigata Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "新大阪",
+      "lat": 34.726637,
+      "lng": 135.4985965,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_047",
+      "name": "中津",
+      "name_en": "Nakatsu Station Osaka",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "梅田",
+      "lat": 34.7099099,
+      "lng": 135.4923708,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_048",
+      "name": "狸小路",
+      "name_en": "Tanukibashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵御堂筋線"
+      ],
+      "zone": "狸",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_049",
+      "name": "南森町",
+      "name_en": "Minamimorimachi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵谷町線"
+      ],
+      "zone": "天滿",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_050",
+      "name": "長柄橋",
+      "name_en": "Nagarekawa Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵谷町線"
+      ],
+      "zone": "天滿橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_051",
+      "name": "四天王寺前/夕陽丘",
+      "name_en": "Shitennoji-mae Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵谷町線"
+      ],
+      "zone": "天王寺",
+      "lat": 34.6588158,
+      "lng": 135.5142455,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_052",
+      "name": "鶴見綠地",
+      "name_en": "Tsurumiryokuchi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵鶴見綠地線"
+      ],
+      "zone": "鶴見綠地",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_053",
+      "name": "門真南",
+      "name_en": "Kadomasouth Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵鶴見綠地線"
+      ],
+      "zone": "門真",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_054",
+      "name": "深江橋",
+      "name_en": "Fukaebashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵中央線"
+      ],
+      "zone": "深江橋",
+      "lat": 34.6791117,
+      "lng": 135.5574529,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_055",
+      "name": "高津",
+      "name_en": "Takatsu Station Osaka",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵中央線"
+      ],
+      "zone": "高津",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_056",
+      "name": "長田",
+      "name_en": "Nagata Station Osaka",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵中央線"
+      ],
+      "zone": "長田",
+      "lat": 34.6787583,
+      "lng": 135.59106,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_057",
+      "name": "北加賀屋",
+      "name_en": "Kita-Kagaya Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵四橋線"
+      ],
+      "zone": "北加賀屋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_058",
+      "name": "住之江公園",
+      "name_en": "Suminoekoen Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵四橋線"
+      ],
+      "zone": "住之江",
+      "lat": 34.6087391,
+      "lng": 135.4730992,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_059",
+      "name": "北濱（堺筋）",
+      "name_en": "Kitahama Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵堺筋線"
+      ],
+      "zone": "北濱",
+      "lat": 34.691505,
+      "lng": 135.5075836,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_060",
+      "name": "淀橋",
+      "name_en": "Yodobashi Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵堺筋線"
+      ],
+      "zone": "梅田",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_061",
+      "name": "蘆原橋（地下鐵）",
+      "name_en": "Ashiharacho Station Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵千日前線"
+      ],
+      "zone": "蘆原橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_062",
+      "name": "今里（地下鐵）",
+      "name_en": "Imazato Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵千日前線"
+      ],
+      "zone": "今里",
+      "lat": 34.6647606,
+      "lng": 135.5497623,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_063",
+      "name": "鶴見綠地（地下鐵）",
+      "name_en": "Tsurumiryokuchi Station Metro",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵長堀鶴見綠地線"
+      ],
+      "zone": "鶴見綠地",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_064",
+      "name": "今里（長堀鶴見）",
+      "name_en": "Imazato-Sangiin Station",
+      "company": "地下鐵",
+      "line": [
+        "地下鐵長堀鶴見綠地線"
+      ],
+      "zone": "今里",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_065",
+      "name": "大阪單軌 千里",
+      "name_en": "Senri Station Osaka Monorail",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "千里",
+      "lat": 34.8074476,
+      "lng": 135.4949721,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_066",
+      "name": "大阪單軌 萬博紀念公園",
+      "name_en": "Banpaku-Kinen-Koen Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "萬博",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_067",
+      "name": "大阪單軌 EXPOCITY",
+      "name_en": "EXPOCITY Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "萬博",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_068",
+      "name": "南茨木",
+      "name_en": "Minami-Ibaraki Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "茨木",
+      "lat": 34.803217,
+      "lng": 135.5647787,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_069",
+      "name": "澤良宜",
+      "name_en": "Sawara Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "茨木",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_070",
+      "name": "大阪單軌 攝津",
+      "name_en": "Setsu Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "攝津",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_071",
+      "name": "南攝津",
+      "name_en": "Minami-Setsu Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "攝津",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_072",
+      "name": "柴原阪大",
+      "name_en": "Shiharaniosaka-mae Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "千里",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_073",
+      "name": "豐川",
+      "name_en": "Toyokawa Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "千里",
+      "lat": 34.8346327,
+      "lng": 135.5267693,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_074",
+      "name": "彩都西",
+      "name_en": "Saitosai Station",
+      "company": "大阪單軌",
+      "line": [
+        "大阪單軌線"
+      ],
+      "zone": "彩都",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_075",
+      "name": "淀屋橋（京阪）",
+      "name_en": "Yodoyabashi Station Keihan",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "淀屋橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_076",
+      "name": "北濱（京阪）",
+      "name_en": "Kitahama Station Keihan",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "北濱",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_077",
+      "name": "天滿橋（京阪）",
+      "name_en": "Temmabashi Station Keihan",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "天滿橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_078",
+      "name": "京橋（京阪）",
+      "name_en": "Keihan Kyobashi Station",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "京橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_079",
+      "name": "枚方町",
+      "name_en": "Hirakata-cho Station",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "枚方",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_080",
+      "name": "樟葉",
+      "name_en": "Kamohaya Station",
+      "company": "京阪",
+      "line": [
+        "京阪本線"
+      ],
+      "zone": "樟葉",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_081",
+      "name": "石津",
+      "name_en": "Ishida Station",
+      "company": "京阪",
+      "line": [
+        "京阪巾下田線"
+      ],
+      "zone": "石津",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_082",
+      "name": "野田（阪神）",
+      "name_en": "Noda Station Hanshin",
+      "company": "阪神",
+      "line": [
+        "阪神難波線"
+      ],
+      "zone": "野田",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_083",
+      "name": "杭濑",
+      "name_en": "Kosei Station",
+      "company": "阪神",
+      "line": [
+        "阪神難波線"
+      ],
+      "zone": "大正",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_084",
+      "name": "大物",
+      "name_en": "Daio Station",
+      "company": "阪神",
+      "line": [
+        "阪神難波線"
+      ],
+      "zone": "大物",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_085",
+      "name": "尼崎（阪神）",
+      "name_en": "Amagasaki Station Hanshin",
+      "company": "阪神",
+      "line": [
+        "阪神本線"
+      ],
+      "zone": "尼崎",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_086",
+      "name": "鶴橋（近鐵）",
+      "name_en": "Tsuruhashi Station Kintetsu",
+      "company": "近鐵",
+      "line": [
+        "近鐵奈良線",
+        "近鐵大阪線"
+      ],
+      "zone": "鶴橋",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_087",
+      "name": "上本町（近鐵）",
+      "name_en": "Uehommachi Station Kintetsu",
+      "company": "近鐵",
+      "line": [
+        "近鐵大阪線"
+      ],
+      "zone": "上本町",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_088",
+      "name": "布施",
+      "name_en": "Fuse Station",
+      "company": "近鐵",
+      "line": [
+        "近鐵大阪線"
+      ],
+      "zone": "布施",
+      "lat": 34.663556,
+      "lng": 135.5633305,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_089",
+      "name": "河内松原",
+      "name_en": "Kawachi-Matsubara Station",
+      "company": "近鐵",
+      "line": [
+        "近鐵南大阪線"
+      ],
+      "zone": "松原",
+      "lat": 34.575441,
+      "lng": 135.5570425,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_090",
+      "name": "藤井寺",
+      "name_en": "Fujidera Station",
+      "company": "近鐵",
+      "line": [
+        "近鐵南大阪線"
+      ],
+      "zone": "藤井寺",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_091",
+      "name": "古市",
+      "name_en": "Furuichi Station",
+      "company": "近鐵",
+      "line": [
+        "近鐵南大阪線"
+      ],
+      "zone": "古市",
+      "lat": 34.5541994,
+      "lng": 135.6091699,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_092",
+      "name": "岸里",
+      "name_en": "Kishiki Station",
+      "company": "南海",
+      "line": [
+        "南海高野線"
+      ],
+      "zone": "岸里",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_093",
+      "name": "初芝",
+      "name_en": "Hatsushiba Station",
+      "company": "南海",
+      "line": [
+        "南海高野線"
+      ],
+      "zone": "初芝",
+      "lat": 34.5427828,
+      "lng": 135.52622,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_094",
+      "name": "千代田",
+      "name_en": "Chiyoda Station",
+      "company": "南海",
+      "line": [
+        "南海高野線"
+      ],
+      "zone": "千代田",
+      "lat": 34.4687372,
+      "lng": 135.5663865,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_095",
+      "name": "北野田",
+      "name_en": "Kita-No-Den Station",
+      "company": "南海",
+      "line": [
+        "南海高野線"
+      ],
+      "zone": "北野田",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_096",
+      "name": "泉ヶ丘",
+      "name_en": "Izumigaoka Station",
+      "company": "南海",
+      "line": [
+        "南海高野線"
+      ],
+      "zone": "泉北",
+      "lat": 34.4972264,
+      "lng": 135.5116636,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_097",
+      "name": "泉北高速 和泉中央",
+      "name_en": "Izumi-Chuo Station",
+      "company": "泉北",
+      "line": [
+        "泉北高速鐵道線"
+      ],
+      "zone": "和泉",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_098",
+      "name": "临空城",
+      "name_en": "Rinku-Toyokawa Station",
+      "company": "南海",
+      "line": [
+        "南海空港線"
+      ],
+      "zone": "臨空城",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_099",
+      "name": "關西機場（南海）",
+      "name_en": "Kansai Airport Station",
+      "company": "南海",
+      "line": [
+        "南海空港線"
+      ],
+      "zone": "關西機場",
+      "lat": 34.4359259,
+      "lng": 135.2434129,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_100",
+      "name": "關西機場（JR）",
+      "name_en": "Kansai Airport Station JR",
+      "company": "JR",
+      "line": [
+        "JR關西機場線"
+      ],
+      "zone": "關西機場",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_101",
+      "name": "日根野",
+      "name_en": "Hineno Station",
+      "company": "JR",
+      "line": [
+        "JR關西機場線"
+      ],
+      "zone": "日根野",
+      "lat": 34.3895963,
+      "lng": 135.3309483,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_102",
+      "name": "佐野",
+      "name_en": "Sano Station Osaka",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "佐野",
+      "lat": 34.4165095,
+      "lng": 135.3499784,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_103",
+      "name": "LR 堺市",
+      "name_en": "Sakai-Shoji Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "堺",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_104",
+      "name": "LR 鳳",
+      "name_en": "Otori Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "鳳",
+      "lat": 34.5324515,
+      "lng": 135.4595451,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_105",
+      "name": "三国丘（JR）",
+      "name_en": "Mikunigaoka Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "堺",
+      "lat": 34.564177,
+      "lng": 135.492515,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_106",
+      "name": "LR 津久野",
+      "name_en": "Tsurugaguchi Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "津久野",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_107",
+      "name": "和泉府中",
+      "name_en": "Izumi-Fuchu Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "和泉",
+      "lat": 34.4876476,
+      "lng": 135.4239608,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_108",
+      "name": "LR 紀泉",
+      "name_en": "Kisen Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "紀泉",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_109",
+      "name": "東貝塚",
+      "name_en": "Higashi-Kaizuka Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "貝塚",
+      "lat": 34.4397019,
+      "lng": 135.3732154,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_110",
+      "name": "和泉砂川",
+      "name_en": "Izumi-Sunagawa Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "砂川",
+      "lat": 34.3605283,
+      "lng": 135.2814777,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_111",
+      "name": "LR 走高",
+      "name_en": "Takashio Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "走高",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_112",
+      "name": "LR 熊取",
+      "name_en": "Kumatori Station",
+      "company": "JR",
+      "line": [
+        "JR阪和線"
+      ],
+      "zone": "熊取",
+      "lat": 34.4055271,
+      "lng": 135.3412643,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_113",
+      "name": "日根野（JR加古川）",
+      "name_en": "Hineno Station",
+      "company": "JR",
+      "line": [
+        "JR加古川線"
+      ],
+      "zone": "加古川",
+      "lat": 34.3895963,
+      "lng": 135.3309483,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_114",
+      "name": "川西能勢口",
+      "name_en": "Kawanishi-Noseguchi Station",
+      "company": "能勢",
+      "line": [
+        "能勢電鐵"
+      ],
+      "zone": "川西",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_115",
+      "name": "山下（能勢）",
+      "name_en": "Yamashita Station Nosatsu",
+      "company": "能勢",
+      "line": [
+        "能勢電鐵"
+      ],
+      "zone": "山下",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_116",
+      "name": "塚口（能勢）",
+      "name_en": "Tsukaguchi Station Nosatsu",
+      "company": "能勢",
+      "line": [
+        "能勢電鐵"
+      ],
+      "zone": "塚口",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_117",
+      "name": "JR東西線 加島",
+      "name_en": "Kashima Station",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "加島",
+      "lat": 34.727825,
+      "lng": 135.4534898,
+      "radius_m": 800,
+      "active": true
+    },
+    {
+      "id": "osaka_station_118",
+      "name": "野田（JR東西線）",
+      "name_en": "Noda Station JR West",
+      "company": "JR",
+      "line": [
+        "JR東西線"
+      ],
+      "zone": "野田",
+      "lat": null,
+      "lng": null,
+      "radius_m": 800,
+      "active": true
+    }
+  ]
+}

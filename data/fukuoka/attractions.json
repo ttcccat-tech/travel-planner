@@ -35,7 +35,18 @@
         "博多"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=櫛田神社 Kushida Shrine 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=櫛田神社+Kushida Shrine+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "canal-city",
@@ -60,7 +71,18 @@
         "博多"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=博多運河城 Canal City Hakata 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=博多運河城+Canal City Hakata+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tenjin-underground",
@@ -85,7 +107,18 @@
         "地下街"
       ],
       "priority": 2,
-      "zone": "天神"
+      "zone": "天神",
+      "station_id": "fukuoka_station_005",
+      "nearby_stations": [
+        "fukuoka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=天神地下街 Tenjin Underground Shopping Center 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=天神地下街+Tenjin Underground Shopping Center+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "dazaifu-tenman",
@@ -110,7 +143,16 @@
         "文化"
       ],
       "priority": 3,
-      "zone": "太宰府"
+      "zone": "太宰府",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=太宰府天滿宮 Dazaifu Tenman-gū 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=太宰府天滿宮+Dazaifu Tenman-gū+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "dazaifu-starbucks",
@@ -135,7 +177,16 @@
         "太宰府"
       ],
       "priority": 1,
-      "zone": "太宰府"
+      "zone": "太宰府",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=星巴克太宰府表參道店 Starbucks Dazaifu Omotesando 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=星巴克太宰府表參道店+Starbucks Dazaifu Omotesando+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "dazaifu-museum",
@@ -160,7 +211,16 @@
         "文化"
       ],
       "priority": 2,
-      "zone": "太宰府"
+      "zone": "太宰府",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=九州國立博物館 Kyushu National Museum 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=九州國立博物館+Kyushu National Museum+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ohori-park",
@@ -185,7 +245,18 @@
         "天神"
       ],
       "priority": 2,
-      "zone": "天神"
+      "zone": "天神",
+      "station_id": "fukuoka_station_005",
+      "nearby_stations": [
+        "fukuoka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大濠公園 Ōhori Park 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=大濠公園+Ōhori Park+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "fukuoka-tower",
@@ -211,7 +282,16 @@
         "戀人聖地"
       ],
       "priority": 3,
-      "zone": "海濱"
+      "zone": "海濱",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=福岡塔 Fukuoka Tower 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=福岡塔+Fukuoka Tower+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "marine-world",
@@ -236,7 +316,16 @@
         "海之中道"
       ],
       "priority": 3,
-      "zone": "海濱"
+      "zone": "海濱",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=海洋世界海之中道 Marine World Uminonakamichi 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=海洋世界海之中道+Marine World Uminonakamichi+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "mineshima",
@@ -261,7 +350,16 @@
         "北九州"
       ],
       "priority": 2,
-      "zone": "小倉·門司"
+      "zone": "小倉·門司",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=門司港 Mojikō 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=門司港+Mojikō+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "yanagawa",
@@ -286,7 +384,18 @@
         "柳川"
       ],
       "priority": 3,
-      "zone": "柳川"
+      "zone": "柳川",
+      "station_id": "fukuoka_station_012",
+      "nearby_stations": [
+        "fukuoka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=柳川水鄉 Yanagawa Water Town 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=柳川水鄉+Yanagawa Water Town+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "itoshima",
@@ -312,7 +421,16 @@
         "咖啡廳"
       ],
       "priority": 2,
-      "zone": "糸島"
+      "zone": "糸島",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=糸島 Itoshima Peninsula 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=糸島+Itoshima Peninsula+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "iwaya-shrine",
@@ -338,7 +456,18 @@
         "嘉麻市"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=岩屋神社·熊野神社 Iwaya & Kumano Shrines 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=岩屋神社·熊野神社+Iwaya & Kumano Shrines+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "itō-denbei-legacy",
@@ -364,7 +493,18 @@
         "飯塚"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=舊伊藤傳右衛門邸 Former Itō Denbei's Residence 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=舊伊藤傳右衛門邸+Former Itō Denbei's Residence+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "umegatari-sake",
@@ -390,7 +530,18 @@
         "桂川"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=梅ケ谷清香 Umegatari Sake Brewery 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=梅ケ谷清香+Umegatari Sake Brewery+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kaneha-kiln",
@@ -417,7 +568,16 @@
         "小石原燒"
       ],
       "priority": 2,
-      "zone": "日田·東峰"
+      "zone": "日田·東峰",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=カネハ窯（小石原燒） Kaneha Kiln - Koishiwara Pottery 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=カネハ窯（小石原燒）+Kaneha Kiln - Koishiwara Pottery+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "satoyama-cafe-tambaya",
@@ -443,7 +603,16 @@
         "東峰村"
       ],
       "priority": 2,
-      "zone": "日田·東峰"
+      "zone": "日田·東峰",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=里山カフェ 棚田屋 Satoyama Cafe Tambaya 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=里山カフェ 棚田屋+Satoyama Cafe Tambaya+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tambara-rice-terrace",
@@ -469,7 +638,16 @@
         "東峰村"
       ],
       "priority": 1,
-      "zone": "日田·東峰"
+      "zone": "日田·東峰",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=東峰村梯田（棚田） Higashihōngō Village Rice Terraces 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=東峰村梯田（棚田）+Higashihōngō Village Rice Terraces+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "amagi-old-town",
@@ -494,7 +672,16 @@
         "朝倉"
       ],
       "priority": 1,
-      "zone": "日田·東峰"
+      "zone": "日田·東峰",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=甘木·朝倉杮の里 Amagi Kirara Traditional Town 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=甘木·朝倉杮の里+Amagi Kirara Traditional Town+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "koishiwara-michinoeki",
@@ -520,7 +707,16 @@
         "東峰村"
       ],
       "priority": 1,
-      "zone": "日田·東峰"
+      "zone": "日田·東峰",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=小石原休息站 Koishiwara Michi-no-Eki 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=小石原休息站+Koishiwara Michi-no-Eki+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "yank don",
@@ -546,7 +742,16 @@
         "太宰府"
       ],
       "priority": 1,
-      "zone": "太宰府"
+      "zone": "太宰府",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=野宮神社力清水（夕霧） Kiyomizu (Yugiri) @ Nomiya Shrine 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=野宮神社力清水（夕霧）+Kiyomizu (Yugiri) @ Nomiya Shrine+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "shin-shin",
@@ -571,7 +776,18 @@
         "排隊店"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=ShinShin（新宿式） ShinShin Ramen 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=ShinShin（新宿式）+ShinShin Ramen+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ichiran",
@@ -596,7 +812,18 @@
         "24小時"
       ],
       "priority": 2,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=一蘭 博多本店 Ichiran Hakata Main Branch 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=一蘭 博多本店+Ichiran Hakata Main Branch+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "motsunabe",
@@ -622,7 +849,18 @@
         "需預約"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=大山牛腸鍋（KITTE店） Ōyama Motsunabe (KITTE Branch) 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=大山牛腸鍋（KITTE店）+Ōyama Motsunabe (KITTE Branch)+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "nakasu-yatai",
@@ -648,7 +886,18 @@
         "現金"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中洲屋台橫丁 Nakasu Yatai Row 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=中洲屋台橫丁+Nakasu Yatai Row+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "nanpan-waiki",
@@ -674,7 +923,18 @@
         "南蠻"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=なんばん往來（南蠻往來旗艦店） Nanpan Waiki Sweets Flagship 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=なんばん往來（南蠻往來旗艦店）+Nanpan Waiki Sweets Flagship+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "mio-donut",
@@ -700,7 +960,18 @@
         "排隊店"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Mio Donut Mio Donut 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Mio Donut+Mio Donut+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "unagi-yanagawa",
@@ -726,7 +997,18 @@
         "博多名物"
       ],
       "priority": 3,
-      "zone": "柳川"
+      "zone": "柳川",
+      "station_id": "fukuoka_station_012",
+      "nearby_stations": [
+        "fukuoka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=柳川鰻魚飯 Yanagawa Unagi (Eel Rice) 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=柳川鰻魚飯+Yanagawa Unagi (Eel Rice)+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kurume-ramen",
@@ -752,7 +1034,18 @@
         "博多名物"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=久留米拉麵（豚骨） Kurume Tonkotsu Ramen 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=久留米拉麵（豚骨）+Kurume Tonkotsu Ramen+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "hisimitsu-pizza",
@@ -778,7 +1071,18 @@
         "添田"
       ],
       "priority": 2,
-      "zone": "久留米"
+      "zone": "久留米",
+      "station_id": "fukuoka_station_003",
+      "nearby_stations": [
+        "fukuoka_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Cafe & Deli HISIMITU HISIMITU Pizza 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=Cafe & Deli HISIMITU+HISIMITU Pizza+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tanga-market",
@@ -804,7 +1108,16 @@
         "現金"
       ],
       "priority": 2,
-      "zone": "小倉·門司"
+      "zone": "小倉·門司",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=旦過市場 Tanga Market 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=旦過市場+Tanga Market+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "karato-yokayata",
@@ -830,167 +1143,16 @@
         "現金"
       ],
       "priority": 2,
-      "zone": "小倉·門司"
-    },
-    {
-      "id": "tosu-premium-outlets",
-      "name": "鳥栖 PREMIUM OUTLETS",
-      "name_en": "Tosu Premium Outlets",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "佐賀縣鳥栖市",
-      "station": "①西鐵高速巴士：天神高速巴士總站→鳥栖OUTLET（約45分鐘，直達）②JR：博多→鳥栖站，轉OUTLET接駁巴士（約50-60分鐘）",
-      "ticket": "免費（消費視個人）",
-      "need_reservation": false,
-      "stay_duration": "3-5小時",
-      "cash_only": false,
-      "description": "加州南部風情建築，150+間店鋪，国际精品+運動品牌匯集。品牌：Nike、Coach、Michael Kors、Polo Ralph Lauren、New Balance、The North Face、Onitsuka Tiger、Samsonite、Le Creuset、URBAN RESEARCH、Columbia。園內有美食廣場。休息日：每年1次（通常是2月休息日）。",
-      "sources": [
-        "https://www.premiumoutlets.co.jp/cht/tosu/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "鳥栖",
-        "精品",
-        "運動品牌"
-      ],
-      "priority": 3,
-      "zone": "佐賀縣鳥栖市"
-    },
-    {
-      "id": "the-outlets-kitakyushu",
-      "name": "THE OUTLETS 北九州",
-      "name_en": "THE OUTLETS KITAKYUSHU",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "北九州市八幡東區東田",
-      "station": "JR鹿兒島本線「太空世界站」步行12分鐘；或新幹線至「小倉站」轉JR至「太空世界站」",
-      "ticket": "免費（消費視個人）",
-      "need_reservation": false,
-      "stay_duration": "3-6小時",
-      "cash_only": false,
-      "description": "2022年4月開幕，九州最大規模商業設施，約170間店鋪。附設世界最大夾娃娃機（1,000円/次）和ASOBLE主題樂園（適合親子）。品牌：adidas、BEAMS OUTLET、Oakley、Dr. Martens、UGG、Theory、Vans、mont-bell、Wego、Levi's、Polo Ralph Lauren、Emoda、FURLA等。",
-      "sources": [
-        "https://hk.trip.com/blog/fukuoka-outlet/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "北九州",
-        "170店鋪",
-        "親子"
-      ],
-      "priority": 3,
-      "zone": "小倉·門司"
-    },
-    {
-      "id": "boss-e-zo",
-      "name": "BOSS E・ZO FUKUOKA",
-      "name_en": "BOSS E・ZO FUKUOKA",
-      "category": "outlet",
-      "sub_category": "entertainment_mall",
-      "parent": null,
-      "location": "天神地區",
-      "station": "地鐵「天神站」步行約10分鐘",
-      "ticket": "免費（娛樂設施各自購票）",
-      "need_reservation": false,
-      "stay_duration": "2-4小時",
-      "cash_only": false,
-      "description": "結合娛樂與美食的大型商業設施，6樓有V-World AREA虛擬體驗、8樓有天狼星Mark II夜景餐廳。適合親子與想體驗互動娛樂的旅客。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
-      "tags": [
-        "商場",
-        "娛樂",
-        "天神",
-        "VIRTUAL",
-        "夜景餐廳"
-      ],
-      "priority": 2,
-      "zone": "天神"
-    },
-    {
-      "id": "tenjin-daimyo-fashion",
-      "name": "天神·大名潮牌街",
-      "name_en": "Tenjin-Daimyo Fashion District",
-      "category": "outlet",
-      "sub_category": "brand_street",
-      "parent": null,
-      "location": "天神/大名",
-      "station": "地鐵「天神站」或「赤坂站」",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "2-3小時",
-      "cash_only": false,
-      "description": "日系街頭潮流品牌的精華區域，必訪品牌：HUMAN MADE、THE NORTH FACE、nanamica、Supreme（季度）、Beams、FREITAG等。走低調質感路線的購物天堂。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
-      "tags": [
-        "潮牌",
-        "購物",
-        "天神",
-        "日系",
-        "選物店"
-      ],
-      "priority": 2,
-      "zone": "天神"
-    },
-    {
-      "id": "kawabata-shopping",
-      "name": "川端商店街",
-      "name_en": "Kawabata Shopping Street",
-      "category": "outlet",
-      "sub_category": "shopping_street",
-      "parent": null,
-      "location": "博多",
-      "station": "地鐵「祇園站」或「中洲川端站」",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "從櫛田神社延伸到運河城的拱廊商店街，有藥妝、服飾、雜貨，在地居民生活採買為主，觀光客少。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "商店街",
-        "購物",
-        "博多",
-        "藥妝"
-      ],
-      "priority": 1,
-      "zone": "博多"
-    },
-    {
-      "id": "karato-market",
-      "name": "唐戶市場",
-      "name_en": "Karato Market",
-      "category": "outlet",
-      "sub_category": "market",
-      "parent": null,
-      "location": "山口縣下關市",
-      "station": "門司港徒步約5分鐘",
-      "ticket": "免費（海鮮現買現吃）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": true,
-      "description": "以河豚和海膽聞名的市場，週五週六有熱闘すし（壽司拼盤），500円起即可享用。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
-      "tags": [
-        "海鮮",
-        "市場",
-        "下關",
-        "OUTLET"
-      ],
-      "priority": 2,
-      "zone": "小倉·門司"
+      "zone": "小倉·門司",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=唐戶市場 活氣市場 Karato Market - Yoka Shijō 福岡",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=唐戶市場 活氣市場+Karato Market - Yoka Shijō+景點"
+        ],
+        "blog_article": []
+      }
     }
   ]
 }

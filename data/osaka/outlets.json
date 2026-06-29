@@ -1,0 +1,139 @@
+{
+  "region": "osaka",
+  "outlets": [
+    {
+      "id": "toshi-mitsui-outlet",
+      "name": "三井 Outlet Park 大阪門真",
+      "name_en": "Mitsui Outlet Park Osaka Kadoma",
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "門真",
+        "2023新開幕"
+      ],
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "kobe-sanda-outlet",
+      "name": "神戶三田 Premium Outlets",
+      "name_en": "Kobe Sanda Mitsui Outlet",
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "神戶",
+        "精品"
+      ],
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "rinku-premium-outlet",
+      "name": "Rinku Premium Outlets",
+      "name_en": "Rinku Premium Outlets",
+      "zone": "臨空·關西空港",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "機場",
+        "臨空城"
+      ],
+      "sources": [
+        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "umeda-station-underground",
+      "name": "大阪車站城（地下街）",
+      "name_en": "Osaka Station City Underground",
+      "zone": "梅田",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "地下街",
+        "美食",
+        "昭和"
+      ],
+      "sources": [
+        "https://osaka.letsgojp.com/archives/698754/"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "shinsaibashi-amerikamura",
+      "name": "心齋橋·美國村",
+      "name_en": "Shinsaibashi & Amerikamura",
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "潮牌",
+        "購物",
+        "美國村"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "kuromon-market",
+      "name": "黑門市場",
+      "name_en": "Kuromon Market",
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "市場",
+        "海鮮",
+        "美食"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/osaka-travel/"
+      ],
+      "priority": 2
+    }
+  ]
+}

@@ -8,8 +8,9 @@ services:
     ports:
       - "8080:80"
     volumes:
-      # 資料持久化：相對路徑，統一放在 repo 根目錄的 data/ 下
-      - ./data:/usr/share/nginx/html/data
+      # 靜態檔案（HTML/CSS/JS）與資料統一 mount
+      - ./web:/usr/share/nginx/html:ro
+      - ./data:/usr/share/nginx/html/data:ro
     networks:
       - travel-net
 

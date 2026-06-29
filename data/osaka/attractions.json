@@ -1,13 +1,4 @@
 {
-  "region": "osaka",
-  "last_updated": "2026-06-28",
-  "sources": [
-    "https://osaka.letsgojp.com/archives/698754/",
-    "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C",
-    "https://bobbytravel.tw/osaka-travel/",
-    "https://vivianexplore.tw/osaka-attractions/",
-    "https://matcha-jp.com/tw/2902"
-  ],
   "attractions": [
     {
       "id": "usj",
@@ -33,7 +24,29 @@
         "大阪"
       ],
       "priority": 3,
-      "zone": "大阪城"
+      "zone": "大阪城",
+      "station_id": "osaka_station_008",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "blog_article": [
+          {
+            "url": "https://rebecca1003.pixnet.net/blog/posts/10357408210",
+            "title": "【大阪 景點】日本環球影城攻略 VIP3 環球影城購票交通遊玩美食"
+          },
+          {
+            "url": "https://ectomy.pixnet.net/blog/posts/4045680417",
+            "title": "【2025日本大阪環球影城VIP最全教學購票攻略】免排隊勇闖瑪利歐"
+          },
+          {
+            "url": "https://www.backpackers.com.tw/forum/classified.php?kw=%E7%92%B0%E7%90%83%E5%BD%B1%E5%9F%8E&f=55",
+            "title": "環球影城相關網站 - 背包客棧"
+          }
+        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E7%92%B0%E7%90%83%E5%BD%B1%E5%9F%8E%EF%BC%88USJ%EF%BC%89+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "osaka-aquarium",
@@ -59,7 +72,14 @@
         "大阪"
       ],
       "priority": 3,
-      "zone": "港灣"
+      "zone": "港灣",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%B5%B7%E9%81%8A%E9%A4%A8+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "shinsaibashi",
@@ -85,7 +105,14 @@
         "大阪"
       ],
       "priority": 3,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E9%BD%8B%E6%A9%8B%C2%B7%E9%81%93%E9%A0%93%E5%A0%80+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "osaka-castle",
@@ -111,7 +138,29 @@
         "賞櫻"
       ],
       "priority": 3,
-      "zone": "大阪城"
+      "zone": "大阪城",
+      "station_id": "osaka_station_008",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://jeje4fp.pixnet.net/blog/posts/17329548480",
+            "title": "日本(9): 大阪(1): 大阪城天守閣 - JeJe4咖照"
+          },
+          {
+            "url": "https://rebecca1003.pixnet.net/blog/posts/10357094657",
+            "title": "【大阪 自助旅行】大阪六天五夜親子行程規劃"
+          }
+        ],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9F%8E+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "umedasky-building",
@@ -137,7 +186,16 @@
         "情侶"
       ],
       "priority": 3,
-      "zone": "梅田"
+      "zone": "梅田",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%E8%97%8D%E5%A4%A9%E5%A4%A7%E5%BB%88+%E7%A9%BA%E4%B8%AD%E5%9C%92+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "abeno-harukas",
@@ -163,7 +221,16 @@
         "日本最高"
       ],
       "priority": 3,
-      "zone": "天王寺"
+      "zone": "天王寺",
+      "station_id": "osaka_station_003",
+      "nearby_stations": [
+        "osaka_station_003"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%98%BF%E5%80%8D%E9%87%8E+Harukas+300+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "ku-ten-onsen",
@@ -188,7 +255,16 @@
         "泡湯"
       ],
       "priority": 2,
-      "zone": "大阪城"
+      "zone": "大阪城",
+      "station_id": "osaka_station_008",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E5%A4%A9%E6%BA%AB%E6%B3%89+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "nakanoshima-art",
@@ -213,7 +289,14 @@
         "中之島"
       ],
       "priority": 2,
-      "zone": "港灣"
+      "zone": "港灣",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E7%BE%8E%E8%A1%93%E5%B1%95%E7%A4%BA%E5%AE%A4+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "nakazakicho",
@@ -240,7 +323,16 @@
         "咖啡"
       ],
       "priority": 2,
-      "zone": "梅田"
+      "zone": "梅田",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%B4%8E%E7%94%BA+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "kitahama-retro",
@@ -266,7 +358,16 @@
         "文青"
       ],
       "priority": 2,
-      "zone": "大阪城"
+      "zone": "大阪城",
+      "station_id": "osaka_station_008",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E5%BE%A9%E5%8F%A4%E5%BB%BA%E7%AF%89%E8%A1%97+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "hozenji-yokocho",
@@ -292,7 +393,14 @@
         "神社"
       ],
       "priority": 2,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%B3%95%E5%96%84%E5%AF%BA%E6%A9%AB%E4%B8%81+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "senshuji-doguya",
@@ -318,7 +426,14 @@
         "採購"
       ],
       "priority": 1,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "suma-waterfall",
@@ -344,7 +459,14 @@
         "近郊"
       ],
       "priority": 2,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%AE%95%E9%9D%A2%E5%A4%A7%E7%80%91%E5%B8%83+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "satsukiyama-zoo",
@@ -371,7 +493,14 @@
         "親子"
       ],
       "priority": 1,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E6%9C%88%E5%B1%B1%E5%8B%95%E7%89%A9%E5%9C%92+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "kishimoto-cycling",
@@ -397,7 +526,14 @@
         "近郊"
       ],
       "priority": 1,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E8%A5%BF%E5%96%AE%E8%BB%8A%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "ikoma-highland",
@@ -423,7 +559,14 @@
         "復古"
       ],
       "priority": 1,
-      "zone": "奈良·近郊"
+      "zone": "奈良·近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E9%A7%92%E5%B1%B1%E4%B8%8A%E9%81%8A%E6%A8%82%E5%9C%92+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "samuhara-shrine",
@@ -448,7 +591,14 @@
         "能量景點"
       ],
       "priority": 2,
-      "zone": "西區"
+      "zone": "西區",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E3%82%B5%E3%83%A0%E3%83%8F%E3%83%A9%E7%A5%9E%E7%A4%BE+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "ikunitama-hokomiya",
@@ -473,7 +623,16 @@
         "2700年"
       ],
       "priority": 2,
-      "zone": "天王寺"
+      "zone": "天王寺",
+      "station_id": "osaka_station_003",
+      "nearby_stations": [
+        "osaka_station_003"
+      ],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%94%9F%E5%9C%8B%E9%AD%82%E7%A5%9E%E7%A4%BE+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "osaka-life-museum",
@@ -499,7 +658,14 @@
         "昭和"
       ],
       "priority": 2,
-      "zone": "北區"
+      "zone": "北區",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%94%9F%E6%B4%BB%E4%BB%8A%E6%98%94%E9%A4%A8+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "nissin-cupnoodle-museum",
@@ -525,7 +691,14 @@
         "泡麵"
       ],
       "priority": 2,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%B8%85%E6%B3%A1%E9%BA%B5%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%88%E6%B1%A0%E7%94%B0%E6%B3%A1%E9%BA%B5%E5%8D%9A%E7%89%A9%E9%A4%A8%EF%BC%89+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "asahi-beer-museum",
@@ -551,7 +724,14 @@
         "DIY"
       ],
       "priority": 2,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "blog_article": [],
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9D%E6%97%A5%E5%95%A4%E9%85%92%E5%8D%9A%E7%89%A9%E9%A4%A8+Osaka",
+        "youtube": []
+      }
     },
     {
       "id": "kushida-ramen",
@@ -577,7 +757,15 @@
         "章魚燒"
       ],
       "priority": 3,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/7WJfihfFWYEdPsMF8",
+        "youtube": [],
+        "blog_article": [],
+        "description": "大阪最具代表性的打卡地標，固力果跑跑人與運河全景，建議傍晚拍夜景。"
+      }
     },
     {
       "id": "katsuo-ji-dining",
@@ -602,14 +790,22 @@
         "歷史老店"
       ],
       "priority": 3,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/4ExnvW6wAkJMJiSM7",
+        "youtube": [],
+        "blog_article": [],
+        "description": "江戶後期餐飲激戰區，推薦北極星蛋包飯、自由軒咖喱飯、串揚專賣店。"
+      }
     },
     {
       "id": "tsuruhashi-korean-town",
       "name": "鶴橋韓國城",
       "name_en": "Tsuruhashi Korean Town",
       "category": "food",
-      "sub_category": "cultural_food",
+      "sub_category": "korean",
       "parent": null,
       "location": "鶴橋",
       "station": "JR「鶴橋站」即達",
@@ -628,7 +824,17 @@
         "文化"
       ],
       "priority": 2,
-      "zone": "鶴橋"
+      "zone": "鶴橋",
+      "station_id": "osaka_station_006",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/KXDZBkJZLRYgs4mb8",
+        "youtube": [],
+        "blog_article": [],
+        "description": "大阪最大的韓國城，聚集超過100家韓國餐廳、烤肉、韓妝、超市，JR鶴橋站步行3分鐘。"
+      }
     },
     {
       "id": "kizu-market",
@@ -654,7 +860,15 @@
         "早市"
       ],
       "priority": 2,
-      "zone": "難波·心齋橋"
+      "zone": "難波·心齋橋",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/CXZp9h8bNwqL3uNN6",
+        "youtube": [],
+        "blog_article": [],
+        "description": "日本規模最大民間批發市場，清晨4:00營業，海鮮丼、平價生魚片必吃，附設業務超市。"
+      }
     },
     {
       "id": "tenma-market",
@@ -680,14 +894,22 @@
         "在地"
       ],
       "priority": 2,
-      "zone": "北區"
+      "zone": "北區",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/b8QJCMmCKCmHZnZTA",
+        "youtube": [],
+        "blog_article": [],
+        "description": "大阪人的厨房，餐飲區6:00-14:00營業，串炸、章魚燒、拉麵選擇多元，體驗LOCAL美食文化。"
+      }
     },
     {
       "id": "sennan-rocky-beef",
       "name": "河南市 黑毛和牛燒肉",
       "name_en": "Osaka Premium Beef Yakiniku",
       "category": "food",
-      "sub_category": "yakiniku",
+      "sub_category": "wagyu_yakiniku",
       "parent": null,
       "location": "河南市（近郊）",
       "station": "近「河內堅上站」，建議自駕",
@@ -706,163 +928,4119 @@
         "近郊"
       ],
       "priority": 2,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "osaka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://maps.app.goo.gl/8XWqMWPQEYPKB9hZA",
+        "youtube": [],
+        "blog_article": [],
+        "description": "關西頂級A5黑毛和牛燒肉，入口即化，建議提前預約套餐。"
+      }
     },
     {
-      "id": "toshi-mitsui-outlet",
-      "name": "三井 Outlet Park 大阪門真",
-      "name_en": "Mitsui Outlet Park Osaka Kadoma",
-      "category": "outlet",
-      "sub_category": "outlet",
+      "id": "osaka_attr_101",
+      "name": "大阪站前大樓",
+      "name_en": "OSAKA STATION PREMISES",
+      "category": "attraction",
+      "sub_category": "shopping_district",
       "parent": null,
-      "location": "門真市（大阪近郊）",
-      "station": "京阪電車「門真市站」步行8分鐘",
-      "ticket": "免費",
+      "location": "梅田",
+      "station": "JR大阪站",
+      "station_id": "osaka_station_001",
+      "ticket": null,
       "need_reservation": false,
-      "stay_duration": "3-5小時",
+      "stay_duration": "1~2小時",
       "cash_only": false,
-      "description": "2023年4月開幕，關西最新，三井LaLaport + Outlet結合，250+間店鋪。品牌：BEAMS、Champion、mont-bell、BEAMS OUTLET、adhoc。附設近鐵海鮮市場與餐廳。",
+      "description": "由4棟建築組成的商圈，地下有數百間平價居酒屋、老字號洋食館，以及二手唱片、古董相機等挖寶店，完整保留昭和時代酒場文化。",
       "sources": [
-        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+        "https://www.jrwest.co.jp/station/area/osaka_Station_Building/index.html"
       ],
       "tags": [
-        "OUTLET",
+        "大阪",
         "購物",
-        "門真",
-        "2023新開幕"
+        "美食",
+        "居酒屋"
       ],
       "priority": 3,
-      "zone": "近郊"
+      "zone": "梅田",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%AB%99%E5%89%8D%E5%A4%A7%E6%A8%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
     },
     {
-      "id": "kobe-sanda-outlet",
-      "name": "神戶三田 Premium Outlets",
-      "name_en": "Kobe Sanda Mitsui Outlet",
-      "category": "outlet",
-      "sub_category": "outlet",
+      "id": "osaka_attr_102",
+      "name": "GRAND GREEN 大阪",
+      "name_en": "GRAND GREEN OSAKA",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
       "parent": null,
-      "location": "兵庫縣三田市（大阪近郊）",
-      "station": "從JR「三田站」搭神姫巴士約20分鐘，或從關西機場直接搭JR直達",
-      "ticket": "免費",
+      "location": "梅田",
+      "station": "JR大阪站",
+      "station_id": "osaka_station_001",
+      "ticket": null,
       "need_reservation": false,
-      "stay_duration": "3-5小時",
+      "stay_duration": "2~3小時",
       "cash_only": false,
-      "description": "美式郊區風情建築，200+間店鋪，国际精品雲集。品牌：Balenciaga、Saint Laurent、Burberry、Givenchy、Jimmy Choo、Coach、Polo Ralph Lauren、Tommy Hilfiger。",
+      "description": "2024年9月起陸續開業的再開發計畫，集結亞洲首座Time Out Market、頂級華爾達夫酒店，南館2025年3月開業，全工程預計2027年完成。",
       "sources": [
-        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
+        "https://www.grandgreen-osaka.jp/"
       ],
       "tags": [
-        "OUTLET",
+        "大阪",
         "購物",
-        "神戶",
-        "精品"
+        "美食",
+        "2024新"
       ],
-      "priority": 3,
-      "zone": "近郊"
+      "priority": 2,
+      "zone": "梅田",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=GRAND%20GREEN%20%E5%A4%A7%E9%98%AA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
     },
     {
-      "id": "rinku-premium-outlet",
-      "name": "Rinku Premium Outlets",
-      "name_en": "Rinku Premium Outlets",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "泉佐野（關西機場旁）",
-      "station": "JR/南海電鐵「臨空城站」步行6分鐘，關西機場出發約10分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "2-4小時",
-      "cash_only": false,
-      "description": "距離關西機場最近，2022年擴建，260+間店鋪。是班機起降前後血拼的好去處。提供外國遊客專屬折價券，可再享額外折扣。",
-      "sources": [
-        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "機場",
-        "臨空城"
-      ],
-      "priority": 3,
-      "zone": "臨空·關西空港"
-    },
-    {
-      "id": "umeda-station-underground",
-      "name": "大阪車站城（地下街）",
-      "name_en": "Osaka Station City Underground",
-      "category": "outlet",
+      "id": "osaka_attr_103",
+      "name": "梅田地下街",
+      "name_en": "Umeda Underground Shopping",
+      "category": "attraction",
       "sub_category": "underground_mall",
       "parent": null,
       "location": "梅田",
-      "station": "各線「梅田站」直連",
-      "ticket": "免費",
+      "station": "JR大阪站 / 地下鐵梅田",
+      "station_id": "osaka_station_001",
+      "ticket": null,
       "need_reservation": false,
-      "stay_duration": "1.5-3小時",
+      "stay_duration": "1~2小時",
       "cash_only": false,
-      "description": "隱藏在梅田高樓群中的上班族秘密基地，昭和復古通道內有數百間價格實惠的立吞居酒屋、老字號烏龍麵店、懷舊純喫茶，生啤酒與小菜價格親民。",
-      "sources": [
-        "https://osaka.letsgojp.com/archives/698754/"
-      ],
+      "description": "由Whity與Diamor構成的梅田地下街網路，超過200間店鋪，連接各大車站與百貨，是大阪最具規模的地下購物空間。",
+      "sources": [],
       "tags": [
-        "OUTLET",
-        "地下街",
-        "美食",
-        "昭和"
+        "大阪",
+        "購物",
+        "地下街"
       ],
-      "priority": 1,
-      "zone": "梅田"
+      "priority": 3,
+      "zone": "梅田",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A2%85%E7%94%B0%E5%9C%B0%E4%B8%8B%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
     },
     {
-      "id": "shinsaibashi-amerikamura",
-      "name": "心齋橋·美國村",
-      "name_en": "Shinsaibashi & Amerikamura",
-      "category": "outlet",
-      "sub_category": "fashion_district",
+      "id": "osaka_attr_104",
+      "name": "難波八阪神社",
+      "name_en": "Namba Yasaka Shrine",
+      "category": "attraction",
+      "sub_category": "shrine",
       "parent": null,
-      "location": "南區",
-      "station": "地鐵「心齋橋站」",
-      "ticket": "免費",
+      "location": "難波",
+      "station": "JR難波站 /南海難波",
+      "station_id": "osaka_station_004",
+      "ticket": null,
       "need_reservation": false,
-      "stay_duration": "2-3小時",
+      "stay_duration": "30分鐘~1小時",
       "cash_only": false,
-      "description": "日系街頭潮流精華區，必訪：Supreme（季度）、Stussy、Champion、Beams、United Arrows。可感受大阪年輕人次文化，與道頓堀美食街相鄰。",
+      "description": "供奉仁德天皇，朱紅色太鼓橋由豐臣秀吉側室淀君奉納，境內有高12公尺的巨大獅子殿，保佑金運、勝利，販售獨特獅子頭御守。",
       "sources": [
-        "https://bobbytravel.tw/osaka-travel/"
+        "https://www.yasaka.or.jp/namba/"
       ],
       "tags": [
-        "OUTLET",
-        "潮牌",
+        "大阪",
+        "神社",
+        "難波"
+      ],
+      "priority": 3,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_004"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2%E5%85%AB%E9%98%AA%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_105",
+      "name": "難波豪華戲曲舞台 めっちゃ",
+      "name_en": "Namba Star Theatre",
+      "category": "attraction",
+      "sub_category": "theater",
+      "parent": null,
+      "location": "難波",
+      "station": "南海難波",
+      "station_id": "osaka_station_033",
+      "ticket": "依劇目而異",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "以日本傳統落語、漫才、喜劇為主的娛樂劇場，位於難波OCAT內，提供多場次公演，是體驗大阪人情緒的最佳去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "娛樂",
+        "落語",
+        "難波"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_033"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2%E8%B1%AA%E8%8F%AF%E6%88%B2%E6%9B%B2%E8%88%9E%E5%8F%B0%20%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_106",
+      "name": "固力果跑跑人",
+      "name_en": "Glico Man Billboard",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "難波",
+      "station": "地下鐵心齋橋 / 地下鐵難波",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "15分鐘",
+      "cash_only": false,
+      "description": "高達20公尺的固力果跑跑人霓虹廣告牌，是道頓堀最具代表性的地標，建議晚上點燈後拍攝效果最佳。",
+      "sources": [
+        "https://www.glico.com/jp/pbmenu/glicon/runrunrun/"
+      ],
+      "tags": [
+        "大阪",
+        "打卡",
+        "道頓堀",
+        "地標"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BA%E5%8A%9B%E6%9E%9C%E8%B7%91%E8%B7%91%E4%BA%BA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_107",
+      "name": "戎橋",
+      "name_en": "Ebisu Bridge",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "難波",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "15分鐘",
+      "cash_only": false,
+      "description": "横跨道頓堀的橋樑，連接心齋橋與道頓堀，是拍攝固力果跑跑人全景的最佳位置，夜晚人潮眾多極具氛圍。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "打卡",
+        "道頓堀"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%88%8E%E6%A9%8B%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_108",
+      "name": "道頓堀川遊船",
+      "name_en": "Dotonbori River Cruise",
+      "category": "attraction",
+      "sub_category": "cruise",
+      "parent": null,
+      "location": "難波",
+      "station": "南海難波 / 地下鐵難波",
+      "station_id": "osaka_station_033",
+      "ticket": "大人800円〜",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "搭乘小型觀光船遊覽道頓堀川，沿途經過固力果跑跑人、戎橋等知名地標，欣賞兩岸霓虹夜景，建議傍晚至晚間搭乘。",
+      "sources": [
+        "https://www.jnto.or.jp/tokyo/attraction-detail/?id=1395"
+      ],
+      "tags": [
+        "大阪",
+        "夜景",
+        "遊船",
+        "道頓堀"
+      ],
+      "priority": 3,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_033"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E5%B7%9D%E9%81%8A%E8%88%B9%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_109",
+      "name": "心齋橋商店街",
+      "name_en": "Shinsaibashi Shopping Arcade",
+      "category": "attraction",
+      "sub_category": "shopping_district",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋 / 四橋",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "2~4小時",
+      "cash_only": false,
+      "description": "全长約600公尺的購物大街，匯集UNIQLO、ZARA、H&M等平價品牌，以及大丸等百貨公司，週末有街頭表演，往南步行10分鐘可達道頓堀。",
+      "sources": [
+        "https://www.shinsaibashi.or.jp/"
+      ],
+      "tags": [
+        "大阪",
         "購物",
-        "美國村"
+        "心齋橋"
       ],
       "priority": 2,
-      "zone": "難波·心齋橋"
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E9%BD%8B%E6%A9%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
     },
     {
-      "id": "kuromon-market",
+      "id": "osaka_attr_110",
+      "name": "大阪美國村",
+      "name_en": "Amerika Mura / American Village",
+      "category": "attraction",
+      "sub_category": "shopping_district",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋 / 四橋",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "關西潮流聖地，匯集美式古著、唱片行、選物店，中心三角公園常有街頭表演，被譽為大阪的「原宿」，也是年輕人流行文化核心。",
+      "sources": [
+        "https://www.amerikamura.com/"
+      ],
+      "tags": [
+        "大阪",
+        "古著",
+        "潮流",
+        "心齋橋"
+      ],
+      "priority": 3,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_111",
+      "name": "橘樹通商店街",
+      "name_en": "Kitsuregi Shopping Street",
+      "category": "hidden_gem",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵日本橋",
+      "station_id": "osaka_station_024",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "連接心齋橋與日本橋之間的在地商店街，氣氛相對觀光化前的原始樣貌，有傳統文具店、服飾店與平價餐飲。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "購物",
+        "下町"
+      ],
+      "priority": 4,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_024"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A9%98%E6%A8%B9%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_112",
+      "name": "大丸心齋橋本店",
+      "name_en": "Daimaru Shinsaibashi",
+      "category": "attraction",
+      "sub_category": "department_store",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "擁有GUCCI、CHANEL等國際精品品牌，並有寶可夢中心、地下美食街，是心齋橋最具規模的百貨公司，享10%免稅。",
+      "sources": [
+        "https://www.daimaru.co.jp/shinsaibashi/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "免稅",
+        "心齊橋"
+      ],
+      "priority": 3,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E4%B8%B8%E5%BF%83%E9%BD%8B%E6%A9%8B%E6%9C%AC%E5%BA%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_113",
+      "name": "斐帛女子時尚商業大樓",
+      "name_en": "F抱着抱",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "心齋橋地標建築，外牆為獨特的女子時尚意象，已成為大阪打卡熱點之一。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "打卡",
+        "心齊橋"
+      ],
+      "priority": 4,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%90%E5%B8%9B%E5%A5%B3%E5%AD%90%E6%99%82%E5%B0%9A%E5%95%86%E6%A5%AD%E5%A4%A7%E6%A8%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_114",
+      "name": "通天閣",
+      "name_en": "Tsutenkaku",
+      "category": "attraction",
+      "sub_category": "observation_deck",
+      "parent": null,
+      "location": "新世界",
+      "station": "地下鐵惠美須町 / 地下鐵動物園前",
+      "station_id": "osaka_station_026",
+      "ticket": "展望台700円／通天閣滑梯1000円（需預約）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "日本國家有形文化財，1956年落成，仿巴黎艾菲爾鐵塔設計，2022年增設27公尺高、60公尺長的TOWER SLIDER滑梯，天花板透明可遠眺天王寺風光。",
+      "sources": [
+        "https://www.tsutenkaku.co.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "展望台",
+        "新世界",
+        "打卡"
+      ],
+      "priority": 2,
+      "zone": "新世界",
+      "nearby_stations": [
+        "osaka_station_026"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%80%9A%E5%A4%A9%E9%96%A3%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%80%9A%E5%A4%A9%E9%96%A3%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "通天閣 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://medium.com/%E8%B5%AB%E5%A4%AB%E5%B8%95%E5%A4%AB%E5%B0%8F%E5%89%AA%E5%88%80/%E5%A4%A7%E9%98%AA%E4%BA%AC%E9%83%BD-day2-%E5%A4%A7%E9%98%AA%E4%B8%80%E6%97%A5%E9%81%8A-dive-walk-c403f6be1135",
+            "title": "大阪京都Day2：大阪一日遊(Dive & Walk)"
+          },
+          {
+            "url": "https://medium.com/tag/%E9%80%9A%E5%A4%A9%E9%96%A3",
+            "title": "The most insightful stories about 通天閣- Medium"
+          },
+          {
+            "url": "https://hndsmhsu.medium.com/2019-12-30-1315a8c518ac",
+            "title": "京阪神遊記- BennyXu - Medium"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_115",
+      "name": "新世界本通商店街",
+      "name_en": "Shinsekai Hon-dori Shopping Street",
+      "category": "attraction",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "新世界",
+      "station": "地下鐵惠美須町",
+      "station_id": "osaka_station_026",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "懷舊昭和風情，有浮誇看板、180公尺拱廊商店街「鏘鏘橫丁」，可看到大阪幸運之神比利肯（Billiken）雕像，是串炸發源地。",
+      "sources": [
+        "https://shinsekai.ne.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "美食",
+        "昭和",
+        "新世界"
+      ],
+      "priority": 3,
+      "zone": "新世界",
+      "nearby_stations": [
+        "osaka_station_026"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E4%B8%96%E7%95%8C%E6%9C%AC%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%96%B0%E4%B8%96%E7%95%8C%E6%9C%AC%E9%80%9A%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "新世界本通商店街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://bobbytravel.tw/shinsaibashi/",
+            "title": "【2026心齋橋攻略】最強逛街地圖！必吃美食、百貨藥妝＆交通避雷"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_116",
+      "name": "鏘鏘橫丁",
+      "name_en": "Shonben Yokocho",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "新世界",
+      "station": "地下鐵惠美須町",
+      "station_id": "osaka_station_026",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "新世界內的復古小巷，雲集多間平價串炸、章魚燒小店，昭和懷舊氛圍極為濃厚，別名「散步小路」。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "昭和",
+        "新世界"
+      ],
+      "priority": 4,
+      "zone": "新世界",
+      "nearby_stations": [
+        "osaka_station_026"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%8F%98%E9%8F%98%E6%A9%AB%E4%B8%81%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%8F%98%E9%8F%98%E6%A9%AB%E4%B8%81%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "鏘鏘橫丁 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_117",
+      "name": "四天王寺",
+      "name_en": "Shitennoji Temple",
+      "category": "attraction",
+      "sub_category": "temple",
+      "parent": null,
+      "location": "天王寺",
+      "station": "地下鐵天王寺 / JR天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": "中心伽藍300円／庭園100円",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "日本最古老官方寺廟，建於593年由聖德太子主持修建，境內有五重塔、金堂、講堂等重要文化期指定建築，是大阪佛教文化核心。",
+      "sources": [
+        "https://www.shitennoji.or.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "寺廟",
+        "世界遺產",
+        "天王寺"
+      ],
+      "priority": 2,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%9B%9B%E5%A4%A9%E7%8E%8B%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "四天王寺 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
+            "title": "人生第一次獨旅，一個人決定去哪裡"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_118",
+      "name": "天王寺動物園",
+      "name_en": "Tennoji Zoo",
+      "category": "attraction",
+      "sub_category": "zoo",
+      "parent": null,
+      "location": "天王寺",
+      "station": "地下鐵天王寺 / JR天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": "大人500円",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "成立超過百年，佔地11公頃，飼養約170種1000隻動物，有獨特黑臉葉鼻狒狒，與天王寺公園、大阪市立美術館、慶澤園日式庭園形成文化園區。",
+      "sources": [
+        "https://www.tennojizoo.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "親子",
+        "動物",
+        "天王寺"
+      ],
+      "priority": 3,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%8B%95%E7%89%A9%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%8B%95%E7%89%A9%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天王寺動物園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
+            "title": "就從我的角度看世界 - 人生第一次獨旅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_119",
+      "name": "天王寺公園",
+      "name_en": "Tennoji Park",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "天王寺",
+      "station": "地下鐵天王寺 / JR天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "入口整修為「TENSHIBA」草坪廣場，連結天王寺動物園、大阪市立美術館、慶澤園日式庭園，腹地廣大，是都市綠洲。",
+      "sources": [
+        "https://www.tennoji-marufu.jp/tennojipark.html"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "天王寺"
+      ],
+      "priority": 3,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天王寺公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
+            "title": "就從我的角度看世界 - 人生第一次獨旅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_120",
+      "name": "大阪市立美術館",
+      "name_en": "Osaka City Museum of Fine Arts",
+      "category": "attraction",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "天王寺",
+      "station": "地下鐵天王寺 / JR天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": "常設展250円（依展覽而異）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "收藏以中國古董書畫為核心的美術館，與天王寺動物園、天王寺公園相鄰，是大阪市區重要的文化設施。",
+      "sources": [
+        "https://www.osaka-bunshun.or.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "美術館",
+        "文化",
+        "天王寺"
+      ],
+      "priority": 3,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%B8%82%E7%AB%8B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪市立美術館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_121",
+      "name": "慶澤園",
+      "name_en": "Keitakuen Garden",
+      "category": "hidden_gem",
+      "sub_category": "garden",
+      "parent": null,
+      "location": "天王寺",
+      "station": "地下鐵天王寺 / JR天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": "150円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "結合日本與中國設計風格的日式迴廊庭園，位於天王寺公園內，春季賞櫻、秋季賞楓，是天王寺文化園區的一部分。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "庭園",
+        "賞櫻",
+        "天王寺"
+      ],
+      "priority": 4,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%85%B6%E6%BE%A4%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%85%B6%E6%BE%A4%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "慶澤園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_122",
+      "name": "住吉大社",
+      "name_en": "Sumiyoshi Taisha",
+      "category": "attraction",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "住吉",
+      "station": "南海住吉大社前 / 地下鐵住吉大社",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "著名神社，朱紅色太鼓橋由豐臣秀吉側室淀君奉納，川端康成寫入小說《反橋》，夜間點燈至21點，入選關西百景，以保佑織物、福祉聞名。",
+      "sources": [
+        "https://www.sumiyoshitaisha.net/"
+      ],
+      "tags": [
+        "大阪",
+        "神社",
+        "世界遺產"
+      ],
+      "priority": 3,
+      "zone": "住吉",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E5%A4%A7%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E5%A4%A7%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住吉大社 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_123",
+      "name": "住吉神社",
+      "name_en": "Sumiyoshi Shrine",
+      "category": "attraction",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "住吉",
+      "station": "南海住吉大社前",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "日本最古老的神社建築形式「住吉造」的代表作，被登錄為國寶，與京都的松尾神社・平野神社・伏見稻荷大社合稱「住吉的神社」。",
+      "sources": [
+        "https://www.sumiyoshitaisha.net/"
+      ],
+      "tags": [
+        "大阪",
+        "神社",
+        "國寶"
+      ],
+      "priority": 3,
+      "zone": "住吉",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住吉神社 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_124",
+      "name": "JO-TERRACE OSAKA",
+      "name_en": "JO-TERRACE OSAKA",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "大阪城",
+      "station": "JR大阪城公園 / 地下鐵森之宮",
+      "station_id": "osaka_station_008",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "大阪城公園內的商業設施，雲集餐廳、咖啡廳與生活雜貨店，在歷史氛圍中享受現代美食與購物體驗。",
+      "sources": [
+        "https://www.jo-terrace.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "美食",
+        "大阪城"
+      ],
+      "priority": 3,
+      "zone": "大阪城",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=JO-TERRACE%20OSAKA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=JO-TERRACE%20OSAKA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "JO-TERRACE OSAKA YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_125",
+      "name": "森之宮",
+      "name_en": "Morinomiya",
+      "category": "hidden_gem",
+      "sub_category": "area",
+      "parent": null,
+      "location": "大阪城",
+      "station": "地下鐵森之宮",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "以大阪城公園南側為中心的區域，保留了豐臣秀吉的城下町風情，有多處江戶時代的史跡，是認識大阪歷史的低人氣去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "歷史",
+        "下町"
+      ],
+      "priority": 4,
+      "zone": "大阪城",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E4%B9%8B%E5%AE%AE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%A3%AE%E4%B9%8B%E5%AE%AE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "森之宮 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_126",
+      "name": "大阪水上巴士",
+      "name_en": "Osaka Aqua Liner",
+      "category": "attraction",
+      "sub_category": "cruise",
+      "parent": null,
+      "location": "大阪城",
+      "station": "JR大阪城公園 / 地下鐵天滿橋",
+      "station_id": "osaka_station_008",
+      "ticket": "大人1500円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "航行於大阪城護城河與道頓堀川的水上觀光船，沿途欣賞大川兩岸風光，包括大阪城、天滿橋、中之島等景色，春季可賞櫻。",
+      "sources": [
+        "https://suijo.net/"
+      ],
+      "tags": [
+        "大阪",
+        "遊船",
+        "賞櫻",
+        "夜景"
+      ],
+      "priority": 3,
+      "zone": "大阪城",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E6%B0%B4%E4%B8%8A%E5%B7%B4%E5%A3%AB%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪水上巴士 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_127",
+      "name": "大阪城公開玩具博物館",
+      "name_en": "Osaka Castle Toy Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "大阪城",
+      "station": "JR大阪城公園",
+      "station_id": "osaka_station_008",
+      "ticket": "800円",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "展示日本各年代玩具與模型的私人博物館，館內可體驗實際操作部分玩具，是適合親子同遊的室內場所。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "博物館",
+        "親子"
+      ],
+      "priority": 4,
+      "zone": "大阪城",
+      "nearby_stations": [
+        "osaka_station_008"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9F%8E%E5%85%AC%E9%96%8B%E7%8E%A9%E5%85%B7%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%9F%8E%E5%85%AC%E9%96%8B%E7%8E%A9%E5%85%B7%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪城公開玩具博物館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://jeje4fp.pixnet.net/blog/posts/17329548480",
+            "title": "日本(9): 大阪(1): 大阪城天守閣 - JeJe4咖照"
+          },
+          {
+            "url": "https://rebecca1003.pixnet.net/blog/posts/10357094657",
+            "title": "【大阪 自助旅行】大阪六天五夜親子行程規劃"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_128",
+      "name": "天保山摩天輪",
+      "name_en": "Tempozan Ferris Wheel",
+      "category": "attraction",
+      "sub_category": "observation_deck",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": "大人900円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "高112.5公尺、直徑100公尺，世界最大規模摩天輪之一，搭乘時間約15分鐘，可一覽生駒山脈、明石海峽大橋、關西機場、六甲山全景。",
+      "sources": [
+        "https://www.tempozan.com/"
+      ],
+      "tags": [
+        "大阪",
+        "摩天輪",
+        "灣區",
+        "夜景"
+      ],
+      "priority": 3,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%91%A9%E5%A4%A9%E8%BC%AA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%91%A9%E5%A4%A9%E8%BC%AA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天保山摩天輪 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_129",
+      "name": "帆船型觀光船 聖瑪麗亞號",
+      "name_en": "Sailboat Sightseeing Ship Santa Maria",
+      "category": "attraction",
+      "sub_category": "cruise",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": "大人1600円（黃昏 cruise 2000円）",
+      "need_reservation": false,
+      "stay_duration": "45分鐘~1小時",
+      "cash_only": false,
+      "description": "仿15世紀西班牙帆船打造的觀光船，航行於大阪灣，白天與黃昏各有不同風情，是情侶約會推薦行程，可搭配大阪周遊券免費搭乘。",
+      "sources": [
+        "https://www.senmaru.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "遊船",
+        "灣區",
+        "黃昏"
+      ],
+      "priority": 3,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B8%86%E8%88%B9%E5%9E%8B%E8%A7%80%E5%85%89%E8%88%B9%20%E8%81%96%E7%91%AA%E9%BA%97%E4%BA%9E%E8%99%9F%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B8%86%E8%88%B9%E5%9E%8B%E8%A7%80%E5%85%89%E8%88%B9%20%E8%81%96%E7%91%AA%E9%BA%97%E4%BA%9E%E8%99%9F%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "帆船型觀光船 聖瑪麗亞號 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_130",
+      "name": "天保山購物中心",
+      "name_en": "Tempozan Marketplace",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "與天保山摩天輪相鄰的商場，雲集動漫周邊、日式雜貨、藥妝店與多家餐廳，是灣區購物的便利去處。",
+      "sources": [
+        "https://www.tempozan.com/market/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "灣區"
+      ],
+      "priority": 3,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天保山購物中心 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_131",
+      "name": "大阪樂高樂園",
+      "name_en": "LEGOLAND Discovery Center Osaka",
+      "category": "attraction",
+      "sub_category": "theme_park",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": "大人2900円／小孩2100円（線上預購有優惠）",
+      "need_reservation": false,
+      "stay_duration": "3~4小時",
+      "cash_only": false,
+      "description": "室內樂高主題樂園，結合樂高元素與4D動感影院，多項設施適合2-10歲孩童，有室內遊樂設施與積木工作坊。",
+      "sources": [
+        "https://www.legolanddiscoverycenter.com/osaka/"
+      ],
+      "tags": [
+        "大阪",
+        "親子",
+        "樂高",
+        "室內"
+      ],
+      "priority": 3,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E6%A8%82%E9%AB%98%E6%A8%82%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E6%A8%82%E9%AB%98%E6%A8%82%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪樂高樂園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_132",
+      "name": "天保山港灣村",
+      "name_en": "Tempozan Harbor Village",
+      "category": "attraction",
+      "sub_category": "area",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "以天保山摩天輪為核心的港灣休憩區域，集合海遊館、聖瑪麗亞號、樂高樂園與多家餐廳，是大阪灣區一日遊的核心。",
+      "sources": [
+        "https://www.tempozan.com/"
+      ],
+      "tags": [
+        "大阪",
+        "灣區",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%B8%AF%E7%81%A3%E6%9D%91%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%E6%B8%AF%E7%81%A3%E6%9D%91%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天保山港灣村 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_133",
+      "name": "Nifrel EXPOCITY",
+      "name_en": "Nifrel EXPOCITY",
+      "category": "attraction",
+      "sub_category": "aquarium",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 EXPOCITY站",
+      "station_id": null,
+      "ticket": "大人800円",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "結合水族館、美術館與兒童互動設施的新型態複合設施，強調「生物接觸」與「藝術體驗」，是EXPOCITY內最具人氣的設施之一。",
+      "sources": [
+        "https://expocity-osaka.com/nifrel/"
+      ],
+      "tags": [
+        "大阪",
+        "水族館",
+        "親子",
+        "EXPOCITY"
+      ],
+      "priority": 3,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Nifrel%20EXPOCITY%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=Nifrel%20EXPOCITY%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "Nifrel EXPOCITY YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_134",
+      "name": "EXPOCITY 萬博購物中心",
+      "name_en": "EXPOCITY",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 EXPOCITY站",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "2015年開幕的日本最大複合商場，300+店鋪，戶外設有Nifrel水族館、美術館、多家主題餐廳、遊樂園與摩天輪，非常適合親子遊。",
+      "sources": [
+        "https://expocity-osaka.com/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "親子",
+        "EXPOCITY"
+      ],
+      "priority": 3,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=EXPOCITY%20%E8%90%AC%E5%8D%9A%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=EXPOCITY%20%E8%90%AC%E5%8D%9A%E8%B3%BC%E7%89%A9%E4%B8%AD%E5%BF%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "EXPOCITY 萬博購物中心 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_135",
+      "name": "萬博紀念公園",
+      "name_en": "Banpaku Memorial Park",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 EXPOCITY站 / 地下鐵山田",
+      "station_id": null,
+      "ticket": "免費（太陽之塔另行購票）",
+      "need_reservation": false,
+      "stay_duration": "2~4小時",
+      "cash_only": false,
+      "description": "1970年日本萬國博覽會舊址改建，264公頃，代表性地標為岡本太郎的作品「太陽之塔」（三張臉象徵過去、現在、未來），入選大阪周遊券免費設施。",
+      "sources": [
+        "https://www.expo70.park/"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E8%90%AC%E5%8D%9A%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "萬博紀念公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_136",
+      "name": "太陽之塔",
+      "name_en": "Tower of the Sun",
+      "category": "attraction",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 EXPOCITY站",
+      "station_id": null,
+      "ticket": "大人500円",
+      "need_reservation": false,
+      "stay_duration": "1~1.5小時",
+      "cash_only": false,
+      "description": "岡本太郎創作的萬博象徵，高達70公尺，三張臉分別象徵過去、現在、未來，內部展示原始模型與萬博歷史，是日本現代藝術重要遺產。",
+      "sources": [
+        "https://www.expo70.park/a-tower.html"
+      ],
+      "tags": [
+        "大阪",
+        "地標",
+        "藝術",
+        "萬博"
+      ],
+      "priority": 2,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%A1%94%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%AA%E9%99%BD%E4%B9%8B%E5%A1%94%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "太陽之塔 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_137",
+      "name": "萬博自然文化園",
+      "name_en": "Banpaku Nature Culture Garden",
+      "category": "hidden_gem",
+      "sub_category": "park",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 EXPOCITY站",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "萬博紀念公園內的戶外園區，有大面積草皮、日本庭園與竹林，適合散步與野餐，是大阪市民週末休閒熱點。",
+      "sources": [
+        "https://www.expo70.park/nature.html"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "自然"
+      ],
+      "priority": 4,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%8D%9A%E8%87%AA%E7%84%B6%E6%96%87%E5%8C%96%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E8%90%AC%E5%8D%9A%E8%87%AA%E7%84%B6%E6%96%87%E5%8C%96%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "萬博自然文化園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_138",
       "name": "黑門市場",
-      "name_en": "Kuromon Market",
-      "category": "outlet",
+      "name_en": "Kuromon Ichiba Market",
+      "category": "attraction",
       "sub_category": "market",
       "parent": null,
       "location": "日本橋",
-      "station": "地鐵「日本橋站」/「難波站」",
-      "ticket": "免費（海鮮約500-2,000円）",
+      "station": "地下鐵日本橋 / 近鐵日本橋",
+      "station_id": "osaka_station_024",
+      "ticket": null,
       "need_reservation": false,
-      "stay_duration": "1-2小時",
-      "cash_only": true,
-      "description": "大阪的「廚房」，590公尺拱廊街道，170間店鋪雲集的新鮮海產、肉類、蔬果、乾貨攤。必吃：河豚、帝王蟹腿、現烤和牛。觀光客與本地人都愛。",
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "有「大阪人的廚房」之稱，明治時期成立至今，約180間店鋪，以魚類為主，有現場烹飪展示、街頭表演，推薦必吃：黑鮪魚、海膽、烤干貝。",
       "sources": [
-        "https://bobbytravel.tw/osaka-travel/"
+        "https://kuromon.com/"
       ],
       "tags": [
-        "OUTLET",
+        "大阪",
+        "美食",
         "市場",
-        "海鮮",
-        "美食"
+        "日本橋"
       ],
       "priority": 2,
-      "zone": "難波·心齋橋"
+      "zone": "日本橋",
+      "nearby_stations": [
+        "osaka_station_024"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%BB%91%E9%96%80%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%BB%91%E9%96%80%E5%B8%82%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "黑門市場 YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://kimi77228.pixnet.net/blog/posts/10357401283",
+            "title": "【大阪美食＆散步】大阪的廚房「黑門市場」千日前必訪"
+          },
+          {
+            "url": "https://fengotraveling.pixnet.net/blog/posts/16142726507",
+            "title": "【2024年七天六夜日本京阪自由行】大阪必吃美食不可錯過"
+          },
+          {
+            "url": "https://m420697016.pixnet.net/blog/posts/9577988922",
+            "title": "黑門市場//日本橋| 幸福角落"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_139",
+      "name": "千日前道具屋筋商店街",
+      "name_en": "Sennichi-mae Douguyashinai Shopping Street",
+      "category": "hidden_gem",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "日本橋",
+      "station": "地下鐵日本橋 / 地下鐵難波",
+      "station_id": "osaka_station_024",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "以販售日式烹飪器具、傳統工藝品聞名的商店街，有「大阪的秋葉原」之稱，可找到各式各樣的特色廚具與工藝品。",
+      "sources": [
+        "https://www.douguyashin.com/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "道具",
+        "日本橋"
+      ],
+      "priority": 4,
+      "zone": "日本橋",
+      "nearby_stations": [
+        "osaka_station_024"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8D%83%E6%97%A5%E5%89%8D%E9%81%93%E5%85%B7%E5%B1%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "千日前道具屋筋商店街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_140",
+      "name": "難波Park Town",
+      "name_en": "Namba PARKS",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "日本橋",
+      "station": "地下鐵難波 / JR難波",
+      "station_id": "osaka_station_004",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "結合屋頂花園的特色商場，以階梯式露台聞名，集合服飾、雜貨、餐廳與咖啡廳，是難波地區購物與休憩的複合空間。",
+      "sources": [
+        "https://www.nambaparks.com/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "難波"
+      ],
+      "priority": 3,
+      "zone": "日本橋",
+      "nearby_stations": [
+        "osaka_station_004"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2Park%20Town%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%9B%A3%E6%B3%A2Park%20Town%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "難波Park Town YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_141",
+      "name": "難波City",
+      "name_en": "Namba CITY",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "日本橋",
+      "station": "南海難波 / 地下鐵難波",
+      "station_id": "osaka_station_033",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "與南海車站相連的商業設施，有南北兩館，雲集服飾品牌、藥妝與美食餐廳，是機場來往旅客轉乘時的便利購物去處。",
+      "sources": [
+        "https://www.nambacity.com/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "難波"
+      ],
+      "priority": 3,
+      "zone": "日本橋",
+      "nearby_stations": [
+        "osaka_station_033"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9B%A3%E6%B3%A2City%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%9B%A3%E6%B3%A2City%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "難波City YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_142",
+      "name": "OCAT（難波城市航空大樓）",
+      "name_en": "OCAT",
+      "category": "attraction",
+      "sub_category": "commercial_building",
+      "parent": null,
+      "location": "日本橋",
+      "station": "JR難波",
+      "station_id": "osaka_station_004",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "與JR難波站相連的複合商業大樓，內有影音娛樂設施、餐廳、免稅店，以及直達關西機場的豪華巴士站，是旅遊交通重要據點。",
+      "sources": [
+        "https://www.ocat.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "交通",
+        "難波"
+      ],
+      "priority": 3,
+      "zone": "日本橋",
+      "nearby_stations": [
+        "osaka_station_004"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=OCAT%EF%BC%88%E9%9B%A3%E6%B3%A2%E5%9F%8E%E5%B8%82%E8%88%AA%E7%A9%BA%E5%A4%A7%E6%A8%93%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=OCAT%EF%BC%88%E9%9B%A3%E6%B3%A2%E5%9F%8E%E5%B8%82%E8%88%AA%E7%A9%BA%E5%A4%A7%E6%A8%93%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "OCAT（難波城市航空大樓） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_143",
+      "name": "仁德天皇陵古事",
+      "name_en": "Imperial Tomb of Emperor Nintoku",
+      "category": "attraction",
+      "sub_category": "historic_site",
+      "parent": null,
+      "location": "堺",
+      "station": "南海石津川 / JR鳳",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "日本最大規模的前方後圓墓，與埃及金字塔、中國秦始皇帝陵並稱世界三大陵墓，為仁德天皇的長眠之地，被列為世界文化遺產（待確認）。",
+      "sources": [
+        "https://www.sakai-bunkazai.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "世界遺產",
+        "歷史",
+        "古墓"
+      ],
+      "priority": 2,
+      "zone": "堺",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%BE%B7%E5%A4%A9%E7%9A%87%E9%99%B5%E5%8F%A4%E4%BA%8B%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BB%81%E5%BE%B7%E5%A4%A9%E7%9A%87%E9%99%B5%E5%8F%A4%E4%BA%8B%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "仁德天皇陵古事 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_144",
+      "name": "堺市立museum",
+      "name_en": "Sakai City Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "堺",
+      "station": "南海堺",
+      "station_id": null,
+      "ticket": "常設展免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "展示堺傳統產業（鐵炮、傳統工藝）與歷史的市立博物館，建築本身為明治時期的紅磚倉庫，帶有異國風情。",
+      "sources": [
+        "https://www.sakai-rekishi.com/"
+      ],
+      "tags": [
+        "大阪",
+        "博物館",
+        "歷史",
+        "堺"
+      ],
+      "priority": 4,
+      "zone": "堺",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%BA%E5%B8%82%E7%AB%8Bmuseum%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A0%BA%E5%B8%82%E7%AB%8Bmuseum%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "堺市立museum YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_145",
+      "name": "京橋 art street",
+      "name_en": "Kyobashi Art Street",
+      "category": "hidden_gem",
+      "sub_category": "area",
+      "parent": null,
+      "location": "京橋",
+      "station": "JR京橋 / 地下鐵京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "以京橋站周邊為中心的藝術創意聚落，有多間畫廊、咖啡廳與設計師工作室，是認識大阪藝術能量的低調去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "藝術",
+        "咖啡",
+        "京橋"
+      ],
+      "priority": 4,
+      "zone": "京橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%A9%8B%20art%20street%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BA%AC%E6%A9%8B%20art%20street%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "京橋 art street YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_146",
+      "name": "毛馬閒道",
+      "name_en": "Kema Promenade",
+      "category": "hidden_gem",
+      "sub_category": "park",
+      "parent": null,
+      "location": "京橋",
+      "station": "JR京橋 / 地下鐵京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "沿大川設置的河岸散步道，春季可划船賞櫻，秋季可賞月，是京橋地區居民日常休憩的親水平台。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "散步",
+        "賞櫻",
+        "京橋"
+      ],
+      "priority": 4,
+      "zone": "京橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%AF%9B%E9%A6%AC%E9%96%92%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%AF%9B%E9%A6%AC%E9%96%92%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "毛馬閒道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_147",
+      "name": "北濱瓷器街",
+      "name_en": "Kitahama Porcelain Street",
+      "category": "hidden_gem",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "北濱",
+      "station": "地下鐵北濱 / 地下鐵淀屋橋",
+      "station_id": "osaka_station_017",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "以高級瓷器、漆器、日本傳統工藝品聞名的街道，距離北濱車站步行約5分鐘，可找到精美茶道具與送禮商品。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "購物",
+        "傳統工藝"
+      ],
+      "priority": 4,
+      "zone": "北濱",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E7%93%B7%E5%99%A8%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%BF%B1%E7%93%B7%E5%99%A8%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "北濱瓷器街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_148",
+      "name": "堂島 CROSS GATE",
+      "name_en": "Dojima CROSS GATE",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "淀屋橋",
+      "station": "JR北新地 / 地下鐵淀屋橋",
+      "station_id": "osaka_station_017",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "淀屋橋與北新地之間的再開發地標，玻璃帷幕與幾何造型構成現代化建築群，是大阪市中心重要商務地標。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "地標",
+        "建築"
+      ],
+      "priority": 4,
+      "zone": "淀屋橋",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%82%E5%B3%B6%20CROSS%20GATE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A0%82%E5%B3%B6%20CROSS%20GATE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "堂島 CROSS GATE YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_149",
+      "name": "LaLaport EXPOCITY",
+      "name_en": "LaLaport EXPOCITY",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "萬博",
+      "station": "大阪單軌 南茨木 / 地下鐵澤田",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "2019年開幕的大型商場，300+店鋪，室內有Nifrel水族博物館與餐廳街，是萬博紀念公園周邊家庭遊客的主要購物去處。",
+      "sources": [
+        "https://mitsui-shopping-park.com.tw/lalaport/expocity/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "萬博",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=LaLaport%20EXPOCITY%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=LaLaport%20EXPOCITY%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "LaLaport EXPOCITY YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_150",
+      "name": "天神橋筋商店街",
+      "name_en": "Tenjinbashisuji Shopping Street",
+      "category": "attraction",
+      "sub_category": "shopping_district",
+      "parent": null,
+      "location": "天神橋",
+      "station": "地下鐵天神橋筋六丁目 / JR天滿",
+      "station_id": "osaka_station_019",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "號稱日本最長的商店街，全長2.6公里、800+店鋪，橫跨3個地鐵站，雲集章魚燒、串炸、鯛魚燒等街頭美食，也有壽司店、咖哩專賣店與復古咖啡館。",
+      "sources": [
+        "https://www.tenjinboss.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "美食",
+        "天神橋"
+      ],
+      "priority": 2,
+      "zone": "天神橋",
+      "nearby_stations": [
+        "osaka_station_019"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%95%86%E5%BA%97%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天神橋筋商店街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_151",
+      "name": "大阪天滿宮",
+      "name_en": "Osaka Tenmangu",
+      "category": "attraction",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "天神橋",
+      "station": "JR大阪天滿宮 / 地下鐵南森町",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "供奉學問之神菅原道真，每年7月舉辦日本三大祭之一的天神祭（含陸渡御、船渡御、煙火），境內有寶塔造型的重要文化期建築。",
+      "sources": [
+        "https://www.tenjinja.com/"
+      ],
+      "tags": [
+        "大阪",
+        "神社",
+        "祭典",
+        "天神"
+      ],
+      "priority": 3,
+      "zone": "天神橋",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BB%BF%E5%AE%AE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%A4%A9%E6%BB%BF%E5%AE%AE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪天滿宮 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_152",
+      "name": "中之島公園",
+      "name_en": "Nakanoshima Park",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "中之島",
+      "station": "地下鐵淀屋橋 / 地下鐵北濱",
+      "station_id": "osaka_station_017",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "被堂島川、土佐堀川包圍的沙洲，保存多棟明治時期建築，有綠瓦紅磚的大阪市中央公會堂，玫瑰園於初夏、秋季盛開。",
+      "sources": [
+        "https://www.city.osaka.lg.jp/contents/wdu220est/"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "中之島"
+      ],
+      "priority": 3,
+      "zone": "中之島",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%B8%AD%E4%B9%8B%E5%B3%B6%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "中之島公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_153",
+      "name": "大阪市中央公會堂",
+      "name_en": "Osaka City Hall Public Hall",
+      "category": "hidden_gem",
+      "sub_category": "historic_building",
+      "parent": null,
+      "location": "中之島",
+      "station": "地下鐵淀屋橋 / 地下鐵北濱",
+      "station_id": "osaka_station_017",
+      "ticket": "參觀免費（活動另行購票）",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "建於1918年的明治洋風建築，綠瓦紅磚外觀，中之島的代表景觀，內部展示大阪城市歷史，經常舉辦文化活動。",
+      "sources": [
+        "https://www.cityhall-osaka.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "建築",
+        "歷史",
+        "中之島"
+      ],
+      "priority": 4,
+      "zone": "中之島",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%85%AC%E6%9C%83%E5%A0%82%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%85%AC%E6%9C%83%E5%A0%82%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪市中央公會堂 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_154",
+      "name": "国立國際美術館",
+      "name_en": "National Museum of Art",
+      "category": "attraction",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "中之島",
+      "station": "地下鐵淀屋橋 / 地下鐵北濱",
+      "station_id": "osaka_station_017",
+      "ticket": "依展覽而異",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "日本唯一以「外國藝術」為主的國立美術館，建築由西�的璃帷幕構成地下展覽空間，與中之島美術館相鄰，形成藝術金三角。",
+      "sources": [
+        "https://www.nmao.go.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "美術館",
+        "藝術",
+        "中之島"
+      ],
+      "priority": 3,
+      "zone": "中之島",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%9B%BD%E7%AB%8B%E5%9C%8B%E9%9A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%9B%BD%E7%AB%8B%E5%9C%8B%E9%9A%9B%E7%BE%8E%E8%A1%93%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "国立國際美術館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_155",
+      "name": "大阪科學館",
+      "name_en": "Osaka Science and Technology Museum",
+      "category": "attraction",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "中之島",
+      "station": "地下鐵淀屋橋",
+      "station_id": "osaka_station_017",
+      "ticket": "大人400円",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "約400件互動式科學展品，涵蓋物理、化學、生物與資訊科技，另有直徑26.5公尺的天文館，適合親子同遊與學校參觀。",
+      "sources": [
+        "https://www.matsci.osaka-u.ac.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "博物館",
+        "科學",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "中之島",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E7%A7%91%E5%AD%B8%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E7%A7%91%E5%AD%B8%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪科學館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_156",
+      "name": "天神橋筋六丁目一番街",
+      "name_en": "Tenjinbashisuji 6-chome Ichibankuji",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "天神橋",
+      "station": "地下鐵天神橋筋六丁目",
+      "station_id": "osaka_station_019",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "天神橋筋商店街的北端，雲集多間老字號餐廳與和菓子店，是體驗下町風情的美食小巷。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "下町"
+      ],
+      "priority": 4,
+      "zone": "天神橋",
+      "nearby_stations": [
+        "osaka_station_019"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%85%AD%E4%B8%81%E7%9B%AE%E4%B8%80%E7%95%AA%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%A5%9E%E6%A9%8B%E7%AD%8B%E5%85%AD%E4%B8%81%E7%9B%AE%E4%B8%80%E7%95%AA%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天神橋筋六丁目一番街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_157",
+      "name": "北濱平和 matters",
+      "name_en": "Kitahama Peace Arch",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "北濱",
+      "station": "地下鐵北濱",
+      "station_id": "osaka_station_017",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "15分鐘",
+      "cash_only": false,
+      "description": "北濱站附近的和平祈念碑，靠近中之島公園，是認識大阪國際化歷史的低調去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "打卡",
+        "歷史"
+      ],
+      "priority": 4,
+      "zone": "北濱",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%BF%B1%E5%B9%B3%E5%92%8C%20matters%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%BF%B1%E5%B9%B3%E5%92%8C%20matters%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "北濱平和 matters YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_158",
+      "name": "堂島 Cafe Street",
+      "name_en": "Dojima Cafe Street",
+      "category": "hidden_gem",
+      "sub_category": "cafe_district",
+      "parent": null,
+      "location": "淀屋橋",
+      "station": "JR北新地 / 地下鐵淀屋橋",
+      "station_id": "osaka_station_017",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "沿堂島川的高級咖啡廳街，雲集多間設計師咖啡廳與酒吧，是大阪市區享受河岸風情的時尚去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "咖啡",
+        "夜景",
+        "時尚"
+      ],
+      "priority": 4,
+      "zone": "淀屋橋",
+      "nearby_stations": [
+        "osaka_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A0%82%E5%B3%B6%20Cafe%20Street%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A0%82%E5%B3%B6%20Cafe%20Street%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "堂島 Cafe Street YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_159",
+      "name": "滋慶學園 COMGATE 泉州",
+      "name_en": "Jikei Gakuen COMGATE Senshu",
+      "category": "hidden_gem",
+      "sub_category": "culture",
+      "parent": null,
+      "location": "泉州",
+      "station": "南海泉佐野",
+      "station_id": null,
+      "ticket": "免費（活動時期）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "以音樂、表演、藝術教育為主的校園，平日開放參觀，運氣好還能遇到學生表演或展覽。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "藝術",
+        "校園"
+      ],
+      "priority": 4,
+      "zone": "泉州",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%BB%8B%E6%85%B6%E5%AD%B8%E5%9C%92%20COMGATE%20%E6%B3%89%E5%B7%9E%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%BB%8B%E6%85%B6%E5%AD%B8%E5%9C%92%20COMGATE%20%E6%B3%89%E5%B7%9E%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "滋慶學園 COMGATE 泉州 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_160",
+      "name": "勝尾寺",
+      "name_en": "Katsuoji",
+      "category": "attraction",
+      "sub_category": "temple",
+      "parent": null,
+      "location": "箕面",
+      "station": "能勢電鐵瀧鄉 / 箕面",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "關西最古老寺廟之一，又稱「勝運寺」，保佑考試、疾病、商業、選舉勝利，境內隨處可見不倒翁（達摩），以櫻花、繡球花、紅葉聞名，是大阪紅葉勝地。",
+      "sources": [
+        "https://www.katsuoji.com/"
+      ],
+      "tags": [
+        "大阪",
+        "寺廟",
+        "賞櫻",
+        "紅葉"
+      ],
+      "priority": 3,
+      "zone": "箕面",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8B%9D%E5%B0%BE%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8B%9D%E5%B0%BE%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "勝尾寺 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_161",
+      "name": "枚方公園",
+      "name_en": "Hirakata Park",
+      "category": "attraction",
+      "sub_category": "amusement_park",
+      "parent": null,
+      "location": "枚方",
+      "station": "京阪枚方公園",
+      "station_id": null,
+      "ticket": "入園免費（遊具另行付費）",
+      "need_reservation": false,
+      "stay_duration": "3~5小時",
+      "cash_only": false,
+      "description": "日本營業歷史最長的遊樂園之一，百年歷史，園長為V6成員岡田准一，設有雲霄飛車、摩天輪，冬季有溜冰場與燈光秀。",
+      "sources": [
+        "https://www.hirakatapark.co.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "遊樂園",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "枚方",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9E%9A%E6%96%B9%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%9E%9A%E6%96%B9%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "枚方公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_162",
+      "name": "枚方湖畔廣場",
+      "name_en": "Hirakata Toho Plaza",
+      "category": "hidden_gem",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "枚方",
+      "station": "京阪枚方",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "枚方車站旁的湖畔商場，有超市、餐廳與生活雜貨，是枚方地區居民日常採買與用餐的主要去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "購物",
+        "美食"
+      ],
+      "priority": 4,
+      "zone": "枚方",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9E%9A%E6%96%B9%E6%B9%96%E7%95%94%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%9E%9A%E6%96%B9%E6%B9%96%E7%95%94%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "枚方湖畔廣場 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_163",
+      "name": "鞍馬山（鞍馬寺）",
+      "name_en": "Mount Kurama",
+      "category": "attraction",
+      "sub_category": "mountain",
+      "parent": null,
+      "location": "鞍馬",
+      "station": "睿山電車鞍馬",
+      "station_id": null,
+      "ticket": "免費（纜車另行付費）",
+      "need_reservation": false,
+      "stay_duration": "3~5小時",
+      "cash_only": false,
+      "description": "距離京都市中心約30分鐘車程，是修行者與山野健行者推崇的能量景點，有鞍馬寺本堂與山岳修行道，秋季紅葉優美。",
+      "sources": [
+        "https://www.kuramadera.com/"
+      ],
+      "tags": [
+        "京都",
+        "山",
+        "神社",
+        "能量景點"
+      ],
+      "priority": 3,
+      "zone": "鞍馬",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%9E%8D%E9%A6%AC%E5%B1%B1%EF%BC%88%E9%9E%8D%E9%A6%AC%E5%AF%BA%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%9E%8D%E9%A6%AC%E5%B1%B1%EF%BC%88%E9%9E%8D%E9%A6%AC%E5%AF%BA%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "鞍馬山（鞍馬寺） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_164",
+      "name": "岸和田城",
+      "name_en": "Kishiwada Castle",
+      "category": "attraction",
+      "sub_category": "castle",
+      "parent": null,
+      "location": "岸和田",
+      "station": "南海岸和田",
+      "station_id": null,
+      "ticket": "免費（天守閣另行）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "豐臣秀賴旗下武將的城下町原型，現存天守閣為昭和年間重建，週邊整備為公園，是泉州地区代表歷史景點。",
+      "sources": [
+        "https://kishiwada.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "城堡",
+        "歷史"
+      ],
+      "priority": 3,
+      "zone": "岸和田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%E5%9F%8E%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%E5%9F%8E%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "岸和田城 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_165",
+      "name": "岸和田神社",
+      "name_en": "Kishiwada Shrine",
+      "category": "hidden_gem",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "岸和田",
+      "station": "南海岸和田",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "以巨大山車（活動山車）聞名，每年10月舉辦岸和田山車祭，與京都禊祭、奈良春日祭並稱關西三大夏祭。",
+      "sources": [
+        "https://www.kishiwada-shishi.com/"
+      ],
+      "tags": [
+        "大阪",
+        "神社",
+        "祭典"
+      ],
+      "priority": 3,
+      "zone": "岸和田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%E7%A5%9E%E7%A4%BE%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "岸和田神社 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_166",
+      "name": "吹田足球場（Panasonic Stadium Suita）",
+      "name_en": "Panasonic Stadium Suita",
+      "category": "attraction",
+      "sub_category": "stadium",
+      "parent": null,
+      "location": "吹田",
+      "station": "JR吹田",
+      "station_id": null,
+      "ticket": "依賽事而異",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "J聯盟大阪飛腳主場，約4萬席位的專業足球場，非比賽日提供 stadium tour，可參觀球員休息室與選手通道。",
+      "sources": [
+        "https://www.gamba.ne.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "足球",
+        "體育",
+        "J聯盟"
+      ],
+      "priority": 3,
+      "zone": "吹田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%E8%B6%B3%E7%90%83%E5%A0%B4%EF%BC%88Panasonic%20Stadium%20Suita%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%E8%B6%B3%E7%90%83%E5%A0%B4%EF%BC%88Panasonic%20Stadium%20Suita%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "吹田足球場（Panasonic Stadium Suita） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_167",
+      "name": "Yanmar Mare Osaka",
+      "name_en": "Yanmar Mare Osaka",
+      "category": "hidden_gem",
+      "sub_category": "sports",
+      "parent": null,
+      "location": "此花",
+      "station": "JR西九條 / 地下鐵九條",
+      "station_id": "osaka_station_036",
+      "ticket": "依活動而異",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "以水上運動為主題的綜合運動設施，附設划船與帆船課程，是認識大阪水岸生活的體驗型景點。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "水上運動",
+        "體驗"
+      ],
+      "priority": 4,
+      "zone": "此花",
+      "nearby_stations": [
+        "osaka_station_036"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Yanmar%20Mare%20Osaka%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=Yanmar%20Mare%20Osaka%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "Yanmar Mare Osaka YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_168",
+      "name": "平和島賞鳥高台",
+      "name_en": "Heiwajima Bird Observatory",
+      "category": "hidden_gem",
+      "sub_category": "nature",
+      "parent": null,
+      "location": "此花",
+      "station": "JR西九條 / JR宇野先",
+      "station_id": "osaka_station_036",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "可遠眺關空大橋與大阪灣的賞鳥地點，是愛好自然與賞機的旅客的秘密景點。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "自然",
+        "賞機",
+        "秘密"
+      ],
+      "priority": 4,
+      "zone": "此花",
+      "nearby_stations": [
+        "osaka_station_036"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%92%8C%E5%B3%B6%E8%B3%9E%E9%B3%A5%E9%AB%98%E5%8F%B0%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B9%B3%E5%92%8C%E5%B3%B6%E8%B3%9E%E9%B3%A5%E9%AB%98%E5%8F%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "平和島賞鳥高台 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_169",
+      "name": "北港綠地",
+      "name_en": "Kitako Ryokuchi",
+      "category": "hidden_gem",
+      "sub_category": "park",
+      "parent": null,
+      "location": "此花",
+      "station": "JR西九條 / 地下鐵千日前線世界堤",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "大阪灣岸的大型公園，有腳踏車道、烤肉區與草地，春季可賞櫻，是關西國際機場對面的親自然空間。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "郊區"
+      ],
+      "priority": 4,
+      "zone": "此花",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8C%97%E6%B8%AF%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8C%97%E6%B8%AF%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "北港綠地 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_170",
+      "name": "鶴橋燒肉街",
+      "name_en": "Tsuruhashi Yakiniku Street",
+      "category": "attraction",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "鶴橋",
+      "station": "JR鶴橋 / 近鐵鶴橋",
+      "station_id": "osaka_station_007",
+      "ticket": "依店家而異",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "鶴橋韓國城的心臟地帶，雲集30+間燒肉店，從平價到和牛燒肉均有，是大阪最重要的燒肉美食街之一。",
+      "sources": [
+        "https://www.kankory.com/korea/korea.html"
+      ],
+      "tags": [
+        "大阪",
+        "美食",
+        "燒肉",
+        "鶴橋"
+      ],
+      "priority": 3,
+      "zone": "鶴橋",
+      "nearby_stations": [
+        "osaka_station_007"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E6%A9%8B%E7%87%92%E8%82%89%E8%A1%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%B6%B4%E6%A9%8B%E7%87%92%E8%82%89%E8%A1%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "鶴橋燒肉街 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_171",
+      "name": "道頓堀散步小路",
+      "name_en": "Dotonbori Walk",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "難波",
+      "station": "地下鐵心齋橋 / 地下鐵難波",
+      "station_id": "osaka_station_012",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "道頓堀運河旁的散步小路，雲集多間居酒屋、酒吧與小吃攤，是感受大阪夜生活的經典去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "夜景",
+        "道頓堀"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E6%95%A3%E6%AD%A5%E5%B0%8F%E8%B7%AF%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%E6%95%A3%E6%AD%A5%E5%B0%8F%E8%B7%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "道頓堀散步小路 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_172",
+      "name": "道頓堀昭和浪漫街道",
+      "name_en": "Dotonbori Showa Street",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "難波",
+      "station": "地下鐵心齋橋 / 地下鐵難波",
+      "station_id": "osaka_station_012",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "重現1960年代昭和大阪街景的室內主題街區，有古老糖果店、唱片行與公共電話亭，是拍照打卡與體驗昭和氛圍的場所。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "打卡",
+        "昭和",
+        "道頓堀"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%E6%98%AD%E5%92%8C%E6%B5%AA%E6%BC%AB%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%E6%98%AD%E5%92%8C%E6%B5%AA%E6%BC%AB%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "道頓堀昭和浪漫街道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_173",
+      "name": "道頓堀 鯛魚燒街道",
+      "name_en": "Dotonbori Taiyaki Street",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "難波",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": "200~300円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "道頓堀內雲集多家鯛魚燒名店的街道，丹皮、抹茶、卡士達等多種口味，是體驗大阪傳統甜點文化的去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "甜點",
+        "道頓堀"
+      ],
+      "priority": 4,
+      "zone": "難波",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%93%E9%A0%93%E5%A0%80%20%E9%AF%9B%E9%AD%9A%E7%87%92%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%81%93%E9%A0%93%E5%A0%80%20%E9%AF%9B%E9%AD%9A%E7%87%92%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "道頓堀 鯛魚燒街道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_174",
+      "name": "大阪麗思卡爾頓",
+      "name_en": "The Ritz-Carlton Osaka",
+      "category": "attraction",
+      "sub_category": "gourmet",
+      "parent": null,
+      "location": "梅田",
+      "station": "JR大阪站",
+      "station_id": "osaka_station_001",
+      "ticket": "下午茶套裝3500円~",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "大阪最頂級酒店之一，以英式古典宮廷風格著稱，提供下午茶與特色餐飲，是情侶約會或慶祝的首選去處。",
+      "sources": [
+        "https://www.ritzcarlton.com/osaka"
+      ],
+      "tags": [
+        "大阪",
+        "美食",
+        "下午茶",
+        "奢華"
+      ],
+      "priority": 3,
+      "zone": "梅田",
+      "nearby_stations": [
+        "osaka_station_001"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E9%BA%97%E6%80%9D%E5%8D%A1%E7%88%BE%E9%A0%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E9%BA%97%E6%80%9D%E5%8D%A1%E7%88%BE%E9%A0%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪麗思卡爾頓 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_175",
+      "name": "USJ ANNIVERSARY 街道",
+      "name_en": "USJ Anniversary Street",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "環球城",
+      "station": "JR環球城",
+      "station_id": "osaka_station_035",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "環球影城外的主題餐飲街，雲集多間聯名餐廳與限定商店，是結束USJ遊玩後用餐或購買限定商品的便利去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "USJ",
+        "限定"
+      ],
+      "priority": 4,
+      "zone": "環球城",
+      "nearby_stations": [
+        "osaka_station_035"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=USJ%20ANNIVERSARY%20%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=USJ%20ANNIVERSARY%20%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "USJ ANNIVERSARY 街道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_176",
+      "name": "島原溫泉 大溫湯",
+      "name_en": "Shimabara Hot Spring Dai-Onyu",
+      "category": "attraction",
+      "sub_category": "onsen",
+      "parent": null,
+      "location": "島原",
+      "station": "JR大阪 / 地下鐵玉出",
+      "station_id": "osaka_station_026",
+      "ticket": "750円",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "位於大阪南區的天然溫泉設施，有大浴槽與岩盤浴，提供道地日式泡湯體驗，距離市區交通便利，是恢复旅遊疲劳的好去處。",
+      "sources": [
+        "https://www.shimabora.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "溫泉",
+        "體驗"
+      ],
+      "priority": 3,
+      "zone": "島原",
+      "nearby_stations": [
+        "osaka_station_026"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B3%B6%E5%8E%9F%E6%BA%AB%E6%B3%89%20%E5%A4%A7%E6%BA%AB%E6%B9%AF%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B3%B6%E5%8E%9F%E6%BA%AB%E6%B3%89%20%E5%A4%A7%E6%BA%AB%E6%B9%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "島原溫泉 大溫湯 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_177",
+      "name": "昭和的女人的散步道",
+      "name_en": "Showa Women's Path",
+      "category": "hidden_gem",
+      "sub_category": "cultural",
+      "parent": null,
+      "location": "此花",
+      "station": "JR西九條",
+      "station_id": "osaka_station_036",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "以昭和時代女性生活為主題的戶外展示空間，結合散步道與休憩座椅，是認識大阪下町女性歷史的独特場所。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "歷史",
+        "女性",
+        "散步"
+      ],
+      "priority": 4,
+      "zone": "此花",
+      "nearby_stations": [
+        "osaka_station_036"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%98%AD%E5%92%8C%E7%9A%84%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%A3%E6%AD%A5%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%98%AD%E5%92%8C%E7%9A%84%E5%A5%B3%E4%BA%BA%E7%9A%84%E6%95%A3%E6%AD%A5%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "昭和的女人的散步道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_178",
+      "name": "天滿橋 時空小店",
+      "name_en": "Tenmabashi Retro Shops",
+      "category": "hidden_gem",
+      "sub_category": "shopping_street",
+      "parent": null,
+      "location": "天滿橋",
+      "station": "地下鐵天滿橋 / JR京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "天滿橋站附近的巷弄小店群，有古董相機店、復古唱片行與手作工房，是探索大阪昭和風情的深度去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "古著",
+        "古董",
+        "天滿橋"
+      ],
+      "priority": 4,
+      "zone": "天滿橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%BB%BF%E6%A9%8B%20%E6%99%82%E7%A9%BA%E5%B0%8F%E5%BA%97%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E6%BB%BF%E6%A9%8B%20%E6%99%82%E7%A9%BA%E5%B0%8F%E5%BA%97%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天滿橋 時空小店 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_179",
+      "name": "臨空城 Premium Outlets",
+      "name_en": "Rinku Premium Outlets",
+      "category": "attraction",
+      "sub_category": "outlet",
+      "parent": null,
+      "location": "臨空城",
+      "station": "JR臨空城",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "2~4小時",
+      "cash_only": false,
+      "description": "關西機場旁的大阪最大暢貨中心，2020年擴建後成為西斯蘭最大Outlet，250+店鋪、100+國際品牌，是離開大阪前的購物終點。",
+      "sources": [
+        "https://www.premiumoutlets.co.jp/zh-tw/chunkyo/"
+      ],
+      "tags": [
+        "大阪",
+        "outlet",
+        "購物",
+        "關西機場"
+      ],
+      "priority": 2,
+      "zone": "臨空城",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%87%A8%E7%A9%BA%E5%9F%8E%20Premium%20Outlets%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E8%87%A8%E7%A9%BA%E5%9F%8E%20Premium%20Outlets%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "臨空城 Premium Outlets YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_180",
+      "name": "臨空城海邊公園",
+      "name_en": "Rinku Beach Park",
+      "category": "hidden_gem",
+      "sub_category": "beach",
+      "parent": null,
+      "location": "臨空城",
+      "station": "JR臨空城",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "面向大阪灣的人工海灘，是關西機場起降時可見的地標性海岸線，也是傍晚賞機與休閒的去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "海邊",
+        "賞機",
+        "休閒"
+      ],
+      "priority": 4,
+      "zone": "臨空城",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E8%87%A8%E7%A9%BA%E5%9F%8E%E6%B5%B7%E9%82%8A%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E8%87%A8%E7%A9%BA%E5%9F%8E%E6%B5%B7%E9%82%8A%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "臨空城海邊公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_181",
+      "name": "關西機場 第一候機楼觀景廳",
+      "name_en": "Kansai Airport Observation Hall",
+      "category": "attraction",
+      "sub_category": "observation_deck",
+      "parent": null,
+      "location": "關西機場",
+      "station": "南海關西機場 / JR關西機場",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "關西國際機場第一候機楼的免費觀景大廳，可近距離觀看飛機起降，是航空愛好者與情侶約會的推薦去處。",
+      "sources": [
+        "https://www.kanai.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "賞機",
+        "觀景台",
+        "免費"
+      ],
+      "priority": 3,
+      "zone": "關西機場",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E8%A5%BF%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E5%80%99%E6%A9%9F%E6%A5%BC%E8%A7%80%E6%99%AF%E5%BB%B3%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%97%9C%E8%A5%BF%E6%A9%9F%E5%A0%B4%20%E7%AC%AC%E4%B8%80%E5%80%99%E6%A9%9F%E6%A5%BC%E8%A7%80%E6%99%AF%E5%BB%B3%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "關西機場 第一候機楼觀景廳 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_182",
+      "name": "大阪ATC博物館",
+      "name_en": "Osaka ATC Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "住之江",
+      "station": "地下鐵住之江公園",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "展示昭和時代生活用品與廣告的私立博物館，雲集3萬件以上的日常用品收藏，是認識大阪戰後消費文化的独特場所。",
+      "sources": [
+        "https://www.atc-museum.net/"
+      ],
+      "tags": [
+        "大阪",
+        "博物館",
+        "昭和",
+        "懷舊"
+      ],
+      "priority": 4,
+      "zone": "住之江",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AAATC%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AAATC%E5%8D%9A%E7%89%A9%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "大阪ATC博物館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_183",
+      "name": "住之江公園",
+      "name_en": "Suminoe Park",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "住之江",
+      "station": "地下鐵住之江公園",
+      "station_id": null,
+      "ticket": "免費（依設施而異）",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "大阪南部的大型綜合公園，有日本庭園、恐龍遊具與划船設施，春季賞櫻、秋季賞楓，是住之江區居民的首選休憩去處。",
+      "sources": [
+        "https://www.city.osaka.lg.jp/kyoiku/page/0000000728.html"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "親子"
+      ],
+      "priority": 3,
+      "zone": "住之江",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住之江公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_184",
+      "name": "住之江綠地（ Spain）",
+      "name_en": "Suminoe Ryokuchi",
+      "category": "hidden_gem",
+      "sub_category": "park",
+      "parent": null,
+      "location": "住之江",
+      "station": "地下鐵住之江公園",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "以西班牙風情為主題的綠地公園，有異國風情建築與花圃，適合拍照打卡與家庭野餐。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "公園",
+        "打卡",
+        "西班牙"
+      ],
+      "priority": 4,
+      "zone": "住之江",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E7%B6%A0%E5%9C%B0%EF%BC%88%20Spain%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E7%B6%A0%E5%9C%B0%EF%BC%88%20Spain%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住之江綠地（ Spain） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_185",
+      "name": "服部綠地",
+      "name_en": "Hattori Ryokuchi",
+      "category": "attraction",
+      "sub_category": "park",
+      "parent": null,
+      "location": "豐中",
+      "station": "大阪モノレール柴原",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "關西最大級的都市公園，有日本庭園、烤肉區、露營場與小型遊樂場，適合家庭一日遊，也是賞櫻與賞楓的知名去處。",
+      "sources": [
+        "https://www.hattori-ryokuchi.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "公園",
+        "賞櫻",
+        "烤肉"
+      ],
+      "priority": 3,
+      "zone": "豐中",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%9C%8D%E9%83%A8%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%9C%8D%E9%83%A8%E7%B6%A0%E5%9C%B0%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "服部綠地 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_186",
+      "name": "千里NEWtown",
+      "name_en": "Senri New Town",
+      "category": "hidden_gem",
+      "sub_category": "area",
+      "parent": null,
+      "location": "千里",
+      "station": "大阪モノレール千里",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "1970年代開發的日本最大規模新城鎮，保存多棟昭和中期現代建築，是認識日本都市計畫歷史的珍貴樣本。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "建築",
+        "昭和",
+        "城市"
+      ],
+      "priority": 4,
+      "zone": "千里",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%8D%83%E9%87%8CNEWtown%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%8D%83%E9%87%8CNEWtown%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "千里NEWtown YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_187",
+      "name": "吹田千里NEWtown 建築見學",
+      "name_en": "Suita Senri Architecture Tour",
+      "category": "hidden_gem",
+      "sub_category": "architecture",
+      "parent": null,
+      "location": "吹田",
+      "station": "大阪モノレール千里",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "以吹田千里NEWtown戰後集合住宅為對象的建築導覽行程，由在地導遊帶領參觀昭和現代主義建築群。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "建築",
+        "昭和",
+        "導覽"
+      ],
+      "priority": 4,
+      "zone": "吹田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%E5%8D%83%E9%87%8CNEWtown%20%E5%BB%BA%E7%AF%89%E8%A6%8B%E5%AD%B8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%E5%8D%83%E9%87%8CNEWtown%20%E5%BB%BA%E7%AF%89%E8%A6%8B%E5%AD%B8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "吹田千里NEWtown 建築見學 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_188",
+      "name": "放出（HANARERU）",
+      "name_en": "Hanareru Shopping Mall",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "放出",
+      "station": "JR放出",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "JR放出站直通的商場，雲集超市、服飾、生活雜貨與餐廳，是大阪東部居民日常採買的重要據點。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "購物",
+        "超市"
+      ],
+      "priority": 4,
+      "zone": "放出",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%94%BE%E5%87%BA%EF%BC%88HANARERU%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%94%BE%E5%87%BA%EF%BC%88HANARERU%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "放出（HANARERU） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_189",
+      "name": "京橋拱型商場",
+      "name_en": "Kyobashi Passage",
+      "category": "hidden_gem",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "京橋",
+      "station": "JR京橋 / 地下鐵京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "京橋站周邊的室內商場連通系統，連接各大人氣商場與車站，即使雨天也能輕鬆逛街購物。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "購物",
+        "地下街"
+      ],
+      "priority": 4,
+      "zone": "京橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E6%A9%8B%E6%8B%B1%E5%9E%8B%E5%95%86%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BA%AC%E6%A9%8B%E6%8B%B1%E5%9E%8B%E5%95%86%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "京橋拱型商場 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_190",
+      "name": "新大橋",
+      "name_en": "Shin Oohashi Bridge",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "京橋",
+      "station": "JR京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "15分鐘",
+      "cash_only": false,
+      "description": "横跨大川的橋樑，連接京橋與天滿橋，是拍攝大阪城倒影的知名地點，也是當地人慢跑與休憩的路線。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "打卡",
+        "夜景"
+      ],
+      "priority": 4,
+      "zone": "京橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E5%A4%A7%E6%A9%8B%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%96%B0%E5%A4%A7%E6%A9%8B%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "新大橋 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_191",
+      "name": "瓢箪",
+      "name_en": "Hyottoko",
+      "category": "hidden_gem",
+      "sub_category": "food_street",
+      "parent": null,
+      "location": "京橋",
+      "station": "JR京橋",
+      "station_id": "osaka_station_006",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "以日式炸串「ひょうと」聞名的美食小巷，是京橋地區上班族下班後小酌的私房去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "美食",
+        "下酒菜"
+      ],
+      "priority": 4,
+      "zone": "京橋",
+      "nearby_stations": [
+        "osaka_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%93%A2%E7%AE%AA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E7%93%A2%E7%AE%AA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "瓢箪 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_192",
+      "name": "天滿天神繁盛會",
+      "name_en": "Tenma Tenjin Hanjosei",
+      "category": "hidden_gem",
+      "sub_category": "festival",
+      "parent": null,
+      "location": "天神橋",
+      "station": "JR大阪天滿宮",
+      "station_id": null,
+      "ticket": "免費（餐飲另行）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "天滿宮例大祭期間舉辦的屋台村，雲集100+屋台，是體驗大阪祭典氛圍與屋台美食的年度盛事。",
+      "sources": [
+        "https://www.tenjinja.com/"
+      ],
+      "tags": [
+        "大阪",
+        "祭典",
+        "屋台",
+        "天滿"
+      ],
+      "priority": 3,
+      "zone": "天神橋",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%BB%BF%E5%A4%A9%E7%A5%9E%E7%B9%81%E7%9B%9B%E6%9C%83%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E6%BB%BF%E5%A4%A9%E7%A5%9E%E7%B9%81%E7%9B%9B%E6%9C%83%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天滿天神繁盛會 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_193",
+      "name": "昭和懷舊咖啡 Cafe 1948",
+      "name_en": "Cafe 1948 Showa Retro",
+      "category": "hidden_gem",
+      "sub_category": "cafe",
+      "parent": null,
+      "location": "天神橋",
+      "station": "地下鐵天神橋筋六丁目",
+      "station_id": "osaka_station_019",
+      "ticket": "500円~（飲品）",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "重現1940年代昭和初期氛圍的懷舊咖啡館，內部裝潢與餐具皆為那個年代的風格，是深度遊客體驗大阪咖啡文化的去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "咖啡",
+        "昭和",
+        "懷舊"
+      ],
+      "priority": 4,
+      "zone": "天神橋",
+      "nearby_stations": [
+        "osaka_station_019"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E6%98%AD%E5%92%8C%E6%87%B7%E8%88%8A%E5%92%96%E5%95%A1%20Cafe%201948%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E6%98%AD%E5%92%8C%E6%87%B7%E8%88%8A%E5%92%96%E5%95%A1%20Cafe%201948%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "昭和懷舊咖啡 Cafe 1948 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_194",
+      "name": "大阪地下鐵 昭和之心 展示館",
+      "name_en": "Osaka Metro Showa Heart Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "位於心齋橋站內的免費展示空間，介紹大阪地下鐵的歷史與建設過程，是等待電車時可以順便參觀的小型展館。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "博物館",
+        "鐵道",
+        "免費"
+      ],
+      "priority": 4,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E9%98%AA%E5%9C%B0%E4%B8%8B%E9%90%B5%20%E6%98%AD%E5%92%8C%E4%B9%8B%E5%BF%83%20%E5%B1%95%E7%A4%BA%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A7%E9%98%AA%E5%9C%B0%E4%B8%8B%E9%90%B5%20%E6%98%AD%E5%92%8C%E4%B9%8B%E5%BF%83%20%E5%B1%95%E7%A4%BA%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9",
+            "title": "大阪地下鐵 昭和之心 展示館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_195",
+      "name": "美國村 三角公園",
+      "name_en": "Amerika Mura Triangle Park",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "心齋橋",
+      "station": "地下鐵心齋橋",
+      "station_id": "osaka_station_012",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "15分鐘",
+      "cash_only": false,
+      "description": "美國村中心的三角公園，是大阪年輕人潮流文化與街頭藝術的心臟地帶，常有街頭表演與創意市集。",
+      "sources": [
+        "https://www.amerikamura.com/"
+      ],
+      "tags": [
+        "大阪",
+        "打卡",
+        "潮流",
+        "心齋橋"
+      ],
+      "priority": 4,
+      "zone": "心齋橋",
+      "nearby_stations": [
+        "osaka_station_012"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E4%B8%89%E8%A7%92%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E7%BE%8E%E5%9C%8B%E6%9D%91%20%E4%B8%89%E8%A7%92%E5%85%AC%E5%9C%92%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "美國村 三角公園 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_196",
+      "name": "Q's Mall",
+      "name_en": "Q's Mall",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "天王寺",
+      "station": "JR天王寺 / 地下鐵天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "與天王寺站直通的商場，雲集流行服飾、生活雜貨與多家餐廳，排隊人潮比鄰近的阿倍野近鐵百貨較少，適合想要輕鬆購物的旅客。",
+      "sources": [
+        "https://www.qsmail.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "天王寺"
+      ],
+      "priority": 3,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=Q%27s%20Mall%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=Q%27s%20Mall%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "Q's Mall YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_197",
+      "name": "天王寺 MIO",
+      "name_en": "Tennoji MIO",
+      "category": "attraction",
+      "sub_category": "shopping_mall",
+      "parent": null,
+      "location": "天王寺",
+      "station": "JR天王寺 / 地下鐵天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "天王寺地區代表性百貨公司，雲集流行品牌、化品與餐廳，與天王寺公園相鄰，是天王寺商圈的重要構成。",
+      "sources": [
+        "https://www.tennoji-mio.jp/"
+      ],
+      "tags": [
+        "大阪",
+        "購物",
+        "天王寺"
+      ],
+      "priority": 3,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20MIO%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20MIO%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天王寺 MIO YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
+            "title": "就從我的角度看世界 - 人生第一次獨旅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_198",
+      "name": "天王寺 Theater Edge",
+      "name_en": "Tennoji Theater Edge",
+      "category": "hidden_gem",
+      "sub_category": "theater",
+      "parent": null,
+      "location": "天王寺",
+      "station": "JR天王寺 / 地下鐵天王寺",
+      "station_id": "osaka_station_005",
+      "ticket": "依劇目而異",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "以小型現場演出與獨立劇場為主的表演藝術空間，節目涵蓋落語、漫才、Live Music與小劇場戲劇，是接觸大阪地下藝文場景的去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "藝術",
+        "劇場",
+        "天王寺"
+      ],
+      "priority": 4,
+      "zone": "天王寺",
+      "nearby_stations": [
+        "osaka_station_005"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20Theater%20Edge%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E7%8E%8B%E5%AF%BA%20Theater%20Edge%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天王寺 Theater Edge YouTube 搜尋"
+          }
+        ],
+        "blog_article": [
+          {
+            "url": "https://simpleball.pixnet.net/blog/posts/14222952015",
+            "title": "盤點大阪旅遊必去的25個熱門景點"
+          },
+          {
+            "url": "https://medium.com/sillybearodyssey/%E7%8D%A8%E6%97%85%E6%98%AF%E4%B8%80%E5%A0%B1%E7%99%BC%E7%8F%BE%E8%87%AA%E5%B7%B1%E7%9A%84%E5%86%92%E9%9A%AA-4bda05ef8a00",
+            "title": "就從我的角度看世界 - 人生第一次獨旅"
+          }
+        ]
+      }
+    },
+    {
+      "id": "osaka_attr_199",
+      "name": "住吉團地 昭和風景",
+      "name_en": "Sumiyoshi Danchi Showa Scenery",
+      "category": "hidden_gem",
+      "sub_category": "architecture",
+      "parent": null,
+      "location": "住吉",
+      "station": "南海住吉大社前",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "昭和時代建造的大型住宅團地，保留完整的1960年代社區規劃，是認識戰後日本都市住宅文化的珍貴樣本。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "建築",
+        "昭和",
+        "懷舊"
+      ],
+      "priority": 4,
+      "zone": "住吉",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E5%90%89%E5%9C%98%E5%9C%B0%20%E6%98%AD%E5%92%8C%E9%A2%A8%E6%99%AF%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E5%90%89%E5%9C%98%E5%9C%B0%20%E6%98%AD%E5%92%8C%E9%A2%A8%E6%99%AF%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住吉團地 昭和風景 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_200",
+      "name": "住之江賽馬場",
+      "name_en": "Suminoe Race Course",
+      "category": "hidden_gem",
+      "sub_category": "entertainment",
+      "parent": null,
+      "location": "住之江",
+      "station": "地下鐵住之江",
+      "station_id": null,
+      "ticket": "100円~（投注）",
+      "need_reservation": false,
+      "stay_duration": "2~3小時",
+      "cash_only": false,
+      "description": "大阪唯一的公營賽艇場，提供賽艇與各式博弈娛樂，是體驗大阪市民娛樂文化的獨特去處。",
+      "sources": [
+        "https://www.suminoe-race.com/"
+      ],
+      "tags": [
+        "大阪",
+        "博弈",
+        "賽艇"
+      ],
+      "priority": 4,
+      "zone": "住之江",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E8%B3%BD%E9%A6%AC%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E4%BD%8F%E4%B9%8B%E6%B1%9F%E8%B3%BD%E9%A6%AC%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "住之江賽馬場 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_201",
+      "name": "咲洲廳舍（WORLD PORT DRINK）",
+      "name_en": "Sakishima Console Tower",
+      "category": "hidden_gem",
+      "sub_category": "landmark",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵宇宙廣場",
+      "station_id": "osaka_station_031",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "大阪灣區的摩天大樓，高256公尺，1995年竣工，曾為全日本最高大樓，地下25樓設有免費展望台可俯瞰灣區全景。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "地標",
+        "夜景",
+        "灣區"
+      ],
+      "priority": 4,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_031"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%92%B2%E6%B4%B2%E5%BB%B3%E8%88%8D%EF%BC%88WORLD%20PORT%20DRINK%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%92%B2%E6%B4%B2%E5%BB%B3%E8%88%8D%EF%BC%88WORLD%20PORT%20DRINK%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "咲洲廳舍（WORLD PORT DRINK） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_202",
+      "name": "天保山 資料館",
+      "name_en": "Tempozan Museum",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "灣區",
+      "station": "地下鐵大阪港",
+      "station_id": "osaka_station_030",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "展示天保山周邊水域與港灣歷史的小型博物館，雲集舊照片、船舶模型與海洋生物標本，是認識大阪港灣發展史的去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "博物館",
+        "港灣",
+        "灣區"
+      ],
+      "priority": 4,
+      "zone": "灣區",
+      "nearby_stations": [
+        "osaka_station_030"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%20%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%A4%A9%E4%BF%9D%E5%B1%B1%20%E8%B3%87%E6%96%99%E9%A4%A8%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "天保山 資料館 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_203",
+      "name": "空寺（Seiku-dera）",
+      "name_en": "Sakuratei",
+      "category": "hidden_gem",
+      "sub_category": "temple",
+      "parent": null,
+      "location": "貝塚",
+      "station": "水間鐵道貝塚",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "泉州地區以「不去就會有難」傳說聞名的古寺，周邊有竹林與自然散步道，是當地人信仰的中心。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "寺廟",
+        "能量景點"
+      ],
+      "priority": 4,
+      "zone": "貝塚",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E7%A9%BA%E5%AF%BA%EF%BC%88Seiku-dera%EF%BC%89%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E7%A9%BA%E5%AF%BA%EF%BC%88Seiku-dera%EF%BC%89%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "空寺（Seiku-dera） YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_204",
+      "name": "岸和田 花街道",
+      "name_en": "Kishiwada Flower Road",
+      "category": "hidden_gem",
+      "sub_category": "area",
+      "parent": null,
+      "location": "岸和田",
+      "station": "南海岸和田",
+      "station_id": null,
+      "ticket": null,
+      "need_reservation": false,
+      "stay_duration": "30分鐘~1小時",
+      "cash_only": false,
+      "description": "岸和田城周邊的散步道，春季櫻花夾道，秋季銀杏轉黃，是認識泉州歷史城下町風情的最佳起點。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "賞櫻",
+        "歷史",
+        "散步"
+      ],
+      "priority": 4,
+      "zone": "岸和田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%B2%B8%E5%92%8C%E7%94%B0%20%E8%8A%B1%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%B2%B8%E5%92%8C%E7%94%B0%20%E8%8A%B1%E8%A1%97%E9%81%93%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "岸和田 花街道 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_205",
+      "name": "吹田 綠地 能量 Spot",
+      "name_en": "Suita Green Energy Spot",
+      "category": "hidden_gem",
+      "sub_category": "nature",
+      "parent": null,
+      "location": "吹田",
+      "station": "JR吹田",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "以吹田自然觀察之林為中心的能量景點，有多處湧泉與濕地，是認識關西平野自然生態的教本地點。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "自然",
+        "賞鳥",
+        "吹田"
+      ],
+      "priority": 4,
+      "zone": "吹田",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E5%90%B9%E7%94%B0%20%E7%B6%A0%E5%9C%B0%20%E8%83%BD%E9%87%8F%20Spot%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E5%90%B9%E7%94%B0%20%E7%B6%A0%E5%9C%B0%20%E8%83%BD%E9%87%8F%20Spot%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "吹田 綠地 能量 Spot YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_206",
+      "name": "鶴橋 誠照寺",
+      "name_en": "Tsuruhashi Jōshō-ji",
+      "category": "hidden_gem",
+      "sub_category": "temple",
+      "parent": null,
+      "location": "鶴橋",
+      "station": "JR鶴橋",
+      "station_id": "osaka_station_007",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "鶴橋韓國城附近的佛教寺院，保留了日治時期的建築風格，是認識在日朝鮮人社區宗教生活的低調去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "寺廟",
+        "歷史",
+        "鶴橋"
+      ],
+      "priority": 4,
+      "zone": "鶴橋",
+      "nearby_stations": [
+        "osaka_station_007"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%B6%B4%E6%A9%8B%20%E8%AA%A0%E7%85%A7%E5%AF%BA%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%B6%B4%E6%A9%8B%20%E8%AA%A0%E7%85%A7%E5%AF%BA%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "鶴橋 誠照寺 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
+    },
+    {
+      "id": "osaka_attr_207",
+      "name": "運河展示廣場",
+      "name_en": "Canal Exhibition Plaza",
+      "category": "hidden_gem",
+      "sub_category": "museum",
+      "parent": null,
+      "location": "住之江",
+      "station": "地下鐵住之江",
+      "station_id": null,
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1~2小時",
+      "cash_only": false,
+      "description": "以住之江運河歷史為主題的戶外展示廣場，有舊船隻、纜車與歷史解說牌，是認識大阪水運文化的水岸去處。",
+      "sources": [],
+      "tags": [
+        "大阪",
+        "博物館",
+        "運河",
+        "免費"
+      ],
+      "priority": 4,
+      "zone": "住之江",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=%E9%81%8B%E6%B2%B3%E5%B1%95%E7%A4%BA%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA",
+        "youtube": [
+          {
+            "url": "https://www.youtube.com/results?search_query=%E9%81%8B%E6%B2%B3%E5%B1%95%E7%A4%BA%E5%BB%A3%E5%A0%B4%20%E5%A4%A7%E9%98%AA%20%E6%99%AF%E9%BB%9E",
+            "title": "運河展示廣場 YouTube 搜尋"
+          }
+        ],
+        "blog_article": []
+      }
     }
-  ]
+  ],
+  "region": "osaka",
+  "updated": "2026-06-29"
 }

@@ -22,6 +22,7 @@
     <!-- ===== Left Panel: Input ===== -->
     <aside class="panel panel-input">
 
+      <!-- 地區 -->
       <div class="form-group">
         <label for="region-select">📍 <strong>選擇地區</strong></label>
         <select id="region-select">
@@ -29,20 +30,64 @@
         </select>
       </div>
 
+      <!-- 天數（1-10自選） -->
       <div class="form-group">
-        <label for="days-select">📅 <strong>天數</strong></label>
+        <label for="days-select">📅 <strong>旅遊天數</strong></label>
+        <div class="days-range-wrapper">
+          <input type="range" id="days-range" min="1" max="10" value="5" step="1">
+          <span id="days-display">5天4夜</span>
+        </div>
         <select id="days-select" disabled>
           <option value="">— 先選地區 —</option>
         </select>
       </div>
 
+      <!-- 同行人數 -->
       <div class="form-group">
         <label for="travelers">👥 <strong>同行人數</strong></label>
         <input type="number" id="travelers" min="1" max="20" value="1">
       </div>
 
+      <!-- 必去車站（可選，autocomplete） -->
       <div class="form-group">
-        <label>✅ <strong>必去景點</strong>（3個欄位，可打關鍵字搜尋）</label>
+        <label>🚉 <strong>必經車站</strong>（選填，最多8個，可打關鍵字搜尋）</label>
+        <div class="autocomplete-wrapper" data-slot="0" data-type="station">
+          <input type="text" class="station-input" data-slot="0" placeholder="欄位1：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="0" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="1" data-type="station">
+          <input type="text" class="station-input" data-slot="1" placeholder="欄位2：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="1" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="2" data-type="station">
+          <input type="text" class="station-input" data-slot="2" placeholder="欄位3：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="2" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="3" data-type="station">
+          <input type="text" class="station-input" data-slot="3" placeholder="欄位4：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="3" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="4" data-type="station">
+          <input type="text" class="station-input" data-slot="4" placeholder="欄位5：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="4" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="5" data-type="station">
+          <input type="text" class="station-input" data-slot="5" placeholder="欄位6：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="5" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="6" data-type="station">
+          <input type="text" class="station-input" data-slot="6" placeholder="欄位7：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="6" data-type="station"></div>
+        </div>
+        <div class="autocomplete-wrapper" data-slot="7" data-type="station">
+          <input type="text" class="station-input" data-slot="7" placeholder="欄位8：輸入車站名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="7" data-type="station"></div>
+        </div>
+      </div>
+
+      <!-- 必去景點（4欄位） -->
+      <div class="form-group">
+        <label>✅ <strong>必去景點</strong>（4個欄位，可打關鍵字搜尋）</label>
         <div class="autocomplete-wrapper" data-slot="0" data-type="want">
           <input type="text" class="want-input" data-slot="0" placeholder="欄位1：輸入景點名稱...">
           <div class="autocomplete-dropdown hidden" data-slot="0" data-type="want"></div>
@@ -55,27 +100,38 @@
           <input type="text" class="want-input" data-slot="2" placeholder="欄位3：輸入景點名稱...">
           <div class="autocomplete-dropdown hidden" data-slot="2" data-type="want"></div>
         </div>
+        <div class="autocomplete-wrapper" data-slot="3" data-type="want">
+          <input type="text" class="want-input" data-slot="3" placeholder="欄位4：輸入景點名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="3" data-type="want"></div>
+        </div>
       </div>
 
+      <!-- 想去Outlets（2欄位） -->
       <div class="form-group">
-        <label>❌ <strong>不去景點</strong>（3個欄位）</label>
-        <div class="autocomplete-wrapper" data-slot="0" data-type="dontwant">
-          <input type="text" class="dontwant-input" data-slot="0" placeholder="欄位1：輸入景點名稱...">
-          <div class="autocomplete-dropdown hidden" data-slot="0" data-type="dontwant"></div>
+        <label>🛍️ <strong>想去Outlets</strong>（2個欄位）</label>
+        <div class="autocomplete-wrapper" data-slot="0" data-type="outlet">
+          <input type="text" class="outlet-input" data-slot="0" placeholder="欄位1：輸入Outlet名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="0" data-type="outlet"></div>
         </div>
-        <div class="autocomplete-wrapper" data-slot="1" data-type="dontwant">
-          <input type="text" class="dontwant-input" data-slot="1" placeholder="欄位2：輸入景點名稱...">
-          <div class="autocomplete-dropdown hidden" data-slot="1" data-type="dontwant"></div>
-        </div>
-        <div class="autocomplete-wrapper" data-slot="2" data-type="dontwant">
-          <input type="text" class="dontwant-input" data-slot="2" placeholder="欄位3：輸入景點名稱...">
-          <div class="autocomplete-dropdown hidden" data-slot="2" data-type="dontwant"></div>
+        <div class="autocomplete-wrapper" data-slot="1" data-type="outlet">
+          <input type="text" class="outlet-input" data-slot="1" placeholder="欄位2：輸入Outlet名稱...">
+          <div class="autocomplete-dropdown hidden" data-slot="1" data-type="outlet"></div>
         </div>
       </div>
 
+      <!-- 用餐習慣（多選） -->
+      <div class="form-group">
+        <label>🍽️ <strong>用餐習慣</strong>（可複選）</label>
+        <div class="food-checkboxes" id="food-checkboxes">
+          <!-- 動態產生 -->
+          <span class="food-loading">載入中...</span>
+        </div>
+      </div>
+
+      <!-- 其他需求 -->
       <div class="form-group">
         <label for="other-needs">💬 <strong>其他需求</strong></label>
-        <textarea id="other-needs" rows="4" placeholder="用餐偏好、特殊需求、身體狀況、親子族群、飲食禁忌等..."></textarea>
+        <textarea id="other-needs" rows="3" placeholder="特殊需求、身體狀況、親子族群、飲食禁忌等..."></textarea>
       </div>
 
       <button id="generate-btn" class="btn-primary" disabled>
@@ -89,13 +145,13 @@
     <!-- ===== Right Panel: Output ===== -->
     <main class="panel panel-output">
 
-      <!-- Transport Info (shown after region selected) -->
+      <!-- Transport Info -->
       <div id="transport-panel" class="hidden">
         <h2>🚗 交通建議</h2>
         <div id="transport-content"></div>
       </div>
 
-      <!-- Itinerary Output (shown after generate) -->
+      <!-- Itinerary Output -->
       <div id="itinerary-output" class="hidden">
         <div class="output-header">
           <h2>📋 行程規劃</h2>
@@ -107,8 +163,8 @@
       <!-- Empty State -->
       <div id="empty-state">
         <p>👈 填寫左側表單，選擇地區與天數</p>
-        <p>設定必去 / 不去的景點</p>
-        <p>按下「🚀 生成行程」即可看到結果</p>
+        <p>設定必經車站 / 必去景點</p>
+        <p>按「🚀 生成行程」即可看到結果</p>
       </div>
 
     </main>

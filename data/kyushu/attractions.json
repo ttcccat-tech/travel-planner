@@ -33,7 +33,11 @@
         "日本三名城"
       ],
       "priority": 3,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "sakurajima",
@@ -59,7 +63,12 @@
         "奇景"
       ],
       "priority": 3,
-      "zone": "鹿兒島"
+      "zone": "鹿兒島",
+      "station_id": "kyushu_station_004",
+      "nearby_stations": [
+        "kyushu_station_004",
+        "kyushu_station_005"
+      ]
     },
     {
       "id": "takachiho-gorge",
@@ -85,7 +94,9 @@
         "划船"
       ],
       "priority": 3,
-      "zone": "宮崎·高千穗"
+      "zone": "宮崎·高千穗",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "yufuin",
@@ -111,7 +122,9 @@
         "度假"
       ],
       "priority": 3,
-      "zone": "別府·湯布院"
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "beppu-hells",
@@ -137,7 +150,9 @@
         "奇景"
       ],
       "priority": 3,
-      "zone": "別府·湯布院"
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "nagasaki Chinatown",
@@ -163,7 +178,11 @@
         "文化"
       ],
       "priority": 3,
-      "zone": "長崎"
+      "zone": "長崎",
+      "station_id": "kyushu_station_007",
+      "nearby_stations": [
+        "kyushu_station_007"
+      ]
     },
     {
       "id": "gunkanjima",
@@ -189,7 +208,11 @@
         "長崎"
       ],
       "priority": 3,
-      "zone": "長崎"
+      "zone": "長崎",
+      "station_id": "kyushu_station_007",
+      "nearby_stations": [
+        "kyushu_station_007"
+      ]
     },
     {
       "id": "saga-ariake",
@@ -215,7 +238,11 @@
         "自然"
       ],
       "priority": 2,
-      "zone": "長崎"
+      "zone": "長崎",
+      "station_id": "kyushu_station_007",
+      "nearby_stations": [
+        "kyushu_station_007"
+      ]
     },
     {
       "id": "hitoyoshi",
@@ -241,7 +268,11 @@
         "文化"
       ],
       "priority": 2,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "kokonoe-yunoto",
@@ -267,7 +298,9 @@
         "賞楓"
       ],
       "priority": 2,
-      "zone": "別府·湯布院"
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "yamaga-onsen",
@@ -293,7 +326,11 @@
         "燈籠"
       ],
       "priority": 2,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "nagasaki-beaches",
@@ -319,7 +356,11 @@
         "海水"
       ],
       "priority": 2,
-      "zone": "長崎"
+      "zone": "長崎",
+      "station_id": "kyushu_station_007",
+      "nearby_stations": [
+        "kyushu_station_007"
+      ]
     },
     {
       "id": "matsumoto-round",
@@ -345,7 +386,9 @@
         "城下町"
       ],
       "priority": 1,
-      "zone": "別府·湯布院"
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "hitoyoshi-kuma-river",
@@ -371,7 +414,11 @@
         "人吉"
       ],
       "priority": 2,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "satsuma-shimada",
@@ -397,7 +444,12 @@
         "愛情"
       ],
       "priority": 2,
-      "zone": "鹿兒島"
+      "zone": "鹿兒島",
+      "station_id": "kyushu_station_004",
+      "nearby_stations": [
+        "kyushu_station_004",
+        "kyushu_station_005"
+      ]
     },
     {
       "id": "Mt-Aso",
@@ -423,7 +475,11 @@
         "自然"
       ],
       "priority": 2,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "kurokawa-onsen",
@@ -449,7 +505,11 @@
         "秘湯"
       ],
       "priority": 3,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "hakata-ramen",
@@ -475,7 +535,9 @@
         "豚骨"
       ],
       "priority": 3,
-      "zone": "博多"
+      "zone": "博多",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "izakaya-kumamoto",
@@ -501,7 +563,11 @@
         "居酒屋"
       ],
       "priority": 2,
-      "zone": "熊本"
+      "zone": "熊本",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [
+        "kyushu_station_001"
+      ]
     },
     {
       "id": "satsuma-shio-karashi",
@@ -527,7 +593,12 @@
         "在地"
       ],
       "priority": 2,
-      "zone": "鹿兒島"
+      "zone": "鹿兒島",
+      "station_id": "kyushu_station_004",
+      "nearby_stations": [
+        "kyushu_station_004",
+        "kyushu_station_005"
+      ]
     },
     {
       "id": "nagasaki-chanpon",
@@ -553,7 +624,11 @@
         "中華"
       ],
       "priority": 2,
-      "zone": "長崎"
+      "zone": "長崎",
+      "station_id": "kyushu_station_007",
+      "nearby_stations": [
+        "kyushu_station_007"
+      ]
     },
     {
       "id": "isfuca",
@@ -579,7 +654,9 @@
         "溫泉"
       ],
       "priority": 1,
-      "zone": "別府·湯布院"
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "karatsu-yaki",
@@ -605,7 +682,9 @@
         "唐津"
       ],
       "priority": 1,
-      "zone": "筑豐"
+      "zone": "筑豐",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     },
     {
       "id": "sake-brewing",
@@ -631,137 +710,9 @@
         "體驗"
       ],
       "priority": 1,
-      "zone": "筑豐"
-    },
-    {
-      "id": "tosu-outlet",
-      "name": "鳥栖 Premium Outlets",
-      "name_en": "Tosu Premium Outlets",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "佐賀縣·鳥栖市",
-      "station": "①西鐵高速巴士：天神高速巴士總站→鳥栖（約45分鐘）②JR：博多→鳥栖站，轉接駁巴士",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "3-5小時",
-      "cash_only": false,
-      "description": "加州南部風情建築，150+間店鋪，国际精品+運動品牌。品牌：Nike、Coach、Michael Kors、Polo Ralph Lauren、New Balance、The North Face、Le Creuset、URBAN RESEARCH。",
-      "sources": [
-        "https://www.premiumoutlets.co.jp/cht/tosu/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "鳥栖",
-        "佐賀"
-      ],
-      "priority": 3,
-      "zone": "佐賀縣"
-    },
-    {
-      "id": "fukuoka-outlet",
-      "name": "Marinoa City Fukuoka（新地阿拉伯山）",
-      "name_en": "Marinoa City Fukuoka",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "福岡縣·海之中道",
-      "station": "JR「海之中道站」步行15分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "3-5小時",
-      "cash_only": false,
-      "description": "面對玄界灘與運河的景觀OUTLET，結合遊艇碼頭與OUTLET商場。品牌：Vivienne Westwood、Agnes b.、Beams OUTLET、Desigual、United Arrows OUTLET。",
-      "sources": [
-        "https://bobbytravel.tw/kyushu-attractions/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "海之中道",
-        "福岡"
-      ],
-      "priority": 2,
-      "zone": "福岡縣"
-    },
-    {
-      "id": "kagoshima-outlet",
-      "name": "AQULARIA（海鳴中山）OUTLET",
-      "name_en": "Aqualaria Tsunohazu",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "鹿兒島縣·鹿兒島市",
-      "station": "JR「谷山站」或「郡元站」",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "2-4小時",
-      "cash_only": false,
-      "description": "鹿兒島的在地OUTLET，以當地品牌和九州特產為主，附設海鮮市場和餐廳。可購買鹿兒島特產：薩摩燒酒、白甘諸、櫻島小蜜柑。",
-      "sources": [
-        "https://bobbytravel.tw/kyushu-attractions/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "鹿兒島",
-        "特產"
-      ],
-      "priority": 2,
-      "zone": "鹿兒島"
-    },
-    {
-      "id": "usa-hoshino",
-      "name": "宇佐中山（安心院）葡萄酒莊",
-      "name_en": "Usa Hinomoto Winery",
-      "category": "outlet",
-      "sub_category": "winery",
-      "parent": null,
-      "location": "大分縣·宇佐市",
-      "station": "JR「杵築站」或「安心院站」",
-      "ticket": "免費參觀（試飲各自付費）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "九州唯一大規模葡萄酒莊，使用當地種植的葡萄釀造，產品多次在國際比賽中獲獎。可參觀葡萄園與地下酒窖，試飲各款在地葡萄酒。",
-      "sources": [
-        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
-      ],
-      "tags": [
-        "OUTLET",
-        "葡萄酒",
-        "大分",
-        "酒莊"
-      ],
-      "priority": 1,
-      "zone": "別府·湯布院"
-    },
-    {
-      "id": "beppu-toko-ichi",
-      "name": "別府站旁 溫泉市場（とくなが）",
-      "name_en": "Beppu Tokoichi Market",
-      "category": "outlet",
-      "sub_category": "market",
-      "parent": null,
-      "location": "大分縣·別府市",
-      "station": "JR「別府站」步行約5分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "別府最大的溫泉湯葉和傳統工藝品商場，可以試飲溫泉水、品嚐溫泉蛋、購買明礬溫泉結晶模型。、別府代表特產：溫泉粉、明礬工藝品。",
-      "sources": [
-        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
-      ],
-      "tags": [
-        "OUTLET",
-        "溫泉",
-        "特產",
-        "別府"
-      ],
-      "priority": 1,
-      "zone": "別府·湯布院"
+      "zone": "筑豐",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": []
     }
   ]
 }

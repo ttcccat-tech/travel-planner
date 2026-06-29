@@ -1,0 +1,8 @@
+{
+  "region": "seoul",
+  "outlets": [
+    {"id":"seoul_outlet_001","name":"首爾江南duty free","name_en":"Shilla Isetan Dongdaemun","zone":"江南","nearby_stations":["seoul_032"],"details":{"fee":"免費","stay_time":"1~2小時"},"tags":["免稅","購物","江南"],"sources":[],"priority":3},
+    {"id":"seoul_outlet_002","name":"COEX Mall","name_en":"COEX Mall","zone":"江南","nearby_stations":["seoul_040"],"details":{"fee":"免費","stay_time":"2~3小時"},"tags":["購物","商場","COEX"],"sources":[],"priority":3},
+    {"id":"seoul_outlet_003","name":"樂天 Outlet 世界大廈店","name_en":"Lotte Outlets World Tower","zone":"江南","nearby_stations":["seoul_051"],"details":{"fee":"免費","stay_time":"2~3小時"},"tags":["OUTLET","購物","蠶室"],"sources":[],"priority":3}
+  ]
+}

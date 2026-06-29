@@ -32,7 +32,18 @@
         "東京"
       ],
       "priority": 3,
-      "zone": "淺草"
+      "zone": "淺草",
+      "station_id": "tokyo_station_017",
+      "nearby_stations": [
+        "tokyo_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=淺草寺·雷門 Senso-ji Temple & Kaminarimon 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=淺草寺·雷門+Senso-ji Temple & Kaminarimon+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tokyo-skytree",
@@ -58,7 +69,18 @@
         "押上"
       ],
       "priority": 3,
-      "zone": "淺草"
+      "zone": "淺草",
+      "station_id": "tokyo_station_017",
+      "nearby_stations": [
+        "tokyo_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=東京晴空塔（SKYTREE） Tokyo Skytree 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=東京晴空塔（SKYTREE）+Tokyo Skytree+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tokyo-tower",
@@ -84,7 +106,16 @@
         "經典"
       ],
       "priority": 3,
-      "zone": "台場"
+      "zone": "台場",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=東京鐵塔 Tokyo Tower 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=東京鐵塔+Tokyo Tower+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "meiji-shrine",
@@ -110,7 +141,18 @@
         "自然"
       ],
       "priority": 3,
-      "zone": "澀谷"
+      "zone": "澀谷",
+      "station_id": "tokyo_station_009",
+      "nearby_stations": [
+        "tokyo_station_009"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=明治神宮 Meiji Jingu 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=明治神宮+Meiji Jingu+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "shibuya-crossing",
@@ -135,7 +177,18 @@
         "十字路口"
       ],
       "priority": 3,
-      "zone": "澀谷"
+      "zone": "澀谷",
+      "station_id": "tokyo_station_009",
+      "nearby_stations": [
+        "tokyo_station_009"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=澀谷交叉路口 Shibuya Crossing 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=澀谷交叉路口+Shibuya Crossing+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "teamlab-borderless",
@@ -161,7 +214,16 @@
         "數位"
       ],
       "priority": 3,
-      "zone": "台場"
+      "zone": "台場",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=teamLab 無界 teamLab Borderless 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=teamLab 無界+teamLab Borderless+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "odaiba-rainbow-bridge",
@@ -187,7 +249,16 @@
         "自由女神"
       ],
       "priority": 2,
-      "zone": "台場"
+      "zone": "台場",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=台場·彩虹大橋 Odaiba & Rainbow Bridge 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=台場·彩虹大橋+Odaiba & Rainbow Bridge+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ueno-zoo",
@@ -213,7 +284,18 @@
         "熊貓"
       ],
       "priority": 3,
-      "zone": "上野"
+      "zone": "上野",
+      "station_id": "tokyo_station_007",
+      "nearby_stations": [
+        "tokyo_station_007"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=上野恩賜公園·上野動物園 Ueno Park & Ueno Zoo 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=上野恩賜公園·上野動物園+Ueno Park & Ueno Zoo+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "akihabara",
@@ -239,7 +321,18 @@
         "次文化"
       ],
       "priority": 2,
-      "zone": "秋葉原"
+      "zone": "秋葉原",
+      "station_id": "tokyo_station_003",
+      "nearby_stations": [
+        "tokyo_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=秋葉原 Akihabara 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=秋葉原+Akihabara+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ghibli-museum",
@@ -265,7 +358,16 @@
         "宮崎駿"
       ],
       "priority": 3,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=三鷹之森吉卜力美術館 Ghibli Museum, Mitaka 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=三鷹之森吉卜力美術館+Ghibli Museum, Mitaka+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kurama",
@@ -291,7 +393,18 @@
         "淺草"
       ],
       "priority": 2,
-      "zone": "淺草"
+      "zone": "淺草",
+      "station_id": "tokyo_station_017",
+      "nearby_stations": [
+        "tokyo_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=藏前 Kurama 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=藏前+Kurama+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "shimokitazawa",
@@ -317,7 +430,16 @@
         "下北"
       ],
       "priority": 2,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=下北澤 Shimokitazawa 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=下北澤+Shimokitazawa+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kiyosumi-garden",
@@ -343,7 +465,18 @@
         "藍瓶"
       ],
       "priority": 2,
-      "zone": "秋葉原"
+      "zone": "秋葉原",
+      "station_id": "tokyo_station_003",
+      "nearby_stations": [
+        "tokyo_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=清澄白河 Kiyosumi-Shirokane 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=清澄白河+Kiyosumi-Shirokane+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "jimbocho",
@@ -369,7 +502,18 @@
         "神保町"
       ],
       "priority": 2,
-      "zone": "秋葉原"
+      "zone": "秋葉原",
+      "station_id": "tokyo_station_003",
+      "nearby_stations": [
+        "tokyo_station_003"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=神保町 Jimbocho 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=神保町+Jimbocho+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "koenji",
@@ -395,7 +539,16 @@
         "阿波舞"
       ],
       "priority": 2,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=高圓寺 Koenji 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=高圓寺+Koenji+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "asagaya",
@@ -421,7 +574,16 @@
         "深度"
       ],
       "priority": 1,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=阿佐谷 Asagaya 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=阿佐谷+Asagaya+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "nishiogikubo",
@@ -447,7 +609,16 @@
         "西荻窪"
       ],
       "priority": 1,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=西荻窪 Nishiogikubo 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=西荻窪+Nishiogikubo+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kagurazaka",
@@ -473,7 +644,18 @@
         "神樂坂"
       ],
       "priority": 2,
-      "zone": "新宿"
+      "zone": "新宿",
+      "station_id": "tokyo_station_002",
+      "nearby_stations": [
+        "tokyo_station_002"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=神樂坂 Kagurazaka 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=神樂坂+Kagurazaka+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ningen-bucho",
@@ -499,7 +681,18 @@
         "人形町"
       ],
       "priority": 2,
-      "zone": "上野"
+      "zone": "上野",
+      "station_id": "tokyo_station_007",
+      "nearby_stations": [
+        "tokyo_station_007"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=人形町 Ningyocho 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=人形町+Ningyocho+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "yanaka",
@@ -525,7 +718,18 @@
         "谷根千"
       ],
       "priority": 2,
-      "zone": "上野"
+      "zone": "上野",
+      "station_id": "tokyo_station_007",
+      "nearby_stations": [
+        "tokyo_station_007"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=谷根千（谷中、根津、千駄木） Yanaka, Nezu & Sendagi 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=谷根千（谷中、根津、千駄木）+Yanaka, Nezu & Sendagi+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "shakadji",
@@ -551,7 +755,16 @@
         "柴又"
       ],
       "priority": 2,
-      "zone": "近郊"
+      "zone": "近郊",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=柴又 Shakajii 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=柴又+Shakajii+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "akabane",
@@ -577,7 +790,16 @@
         "千圓喝到醉"
       ],
       "priority": 2,
-      "zone": "北區"
+      "zone": "北區",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=赤羽 Akabane 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=赤羽+Akabane+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "togoshi-ginza",
@@ -603,7 +825,18 @@
         "戶越"
       ],
       "priority": 1,
-      "zone": "品川"
+      "zone": "品川",
+      "station_id": "tokyo_station_006",
+      "nearby_stations": [
+        "tokyo_station_006"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=戶越銀座 Togoshi-Ginza 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=戶越銀座+Togoshi-Ginza+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "chofu-jindaiji",
@@ -629,7 +862,16 @@
         "蕎麥"
       ],
       "priority": 1,
-      "zone": "吉祥寺·三鷹"
+      "zone": "吉祥寺·三鷹",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=調布·深大寺 Chofu & Jindaiji 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=調布·深大寺+Chofu & Jindaiji+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tsukiji-outer",
@@ -655,7 +897,16 @@
         "築地"
       ],
       "priority": 2,
-      "zone": "築地·月島"
+      "zone": "築地·月島",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=築地場外市場 Tsukiji Outer Market 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=築地場外市場+Tsukiji Outer Market+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "ginza",
@@ -680,7 +931,16 @@
         "高檔"
       ],
       "priority": 2,
-      "zone": "築地·月島"
+      "zone": "築地·月島",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=銀座 Ginza 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=銀座+Ginza+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "tsukishima-monjayaki",
@@ -706,7 +966,16 @@
         "東京"
       ],
       "priority": 2,
-      "zone": "築地·月島"
+      "zone": "築地·月島",
+      "station_id": "tokyo_station_001",
+      "nearby_stations": [],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=月島文字燒 Tsukishima Monjayaki 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=月島文字燒+Tsukishima Monjayaki+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "nakameguro",
@@ -732,7 +1001,18 @@
         "賞櫻"
       ],
       "priority": 2,
-      "zone": "澀谷"
+      "zone": "澀谷",
+      "station_id": "tokyo_station_009",
+      "nearby_stations": [
+        "tokyo_station_009"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=中目黑 Nakameguro 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=中目黑+Nakameguro+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "harajuku",
@@ -758,7 +1038,18 @@
         "時尚"
       ],
       "priority": 2,
-      "zone": "澀谷"
+      "zone": "澀谷",
+      "station_id": "tokyo_station_009",
+      "nearby_stations": [
+        "tokyo_station_009"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=原宿·表參道 Harajuku & Omotesando 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=原宿·表參道+Harajuku & Omotesando+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "kappabashi",
@@ -784,7 +1075,18 @@
         "淺草"
       ],
       "priority": 1,
-      "zone": "淺草"
+      "zone": "淺草",
+      "station_id": "tokyo_station_017",
+      "nearby_stations": [
+        "tokyo_station_017"
+      ],
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=合羽橋道具街 Kappabashi Kitchenware Street 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=合羽橋道具街+Kappabashi Kitchenware Street+景點"
+        ],
+        "blog_article": []
+      }
     },
     {
       "id": "gotanda",
@@ -810,111 +1112,18 @@
         "在地"
       ],
       "priority": 1,
-      "zone": "品川"
-    },
-    {
-      "id": "akyabari-outlet",
-      "name": "酒酒井 Princess Outlet",
-      "name_en": "Shisui Preme Outlets",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "成田市（近郊，機場附近）",
-      "station": "JR成田線/京成線「酒酒井站」步行7分鐘，或從成田機場搭巴士15分鐘",
-      "ticket": "免費",
-      "need_resvenue": false,
-      "stay_duration": "2-4小時",
-      "cash_only": false,
-      "description": "距離成田機場最近的OUTLET，聚集約90家品牌，包括COACH、Kate Spade、MICHAEL KORS、Tommy Hilfiger等精品，以及日本在地品牌。適合班機起降前後的血拼。",
-      "sources": [
-        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
+      "zone": "品川",
+      "station_id": "tokyo_station_006",
+      "nearby_stations": [
+        "tokyo_station_006"
       ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "成田",
-        "機場"
-      ],
-      "priority": 2,
-      "zone": "近郊"
-    },
-    {
-      "id": "mitsui-udaoutlet",
-      "name": "三井 Outlet Park 入間",
-      "name_en": "Mitsui Outlet Park Iruma",
-      "category": "outlet",
-      "sub_category": "outlet",
-      "parent": null,
-      "location": "埼玉縣入間市（近郊）",
-      "station": "西武鐵道「入間市站」步行約12分鐘，從池袋出發約30分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "3-5小時",
-      "cash_only": false,
-      "description": "約300家店鋪，關東最大規模OUTLET之一，品牌密度高。品牌：Champs Jordan、GAPOUTLET、BEIGE、Under Armour、 Samsonite。附設美食廣場與嬰兒車借用語服務。",
-      "sources": [
-        "https://www.klook.com/zh-TW/blog/must-go-tokyo-japan/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "埼玉",
-        "最大規模"
-      ],
-      "priority": 3,
-      "zone": "近郊"
-    },
-    {
-      "id": "lalaport-toyoko",
-      "name": "啦啦寶都 EXPOCITY",
-      "name_en": "Lalaport EXPOCITY",
-      "category": "outlet",
-      "sub_category": "shopping_mall",
-      "parent": null,
-      "location": "吹田市（大阪近郊）",
-      "station": "大阪 Metro 中央線「宇宙廣場站」",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "3-5小時",
-      "cash_only": false,
-      "description": "日本最大型複合商業設施之一，2023年擴建後店鋪數量增加。品牌：BEAMS、URBAN RESERCH、DANTON、日立高科技體驗館。附設EXPO LAND遊樂園。",
-      "sources": [
-        "https://www.egltours.com/website/campaign/article/%E5%A4%A7%E9%98%AA%E8%87%AA%E7%94%B1%E8%A1%8C"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "EXPOCITY",
-        "複合"
-      ],
-      "priority": 2,
-      "zone": "近郊"
-    },
-    {
-      "id": "shibuya-stream",
-      "name": "澀谷 STREAMS / 宮下公園",
-      "name_en": "Shibuya Streams & Miyashita Park",
-      "category": "outlet",
-      "sub_category": "new retail",
-      "parent": null,
-      "location": "澀谷",
-      "station": "JR「澀谷站」",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1.5-2.5小時",
-      "cash_only": false,
-      "description": "2020年後陸續開幕的新形態複合商場。宮下公園結合商業設施與空中公園，澀谷STREAMS有無印良品、Lawson食堂、健身中心等。主打東京在地生活感的品牌。",
-      "sources": [
-        "https://alinalife.tw/tokyo-attractions/"
-      ],
-      "tags": [
-        "OUTLET",
-        "購物",
-        "澀谷",
-        "新開幕"
-      ],
-      "priority": 1,
-      "zone": "澀谷"
+      "details": {
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=五反田 Gotanda 東京",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=五反田+Gotanda+景點"
+        ],
+        "blog_article": []
+      }
     }
   ]
 }

@@ -1,0 +1,147 @@
+{
+  "region": "fukuoka",
+  "outlets": [
+    {
+      "id": "tosu-premium-outlets",
+      "name": "鳥栖 PREMIUM OUTLETS",
+      "name_en": "Tosu Premium Outlets",
+      "zone": "佐賀縣鳥栖市",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鳥栖",
+        "精品",
+        "運動品牌"
+      ],
+      "sources": [
+        "https://www.premiumoutlets.co.jp/cht/tosu/"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "the-outlets-kitakyushu",
+      "name": "THE OUTLETS 北九州",
+      "name_en": "THE OUTLETS KITAKYUSHU",
+      "zone": "小倉·門司",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "北九州",
+        "170店鋪",
+        "親子"
+      ],
+      "sources": [
+        "https://hk.trip.com/blog/fukuoka-outlet/"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "boss-e-zo",
+      "name": "BOSS E・ZO FUKUOKA",
+      "name_en": "BOSS E・ZO FUKUOKA",
+      "zone": "天神",
+      "station_id": "fukuoka_station_005",
+      "nearby_stations": [
+        "fukuoka_station_005"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "商場",
+        "娛樂",
+        "天神",
+        "VIRTUAL",
+        "夜景餐廳"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "tenjin-daimyo-fashion",
+      "name": "天神·大名潮牌街",
+      "name_en": "Tenjin-Daimyo Fashion District",
+      "zone": "天神",
+      "station_id": "fukuoka_station_005",
+      "nearby_stations": [
+        "fukuoka_station_005"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "潮牌",
+        "購物",
+        "天神",
+        "日系",
+        "選物店"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "kawabata-shopping",
+      "name": "川端商店街",
+      "name_en": "Kawabata Shopping Street",
+      "zone": "博多",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [
+        "fukuoka_station_001"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "商店街",
+        "購物",
+        "博多",
+        "藥妝"
+      ],
+      "sources": [
+        "https://www.gltjp.com/zh-hant/article/item/20187/"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "karato-market",
+      "name": "唐戶市場",
+      "name_en": "Karato Market",
+      "zone": "小倉·門司",
+      "station_id": "fukuoka_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "海鮮",
+        "市場",
+        "下關",
+        "OUTLET"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/fukuoka-attractions/"
+      ],
+      "priority": 2
+    }
+  ]
+}

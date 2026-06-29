@@ -1,0 +1,118 @@
+{
+  "region": "kyushu",
+  "outlets": [
+    {
+      "id": "tosu-outlet",
+      "name": "鳥栖 Premium Outlets",
+      "name_en": "Tosu Premium Outlets",
+      "zone": "佐賀縣",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鳥栖",
+        "佐賀"
+      ],
+      "sources": [
+        "https://www.premiumoutlets.co.jp/cht/tosu/"
+      ],
+      "priority": 3
+    },
+    {
+      "id": "fukuoka-outlet",
+      "name": "Marinoa City Fukuoka（新地阿拉伯山）",
+      "name_en": "Marinoa City Fukuoka",
+      "zone": "福岡縣",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "海之中道",
+        "福岡"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "kagoshima-outlet",
+      "name": "AQULARIA（海鳴中山）OUTLET",
+      "name_en": "Aqualaria Tsunohazu",
+      "zone": "鹿兒島",
+      "station_id": "kyushu_station_004",
+      "nearby_stations": [
+        "kyushu_station_004",
+        "kyushu_station_005"
+      ],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "購物",
+        "鹿兒島",
+        "特產"
+      ],
+      "sources": [
+        "https://bobbytravel.tw/kyushu-attractions/"
+      ],
+      "priority": 2
+    },
+    {
+      "id": "usa-hoshino",
+      "name": "宇佐中山（安心院）葡萄酒莊",
+      "name_en": "Usa Hinomoto Winery",
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "葡萄酒",
+        "大分",
+        "酒莊"
+      ],
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "priority": 1
+    },
+    {
+      "id": "beppu-toko-ichi",
+      "name": "別府站旁 溫泉市場（とくなが）",
+      "name_en": "Beppu Tokoichi Market",
+      "zone": "別府·湯布院",
+      "station_id": "kyushu_station_001",
+      "nearby_stations": [],
+      "details": {
+        "fee": "免費",
+        "stay_time": "2-3小時"
+      },
+      "tags": [
+        "OUTLET",
+        "溫泉",
+        "特產",
+        "別府"
+      ],
+      "sources": [
+        "https://enjoy-kyushu.com/zh/modelcourse/kyushu-all/traditionalkyushu/1127.html"
+      ],
+      "priority": 1
+    }
+  ]
+}
