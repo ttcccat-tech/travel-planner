@@ -194,7 +194,7 @@ def process_region(region):
 
 
 def main():
-    regions = ["osaka", "fukuoka", "tokyo", "kyushu", "seoul", "busan", "okinawa"]
+    regions = ["osaka", "fukuoka", "tokyo", "seoul", "busan", "okinawa"]
     all_results = {}
 
     for region in regions:
