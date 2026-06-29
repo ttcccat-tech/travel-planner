@@ -153,28 +153,32 @@ async function onRegionChange(e) {
   clearAlerts();
   state.currentRegion = region;
 
-  // Load all region data in parallel
-  const [attRes, staRes, outRes, itinRes, transRes] = await Promise.all([
-    fetch(`data/${region}/attractions.json`).catch(() => new Response('{}')),
-    fetch(`data/${region}/stations.json`).catch(() => new Response('{}')),
-    fetch(`data/${region}/outlets.json`).catch(() => new Response('{}')),
-    fetch(`data/${region}/itineraries.json`).catch(() => new Response('{}')),
+  // Load all region data in parallel via API
+  // 生產環境用相對路徑（nginx reverse proxy）或環境變量
+  const API_BASE = window.__API_BASE__ || '/api';
+  const [attRes, staRes, outRes, itinRes] = await Promise.all([
+    fetch(`${API_BASE}/${region}/attractions`).catch(() => new Response('[]')),
+    fetch(`${API_BASE}/${region}/stations`).catch(() => new Response('[]')),
+    fetch(`${API_BASE}/${region}/outlets`).catch(() => new Response('[]')),
+    fetch(`${API_BASE}/${region}/itineraries`).catch(() => new Response('[]')),
+    // transport.json 暫時保留 static fetch（尚未資料庫化）
     fetch(`data/${region}/transport.json`).catch(() => new Response('{}')),
   ]);
 
   const [attData, staData, outData, itinData, transData] = await Promise.all([
-    attRes.json().catch(() => ({})),
-    staRes.json().catch(() => ({})),
-    outRes.json().catch(() => ({})),
+    attRes.json().catch(() => []),
+    staRes.json().catch(() => []),
+    outRes.json().catch(() => []),
     itinRes.json().catch(() => ({})),
     transRes.json().catch(() => ({})),
   ]);
 
-  state.attractions = attData.attractions || attData.data || [];
-  state.stations    = staData.stations || [];
-  state.outlets     = outData.outlets || [];
-  state.itineraries = itinData.itineraries || {};
-  state.transport    = transData;
+  // API returns raw arrays / dict; JSON wrapped data needs .attractions accessor
+  state.attractions = attData.attractions || attData.data || attData || [];
+  state.stations    = staData.stations    || staData.data || staData || [];
+  state.outlets     = outData.outlets     || outData.data || outData || [];
+  state.itineraries = itinData.itineraries || itinData || {};
+  state.transport    = transData || {};
 
   // Init days slider max based on available itineraries
   const availableDays = Object.keys(state.itineraries).map(Number).filter(d => !isNaN(d));

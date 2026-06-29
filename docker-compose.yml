@@ -13,6 +13,19 @@ services:
       - ./data:/usr/share/nginx/html/data:ro
     networks:
       - travel-net
+    depends_on:
+      - travel-api
+
+  travel-api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: travel-api
+    restart: unless-stopped
+    ports:
+      - "8001:8001"
+    networks:
+      - travel-net
 
 networks:
   travel-net:
