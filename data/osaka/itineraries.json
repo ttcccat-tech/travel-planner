@@ -519,6 +519,83 @@
           ]
         },
         {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "天滿宮",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "大阪重要神社，祈求學業進步",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "北濱復古建築街",
+              "type": "hidden_gem",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "明治至昭和初期大大阪繁華街，享用河畔午餐",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "中之島玫瑰園",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "大阪市民休閒公園，散步休憩",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "中之島夜景",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "賞大阪夜景推薦",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "天神橋筋商店街",
+              "type": "shopping",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長商店街，選購お土産",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "北濱",
+            "中之島",
+            "天神橋"
+          ]
+        },
+        {
           "day": 5,
           "type": "departure",
           "title": "回程日",
@@ -720,6 +797,145 @@
             }
           ],
           "zones": [
+            "天王寺"
+          ]
+        },
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "天滿宮",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "大阪重要神社",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "天神橋筋商店街",
+              "type": "shopping",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "日本最長商店街午餐",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "中之島玫瑰園",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "散步休憩",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "中之島夜景",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "賞夜景",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "天神橋",
+            "中之島"
+          ]
+        },
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "新世界通天閣",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "大人800円",
+              "details": {
+                "note": "大阪南部代表性地標",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "中午",
+              "item": "新世界串炸",
+              "type": "meal",
+              "slot": "中午",
+              "note": "新世界",
+              "details": {
+                "note": "大阪B級美食代表",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "下午",
+              "item": "天王寺公園",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {
+                "note": "天王寺站周邊散步",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "傍晚",
+              "item": "天王寺商圈",
+              "type": "shopping",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "購物",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            },
+            {
+              "time": "晚上",
+              "item": "天王寺夜景",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {
+                "note": "賞夜景",
+                "google_maps": null,
+                "youtube": null,
+                "blog_article": null
+              }
+            }
+          ],
+          "zones": [
+            "新世界",
             "天王寺"
           ]
         },
