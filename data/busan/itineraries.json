@@ -1,0 +1,552 @@
+{
+  "itineraries": {
+    "1": {
+      "name": "1天0夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達金海機場 → 市區飯店",
+              "type": "transport",
+              "stay": "1小時",
+              "ticket": "地鐵 1號線 W1,500",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "海雲台散步、兌換貨幣",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "海雲台商圈美食探索",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "廣安大明太魚",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "海雲台"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "name": "2天1夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "廣安里歷史園地",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "廣安里",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "多大海岸騎單車",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "廣安里日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "廣安里",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "廣安里",
+            "多大"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "name": "3天2夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "多大海岸公園",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "多大",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "蓮堤藝術巡禮",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "多大日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "多大",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "多大",
+            "蓮堤"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "name": "4天3夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "蓮堤傳統市場",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "蓮堤",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "東萊美食探索",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "蓮堤日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "蓮堤",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "蓮堤",
+            "東萊"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "name": "5天4夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "東萊經典景點",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "東萊",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "影島深度遊覽",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "東萊日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "東萊",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "東萊",
+            "影島"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "name": "6天5夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "影島文化廣場",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "影島",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "機場購物時光",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "影島日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "影島",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "影島",
+            "機場"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "name": "7天6夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 7,
+          "type": "normal",
+          "title": "Day 7",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "機場歷史園地",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "機場",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "金海海岸騎單車",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "機場日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "機場",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "機場",
+            "金海"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "name": "8天7夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 8,
+          "type": "normal",
+          "title": "Day 8",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "金海海岸公園",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "金海",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "海雲台藝術巡禮",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "金海日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "金海",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "金海",
+            "海雲台"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "name": "9天8夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 9,
+          "type": "normal",
+          "title": "Day 9",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "南浦傳統市場",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "札嘎其海鮮",
+              "type": "meal",
+              "slot": "中午",
+              "note": "南浦",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "西面美食探索",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "南浦日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "廣安大明太魚",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "南浦",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "南浦",
+            "西面"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "name": "10天9夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 10,
+          "type": "departure",
+          "title": "出發日",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "豆田屋嫩豆腐",
+              "type": "meal",
+              "slot": "上午",
+              "note": "海雲台在地早餐",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "最後購物 → 前往機場",
+              "type": "shopping",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "前往金海機場",
+              "type": "transport",
+              "stay": "1小時",
+              "ticket": "依距離",
+              "details": {
+                "note": "建議提前2-3小時出發"
+              }
+            }
+          ],
+          "zones": [
+            "海雲台"
+          ]
+        }
+      ]
+    }
+  }
+}

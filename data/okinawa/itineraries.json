@@ -1,0 +1,561 @@
+{
+  "itineraries": {
+    "1": {
+      "name": "1天0夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 1,
+          "type": "arrival",
+          "title": "抵達日",
+          "activities": [
+            {
+              "time": "下午",
+              "item": "抵達那霸機場 → 市區飯店",
+              "type": "transport",
+              "stay": "1小時",
+              "ticket": "單軌電車",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "那霸散步、兌換貨幣",
+              "type": "general",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "那霸商圈美食探索",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "石垣牛燒肉",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "那霸"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "name": "2天1夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 2,
+          "type": "normal",
+          "title": "Day 2",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "読谷歷史園地",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "読谷",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "糸満海岸騎單車",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "読谷日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "読谷",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "読谷",
+            "糸満"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "name": "3天2夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 3,
+          "type": "normal",
+          "title": "Day 3",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "美海水族館（黑潮之海）",
+              "type": "attraction",
+              "stay": "3小時",
+              "ticket": "¥2,200",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "美海水族館",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "海洋博公園（海豚表演/熱帶夢幻中心）",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "古宇利島（古宇利大橋/心形岩）",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "恩納",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "美海水族館",
+            "恩納"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "name": "4天3夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 4,
+          "type": "normal",
+          "title": "Day 4",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "万座毛（象鼻岩）",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "上午",
+              "item": "殘波岬燈塔",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "読谷楚辺燒肉",
+              "type": "meal",
+              "slot": "中午",
+              "note": "読谷",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "琉球村（傳統文化體驗）",
+              "type": "attraction",
+              "stay": "1.5小時",
+              "ticket": "¥1,200",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "北谷美國村日落",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "北谷海鮮居酒屋",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "北谷",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "恩納",
+            "読谷",
+            "北谷"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "name": "5天4夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 5,
+          "type": "normal",
+          "title": "Day 5",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "首里城（世界文化遺產）",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "¥1,000",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "首里石畳牛排",
+              "type": "meal",
+              "slot": "中午",
+              "note": "首里",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "玉泉洞（鐘乳石洞）+ 王國村",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "¥1,200",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "糸満海鮮市場（最後購物）",
+              "type": "shopping",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "糸満海葡萄丼",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "糸満",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "首里",
+            "糸満"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "name": "6天5夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 6,
+          "type": "normal",
+          "title": "Day 6",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "美海水族館文化廣場",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "美海水族館",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "宮古島購物時光",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "美海水族館日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "美海水族館",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "美海水族館",
+            "宮古島"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "name": "7天6夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 7,
+          "type": "normal",
+          "title": "Day 7",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "宮古島歷史園地",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "宮古島",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "石垣島海岸騎單車",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "宮古島日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "宮古島",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "宮古島",
+            "石垣島"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "name": "8天7夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 8,
+          "type": "normal",
+          "title": "Day 8",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "石垣島海岸公園",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "石垣島",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "那霸藝術巡禮",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "石垣島日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "石垣島",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "石垣島",
+            "那霸"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "name": "9天8夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 9,
+          "type": "normal",
+          "title": "Day 9",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "北谷傳統市場",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "海葡萄丼",
+              "type": "meal",
+              "slot": "中午",
+              "note": "北谷",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "恩納美食探索",
+              "type": "attraction",
+              "stay": "2小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "傍晚",
+              "item": "北谷日落觀賞",
+              "type": "attraction",
+              "stay": "1小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "晚上",
+              "item": "石垣牛燒肉",
+              "type": "meal",
+              "slot": "晚上",
+              "note": "北谷",
+              "details": {}
+            }
+          ],
+          "zones": [
+            "北谷",
+            "恩納"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "name": "10天9夜 行程",
+      "suitable_for": "一般自由行",
+      "layout": "由近到遠",
+      "days": [
+        {
+          "day": 10,
+          "type": "departure",
+          "title": "出發日",
+          "activities": [
+            {
+              "time": "上午",
+              "item": "A&W早餐",
+              "type": "meal",
+              "slot": "上午",
+              "note": "那霸在地早餐",
+              "details": {}
+            },
+            {
+              "time": "中午",
+              "item": "最後購物 → 前往機場",
+              "type": "shopping",
+              "stay": "1.5小時",
+              "ticket": "免費",
+              "details": {}
+            },
+            {
+              "time": "下午",
+              "item": "前往那霸機場",
+              "type": "transport",
+              "stay": "1小時",
+              "ticket": "依距離",
+              "details": {
+                "note": "建議提前2-3小時出發"
+              }
+            }
+          ],
+          "zones": [
+            "那霸"
+          ]
+        }
+      ]
+    }
+  }
+}
