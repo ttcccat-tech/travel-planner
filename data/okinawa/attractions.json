@@ -2,30 +2,745 @@
   "region": "okinawa",
   "updated": "2026-06-29",
   "attractions": [
-    {"id":"shurijo-castle","name":"首里城","name_en":"Shurijo Castle","category":"attraction","sub_category":"castle","location":"那霸","station":"首里站（沖繩都市單軌）","zone":"那霸","description":"琉球王國的象徵性城堡，1992年重建開放，2019年遭祝融後再度修復中，建築融合中國與日本特色，是了解琉球歷史文化的核心去處。","ticket":"大人 1600日幣","stay_duration":"1.5~2.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","世界遺產","城堡"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%A6%96%E9%87%8C%E5%9F%8E+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"okinawa-churaumi","name":"美麗海水族館","name_en":"Okinawa Churaumi Aquarium","category":"attraction","sub_category":"aquarium","location":"本部","station":"美麗海水族館站（OB盒謝線）","zone":"北部","description":"世界第二大的黑潮水族箱，養有鯨鯊與鬼蝠魟，另有熱帶魚區與海牛館，是沖繩最受歡迎的親子景點，位於海洋博公園內。","ticket":"大人 2180日幣","stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["沖繩","水族館","親子"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E9%9D%92%E6%B5%B7%E6%B0%97%E9%8F%9C%E9%A6%AC+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"kouri-jima","name":"古宇利島","name_en":"Kouri Island","category":"attraction","sub_category":"island","location":"名護","station":"需自駕或搭巴士","zone":"北部","description":"以心形岩石與美麗海灘聞名的離島，跨海大橋連接本土，有古宇利海灘、龍崗自然植物園等景點，是沖繩北部自駕必訪的浪漫去處。","ticket":"免費","stay_duration":"1.5~3小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海灘","離島"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9%E5%B3%B6+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"american-village","name":"美國村","name_en":"American Village","category":"attraction","sub_category":"shopping_district","location":"北谷","station":"軍雞李站（58號線巴士）","zone":"中部","description":"以美式風格聞名的綜合商圈，色彩繽紛的建築與海濱廣場是其特色，雲集購物、餐飲與電影院，是體驗沖繩美式休閒文化的代表去處。","ticket":null,"stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["沖繩","購物","美式"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E5%9C%8B%E6%9D%91+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"katsuu","name":"勝連城跡","name_en":"Katsuu Castle","category":"attraction","sub_category":"castle","location":"宇流麻","station":"勝連城跡前站（20號線巴士）","zone":"中部","description":"琉球王國時期的城跡遺址，2013年以「琉球王國的城堡以及相關遺產群」之一被列為世界文化遺產，保存狀況良好，可遠眺大海。","ticket":"免費","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","世界遺產","城堡"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%8F%8D%E9%80%A3%E5%9F%8E%E8%B7%A1+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"gyokusendo","name":"玉泉洞","name_en":"Gyokusendo","category":"attraction","sub_category":"cave","location":"南城","station":"琉球村站（34號線巴士）","zone":"南部","description":"約500公尺長的鐘乳石洞，全日本第二長，保存了約95萬根鐘乳石，石筍與石柱的組合十分壯觀，附近的玉泉洞王國村可體驗琉球工藝。","ticket":"大人 1240日幣","stay_duration":"1.5~2.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","鐘乳石","自然"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%8E%89%E6%B3%89%E6%B4%9E+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":" Cape Zampa","name":"残波岬","name_en":"Cape Zampa","category":"attraction","sub_category":"cape","location":"讀谷","station":"残波岬站（28號線巴士）","zone":"中部","description":"沖繩本島中西部的海角，以白色灯塔與懸崖海岸聞名，環境清幽，設有步道與休憩廣場，是賞夕陽的知名去處。","ticket":"免費","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海岸","夕陽"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%AE%98%E6%B3%A2%E5%B2%9C+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"manza","name":"萬座毛","name_en":"Manza Mo","category":"attraction","sub_category":"cape","location":"恩納","station":"萬座毛前站（120號線巴士）","zone":"中部","description":"恩納村代表性的象徵性地形，為一處可容納萬人坐下的寬廣草原突出的懸崖，海水清澈見底，是拍攝懸崖海岸的代表景點。","ticket":"免費","stay_duration":"30分鐘~1小時","need_reservation":false,"cash_only":false,"tags":["沖繩","懸崖","打卡"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E8%90%AC%E5%BA%A7%E6%AF%9B+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"blue-cave","name":"青の洞窟","name_en":"Blue Cave","category":"attraction","sub_category":"snorkeling","location":"恩納","station":"恩納休息站（120號線巴士）","zone":"中部","description":"沖繩最著名的浮潛與潛水點，因海底地形與陽光折射形成夢幻藍色洞窟景觀，不會遊泳者也可由教練帶領體驗，是水上活動愛好者必訪的秘境。","ticket":"浮潛體驗 6000~10000日幣","stay_duration":"2~3小時","need_reservation":true,"cash_only":false,"tags":["沖繩","浮潛","秘境"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%9D%92%E3%81%AE%E6%B4%9E%E7%A9%BF+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"ryukyu-mura","name":"琉球村","name_en":"Ryukyu Village","category":"attraction","sub_category":"cultural_village","location":"恩納","station":"琉球村站（34號線巴士）","zone":"中部","description":"保存與傳承琉球傳統文化的主題園區，可觀賞琉球舞蹈、傳統工藝製作示範與古法釀造泡盛，並有實物大小的傳統建築展示。","ticket":"大人 1200日幣","stay_duration":"1.5~2.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","文化","傳統"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%90%89%E6%B4%9B%E6%9D%91+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"diamond-beach","name":"diamond海灘","name_en":"Diamond Beach","category":"attraction","sub_category":"beach","location":"本部","station":"，本部站自駕","zone":"北部","description":"紧邻美丽海水族馆的海滩，因沙滩在阳光下闪耀如钻石而得名，海水湛清，是北部海滩的代表去处。","ticket":"免费","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海灘","北部"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E3%83%80%E3%82%A4%E3%83%A4%E3%83%A2%E3%83%B3%E3%83%89%E6%B5%B7%E7%81%98+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"busena","name":"部瀨納海灘","name_en":"Busena Beach","category":"attraction","sub_category":"beach","location":"名護","station":"部瀨納度假區","zone":"北部","description":"部瀨納度假區內的私人海灘，水質清澈，浮潛環境優良，有棧橋與海上活動設施，是體驗高檔濱海度假氛圍的去處。","ticket":"浮潛體驗另收費","stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海灘","浮潛"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%83%A8%E7%81%8C%E7%B4%8D%E6%B5%B7%E7%81%98+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"chanp","name":"海洋博公園","name_en":"Ocean Expo Park","category":"attraction","sub_category":"park","location":"本部","station":"美麗海水族館站（OB謝盒線）","zone":"北部","description":"以美麗海水族館為核心的國營公園，佔地廣大，有熱帶夢幻中心、海龜館、海豚秀與各國庭園，是可消耗一整天時間的綜合型公園。","ticket":"免費（水族館另行購票）","stay_duration":"3~6小時","need_reservation":false,"cash_only":false,"tags":["沖繩","公園","水族館"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%B4%8B%E5%8D%9A%E5%85%AC%E5%9C%92+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"naha-kokusaistreet","name":"國際通","name_en":"Kokusaidori","category":"attraction","sub_category":"shopping_district","location":"那霸","station":"縣廳前站（沖繩都市單軌）","zone":"那霸","description":"那霸最繁華的購物大道，全長約1.6公里，雲集百貨、伴手禮店、餐廳與冲繩特色商店，夜晚也充滿活力，是體驗冲繩都會魅力的必訪去處。","ticket":null,"stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["沖繩","購物","都會"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E9%9A%9B%E9%80%9A+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":" DFS","name":"沖繩 DFS","name_en":"Okinawa DFS","category":"hidden_gem","sub_category":"duty_free","location":"那霸","station":"Omoromachi站（沖繩都市單軌）","zone":"那霸","description":"日本唯一的市區型免稅店，雲集國際精品與奢侈品，價格含免稅，是購買高端商品的便利去處。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["沖繩","免稅","購物"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B2%96%E7%B9%A3+DFS+%E9%A6%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"makishi","name":"牧志公設市場","name_en":"Makishi Public Market","category":"attraction","sub_category":"market","location":"那霸","station":"牧志站（沖繩都市單軌）","zone":"那霸","description":"那霸的代表傳統市場，以生鮮食材與道地小吃聞名，二樓有美食區可現買現吃海鮮，是體驗冲繩飲食文化的好去處。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["沖繩","美食","市場"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%89%A7%E5%BF%97%E5%85%AC%E8%A8%AD%E5%B8%82%E5%A0%B4+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"sakaemachi","name":"榮町市場","name_en":"Sakaemachi Arcade","category":"hidden_gem","sub_category":"market","location":"那霸","station":"安里站（沖繩都市單軌）","zone":"那霸","description":"那霸在地的老街市場，保有濃厚的昭和氛圍與人情味，傳統食堂與特色小店林立，是認識冲繩草根生活的深度去處。","ticket":null,"stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","市場","在地"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%A1%90%E5%8E%9F%E5%B8%82%E5%A0%B4+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"peace-memorial-park","name":"平和記念公園","name_en":"Peace Memorial Park","category":"attraction","sub_category":"park","location":"糸滿","station":"糸滿站（沖繩都市單軌）","zone":"南部","description":"紀念二戰犧牲者的祈念公園，有和平之基石與文字刻有「祈求世界的和平」，臨近糸滿市平和祈念資料館，是了解冲繩戰爭歷史的去處。","ticket":"免費","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","歷史","戰爭"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%B9%B3%E5%92%8C%E7%B4%A0%E5%BF%B5%E5%85%AC%E5%9C%92+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"tenta","name":"天龍寺","name_en":"Tenryu-ji","category":"hidden_gem","sub_category":"temple","location":"那霸","station":"首里站（沖繩都市單軌）","zone":"那霸","description":"琉球八社之一的神道寺廟，祈求生意興隆與開運，保有傳統的紅瓦屋頂與石雕，環境清幽，是體驗琉球宗教文化的窗口。","ticket":"免費","stay_duration":"30分鐘~1小時","need_reservation":false,"cash_only":false,"tags":["沖繩","寺廟","文化"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%BE%8D%E5%AF%BA+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"naha-airport","name":"那霸機場（觀景台）","name_en":"Naha Airport Observation Deck","category":"hidden_gem","sub_category":"airport","location":"那霸","station":"那霸機場站（沖繩都市單軌）","zone":"那霸","description":"那霸機場國內線2樓的免費觀景台，可近距離觀看飛機起降，適合航空迷與親子同遊，是往返冲繩時可順路拜訪的去處。","ticket":"免費","stay_duration":"30分鐘","need_reservation":false,"cash_only":false,"tags":["沖繩","飛機","親子"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%A6%96%E9%9B%B2%E6%A9%9F%E5%A0%B4+%E8%A7%80%E6%99%AF%E5%8F%B0+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"sunset-beach","name":"日落海灘","name_en":"Sunset Beach","category":"hidden_gem","sub_category":"beach","location":"北谷","station":"軍雞李站（58號線）","zone":"中部","description":"美國村內的人工海灘，夕陽時分景色特別動人，是情侶約會的浪漫去處，周邊商業設施完善，是玩水後用餐的好選擇。","ticket":"免費","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海灘","夕陽"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E8%90%BD%E6%B5%B7%E7%81%98+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"senagashi","name":"瀨長島","name_en":"Senagajima","category":"attraction","sub_category":"island","location":"那霸","station":"需要自駕或搭巴士","zone":"南部","description":"那霸機場南側的小島，以懸崖海景與希斯拉德海灘（ISLA）聞名，島上的UMIKAJI TERRACE有特色餐廳與咖啡廳，是賞夕陽的絕佳去處。","ticket":"免費","stay_duration":"2~3小時","need_reservation":false,"cash_only":false,"tags":["沖繩","海灘","夕陽"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%80%9F%E9%95%B7%E5%B3%B6+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"ae","name":"bios之丘","name_en":"Bios Hill","category":"hidden_gem","sub_category":"nature","location":"石川","station":"需要自駕","zone":"中部","description":"佔地廣大的自然森林主題樂園，有叢林滑索、迷你火車與接觸小動物的體驗區，適合家庭同遊，是中部自駕的推薦去處。","ticket":"大人 2100日幣","stay_duration":"2~3小時","need_reservation":false,"cash_only":false,"tags":["沖繩","自然","家庭"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E3%83%90%E3%82%A4%E3%82%AA%E3%82%B9%E3%81%AE%E5%8C%9A+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"furujima","name":"古宇利Ocean Tower","name_en":"Kouri Ocean Tower","category":"hidden_gem","sub_category":"observation","location":"名護","station":"自駕","zone":"北部","description":"古宇利島上的觀景塔，登上塔頂可俯瞰古宇利大橋與心形岩石，天氣晴朗時景觀十分壯闘，是情侶必訪的浪漫去處。","ticket":"大人 700日幣","stay_duration":"30分鐘~1小時","need_reservation":false,"cash_only":false,"tags":["沖繩","觀景台","浪漫"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%8F%A4%E5%AE%87%E5%88%A9Ocean+Tower+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}},
-    {"id":"cycad","name":"琉球古典園","name_en":"Ryukyu Classical Garden","category":"hidden_gem","sub_category":"garden","location":"南城","station":"南城站（33號線巴士）","zone":"南部","description":"以琉球傳統庭園技法打造的自然花園，種植多種亞熱帶植物，有休憩亭與散步路線，是體驗冲繩庭園美學的靜謐去處。","ticket":"大人 500日幣","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["沖繩","花園","自然"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%90%89%E6%B4%9B%E5%8F%B2%E5%85%B8%E5%9C%92+%E6%B2%96%E7%B9%A3","youtube":[],"blog_article":[]}}
+    {
+      "id": "churaumi",
+      "name": "美之海水族館",
+      "name_en": "Churaumi Aquarium",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "本部耳鼻咽喉",
+      "station": "JR Okinawa Line本部站+巴士周邊",
+      "ticket": "成人 1880円",
+      "need_reservation": false,
+      "stay_duration": "2.5-3小時",
+      "cash_only": false,
+      "description": "世界最大級的水族館，黑潮之海水槽有大王烏賊與鯨鯊共遊。2024年新开深海生物區，展示稀有燈籠魚。",
+      "sources": [],
+      "tags": [
+        "水族館",
+        "本部",
+        "黒潮",
+        "鯨鯊"
+      ],
+      "priority": 3,
+      "zone": "本部耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://churaumi.okinawa/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/美之海水族館",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=美之海水族館"
+        ]
+      }
+    },
+    {
+      "id": "shurijo",
+      "name": "首里城",
+      "name_en": "Shurijo Castle",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "首里耳鼻咽喉",
+      "station": "都市單軌首里站徒步15分",
+      "ticket": "成人 1600円",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "琉球王國王城，2019年重建後重新開放，2024年新增夜間點燈與琉裝體驗。UNESCO世界文化遺產。",
+      "sources": [],
+      "tags": [
+        "城堡",
+        "首里",
+        "世界遺產",
+        "琉球"
+      ],
+      "priority": 3,
+      "zone": "首里耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://oki-park.jp/shuraku/0/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Shurijo+Castle",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=首里城"
+        ]
+      }
+    },
+    {
+      "id": "american_village",
+      "name": "美國村",
+      "name_en": "American Village",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "北谷耳鼻咽喉",
+      "station": "巴士軍鶏李站徒步5分",
+      "ticket": "免費（內部設施另行購票）",
+      "need_reservation": false,
+      "stay_duration": "2-3小時",
+      "cash_only": false,
+      "description": "仿美式海濱度假村，摩天輪與夕陽海灘是打卡代表作。2024年新開美式餐廳與衝浪體驗店。",
+      "sources": [],
+      "tags": [
+        "美國村",
+        "購物",
+        "北谷",
+        "海灘"
+      ],
+      "priority": 3,
+      "zone": "北谷耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://american-village.okinawa/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/American+Village",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=美國村沖繩"
+        ]
+      }
+    },
+    {
+      "id": "zampa",
+      "name": "残波岬公園",
+      "name_en": "Zampa Cape",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "残波岬耳鼻咽喉",
+      "station": "巴士残波岬站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "沖繩本島最西端，白色燈塔與斷崖絕景聞名。2024年新增懸崖跳水表演，夕陽時分景觀最震撼。",
+      "sources": [],
+      "tags": [
+        "海角",
+        "讀谷",
+        "夕陽",
+        "冒險"
+      ],
+      "priority": 3,
+      "zone": "残波岬耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/残波岬",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=殘波岬"
+        ]
+      }
+    },
+    {
+      "id": "manzamo",
+      "name": "萬座毛",
+      "name_en": "Manza Mo",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "万座毛前耳鼻咽喉",
+      "station": "巴士万座毛前站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "沖繩代表景點之一，象鼻岩與碧藍海水構成經典明信片場景。2024年入選死前最想到達的世界風景。",
+      "sources": [],
+      "tags": [
+        "海角",
+        "恩納",
+        "象鼻",
+        "經典"
+      ],
+      "priority": 3,
+      "zone": "万座毛前耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/万座毛",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=萬座毛"
+        ]
+      }
+    },
+    {
+      "id": "kokusai",
+      "name": "國際通",
+      "name_en": "Kokusai Dori",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "牧志耳鼻咽喉",
+      "station": "都市單軌牧志站徒步5分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "沖繩最繁華的購物大道，1.6km長有數百家商店。2024年新開縣庁Pace夜間商場，在地特產應有盡有。",
+      "sources": [],
+      "tags": [
+        "購物",
+        "國際通",
+        "那霸",
+        "美食"
+      ],
+      "priority": 3,
+      "zone": "牧志耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.kokusaidori.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/国際通り",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=國際通"
+        ]
+      }
+    },
+    {
+      "id": "ryukyu_mura",
+      "name": "琉球村",
+      "name_en": "Ryukyu Village",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "琉球村耳鼻咽喉",
+      "station": "巴士琉球村站周邊",
+      "ticket": "成人 1650円",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "再現琉球王朝時代傳統建築與生活形態的文化主題公園，2024年新增DIY琉球藍染體驗。",
+      "sources": [],
+      "tags": [
+        "文化",
+        "琉球",
+        "傳統",
+        "體驗"
+      ],
+      "priority": 3,
+      "zone": "琉球村耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.ryukyu-mura.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/琉球村",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=琉球村"
+        ]
+      }
+    },
+    {
+      "id": "bise",
+      "name": "備瀨一線路",
+      "name_en": "Bise-Fukugi Tree Road",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "本部耳鼻咽喉",
+      "station": "巴士備瀨站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "800m長的福木林道，300年樹齡的福木群形成隧道。2024年新安装夜間照明，營造神秘氛圍。",
+      "sources": [],
+      "tags": [
+        "自然",
+        "林道",
+        "本部",
+        "秘境"
+      ],
+      "priority": 3,
+      "zone": "本部耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/備瀨+福木",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=備瀨一線路"
+        ]
+      }
+    },
+    {
+      "id": "senagajima",
+      "name": "瀨長島",
+      "name_en": "Senagajima",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "瀬長島耳鼻咽喉",
+      "station": "巴士瀨長島站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "那霸機場對面的離岸小島，白色希臘式建築群與夕陽海景聞名。2024年新開懸崖無邊際泳池。",
+      "sources": [],
+      "tags": [
+        "海島",
+        "夕陽",
+        "南部",
+        "打卡"
+      ],
+      "priority": 3,
+      "zone": "瀬長島耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://senagashima.okinawa/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/瀬長島",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=瀨長島"
+        ]
+      }
+    },
+    {
+      "id": "katsuracha",
+      "name": "勝連城跡",
+      "name_en": "Katsuracha Castle Ruins",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "勝連城跡前耳鼻咽喉",
+      "station": "巴士勝連城跡前站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "琉球王國時期的城堡，2019年主殿完成復元。2024年新建天空步道，從山上可眺望東海全景。",
+      "sources": [],
+      "tags": [
+        "城堡",
+        "世界遺產",
+        "勝連",
+        "賞景"
+      ],
+      "priority": 3,
+      "zone": "勝連城跡前耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Katsuracha+Castle",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=勝連城跡"
+        ]
+      }
+    },
+    {
+      "id": "chatan_bar",
+      "name": "北谷 黑白格小酒館",
+      "name_en": "Chatan Black & White Bar",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "北谷耳鼻咽喉",
+      "station": "巴士北谷站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新开的隐蔽小酒馆，老闆是退役美軍，提供自創精酿啤酒與墨西哥塔可，在地口碑爆棚。",
+      "sources": [],
+      "tags": [
+        "酒吧",
+        "北谷",
+        "精酿",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "北谷耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/北谷アメリカ村",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=北谷美式酒吧"
+        ]
+      }
+    },
+    {
+      "id": "awase_cafe",
+      "name": "泡瀨 海岸CAFÉ",
+      "name_en": "Matsumoto Sea Cafe",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "泡瀨耳鼻咽喉",
+      "station": "巴士泡瀨站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新晋海景CAFÉ，設置懸崖觀景台與水中芭蕾拍照區，低消約1000円，是秘境海灘的起點。",
+      "sources": [],
+      "tags": [
+        "咖啡",
+        "海景",
+        " Okinawa市",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "泡瀨耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/泡瀨",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=泡瀨海岸咖啡"
+        ]
+      }
+    },
+    {
+      "id": "gyokusendo",
+      "name": "玉泉洞",
+      "name_en": "Gyokusendo Cave",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "玉泉洞耳鼻咽喉",
+      "station": "巴士玉泉洞站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "沖繩最大鐘乳石洞，全長5km的石灰岩洞窟。2024年新增螢火蟽展示區，一年四季都適合遊覽。",
+      "sources": [],
+      "tags": [
+        "鐘乳石",
+        "洞穴",
+        "南城",
+        "自然"
+      ],
+      "priority": 2,
+      "zone": "玉泉洞耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.gyokusendo.co.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/玉泉洞",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=玉泉洞"
+        ]
+      }
+    },
+    {
+      "id": "okinawa_soba",
+      "name": "沖繩麵",
+      "name_en": "Okinawa Soba",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "美荣橋耳鼻咽喉",
+      "station": "都市單軌美荣桥站周邊",
+      "ticket": "約700-1200円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "沖繩代表靈魂美食，大五花燉煮軟嫩配上苦瓜，是人間美味。2024年入選《米其林指南》那霸版必比登推介。",
+      "sources": [],
+      "tags": [
+        "麵",
+        "美食",
+        "那霸",
+        "在地"
+      ],
+      "priority": 3,
+      "zone": "美荣橋耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/沖繩麵",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=沖繩麵"
+        ]
+      }
+    },
+    {
+      "id": "taco_rice",
+      "name": "塔可飯",
+      "name_en": "Taco Rice",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "北谷耳鼻咽喉",
+      "station": "巴士北谷站周邊",
+      "ticket": "約800-1500円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "美軍基地文化影響下的沖繩B級美食，墨西哥塔可餡料放在米飯上，2024年新开專門店Tacoyaki引發排隊熱潮。",
+      "sources": [],
+      "tags": [
+        "B級美食",
+        "塔可飯",
+        "北谷",
+        "美軍"
+      ],
+      "priority": 3,
+      "zone": "北谷耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/北谷+塔可飯",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=塔可飯"
+        ]
+      }
+    },
+    {
+      "id": "goya_champuru",
+      "name": "苦瓜什錦",
+      "name_en": "Goya Champuru",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "牧志耳鼻咽喉",
+      "station": "都市單軌牧志站周邊",
+      "ticket": "約1000-2000円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "苦瓜、豆腐、島豆腐與豬肉什錦炒，是沖繩每家餐館都有的家常菜。2024年新开Champuru本舖提供所有在地料理。",
+      "sources": [],
+      "tags": [
+        "美食",
+        "苦瓜",
+        "沖繩",
+        "家庭"
+      ],
+      "priority": 3,
+      "zone": "牧志耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/苦瓜+什錦",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=苦瓜什錦"
+        ]
+      }
+    },
+    {
+      "id": "awamori",
+      "name": "泡盛（傳統蒸餾酒）",
+      "name_en": "Awamori Tasting",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "首里耳鼻咽喉",
+      "station": "都市單軌首里站周邊",
+      "ticket": "約500-3000円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "泡盛是琉球王國500年歷史的傳統蒸餾酒，2024年新开泡盛資料館，可以品嚐不同年份的珍稀泡盛。",
+      "sources": [],
+      "tags": [
+        "酒",
+        "泡盛",
+        "首里",
+        "體驗"
+      ],
+      "priority": 3,
+      "zone": "首里耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.okinawa.or.jp/awamori/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/首里+泡盛",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=泡盛"
+        ]
+      }
+    },
+    {
+      "id": "naminoue",
+      "name": "波上宮",
+      "name_en": "Naminoue Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "壺川耳鼻咽喉",
+      "station": "都市單軌壺川站徒步10分周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "沖繩最上位神社，建於崖上可俯瞰那霸港。2024年新安裝夫婦楓，求姻緣最靈驗，夕陽時分最動人。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "那霸",
+        "能量",
+        "海景"
+      ],
+      "priority": 3,
+      "zone": "壺川耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://naminouegu.or.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/波上宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=波上宮"
+        ]
+      }
+    },
+    {
+      "id": "sefa",
+      "name": "齋場御嶽（世界遺產）",
+      "name_en": "Sefa Utaki",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "南城耳鼻咽喉",
+      "station": "巴士齋場站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "琉球王國最高級的御嶽（聖地），UNESCO世界文化遺產，2024年新建參拜道，女性禁制的神秘氣氛開放在線預約參觀。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "世界遺產",
+        "南城",
+        "神秘"
+      ],
+      "priority": 3,
+      "zone": "南城耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.pref.okinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/斎場御嶽",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=齋場御嶽"
+        ]
+      }
+    },
+    {
+      "id": "katsuracha_shrine",
+      "name": "勝連城 泡盛之神",
+      "name_en": "Katsuracha Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "勝連城跡前耳鼻咽喉",
+      "station": "巴士勝連城跡前站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "供奉勝連城主阿麻和利的城山神社，2024年新塑金身，傳說中的武將之魂長眠於此，祈求必勝運。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "勝連",
+        "武將",
+        "能量"
+      ],
+      "priority": 2,
+      "zone": "勝連城跡前耳鼻咽喉",
+      "station_id": "okinawa_001",
+      "nearby_stations": [
+        "okinawa_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitokinawa.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/勝連城",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=勝連城神社"
+        ]
+      }
+    }
   ]
 }

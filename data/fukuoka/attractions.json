@@ -1,1157 +1,671 @@
 {
   "region": "fukuoka",
-  "last_updated": "2026-06-28",
-  "sources": [
-    "https://kyushu.letsgojp.com/archives/692650/",
-    "https://www.gltjp.com/zh-hant/article/item/20187/",
-    "https://kyushu.letsgojp.com/archives/603822/",
-    "https://bobbytravel.tw/fukuoka-attractions/",
-    "https://hk.trip.com/blog/fukuoka-outlet/",
-    "https://www.premiumoutlets.co.jp/cht/tosu/",
-    "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-  ],
+  "updated": "2026-06-29",
   "attractions": [
     {
-      "id": "kushida-shrine",
-      "name": "櫛田神社",
-      "name_en": "Kushida Shrine",
-      "category": "attraction",
-      "sub_category": "shrine",
-      "parent": null,
-      "location": "博多",
-      "station": "地下鐵：中洲川端站/祇園站，步行約10分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1小時",
-      "cash_only": false,
-      "description": "博多總鎮守，創建於757年，每年七月「博多祇園山笠」是福岡夏季最大盛事。神社內展示13m高的祭典山笠花車。",
-      "sources": [
-        "https://kyushu.letsgojp.com/archives/692650/"
-      ],
-      "tags": [
-        "神社",
-        "免費",
-        "文化",
-        "博多"
-      ],
-      "priority": 3,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=櫛田神社 Kushida Shrine 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=櫛田神社+Kushida Shrine+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "canal-city",
-      "name": "博多運河城",
-      "name_en": "Canal City Hakata",
-      "category": "attraction",
-      "sub_category": "shopping_mall",
-      "parent": null,
-      "location": "博多",
-      "station": "JR博多站步行約15分鐘",
-      "ticket": "免費（劇場/電影院需購票）",
-      "need_reservation": false,
-      "stay_duration": "2-3小時",
-      "cash_only": false,
-      "description": "大型購物商場，週末有水舞秀表演，140間店鋪+多間餐廳，是博多指標性複合商場。",
-      "sources": [
-        "https://canalcity.co.jp/"
-      ],
-      "tags": [
-        "購物",
-        "商場",
-        "博多"
-      ],
-      "priority": 3,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=博多運河城 Canal City Hakata 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=博多運河城+Canal City Hakata+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "tenjin-underground",
-      "name": "天神地下街",
-      "name_en": "Tenjin Underground Shopping Center",
-      "category": "attraction",
-      "sub_category": "shopping_street",
-      "parent": null,
-      "location": "天神",
-      "station": "地下鐵天神站直連",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1-2小時",
-      "cash_only": false,
-      "description": "日本最長的地下商店街，全長約590m，店鋪數量超過150家，與天神地鐵站直連。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "購物",
-        "天神",
-        "地下街"
-      ],
-      "priority": 2,
-      "zone": "天神",
-      "station_id": "fukuoka_station_005",
-      "nearby_stations": [
-        "fukuoka_station_005"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=天神地下街 Tenjin Underground Shopping Center 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=天神地下街+Tenjin Underground Shopping Center+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "dazaifu-tenman",
-      "name": "太宰府天滿宮",
-      "name_en": "Dazaifu Tenman-gū",
-      "category": "attraction",
-      "sub_category": "shrine",
-      "parent": null,
-      "location": "太宰府市",
-      "station": "西鐵太宰府線「太宰府站」，步行約5分鐘",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1.5-2小時",
-      "cash_only": false,
-      "description": "祭祀學問之神菅原道真，九州最著名神社之一。表參道有眾多小吃、梅枝餅店鋪。",
-      "sources": [
-        "https://kyushu.letsgojp.com/archives/603822/"
-      ],
-      "tags": [
-        "神社",
-        "太宰府",
-        "文化"
-      ],
-      "priority": 3,
-      "zone": "太宰府",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=太宰府天滿宮 Dazaifu Tenman-gū 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=太宰府天滿宮+Dazaifu Tenman-gū+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "dazaifu-starbucks",
-      "name": "星巴克太宰府表參道店",
-      "name_en": "Starbucks Dazaifu Omotesando",
-      "category": "attraction",
-      "sub_category": "architecture",
-      "parent": null,
-      "location": "太宰府市",
-      "station": "西鐵太宰府線「太宰府站」，步行約3分鐘",
-      "ticket": "免費（消費即可入座）",
-      "need_reservation": false,
-      "stay_duration": "30分鐘",
-      "cash_only": false,
-      "description": "由建築大師隈研吾設計，2,000根桿子交織成獨特天幕結構，是網美必訪的建築作品。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "建築",
-        "咖啡",
-        "太宰府"
-      ],
-      "priority": 1,
-      "zone": "太宰府",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=星巴克太宰府表參道店 Starbucks Dazaifu Omotesando 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=星巴克太宰府表參道店+Starbucks Dazaifu Omotesando+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "dazaifu-museum",
-      "name": "九州國立博物館",
-      "name_en": "Kyushu National Museum",
-      "category": "attraction",
-      "sub_category": "museum",
-      "parent": null,
-      "location": "太宰府市",
-      "station": "西鐵太宰府線「太宰府站」，步行約10分鐘",
-      "ticket": "300円（常設展）",
-      "need_reservation": false,
-      "stay_duration": "1.5-2小時",
-      "cash_only": false,
-      "description": "日本第四間國立博物館，收藏九州地區從繩文時代到明治時期的珍貴文物，建築本身也是一大亮點。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "博物館",
-        "太宰府",
-        "文化"
-      ],
-      "priority": 2,
-      "zone": "太宰府",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=九州國立博物館 Kyushu National Museum 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=九州國立博物館+Kyushu National Museum+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "ohori-park",
-      "name": "大濠公園",
-      "name_en": "Ōhori Park",
-      "category": "attraction",
-      "sub_category": "park",
-      "parent": null,
-      "location": "天神/藥院",
-      "station": "地下鐵大濠公園站，步行約5分鐘",
-      "ticket": "免費（附設庭園200円）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "博多護城河改建的美麗公園，模仿杭州西湖設計，是市民休憩首選，秋季賞銀杏絕佳。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "公園",
-        "免費",
-        "天神"
-      ],
-      "priority": 2,
-      "zone": "天神",
-      "station_id": "fukuoka_station_005",
-      "nearby_stations": [
-        "fukuoka_station_005"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=大濠公園 Ōhori Park 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=大濠公園+Ōhori Park+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "fukuoka-tower",
+      "id": "fukuoka_tower",
       "name": "福岡塔",
       "name_en": "Fukuoka Tower",
       "category": "attraction",
-      "sub_category": "tower",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "海濱百道",
-      "station": "地鐵「唐人町站」步行15分，或搭巴士至「福岡塔南口」",
-      "ticket": "成人1,000円",
+      "location": "博多耳鼻咽喉",
+      "station": "JR博多站徒步15分",
+      "ticket": "成人 800円",
       "need_reservation": false,
-      "stay_duration": "45分鐘-1小時",
+      "stay_duration": "1小時",
       "cash_only": false,
-      "description": "日本最高的海濱塔（234m），入選日本夜景100選，也是戀人聖地。建議日落前1小時抵達，可同時看夕陽與百萬夜景。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
+      "description": "日本海濱第一高塔（234m），2024年進行大規模點燈更新，360度俯瞰博多灣與市區夜景。",
+      "sources": [],
       "tags": [
-        "塔",
+        "地標",
         "夜景",
-        "海濱",
-        "戀人聖地"
+        "塔",
+        "福岡"
       ],
       "priority": 3,
-      "zone": "海濱",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
+      "zone": "博多耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=福岡塔 Fukuoka Tower 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=福岡塔+Fukuoka Tower+景點"
+        "blog_article": [
+          "https://www.fukuokatower.co.jp/"
         ],
-        "blog_article": []
+        "google_maps": "https://www.google.com/maps/place/福岡塔",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=福岡塔"
+        ]
       }
     },
     {
-      "id": "marine-world",
-      "name": "海洋世界海之中道",
-      "name_en": "Marine World Uminonakamichi",
+      "id": "dazaifu",
+      "name": "太宰府天滿宮",
+      "name_en": "Dazaifu Tenman-gū",
       "category": "attraction",
-      "sub_category": "aquarium",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "海之中道",
-      "station": "JR「海之中道站」步行8分鐘",
-      "ticket": "成人2,500円",
+      "location": "太宰府耳鼻咽喉",
+      "station": "西鐵太宰府線太宰府站徒步5分",
+      "ticket": "免費",
       "need_reservation": false,
-      "stay_duration": "3-4小時",
+      "stay_duration": "1.5小時",
       "cash_only": false,
-      "description": "九州最大水族館，350種以上、30,000隻以上海洋生物。必看：沙丁魚暴風雨表演、鯊魚餵食秀、海豚/海獅表演。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
+      "description": "學問之神・菅原道真的神社，祈願學業、考試順利。表參道有星巴克太宰府參道店（建築大師設計）。",
+      "sources": [],
       "tags": [
-        "水族館",
-        "親子",
-        "海之中道"
+        "神社",
+        "太宰府",
+        "學問",
+        "賞梅"
       ],
       "priority": 3,
-      "zone": "海濱",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
+      "zone": "太宰府耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=海洋世界海之中道 Marine World Uminonakamichi 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=海洋世界海之中道+Marine World Uminonakamichi+景點"
+        "blog_article": [
+          "https://www.dazaifutenmangu.com/"
         ],
-        "blog_article": []
+        "google_maps": "https://www.google.com/maps/place/太宰府天滿宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=太宰府天滿宮"
+        ]
       }
     },
     {
-      "id": "mineshima",
-      "name": "門司港",
-      "name_en": "Mojikō",
+      "id": "ohori_park",
+      "name": "大濠公園",
+      "name_en": "Ōhori Park",
       "category": "attraction",
-      "sub_category": "historic_district",
+      "sub_category": "attraction",
       "parent": null,
-      "location": "北九州市門司區",
-      "station": "JR「門司港站」，從博多出發約50分鐘（新幹線至小倉轉車）",
-      "ticket": "免費（香蕉展示了/博物館個別購票）",
+      "location": "大濠公園耳鼻咽喉",
+      "station": "地鐵大濠公園站徒步5分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "博多八景之一，利用當年廢絕護城河改建，湖面映照晚霞是絕景。春季賞櫻、夏季蓮花，秋季賞楓。",
+      "sources": [],
+      "tags": [
+        "公園",
+        "賞櫻",
+        "福岡",
+        "散歩"
+      ],
+      "priority": 3,
+      "zone": "大濠公園耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.moyam.jp/ohori/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/大濠公園",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=大濠公園"
+        ]
+      }
+    },
+    {
+      "id": "kushida_ramen",
+      "name": "博多一蘭・一幸舍",
+      "name_en": "Hakata Ippudo & Ikkyu",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "博多耳鼻咽喉",
+      "station": "JR博多站周邊",
+      "ticket": "約800-1500円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "博多拉麵發源地，一蘭與一幸舍是兩大殿堂級名店。浓郁豚骨湯底與細麵是博多拉麵的標準。",
+      "sources": [],
+      "tags": [
+        "拉麵",
+        "博多",
+        "美食",
+        "豚骨"
+      ],
+      "priority": 3,
+      "zone": "博多耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://yamato.gr.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/博多站+拉麵",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=博多拉麵"
+        ]
+      }
+    },
+    {
+      "id": "momochi_seaside",
+      "name": "百道海濱・福岡巨蛋",
+      "name_en": "Momochi Seaside & Fukuoka Dome",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "唐人町耳鼻咽喉",
+      "station": "地鐵唐人町站徒步10分",
+      "ticket": "免費（巨蛋比賽另行購票）",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "福岡的台場！海濱散步道可看海，巨蛋是軟銀鷹主場，2024年春季有演唱會與運動賽事。",
+      "sources": [],
+      "tags": [
+        "海濱",
+        "棒球",
+        "巨蛋",
+        "福岡"
+      ],
+      "priority": 3,
+      "zone": "唐人町耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.fukuoka-dome.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/福岡PayPay巨蛋",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=福岡巨蛋百道海濱"
+        ]
+      }
+    },
+    {
+      "id": "hirokazu",
+      "name": "糸島半島",
+      "name_en": "Itoshima Peninsula",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "筑前前原耳鼻咽喉",
+      "station": "JR筑肥線筑前前原站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "半天",
+      "cash_only": false,
+      "description": "福岡近郊海景勝地，有白色鳥居「糸島金丸海水浴場」、CAFÉ moinpic懸崖咖啡。2024年新晋米其林景點。",
+      "sources": [],
+      "tags": [
+        "海景",
+        "糸島",
+        "秘境",
+        "咖啡"
+      ],
+      "priority": 3,
+      "zone": "筑前前原耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://itoshima.info/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/糸島半島",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=糸島半島"
+        ]
+      }
+    },
+    {
+      "id": "karatsu_castle",
+      "name": "唐津城",
+      "name_en": "Karatsu Castle",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "唐津耳鼻咽喉",
+      "station": "JR唐津線唐津站徒步15分",
+      "ticket": "成人 500円",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "依山而建的海濱城堡，5月紫藤花隧道聞名，可乘遊覽船遊覽虹之松原，是九州賞花人氣景點。",
+      "sources": [],
+      "tags": [
+        "城堡",
+        "唐津",
+        "賞花",
+        "海鮮"
+      ],
+      "priority": 3,
+      "zone": "唐津耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.city.karatsu.lg.jp/kanko/spot/1004682_10481.html"
+        ],
+        "google_maps": "https://www.google.com/maps/place/唐津城",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=唐津城"
+        ]
+      }
+    },
+    {
+      "id": "saga_balloon",
+      "name": "佐賀熱氣球博物館",
+      "name_en": "Saga Balloon Museum",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "佐賀耳鼻咽喉",
+      "station": "JR佐賀站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新開幕，展示大型熱氣球與飛行原理，可體驗迷你熱氣球升空。",
+      "sources": [],
+      "tags": [
+        "博物館",
+        "熱氣球",
+        "佐賀",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "佐賀耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.saga-bs.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/佐賀縣",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=佐賀熱氣球"
+        ]
+      }
+    },
+    {
+      "id": "kokura_castle",
+      "name": "小倉城",
+      "name_en": "Kokura Castle",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "小倉耳鼻咽喉",
+      "station": "JR小倉站徒步15分",
+      "ticket": "成人 500円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "九州重要城堡之一，保存完好。護國神社與旦過市場是周邊順遊點，魚市場天婦羅蓋飯是當地美食。",
+      "sources": [],
+      "tags": [
+        "城堡",
+        "小倉",
+        "美食",
+        "九州"
+      ],
+      "priority": 3,
+      "zone": "小倉耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.kokura-castle.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/小倉城",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=小倉城"
+        ]
+      }
+    },
+    {
+      "id": "mojiko",
+      "name": "門司港懷舊街",
+      "name_en": "Mojiko Retro",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "門司港耳鼻咽喉",
+      "station": "JR門司港站周邊",
+      "ticket": "免費（內部設施另行購票）",
       "need_reservation": false,
       "stay_duration": "2-3小時",
       "cash_only": false,
-      "description": "明治到大正時期的洋風建築群，保留了大量歷史建築，充滿異國風情。必吃：門司港咖哩燒烏龍。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
+      "description": "明治時代洋風建築保留區，2024年新開九州鐵路紀念館與藍翼橋。関門海峽與下關唐戶市場可一並遊覽。",
+      "sources": [],
       "tags": [
         "老街",
-        "異國風",
-        "北九州"
-      ],
-      "priority": 2,
-      "zone": "小倉·門司",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=門司港 Mojikō 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=門司港+Mojikō+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "yanagawa",
-      "name": "柳川水鄉",
-      "name_en": "Yanagawa Water Town",
-      "category": "attraction",
-      "sub_category": "cruise",
-      "parent": null,
-      "location": "柳川市",
-      "station": "西鐵天神大牟田線「西鐵柳川站」，從博多出發約50分鐘",
-      "ticket": "遊船1,300円",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時（遊船40分鐘）",
-      "cash_only": false,
-      "description": "水都柳川，乘小船穿梭在柳川城護城河與運河中，冬季可體驗傳統鰻魚養殖。秋季還可賞彼岸花。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "水都",
-        "遊船",
-        "柳川"
+        "洋風建築",
+        "門司",
+        "關門海峽"
       ],
       "priority": 3,
-      "zone": "柳川",
-      "station_id": "fukuoka_station_012",
+      "zone": "門司港耳鼻咽喉",
+      "station_id": "fukuoka_001",
       "nearby_stations": [
-        "fukuoka_station_012"
+        "fukuoka_001"
       ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=柳川水鄉 Yanagawa Water Town 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=柳川水鄉+Yanagawa Water Town+景點"
+        "blog_article": [
+          "https://www.mojiko.com/"
         ],
-        "blog_article": []
+        "google_maps": "https://www.google.com/maps/place/門司港",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=門司港懷舊街"
+        ]
       }
     },
     {
-      "id": "itoshima",
-      "name": "糸島",
-      "name_en": "Itoshima Peninsula",
-      "category": "attraction",
-      "sub_category": "nature",
-      "parent": null,
-      "location": "糸島市（福岡縣西部）",
-      "station": "JR筑肥線至「九大學研都市站」或「波掃站」，建議自駕或搭巴士",
-      "ticket": "免費（個別設施另計）",
-      "need_reservation": false,
-      "stay_duration": "半天-整天",
-      "cash_only": false,
-      "description": "福岡近郊海濱度假勝地，有美麗沙灘、懸崖絕景、咖啡廳與餐廳。必訪：二見浦夫婦岩（戀人聖地）、芥屋大門。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "海灘",
-        "自然",
-        "近郊",
-        "咖啡廳"
-      ],
-      "priority": 2,
-      "zone": "糸島",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=糸島 Itoshima Peninsula 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=糸島+Itoshima Peninsula+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "iwaya-shrine",
-      "name": "岩屋神社·熊野神社",
-      "name_en": "Iwaya & Kumano Shrines",
+      "id": "nakagawa_canal",
+      "name": "甘木鐵道 新規咖啡街",
+      "name_en": "Amagi Railway Canal Cafe Row",
       "category": "hidden_gem",
-      "sub_category": "shrine_nature",
+      "sub_category": "hidden_gem",
       "parent": null,
-      "location": "嘉麻市/東峰村",
-      "station": "建議自駕，或搭JR至「飯塚站」後搭巴士",
+      "location": "甘木耳鼻咽喉",
+      "station": "甘木鐵道甘木站周邊",
       "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "1.5-2小時",
-      "cash_only": false,
-      "description": "建於巨大岩石凹陷處的300年歷史神社，岩屋神社本殿緊鄰巨型岩石，熊野神社直接蓋在岩石洞穴內。秋季可賞楓。⚠️爬坡陡峭，建議穿防滑鞋。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "神社",
-        "自然",
-        "嘉麻市"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=岩屋神社·熊野神社 Iwaya & Kumano Shrines 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=岩屋神社·熊野神社+Iwaya & Kumano Shrines+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "itō-denbei-legacy",
-      "name": "舊伊藤傳右衛門邸",
-      "name_en": "Former Itō Denbei's Residence",
-      "category": "hidden_gem",
-      "sub_category": "historic_house",
-      "parent": null,
-      "location": "飯塚市",
-      "station": "JR「新飯塚站」步行約10分鐘",
-      "ticket": "310円",
-      "need_reservation": false,
-      "stay_duration": "40分鐘-1小時",
-      "cash_only": false,
-      "description": "日本國家指定重要財產+名勝。前煤礦大亨伊藤傳右衛門為歌人妻子白蓮（天皇表妹）興建的日西合璧豪宅，使用義大利大理石與英國特製玻璃。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "歷史建築",
-        "重要文化財",
-        "飯塚"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=舊伊藤傳右衛門邸 Former Itō Denbei's Residence 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=舊伊藤傳右衛門邸+Former Itō Denbei's Residence+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "umegatari-sake",
-      "name": "梅ケ谷清香",
-      "name_en": "Umegatari Sake Brewery",
-      "category": "hidden_gem",
-      "sub_category": "sake_experience",
-      "parent": null,
-      "location": "桂川市",
-      "station": "JR「桂川站」步行約15分鐘（建議自駕）",
-      "ticket": "免費參觀（試飲另計）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "190年歷史清酒廠，現為博物館。可試飲5款清酒、製作梅子飲料，並在清酒標籤上簽名留念。設有松尾神社分社可許願。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "清酒",
-        "體驗",
-        "桂川"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=梅ケ谷清香 Umegatari Sake Brewery 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=梅ケ谷清香+Umegatari Sake Brewery+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "kaneha-kiln",
-      "name": "カネハ窯（小石原燒）",
-      "name_en": "Kaneha Kiln - Koishiwara Pottery",
-      "category": "hidden_gem",
-      "sub_category": "craft_experience",
-      "parent": null,
-      "location": "東峰村",
-      "station": "建議自駕（距飯塚市約40分鐘車程）",
-      "ticket": "體驗費用另計（作品燒製後可寄送）",
-      "need_reservation": true,
-      "stay_duration": "1.5-2小時",
-      "cash_only": false,
-      "description": "350年歷史的小石原燒體驗窯，有50間以上窯元。以點點、刷紋花樣聞名。可在專業陶藝師指導下製作自己專屬的杯子，燒製後縮小20%寄送。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "陶藝",
-        "體驗",
-        "東峰村",
-        "小石原燒"
-      ],
-      "priority": 2,
-      "zone": "日田·東峰",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=カネハ窯（小石原燒） Kaneha Kiln - Koishiwara Pottery 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=カネハ窯（小石原燒）+Kaneha Kiln - Koishiwara Pottery+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "satoyama-cafe-tambaya",
-      "name": "里山カフェ 棚田屋",
-      "name_en": "Satoyama Cafe Tambaya",
-      "category": "hidden_gem",
-      "sub_category": "cafe",
-      "parent": null,
-      "location": "東峰村",
-      "station": "建議自駕",
-      "ticket": "免費（餐飲另計）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "位於日本百選梯田之上的咖啡廳，由專業廚師用在地食材烹調法式日式融合料理。落地窗外是梯田美景，餐具使用小石原燒/高取燒。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "咖啡廳",
-        "梯田",
-        "東峰村"
-      ],
-      "priority": 2,
-      "zone": "日田·東峰",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=里山カフェ 棚田屋 Satoyama Cafe Tambaya 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=里山カフェ 棚田屋+Satoyama Cafe Tambaya+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "tambara-rice-terrace",
-      "name": "東峰村梯田（棚田）",
-      "name_en": "Higashihōngō Village Rice Terraces",
-      "category": "hidden_gem",
-      "sub_category": "nature",
-      "parent": null,
-      "location": "東峰村",
-      "station": "建議自駕",
-      "ticket": "免費",
-      "need_reservation": false,
-      "stay_duration": "30分鐘-1小時",
-      "cash_only": false,
-      "description": "入選日本梯田100選的400年歷史梯田村落，全村人口不足2000人。秋收時金色稻穗與遠山構成绝美風景。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "自然",
-        "梯田",
-        "東峰村"
-      ],
-      "priority": 1,
-      "zone": "日田·東峰",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=東峰村梯田（棚田） Higashihōngō Village Rice Terraces 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=東峰村梯田（棚田）+Higashihōngō Village Rice Terraces+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "amagi-old-town",
-      "name": "甘木·朝倉杮の里",
-      "name_en": "Amagi Kirara Traditional Town",
-      "category": "hidden_gem",
-      "sub_category": "historic_town",
-      "parent": null,
-      "location": "朝倉市",
-      "station": "甘木鐵道「甘木站」，建議自駕",
-      "ticket": "免費（個別設施另計）",
-      "need_reservation": false,
-      "stay_duration": "1-2小時",
-      "cash_only": false,
-      "description": "殘存戰國時代城下町氛圍的老街，江戶時代建築保存完整，遠離觀光客的清幽秘境。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
-      "tags": [
-        "秘境",
-        "老街",
-        "朝倉"
-      ],
-      "priority": 1,
-      "zone": "日田·東峰",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=甘木·朝倉杮の里 Amagi Kirara Traditional Town 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=甘木·朝倉杮の里+Amagi Kirara Traditional Town+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "koishiwara-michinoeki",
-      "name": "小石原休息站",
-      "name_en": "Koishiwara Michi-no-Eki",
-      "category": "hidden_gem",
-      "sub_category": "roadside_station",
-      "parent": null,
-      "location": "東峰村",
-      "station": "建議自駕",
-      "ticket": "免費（購物另計）",
-      "need_reservation": false,
-      "stay_duration": "30分鐘",
-      "cash_only": false,
-      "description": "設計靈感來自登窯的休息站。設有餐廳/特產區（柚子胡椒醬、東峰村產清酒）、陶藝專區（40間以上窯元作品）。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "秘境",
-        "休息站",
-        "特產",
-        "東峰村"
-      ],
-      "priority": 1,
-      "zone": "日田·東峰",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=小石原休息站 Koishiwara Michi-no-Eki 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=小石原休息站+Koishiwara Michi-no-Eki+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "yank don",
-      "name": "野宮神社力清水（夕霧）",
-      "name_en": "Kiyomizu (Yugiri) @ Nomiya Shrine",
-      "category": "hidden_gem",
-      "sub_category": "sweets",
-      "parent": null,
-      "location": "太宰府市",
-      "station": "西鐵太宰府線「太宰府站」步行5分鐘",
-      "ticket": "甜點約200-400円",
-      "need_reservation": false,
-      "stay_duration": "20分鐘",
-      "cash_only": false,
-      "description": "太宰府表參道上的知名甜點小店，以供品級別的抹茶甜點聞名，IG打卡人氣超高。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "秘境",
-        "甜點",
-        "抹茶",
-        "太宰府"
-      ],
-      "priority": 1,
-      "zone": "太宰府",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=野宮神社力清水（夕霧） Kiyomizu (Yugiri) @ Nomiya Shrine 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=野宮神社力清水（夕霧）+Kiyomizu (Yugiri) @ Nomiya Shrine+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "shin-shin",
-      "name": "ShinShin（新宿式）",
-      "name_en": "ShinShin Ramen",
-      "category": "food",
-      "sub_category": "ramen",
-      "parent": null,
-      "location": "博多",
-      "station": "JR「博多站」步行約3分鐘",
-      "ticket": "約800-1,200円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘-1小時",
-      "cash_only": false,
-      "description": "博多豚骨拉麵代表名店之一，浓郁豚骨白湯為特色。排隊名店建議開店前抵達。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "拉麵",
-        "博多名物",
-        "排隊店"
-      ],
-      "priority": 3,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=ShinShin（新宿式） ShinShin Ramen 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=ShinShin（新宿式）+ShinShin Ramen+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "ichiran",
-      "name": "一蘭 博多本店",
-      "name_en": "Ichiran Hakata Main Branch",
-      "category": "food",
-      "sub_category": "ramen",
-      "parent": null,
-      "location": "博多",
-      "station": "JR「博多站」步行約5分鐘",
-      "ticket": "約900-1,300円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘-1小時",
-      "cash_only": false,
-      "description": "以專用「追擊之皿」食用方式和獨立小格座位聞名，提供重口味豚骨拉麵，24小時營業。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "拉麵",
-        "博多名物",
-        "24小時"
-      ],
-      "priority": 2,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=一蘭 博多本店 Ichiran Hakata Main Branch 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=一蘭 博多本店+Ichiran Hakata Main Branch+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "motsunabe",
-      "name": "大山牛腸鍋（KITTE店）",
-      "name_en": "Ōyama Motsunabe (KITTE Branch)",
-      "category": "food",
-      "sub_category": "hotpot",
-      "parent": null,
-      "location": "博多",
-      "station": "JR「博多站」內KITTE大樓",
-      "ticket": "約3,000-4,000円/人",
-      "need_reservation": true,
-      "stay_duration": "1.5-2小時",
-      "cash_only": false,
-      "description": "博多名物牛腸鍋，以味噌或醬油底將牛腸、大蔥、高麗菜燉煮。需預約是因為食材準備。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "牛腸鍋",
-        "博多名物",
-        "火鍋",
-        "需預約"
-      ],
-      "priority": 3,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=大山牛腸鍋（KITTE店） Ōyama Motsunabe (KITTE Branch) 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=大山牛腸鍋（KITTE店）+Ōyama Motsunabe (KITTE Branch)+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "nakasu-yatai",
-      "name": "中洲屋台橫丁",
-      "name_en": "Nakasu Yatai Row",
-      "category": "food",
-      "sub_category": "yatai",
-      "parent": null,
-      "location": "中洲",
-      "station": "地鐵「中洲川端站」步行約5分鐘",
-      "ticket": "約1,000-2,000円/人",
-      "need_reservation": false,
-      "stay_duration": "1-2小時",
-      "cash_only": true,
-      "description": "福岡特色的路邊攤飲食文化，中洲屋台橫丁約有50間攤位。傍晚5點過後才開始營業。建議體驗一次屋台文化。⚠️只收現金。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "屋台",
-        "博多名物",
-        "體驗",
-        "現金"
-      ],
-      "priority": 3,
-      "zone": "博多",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [
-        "fukuoka_station_001"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=中洲屋台橫丁 Nakasu Yatai Row 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=中洲屋台橫丁+Nakasu Yatai Row+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "nanpan-waiki",
-      "name": "なんばん往來（南蠻往來旗艦店）",
-      "name_en": "Nanpan Waiki Sweets Flagship",
-      "category": "food",
-      "sub_category": "sweets",
-      "parent": null,
-      "location": "飯塚市",
-      "station": "JR「新飯塚站」步行約5分鐘",
-      "ticket": "甜點約200-500円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘",
-      "cash_only": false,
-      "description": "筑豐地區知名甜點名店，甜點名稱源於江戶時期南蠻貿易之路。必吃：經典南蠻往來（杏仁粉+果醬，上層酥脆、內裡鬆軟）、季節限定藍莓口味。附設咖啡廳。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "甜點",
-        "咖啡廳",
-        "飯塚",
-        "南蠻"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=なんばん往來（南蠻往來旗艦店） Nanpan Waiki Sweets Flagship 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=なんばん往來（南蠻往來旗艦店）+Nanpan Waiki Sweets Flagship+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "mio-donut",
-      "name": "Mio Donut",
-      "name_en": "Mio Donut",
-      "category": "food",
-      "sub_category": "sweets",
-      "parent": null,
-      "location": "飯塚市",
-      "station": "JR「新飯塚站」步行約5分鐘",
-      "ticket": "甜甜圈約150-300円",
-      "need_reservation": false,
-      "stay_duration": "20分鐘",
-      "cash_only": false,
-      "description": "筑豐地區第一家生甜甜圈店，16種限量口味，口感酥鬆有彈性像麻糬。經常提前售罄，建議早點到。推薦：杏仁花生、濃郁開心果。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "甜甜圈",
-        "甜點",
-        "飯塚",
-        "排隊店"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=Mio Donut Mio Donut 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=Mio Donut+Mio Donut+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "unagi-yanagawa",
-      "name": "柳川鰻魚飯",
-      "name_en": "Yanagawa Unagi (Eel Rice)",
-      "category": "food",
-      "sub_category": "unagi",
-      "parent": null,
-      "location": "柳川市",
-      "station": "西鐵「西鐵柳川站」步行約10分鐘",
-      "ticket": "約2,000-3,500円",
-      "need_reservation": true,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "柳川名物，蓋上一層蒲燒鰻魚的蒸飯，鰻魚軟嫩、飯吸收了鰻魚醬汁。配上紅薑與抹茶，齒頰留香。需預約是因為鰻魚現烤需等待。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "鰻魚飯",
-        "柳川",
-        "需預約",
-        "博多名物"
-      ],
-      "priority": 3,
-      "zone": "柳川",
-      "station_id": "fukuoka_station_012",
-      "nearby_stations": [
-        "fukuoka_station_012"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=柳川鰻魚飯 Yanagawa Unagi (Eel Rice) 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=柳川鰻魚飯+Yanagawa Unagi (Eel Rice)+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "kurume-ramen",
-      "name": "久留米拉麵（豚骨）",
-      "name_en": "Kurume Tonkotsu Ramen",
-      "category": "food",
-      "sub_category": "ramen",
-      "parent": null,
-      "location": "久留米市",
-      "station": "JR「久留米站」，從博多出發約25分鐘",
-      "ticket": "約700-1,000円",
-      "need_reservation": false,
-      "stay_duration": "30分鐘-1小時",
-      "cash_only": false,
-      "description": "久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。久留米是豚骨拉麵的發源地，比博多豚骨更濃郁粗獷。",
-      "sources": [
-        "https://www.gltjp.com/zh-hant/article/item/20187/"
-      ],
-      "tags": [
-        "拉麵",
-        "豚骨",
-        "久留米",
-        "博多名物"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=久留米拉麵（豚骨） Kurume Tonkotsu Ramen 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=久留米拉麵（豚骨）+Kurume Tonkotsu Ramen+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "hisimitsu-pizza",
-      "name": "Cafe & Deli HISIMITU",
-      "name_en": "HISIMITU Pizza",
-      "category": "food",
-      "sub_category": "pizza_cafe",
-      "parent": null,
-      "location": "添田町",
-      "station": "建議自駕（距飯塚市約30分鐘）",
-      "ticket": "2,480円/人（23種披薩吃到飽+沙拉）",
-      "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": false,
-      "description": "120年歷史醬油倉庫改建的披薩吃到飽餐廳，使用添田柚子胡椒、在地蔬菜、自製醬油，薄脆pizza人氣超高。",
-      "sources": [
-        "https://www.crossroadfukuoka.jp/tw/articles/twfukchristy"
-      ],
-      "tags": [
-        "披薩",
-        "吃到飽",
-        "體驗",
-        "添田"
-      ],
-      "priority": 2,
-      "zone": "久留米",
-      "station_id": "fukuoka_station_003",
-      "nearby_stations": [
-        "fukuoka_station_003"
-      ],
-      "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=Cafe & Deli HISIMITU HISIMITU Pizza 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=Cafe & Deli HISIMITU+HISIMITU Pizza+景點"
-        ],
-        "blog_article": []
-      }
-    },
-    {
-      "id": "tanga-market",
-      "name": "旦過市場",
-      "name_en": "Tanga Market",
-      "category": "food",
-      "sub_category": "market",
-      "parent": null,
-      "location": "北九州市小倉北區",
-      "station": "JR「旦過站」即達",
-      "ticket": "免費（飲食約500-1,000円）",
       "need_reservation": false,
       "stay_duration": "1小時",
-      "cash_only": true,
-      "description": "北九州市市民的「煮菜市場」，昭和氛圍滿溢，在地人食材補給站。可在市場內購買新鮮食材請店家教學或代煮。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
-      ],
+      "cash_only": false,
+      "description": "2024年活化老鐵道沿線，廢線空間改建成特色咖啡與手作小店已经成为网红打卡新地标。",
+      "sources": [],
       "tags": [
-        "市場",
-        "在地",
-        "北九州",
-        "現金"
+        "咖啡",
+        "老街",
+        "朝倉",
+        "新OPEN"
       ],
       "priority": 2,
-      "zone": "小倉·門司",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
+      "zone": "甘木耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=旦過市場 Tanga Market 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=旦過市場+Tanga Market+景點"
+        "blog_article": [
+          "https://www.amagi-railway.com/"
         ],
-        "blog_article": []
+        "google_maps": "https://www.google.com/maps/place/甘木鐵道",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=甘木鐵道咖啡街"
+        ]
       }
     },
     {
-      "id": "karato-yokayata",
-      "name": "唐戶市場 活氣市場",
-      "name_en": "Karato Market - Yoka Shijō",
+      "id": "hakata_donton",
+      "name": "博多固力果先生",
+      "name_en": "Hakata Dontobori Glico",
       "category": "food",
-      "sub_category": "market",
+      "sub_category": "food",
       "parent": null,
-      "location": "山口縣下關市",
-      "station": "門司港徒步約5分鐘",
-      "ticket": "海鮮現買現吃約500-1,500円",
+      "location": "博多耳鼻咽喉",
+      "station": "JR博多站周邊",
+      "ticket": "約800-1500円",
       "need_reservation": false,
-      "stay_duration": "1-1.5小時",
-      "cash_only": true,
-      "description": "唐戶市場的「活氣市場」區域，週末有超值的立食壽司和海鮮，運氣好500円就能吃到豐盛海鮮丼。",
-      "sources": [
-        "https://bobbytravel.tw/fukuoka-attractions/"
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "博多運河城與中洲川端是博多美食精華區，燒鳥、明太子料理、水炊き與牛腸鍋是必吃。",
+      "sources": [],
+      "tags": [
+        "美食",
+        "牛腸鍋",
+        "明太子",
+        "博多"
       ],
+      "priority": 3,
+      "zone": "博多耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.yokanavi.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/博多運河城",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=博多運河城"
+        ]
+      }
+    },
+    {
+      "id": "ramen_yamato",
+      "name": "久留米拉麵",
+      "name_en": "Kurume Ramen",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "久留米耳鼻咽喉",
+      "station": "JR久留米站周邊",
+      "ticket": "約600-1000円",
+      "need_reservation": false,
+      "stay_duration": "30分鐘",
+      "cash_only": false,
+      "description": "久留米是九州拉麵發源地之一，濃郁豚骨魚介湯頭與背脂是特色。代表性店家包括大砲拉麵與胃極拉麵。",
+      "sources": [],
+      "tags": [
+        "拉麵",
+        "久留米",
+        "豚骨",
+        "在地"
+      ],
+      "priority": 3,
+      "zone": "久留米耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://yamato.gr.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/久留米+拉麵",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=久留米拉麵"
+        ]
+      }
+    },
+    {
+      "id": "chikugo_yudofu",
+      "name": "浮羽 湯豆腐",
+      "name_en": "Ukiha Yudofu",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "善導寺耳鼻咽喉",
+      "station": "JR久大線善導寺站周邊",
+      "ticket": "約2000-4000円",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "浮羽市以品質聞名的湯豆腐，用大好山水與有機大豆，2024年入選《米其林指南》九州版。",
+      "sources": [],
+      "tags": [
+        "豆腐",
+        "美食",
+        "浮羽",
+        "米其林"
+      ],
+      "priority": 3,
+      "zone": "善導寺耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.ukiha-tofu.jp/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/浮羽市",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=浮羽湯豆腐"
+        ]
+      }
+    },
+    {
+      "id": "karatsu_seafood",
+      "name": "唐津 螃蟹與活魚",
+      "name_en": "Karatsu Fresh Seafood",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "唐津耳鼻咽喉",
+      "station": "JR唐津線唐津站徒步10分周邊",
+      "ticket": "約3000-6000円",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "唐津是九州海鮮寶庫，呼子是魩 Intensity海膽與車蝦的產地，市場食堂是當地人最愛的海鮮蓋飯。",
+      "sources": [],
       "tags": [
         "海鮮",
-        "市場",
-        "下關",
-        "現金"
+        "唐津",
+        "螃蟹",
+        "市場"
       ],
-      "priority": 2,
-      "zone": "小倉·門司",
-      "station_id": "fukuoka_station_001",
-      "nearby_stations": [],
+      "priority": 3,
+      "zone": "唐津耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
       "details": {
-        "google_maps": "https://www.google.com/maps/search/?api=1&query=唐戶市場 活氣市場 Karato Market - Yoka Shijō 福岡",
-        "youtube": [
-          "https://www.youtube.com/results?search_query=唐戶市場 活氣市場+Karato Market - Yoka Shijō+景點"
+        "blog_article": [
+          "https://www.karatsu-bussan.com/"
         ],
-        "blog_article": []
+        "google_maps": "https://www.google.com/maps/place/唐津+海鮮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=唐津海鮮"
+        ]
+      }
+    },
+    {
+      "id": "kashima_jinja",
+      "name": "筥崎宮",
+      "name_en": "Hakozaki-gū",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "香椎耳鼻咽喉",
+      "station": "JR香椎線香椎站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "福岡三大神社之一，為海上守護神，7月舉行日本三大盆舞之一「博多祼山」。祈求海上安全與商賣繁盛。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "香椎",
+        "祭典",
+        "盆舞"
+      ],
+      "priority": 3,
+      "zone": "香椎耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.hakozaki.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/筥崎宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=筥崎宮"
+        ]
+      }
+    },
+    {
+      "id": "kokura_gokoku",
+      "name": "小倉妻子天神",
+      "name_en": "Kokura Gokoku Tenjin",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "小倉耳鼻咽喉",
+      "station": "JR小倉站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "學問之神，祭祀菅原道真，小倉版本的天滿宮。考試季節總是香火鼎盛。與小倉城相鄰可一並遊覽。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "學問",
+        "小倉",
+        "天滿宮"
+      ],
+      "priority": 3,
+      "zone": "小倉耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://kokura.tenjin.info/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/小倉天滿宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=小倉天滿宮"
+        ]
+      }
+    },
+    {
+      "id": "dazu_tenjin",
+      "name": "太宰府天滿宮 學業成就",
+      "name_en": "Dazaifu Academic Shrine",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "太宰府耳鼻咽喉",
+      "station": "西鐵太宰府線太宰府站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "學問成就祈願的最高神社，合格祈願繪馬與學業護符是人氣御守。2月梅花祭、4月有祭祀大典。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "學問",
+        "太宰府",
+        "合格"
+      ],
+      "priority": 3,
+      "zone": "太宰府耳鼻咽喉",
+      "station_id": "fukuoka_001",
+      "nearby_stations": [
+        "fukuoka_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.dazaifutenmangu.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/太宰府天滿宮",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=太宰府天滿宮學業"
+        ]
       }
     }
   ]

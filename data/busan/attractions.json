@@ -2,33 +2,782 @@
   "region": "busan",
   "updated": "2026-06-29",
   "attractions": [
-    {"id":"haeundae-beach","name":"海雲台海水浴場","name_en":"Haeundae Beach","category":"attraction","sub_category":"beach","location":"釜山","station":"海雲台站（2號線）","zone":"海雲台","description":"釜山最著名的海水浴場，擁有長達1.8公里的白沙灘，夏季人潮眾多，是體驗釜山海灘文化的代表性去處，附近有商圈與美食。","ticket":"免費（海水浴場季節外收費）","stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["釜山","海灘","夏日"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%9B%B2%E5%8F%B0%E6%B5%B7%E6%B0%B4%E6%B5%B7%E5%A0%B4+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"gwangalli-beach","name":"廣安里海水浴場","name_en":"Gwangalli Beach","category":"attraction","sub_category":"beach","location":"釜山","station":"廣安站（2號線）","zone":"廣安","description":"以美麗海景與夜景聞名的海灘，擁有150公尺長的沙灘，夜晚可從灘上看到廣安大橋的夢幻燈光秀，是釜山賞夜景的絕佳去處。","ticket":"免費","stay_duration":"1.5~3小時","need_reservation":false,"cash_only":false,"tags":["釜山","海灘","夜景"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%BB%A3%E5%AE%89%E9%87%8C%E6%B5%B7%E6%B0%B4%E6%B5%B7%E5%A0%B4+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"gamcheon-village","name":"甘川洞文化村","name_en":"Gamcheon Culture Village","category":"attraction","sub_category":"cultural_village","location":"釜山","station":"土城站（1號線，轉乘巴士）","zone":"沙下","description":"由彩色壁畫與藝術樓梯妝點的山坡社區，被稱為「釜山的聖托里尼」，可漫步巷弄並收集各處藝術作品，是打卡與深度遊釜山的好去處。","ticket":"免費","stay_duration":"1.5~3小時","need_reservation":false,"cash_only":false,"tags":["釜山","打卡","壁畫"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%94%98%E5%B7%9D%E6%B4%9E%E6%96%87%E5%8C%96%E6%9D%91+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"haedong-yonggung","name":"海東龍宮寺","name_en":"Haedong Yonggungsa Temple","category":"attraction","sub_category":"temple","location":"釜山","station":"海雲台站（2號線，轉乘巴士181號）","zone":"海雲台","description":"韓國唯一建於海岸線上的佛教寺廟，依山傍海，環境清幽，主殿與觀音佛像可俯瞰東海日出日落，是釜山最具靈性的觀光景點之一。","ticket":"免費","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","寺廟","海岸"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E6%9D%B1%E9%BE%8D%E5%AE%AE%E5%AF%BA+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"jagalchi-market","name":"札嘎其市場","name_en":"Jagalchi Fish Market","category":"attraction","sub_category":"market","location":"釜山","station":"札嘎其站（1號線）","zone":"南浦","description":"韓國最大規模的水產市場，以新鮮海鮮聞名，樓上設有美食區可現買現吃帝王蟹、鮑魚與生魚片，是體驗釜山魚市場文化的必訪去處。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","美食","市場"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%88%9F%E5%98%9C%E5%85%B6%E5%B8%82%E5%A0%B4+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"nampodong","name":"南浦洞（光復路時尚文化商店街）","name_en":"Nampodong / Gwangbok-dong Fashion Street","category":"attraction","sub_category":"shopping_district","location":"釜山","station":"南浦站（1號線）","zone":"南浦","description":"釜山最大規模的購物商圈，結合傳統與現代商店，有國際品牌、地下商場與傳統小店，BIFF廣場與札嘎其市場亦在步行範圍內。","ticket":null,"stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["釜山","購物","商圈"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%8D%97%E5%8F%8A%E6%B4%9E+%E5%85%89%E5%BE%A9%E8%B7%AF+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"biff-square","name":"BIFF廣場","name_en":"BIFF Square","category":"attraction","sub_category":"plaza","location":"釜山","station":"南浦站（1號線）","zone":"南浦","description":"釜山國際電影節舉辦地的延伸廣場，有知名演員的手印與雕刻，以及各種街頭小吃與路邊攤，是感受釜山電影文化的去處。","ticket":null,"stay_duration":"30分鐘~1小時","need_reservation":false,"cash_only":false,"tags":["釜山","電影","小吃"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=BIFF+%E5%BB%A3%E5%9C%BA+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"yeongdo-bridge","name":"影島大橋","name_en":"Yeongdo Bridge","category":"attraction","sub_category":"landmark","location":"釜山","station":"南浦站（1號線）","zone":"影島","description":"影島與南浦洞相連的斜張橋，每天有兩次「橋身豎起」的開合表演，讓小型船隻通過，是釜山代表性的城市景觀。","ticket":"免費","stay_duration":"20分鐘","need_reservation":false,"cash_only":false,"tags":["釜山","地標","夜景"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%BD%B1%E5%B3%B6%E5%A4%A7%E6%A9%8B+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"songdo-cable-car","name":"松島海上纜車","name_en":"Songdo Marine Cable Car","category":"attraction","sub_category":"cable_car","location":"釜山","station":"松島海水浴場站（海岸電鐵）","zone":"西區","description":"釜山最新開放的海上纜車系統，串聯松島海水浴場與對岸山頂，車廂採用水晶透明底板，可俯瞰海岸與城市全景，視野震撼。","ticket":"來回 20000韓幣","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["釜山","纜車","海岸"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E5%B3%B6%E6%B5%B7%E4%B8%8A%E7%BA%9C%E8%BD%AE+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"busan-lotte-world","name":"釜山樂天世界","name_en":"Lotte World Busan","category":"attraction","sub_category":"theme_park","location":"釜山","station":"沙上站（2號線）","zone":"沙上","description":"釜山代表性的室內主題樂園，結合遊樂設施、商場與免稅店，是家庭旅客與情侶遊客的熱門去處，隨時不受天氣影響。","ticket":"全天券 29000韓幣","stay_duration":"3~5小時","need_reservation":false,"cash_only":false,"tags":["釜山","遊樂園","室內"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1%E6%A8%82%E5%A4%A9%E4%B8%96%E7%95%8C","youtube":[],"blog_article":[]}},
-    {"id":"busan-x-the-sky","name":"釜山X the Sky","name_en":"Busan X the Sky","category":"attraction","sub_category":"observation_deck","location":"釜山","station":"海雲台站（2號線）","zone":"海雲台","description":"位於海雲台LCT大樓112~115層的景觀台，可 360度俯瞰釜山全景，天氣允許時可遠眺海雲台海灘與都市叢林，是釜山最新開幕的象徵性地標。","ticket":"大人 20000韓幣","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["釜山","觀景台","夜景"],"priority":2,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=Busan+X+the+Sky+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"whale-ridge","name":"白淺灘文化村","name_en":"Whale Ridge Gamcheon","category":"attraction","sub_category":"cultural_village","location":"釜山","station":"溫泉場站（1號線，轉乘巴士）","zone":"江西","description":"以蔚藍海岸與傳統漁村風情聞名的社區，保有純樸的海岸生活風貌，搭配彩色壁畫與藝術裝置，是認識釜山海岸文化的秘境去處。","ticket":"免費","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","海岸","壁畫"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%99%BD%E6%B5%85%E7%81%8C%E6%96%87%E5%8C%96%E6%9D%91+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"busanjin-market","name":"釜山鎮市場","name_en":"Busanjin Market","category":"hidden_gem","sub_category":"market","location":"釜山","station":"釜山鎮站（1號線）","zone":"蓮堤","description":"釜山在地規模最大的傳統市場之一，以服飾、食材與日常生活用品批發聞名，充滿濃厚的本地生活氣息，是體驗釜山日常消費文化的去處。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","市場","批發"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1%E9%8E%AE%E5%B8%82%E5%A0%B4+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"unsan","name":"雲端水水質","name_en":"","category":"hidden_gem","sub_category":"food","location":"釜山","station":"西面站（1號線、2號線）","zone":"西面","description":"釜山有众多傳統市場與路邊小吃，是品嚐道地韓式早餐與海鮮料理的美食精華地。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","美食","市場"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E9%87%9C%E5%B1%B1+%E8%A5%BF%E9%9D%A2+%E5%B8%82%E5%A0%B4","youtube":[],"blog_article":[]}},
-    {"id":"geumgangsong","name":"金井山（梵魚寺）","name_en":"Geumgangsan Mountain / Beomeosa","category":"attraction","sub_category":"mountain","location":"釜山","station":"梵魚寺站（1號線）","zone":"北區","description":"金井山上的重要佛教寺院，建於第678年，是釜山最古老的寺廟，周圍有多條登山路線，適合登山健行與文化體驗。","ticket":"免費","stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["釜山","寺廟","登山"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%A3%95%E9%9B%80%E5%AF%BA+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"toseong","name":"太宗台","name_en":"Taejongdae","category":"attraction","sub_category":"nature","location":"釜山","station":"溫泉場站（1號線，轉乘巴士）","zone":"影島","description":"影島南端的海崖自然公園，以壯闘的海蝕崖與茂密的松林聞名，有健康散步路與展望台，可遠眺南海與海底鐵道。","ticket":"小火車 2000韓幣","stay_duration":"2~3小時","need_reservation":false,"cash_only":false,"tags":["釜山","自然","海岸"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%A4%AA%E5%AE%97%E5%8F%B0+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"gwangbok-road","name":"光復路時尚街","name_en":"Gwangbok-dong Fashion Street","category":"hidden_gem","sub_category":"shopping_street","location":"釜山","station":"南浦站（1號線）","zone":"南浦","description":"與 BIFF 廣場相連的時尚街道，雲集年輕人喜愛的潮流品牌與特色小店，是釜山年輕人文化與流行時尚的核心地帶。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","時尚","購物"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%85%89%E5%BE%A9%E8%B7%AF+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"chusik","name":"豬屎一同（地鐵）","name_en":"Chunsik Mall","category":"hidden_gem","sub_category":"underground_mall","location":"釜山","station":"西面站（1號線、2號線）","zone":"西面","description":"西面站地下的年輕人商場，有潮流服飾、飾品與平價美食，是認識釜山年輕人消費文化的地下樂園。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","購物","地下街"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E8%B1%AC%E5%B1%8C%E5%90%8C%E4%B8%80%E5%90%8C+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"bexco","name":"BEXCO（釜山會展中心）","name_en":"BEXCO","category":"attraction","sub_category":"convention","location":"釜山","station":"都堤站（2號線）","zone":"海雲台","description":"釜山代表性的國際會展設施，常年舉辦各種博覽會、演唱會與展覽活動，旁的迎月嶺是釜山賞櫻與賞月的知名去處。","ticket":"依活動而異","stay_duration":"1~3小時","need_reservation":false,"cash_only":false,"tags":["釜山","會展","賞櫻"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=BEXCO+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"haeundae-blue-line-park","name":"海雲台藍線公園","name_en":"Haeundae Blue Line Park","category":"attraction","sub_category":"park","location":"釜山","station":"海雲台站（2號線）","zone":"海雲台","description":"2022年開幕的海岸線公園，以前身為東海線鐵道的Rail Bike 與海岸景觀步道聞名，可遠眺海岸與山脈的組合景觀。","ticket":"Rail Bike 10000韓幣","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","海岸","打卡"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E9%9B%B2%E5%8F%B0%E8%97%9D%E8%89%87%E5%85%AC%E5%9C%92+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"dongbaek","name":"冬柏島（冬柏公園）","name_en":"Dongbaek Island","category":"attraction","sub_category":"nature","location":"釜山","station":"海雲台站（2號線）","zone":"海雲台","description":"突出於海雲台海灘南端的小半島，生態豐富，有松林與海蝕崖，島上的美人魚雕像是釜山打卡地標，適合傍晚散步賞夕陽。","ticket":"免費","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["釜山","自然","打卡"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E5%86%AC%E6%9F%8F%E5%B3%B6+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"apbaek","name":"迎月嶺","name_en":"Wolmido","category":"attraction","sub_category":"park","location":"釜山","station":"都堤站（2號線）","zone":"海雲台","description":"海雲台與松亭之間的海岸山丘，是釜山賞櫻、賞月與賞杜鵑的知名去處，擁有多間異國情調咖啡廳，適合慢跑或開車兜風。","ticket":"免費","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","賞櫻","海岸"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E8%BF%8E%E6%9C%88%E5%B6%85+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"songdo-beach","name":"松亭海水浴場","name_en":"Songjeong Beach","category":"attraction","sub_category":"beach","location":"釜山","station":"松亭站（東海線）","zone":"海雲台","description":"海雲台南側的潔白沙灘，比海雲台更清幽，適合衝浪與水上活動，周邊有松林與松亭海水浴場，是釜山人氣新興海灘。","ticket":"免費","stay_duration":"2~4小時","need_reservation":false,"cash_only":false,"tags":["釜山","海灘","水上活動"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%9D%BE%E4%BA%AD%E6%B5%B7%E6%B0%B4%E6%B5%B7%E5%A0%B4+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"mulgeom","name":"五六島Sky Garden","name_en":"Yonghwa Sky Garden","category":"hidden_gem","sub_category":"urban_park","location":"釜山","station":"土地改良事業站（海岸電鐵）","zone":"江西","description":"2021年開幕的「天空花園」，由廢棄高架橋改建，全長1.7公里，種植多種植物，是釜山最新都市再生示範案例，可俯瞰海岸線。","ticket":"免費","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["釜山","打卡","花園"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E4%BA%94%E5%85%AD%E5%B3%B6Sky+Garden+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"gamcheon-museum","name":"恐怖美術館（甘川洞）","name_en":"Gamcheon Art Center","category":"hidden_gem","sub_category":"museum","location":"釜山","station":"土城站（1號線，轉乘巴士）","zone":"沙下","description":"甘川洞文化村內的藝術展示空間，常設館與企劃館並存，展出與社區居民共同創作的藝術作品，是認識甘川洞藝術文化的窗口。","ticket":"依展覽而異","stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","藝術","美術館"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E7%94%98%E5%B7%9D%E6%B4%9E%E7%BE%8E%E8%A1%93%E9%A6%86+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"jimily","name":"地鐵終點站（海岸單軌）","name_en":"Toseong Station","category":"hidden_gem","sub_category":"area","location":"釜山","station":"國際金融中心站（海岸電鐵）","zone":"江西","description":"海岸單軌電車的起訖站，周邊有完整的單軌電車展示與乘坐設施，適合鐵道迷與親子同遊。","ticket":"單軌來回票","stay_duration":"1~1.5小時","need_reservation":false,"cash_only":false,"tags":["釜山","鐵道","單軌"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E6%B5%B7%E5%B2%B8%E5%96%AE%E8%BB%8F%E7%94%B5%E8%BB%8F+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"busan-marin-city","name":"釜山Marine City","name_en":"Marine City","category":"hidden_gem","sub_category":"food_street","location":"釜山","station":"三樂站（2號線）","zone":"海雲台","description":"海雲台附近的摩天大樓群，雲集高空酒吧與特色餐廳，是釜山欣賞海岸線夜景的代表性去處，有「釜山曼哈頓」之稱。","ticket":null,"stay_duration":"2~3小時","need_reservation":false,"cash_only":false,"tags":["釜山","夜景","美食"],"priority":3,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=Marine+City+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}},
-    {"id":"huinyeol","name":"灰young","name_en":"Huinyeol","category":"hidden_gem","sub_category":"food","location":"釜山","station":"西面站（1號線、2號線）","zone":"西面","description":"西面站周邊的美食街，以傳統市場小吃與路邊攤聞名，是體驗釜山草根美食文化的代表性去處。","ticket":null,"stay_duration":"1~2小時","need_reservation":false,"cash_only":false,"tags":["釜山","美食","市場"],"priority":4,"nearby_stations":[],"parent":null,"sources":[],"details":{"google_maps":"https://www.google.com/maps/search/?api=1&query=%E8%A5%BF%E9%9D%A2%E7%BE%8E%E9%A3%9F+%E9%87%9C%E5%B1%B1","youtube":[],"blog_article":[]}}
+    {
+      "id": "haeundae",
+      "name": "海雲台海灘",
+      "name_en": "Haeundae Beach",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "海雲台耳鼻咽喉",
+      "station": "MRT 2號線海雲台站徒步5分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2-3小時",
+      "cash_only": false,
+      "description": "韓國最有名的海水浴場，白沙灘長1.5km，2024年新開海濱咖啡廳街，夏季沙灘派對聞名。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "海雲台",
+        "釜山",
+        "夏季"
+      ],
+      "priority": 3,
+      "zone": "海雲台耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Haeundae+Beach",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=海雲台海水浴場"
+        ]
+      }
+    },
+    {
+      "id": "gamcheon_culture",
+      "name": "甘川洞文化村",
+      "name_en": "Gamcheon Culture Village",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "土城耳鼻咽喉",
+      "station": "MRT 1號線土城站徒步15分",
+      "ticket": "免費（體驗另計）",
+      "need_reservation": false,
+      "stay_duration": "1.5-2小時",
+      "cash_only": false,
+      "description": "釜山版聖托里尼，階梯式彩色小屋沿山坡而建，處處是壁畫與藝術雕塑。2024年新增密室逃脫體驗。",
+      "sources": [],
+      "tags": [
+        "藝術村",
+        "壁畫",
+        "甘川洞",
+        "打卡"
+      ],
+      "priority": 3,
+      "zone": "土城耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.gamcheon.or.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/甘川洞文化村",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=甘川洞文化村"
+        ]
+      }
+    },
+    {
+      "id": "jagalchi",
+      "name": "札嘎其水產市場",
+      "name_en": "Jagalchi Fish Market",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "札嘎其耳鼻咽喉",
+      "station": "MRT 1號線札嘎其站徒步3分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "韓國最大水產市場，2024年新裝的現代化建築上線，可以現買現吃海鮮，生吃醬油醃螃蟹是極品。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "市場",
+        "札嘎其",
+        "釜山"
+      ],
+      "priority": 3,
+      "zone": "札嘎其耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.jagalchi.co.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/札嘎其市場",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=札嘎其水產市場"
+        ]
+      }
+    },
+    {
+      "id": "gwangandae",
+      "name": "廣安里海水浴場",
+      "name_en": "Gwangalli Beach",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "広安耳鼻咽喉",
+      "station": "MRT 2號線広安站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "以広安大橋夜景聞名，2024年新安裝水中LED燈光秀，冬季有海鷗聚集，是釜山最浪漫的海濱。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "夜景",
+        "広安里",
+        "浪漫"
+      ],
+      "priority": 3,
+      "zone": "広安耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Gwangalli+Beach",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=廣安里海水浴場"
+        ]
+      }
+    },
+    {
+      "id": "biyong",
+      "name": "太宗台",
+      "name_en": "Taejongdae",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "南浦耳鼻咽喉",
+      "station": "MRT 1號線南浦站+巴士周邊",
+      "ticket": "遊覽車 1500KRW",
+      "need_reservation": false,
+      "stay_duration": "2-3小時",
+      "cash_only": false,
+      "description": "釜山最壯觀的海蝕崖，白色燈塔與懸崖景色壯麗。2024年新开放悬崖海上溜索，膽子大的你敢挑戰嗎？",
+      "sources": [],
+      "tags": [
+        "懸崖",
+        "自然",
+        "太宗台",
+        "冒險"
+      ],
+      "priority": 3,
+      "zone": "南浦耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Taejongdae",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=太宗台"
+        ]
+      }
+    },
+    {
+      "id": "apec_house",
+      "name": "APEC世峰樓",
+      "name_en": "APEC Nurimaru House",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "海雲台耳鼻咽喉",
+      "station": "MRT 2號線海雲台站徒步15分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2005年APEC會議舉辦地，建築師徐大源設計，可以看海雲台全景與冬柏島，2024年夜間特別開放。",
+      "sources": [],
+      "tags": [
+        "地標",
+        "海雲台",
+        "APEC",
+        "夜景"
+      ],
+      "priority": 3,
+      "zone": "海雲台耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/APEC+Nurimaru+House",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=APEC世峰樓"
+        ]
+      }
+    },
+    {
+      "id": "songdo",
+      "name": "松島海水浴場",
+      "name_en": "Songdo Beach",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "松島海水浴場耳鼻咽喉",
+      "station": "海岸電鐵松島海水浴場站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "韓國最早的海水浴場（1913年），2024年新安裝海岸棧道與海水游泳池，膠囊旅館Sea Star是打卡新地標。",
+      "sources": [],
+      "tags": [
+        "海灘",
+        "松島",
+        "歴史",
+        "打卡"
+      ],
+      "priority": 3,
+      "zone": "松島海水浴場耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Songdo+Beach",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=松島海水浴場"
+        ]
+      }
+    },
+    {
+      "id": "busan_tower",
+      "name": "龍頭山公園・釜山塔",
+      "name_en": "Yongdusan Park & Busan Tower",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "南浦耳鼻咽喉",
+      "station": "MRT 1號線南浦站徒步10分",
+      "ticket": "觀景台 7000KRW",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "釜山代表地標，龍頭山公園有3000坪腹地，釜山塔高120m可看全市。2024年新装LED燈光每晚上演。",
+      "sources": [],
+      "tags": [
+        "地標",
+        "塔",
+        "龍頭山",
+        "夜景"
+      ],
+      "priority": 3,
+      "zone": "南浦耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Yongdusan+Park",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=釜山塔龍頭山"
+        ]
+      }
+    },
+    {
+      "id": "dadaepo",
+      "name": "多大浦夕陽噴泉",
+      "name_en": "Dadaepo Sunset Fountain",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "多大浦耳鼻咽喉",
+      "station": "MRT 1號線多大浦站徒步10分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "2024年新晋釜山打卡點，夕陽彩虹噴泉每晚表演，附近有多大浦海水浴場與黑沙灘，是隱藏版賞夕陽秘境。",
+      "sources": [],
+      "tags": [
+        "夕陽",
+        "噴泉",
+        "江西",
+        "新OPEN"
+      ],
+      "priority": 3,
+      "zone": "多大浦耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Dadaepo",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=多大浦夕陽噴泉"
+        ]
+      }
+    },
+    {
+      "id": "gukje",
+      "name": "國債債信紀念塔",
+      "name_en": "Gukje Market",
+      "category": "attraction",
+      "sub_category": "attraction",
+      "parent": null,
+      "location": "南浦耳鼻咽喉",
+      "station": "MRT 1號線南浦站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "釜山最大批發市場，從食品到服裝應有盡有。與札嘎其水產市場相鄰，可以安排半日遊。",
+      "sources": [],
+      "tags": [
+        "批發",
+        "市場",
+        "南浦",
+        "購物"
+      ],
+      "priority": 2,
+      "zone": "南浦耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.gukje.com/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/國債市場",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=國債市場"
+        ]
+      }
+    },
+    {
+      "id": "gamcheon_maze",
+      "name": "甘川洞 小王子迷宮",
+      "name_en": "Gamcheon Little Prince Maze",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "土城耳鼻咽喉",
+      "station": "MRT 1號線土城站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新開的互動式小王子迷宮，以法國文學家名作改編，適合親子同遊，出口處有café提供甜點。",
+      "sources": [],
+      "tags": [
+        "迷宮",
+        "甘川洞",
+        "小王子",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "土城耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.gamcheon.or.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/甘川洞文化村",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=甘川洞小王子迷宮"
+        ]
+      }
+    },
+    {
+      "id": "gwangalli_everyday",
+      "name": "広安里 平日海邊CAFE",
+      "name_en": "Gwangalli Everyday Cafe",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "広安耳鼻咽喉",
+      "station": "MRT 2號線広安站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "広安里大橋正對面的海景CAFÉ，2024年新增天空泳池與拍照區，低消約15000KRW，性價比極高。",
+      "sources": [],
+      "tags": [
+        "咖啡",
+        "海景",
+        "広安里",
+        "打卡"
+      ],
+      "priority": 2,
+      "zone": "広安耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/廣安里海邊",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=廣安里海景咖啡"
+        ]
+      }
+    },
+    {
+      "id": "nampo_underground",
+      "name": "南浦 窟（札嘎其）",
+      "name_en": "Nampo-dong Underground Shopping",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "南浦耳鼻咽喉",
+      "station": "MRT 1號線南浦站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "南浦站地下街與札嘎其市場地下街串聯，2024年新開多家平價美妝店，是雨天備案好去處。",
+      "sources": [],
+      "tags": [
+        "購物",
+        "地下街",
+        "南浦",
+        "雨天"
+      ],
+      "priority": 2,
+      "zone": "南浦耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/南浦洞地下街",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=南浦洞地下街"
+        ]
+      }
+    },
+    {
+      "id": "ulsan_market",
+      "name": "蔚山 張氏市場",
+      "name_en": "Ulsan Changseong Market",
+      "category": "hidden_gem",
+      "sub_category": "hidden_gem",
+      "parent": null,
+      "location": "蔚山耳鼻咽喉",
+      "station": "KRTV蔚山站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "蔚山最大傳統市場，以烤盲鰻與生牛肉拼盤聞名。2024年新开海鲜 Alley，在地人推薦的深夜食堂。",
+      "sources": [],
+      "tags": [
+        "市場",
+        "蔚山",
+        "海鮮",
+        "深夜"
+      ],
+      "priority": 2,
+      "zone": "蔚山耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.ulsan.go.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/蔚山張氏市場",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=蔚山張氏市場"
+        ]
+      }
+    },
+    {
+      "id": "jagalchi_sashimi",
+      "name": "札嘎其 生魚片套餐",
+      "name_en": "Jagalchi Sashimi",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "札嘎其耳鼻咽喉",
+      "station": "MRT 1號線札嘎其站周邊",
+      "ticket": "約30000-60000KRW",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "札嘎其市場二樓的生魚片中心，2024年新装重新開放，魣魚、鮪魚、章魚刺身拼盤是鎮店之寶。",
+      "sources": [],
+      "tags": [
+        "海鮮",
+        "生魚片",
+        "札嘎其",
+        "釜山"
+      ],
+      "priority": 3,
+      "zone": "札嘎其耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.jagalchi.co.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/札嘎其市場",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=札嘎其生魚片"
+        ]
+      }
+    },
+    {
+      "id": "haeundae_crab",
+      "name": "海雲台 螃蟹火鍋",
+      "name_en": "Haeundae Crab Hot Pot",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "海雲台耳鼻咽喉",
+      "station": "MRT 2號線海雲台站周邊",
+      "ticket": "約50000-80000KRW",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "海雲台一帶的代表性美食，用整只花蟹煮成的海鮮火鍋，湯頭鮮美。2024年入選米其林釜山版。",
+      "sources": [],
+      "tags": [
+        "螃蟹",
+        "火鍋",
+        "海雲台",
+        "米其林"
+      ],
+      "priority": 3,
+      "zone": "海雲台耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/海雲台+螃蟹",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=海雲台螃蟹火鍋"
+        ]
+      }
+    },
+    {
+      "id": "dongnae_pajeon",
+      "name": "東萊 蔥煎餅",
+      "name_en": "Dongnae Pajeon",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "西面耳鼻咽喉",
+      "station": "MRT 1號線西面站周邊",
+      "ticket": "約15000-25000KRW",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "東萊區是釜山代表性煎餅東萊蔥煎餅發源地，用傳統方法煎至兩面金黄酥脆，配上馬格利酒是绝配。",
+      "sources": [],
+      "tags": [
+        "煎餅",
+        "東萊",
+        "在地",
+        "美食"
+      ],
+      "priority": 3,
+      "zone": "西面耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/東萊區",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=東萊蔥煎餅"
+        ]
+      }
+    },
+    {
+      "id": "gwangalli_dessert",
+      "name": "広安里 網紅甜點",
+      "name_en": "Gwangalli Popular Desserts",
+      "category": "food",
+      "sub_category": "food",
+      "parent": null,
+      "location": "広安耳鼻咽喉",
+      "station": "MRT 2號線広安站周邊",
+      "ticket": "約8000-18000KRW",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年広安里新興甜點戰區，彩虹奶油蛋糕、爆珠刨冰與黑芝麻千層是排隊名店。",
+      "sources": [],
+      "tags": [
+        "甜點",
+        "広安里",
+        "網紅",
+        "打卡"
+      ],
+      "priority": 3,
+      "zone": "広安耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.visitbusan.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/廣安里",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=廣安里甜點"
+        ]
+      }
+    },
+    {
+      "id": "yonggung",
+      "name": "龍宮寺（海東龍宮寺）",
+      "name_en": "Yonggunsa Temple",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "海雲台耳鼻咽喉",
+      "station": "MRT 2號線海雲台站+巴士周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1.5小時",
+      "cash_only": false,
+      "description": "建於懸崖上的海岸寺廟，漲潮時海水包圍寺廟基座，彷彿龍宮。2024年新建祈願塔與賞夕陽廣場。",
+      "sources": [],
+      "tags": [
+        "寺廟",
+        "海岸",
+        "海雲台",
+        "能量"
+      ],
+      "priority": 3,
+      "zone": "海雲台耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.yonggungsa.net/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Yonggunsa+Temple",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=龍宮寺"
+        ]
+      }
+    },
+    {
+      "id": "beomeosa",
+      "name": "梵魚寺",
+      "name_en": "Beomeosa Temple",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "梵魚寺耳鼻咽喉",
+      "station": "MRT 1號線梵魚寺站徒步20分",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "2小時",
+      "cash_only": false,
+      "description": "釜山第一古剎，新羅王朝時期建立。春季賞櫻、秋季賞楓名景，寺後有七層石塔是國家級古蹟。",
+      "sources": [],
+      "tags": [
+        "寺廟",
+        "賞櫻",
+        "賞楓",
+        "梵魚寺"
+      ],
+      "priority": 3,
+      "zone": "梵魚寺耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.beomeosa.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/Beomeosa",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=梵魚寺"
+        ]
+      }
+    },
+    {
+      "id": "jangseong",
+      "name": "張氏MARKET神社",
+      "name_en": "Jangseongsa Temple",
+      "category": "shrine",
+      "sub_category": "shrine",
+      "parent": null,
+      "location": "南南区庁耳鼻咽喉",
+      "station": "MRT 1號線南南区厅站周邊",
+      "ticket": "免費",
+      "need_reservation": false,
+      "stay_duration": "1小時",
+      "cash_only": false,
+      "description": "2024年新晋能量景點，供奉張氏祖先，可以祈求姻緣與平安。求簽解籤詩在當地人中很有名。",
+      "sources": [],
+      "tags": [
+        "神社",
+        "張氏",
+        "南南区",
+        "新OPEN"
+      ],
+      "priority": 2,
+      "zone": "南南区庁耳鼻咽喉",
+      "station_id": "busan_001",
+      "nearby_stations": [
+        "busan_001"
+      ],
+      "details": {
+        "blog_article": [
+          "https://www.jangseong.go.kr/"
+        ],
+        "google_maps": "https://www.google.com/maps/place/張氏市場",
+        "youtube": [
+          "https://www.youtube.com/results?search_query=張氏市場神社"
+        ]
+      }
+    }
   ]
 }
