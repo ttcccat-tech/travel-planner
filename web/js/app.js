@@ -575,23 +575,39 @@ async function onGenerate() {
   }
 }
 
-// ----- Build zone pools (attractions grouped by zone, with station anchors) -----
+// ----- Build zone pools (attractions+outlets grouped by zone, with station anchors) -----
 function buildZonePools(wantStations, wantItems) {
   // Find station zones from selected stations
   const forcedZones = new Set(wantStations.map(s => s.zone).filter(Boolean));
 
-  // Also collect zones from wantItems
+  // Also collect zones from wantItems (景點+美食+outlet 都算 zone 線索)
   wantItems.forEach(attr => {
     if (attr.zone) forcedZones.add(attr.zone);
   });
 
-  // Group attractions by zone
+  // Group all items by zone (attraction/hidden_gem/outlet/shopping/meal 都納入)
   const zoneMap = {};
   state.attractions.forEach(a => {
     const z = a.zone || '其他';
     if (!zoneMap[z]) zoneMap[z] = [];
     zoneMap[z].push(a);
   });
+  // 美食（meals 表）也加入 zone pool
+  if (state.meals) {
+    state.meals.forEach(m => {
+      const z = m.zone || '其他';
+      if (!zoneMap[z]) zoneMap[z] = [];
+      zoneMap[z].push(m);
+    });
+  }
+  // outlets 同様
+  if (state.outlets) {
+    state.outlets.forEach(o => {
+      const z = o.zone || '其他';
+      if (!zoneMap[z]) zoneMap[z] = [];
+      zoneMap[z].push(o);
+    });
+  }
 
   return { zoneMap, forcedZones: [...forcedZones] };
 }
@@ -620,56 +636,74 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   });
 
   const planned = new Set();
-  const chosen = [];
+  const chosen = [];   // 景點（attraction/hidden_gem/outlet/shopping），上限每天2個
+  const usedMealSlots = new Set(); // 已填的用餐時段
 
-  // 1. Force-include template activities → 直接加入 chosen（這樣才會被 render）
+  // ── Step 1: 模板 activities 僅作 zone hint，餐廳則直接填入 slot ─────────────
+  const templateZones = new Set();
+  const templateMeals = []; // 模板中的真实餐厅
   [...day.activities || []].forEach(act => {
-    if (act.item) {
-      const found = candidates.find(a => a.name === act.item);
-      if (found && !planned.has(found.id)) {
-        planned.add(found.id);
-        chosen.push(found);   // <-- 修 Bug：沒加進 chosen 所以景點消失
-      }
+    if (act.zone) templateZones.add(act.zone);
+    // 模板中的 meal 若有真实名称 → 直接 render（不走自动推荐）
+    if (act.type === 'meal' && act.slot && act.item && !act.item.includes('彈性用餐')) {
+      templateMeals.push(act);
+      usedMealSlots.add(act.slot);
     }
   });
+  // 合併 zone 來源：模板 zone + 選擇的 zone → 形成最終 zone 列表
+  const enrichedZones = [...new Set([...forcedZones, ...selectedZones, ...templateZones])];
 
-  // 2. Add user-selected want items (priority over template)
-  // 分離景點/秘境與美食：美食轉 meal activity，景點正常加入 chosen
-  const foodActivities = [];
-  finalItems.filter(w => !planned.has(w.id)).forEach(w => {
-    if (w.category === 'food') {
-      // 美食 → 轉成 meal activity 並附加 details 連結
-      foodActivities.push({
-        type: 'meal',
-        item: w.name,
-        item_id: w.id,
-        slot: '中午',          // 預設午餐時段
-        note: `${w.name}`,
-        details: w.details || {},
+  // ── Step 2: 候選景點池（含 attraction/hidden_gem/outlet/shopping）──────────
+  const candidatePool = [];
+  enrichedZones.forEach(z => {
+    if (zoneMap[z]) {
+      zoneMap[z].forEach(a => {
+        if (['attraction', 'hidden_gem', 'outlet', 'shopping'].includes(a.category)) {
+          candidatePool.push(a);
+        }
       });
-      planned.add(w.id);
-    } else {
-      chosen.push(w);
-      planned.add(w.id);
     }
   });
-
-  // 3. Fill remaining slots (max 2 per normal day)
-  const remaining = candidates.filter(a => !planned.has(a.id));
+  // 也加入 finalItems 中的景點（用戶自行選擇的）
+  finalItems.forEach(w => {
+    if (!planned.has(w.id) && ['attraction', 'hidden_gem', 'outlet', 'shopping'].includes(w.category)) {
+      candidatePool.push(w);
+    }
+  });
+  // 全局過濾：移除已安排的
+  const remaining = candidatePool.filter(a => !planned.has(a.id));
   const shuffled  = shuffle(remaining);
-  const maxFill   = Math.max(0, 2 - chosen.length);
-  for (let i = 0; i < maxFill && i < shuffled.length; i++) {
+  // 每天最多 2 個景點（attraction/hidden_gem/outlet/shopping）
+  const maxAttractions = 2;
+  for (let i = 0; i < maxAttractions && i < shuffled.length; i++) {
     chosen.push(shuffled[i]);
     planned.add(shuffled[i].id);
   }
 
-  // 4. Build activity list
+  // ── Step 2b: 把使用者的美食選擇轉成 foodActivities ────────────────────────
+  const foodActivities = [];
+  finalItems.filter(w => !planned.has(w.id)).forEach(w => {
+    if (w.category === 'meal' || w.category === 'food') {
+      const slot = w.meal_time || '中午';
+      foodActivities.push({
+        type: 'meal',
+        item: w.name,
+        item_id: w.id,
+        slot,
+        note: `${w.name}`,
+        details: w.details || {},
+      });
+      usedMealSlots.add(slot);
+      planned.add(w.id);
+    }
+  });
+
+  // ── Step 3: Build activity list ───────────────────────────────────────────
   const activities = [];
 
-  // Station anchor (if any wantStation in this day's zones)
+  // Station anchor
   const anchorStation = wantStations.find(s =>
-    selectedZones.some(z => z === s.zone) ||
-    zones.some(z => z === s.zone)
+    enrichedZones.some(z => z === s.zone)
   );
   if (anchorStation) {
     activities.push({
@@ -680,17 +714,19 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     });
   }
 
-  // Meals — 美食 activity 直接替換彈性用餐（先到先取）
+  // Meals — 5 個時段，每段 slot 必填
   const mealSlots = ['上午', '中午', '下午', '傍晚', '晚上'];
   const foodPref = otherNeeds || state.selectedFoods.join('、');
 
-  if (foodActivities.length > 0) {
-    const foodUsed = new Set();
-    mealSlots.forEach(slot => {
-      const food = foodActivities.find(f => f.slot === slot && !foodUsed.has(f.item_id));
-      if (food) {
-        foodUsed.add(food.item_id);
-        activities.push(food);  // 真實美食，帶 details 連結
+  mealSlots.forEach(slot => {
+    // 優先순위：① 模板餐廳 → ② 使用者選擇 → ③ 彈性用餐提示
+    const tmpl = templateMeals.find(m => m.slot === slot);
+    if (tmpl) {
+      activities.push({ type: 'meal', slot, note: `${tmpl.item}（模板推薦）` });
+    } else {
+      const userFood = foodActivities.find(f => f.slot === slot);
+      if (userFood) {
+        activities.push(userFood);
       } else {
         activities.push({
           type: 'meal',
@@ -698,18 +734,10 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
           note: `${slot} — 彈性用餐（${foodPref || '參考用餐習慣'})`
         });
       }
-    });
-  } else {
-    mealSlots.forEach(slot => {
-      activities.push({
-        type: 'meal',
-        slot,
-        note: `${slot} — 彈性用餐（${foodPref || '參考用餐習慣'})`
-      });
-    });
-  }
+    }
+  });
 
-  // Attractions
+  // Attractions（含 outlet/shopping）— 最多 2 個
   chosen.forEach(attr => {
     activities.push({
       type: attr.category || 'attraction',
@@ -728,7 +756,7 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     ...day,
     day: dayIdx + 1,
     activities,
-    zones: selectedZones,
+    zones: enrichedZones.slice(0, 2),
   };
 }
 
