@@ -807,8 +807,9 @@ function buildSpecialDay(day) {
     if (item) {
       return { type: 'meal', slot, note: `${item}（模板推薦）` };
     }
-    return null;
-  }).filter(Boolean);
+    // No template meal — use a fallback note (no DB fill for special days)
+    return { type: 'meal', slot, note: `${slot} — 彈性用餐（抵達日就近用餐）` };
+  });
 
   return {
     ...day,
