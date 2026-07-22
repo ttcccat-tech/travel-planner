@@ -1,342 +1,482 @@
-# 旅遊景點與交通查詢系統 — 專案規格書
+# 旅遊行程規劃系統 — 專案規格書
 
-> 📌 版本：v0.1（草稿）
-> 🎯 最後更新：2026-06-12
+> 📌 版本：v0.2
+> 🎯 更新日期：2026-07-22
+> 🔖 基於 v0.1（2026-06-12）重寫
 
 ---
 
 ## 1. 系統定位
 
-**目標**：建立一個「旅行資料庫系統」，收錄各旅遊地區的景點、美食、交通、行程建議，供未來AI Agent查詢與行程規劃使用。
+**目標**：建立一個「AI 驅動的旅行資料庫系統」，以 **景點資料庫** 為核心，結合行程模板自動生成使用者個人化的旅遊行程。
+
+**核心價值**：
+- **資料優先**：景點、美食、交通、行程資料齊備，且附有來源連結（Maps/YouTube/部落格）
+- **模板 + 實資料**：行程以模板為骨架，真實 DB 資料為血肉
+- **區域感知**：以「車站」為錨點，自動理解景點所屬 Zone，生成合理的路線
 
 **使用情境**：
-- 使用者提出想要查詢或規劃的地區 → Agent依據本系統資料提供答案
-- Agent 主動定期更新各地區資料（每月一次）
-- 作為內部參考資料庫，不對外開放
+- 使用者選擇地區 → 系統自動生成含 5 個時段的每日行程
+- 使用者可指定必經車站（最多 8 個）和必去景點（最多 4 個）
+- 系統結合使用者用餐偏好與 DB 資料，自動推薦餐廳
 
 ---
 
-## 2. 地區管理原則
+## 2. 系統架構
 
-### 2.1 被動式建立（按需建立）
+### 2.1 元件架構
 
-> **原則：系統不會主動新增地區，只在被使用者明確要求時才建立。**
+```
+┌─────────────────────────────────────────────────────────────┐
+│                     使用者瀏覽器                              │
+│              http://localhost:8080/ (nginx)                  │
+└────────────────────────┬────────────────────────────────────┘
+                         │ reverse proxy /api/
+                         ▼
+┌─────────────────────────────────────────────────────────────┐
+│              travel-api  (FastAPI :8001)                     │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────┐  │
+│  │  REST API    │  │   SQLite     │  │  travel.db       │  │
+│  │  /api/{region}│  │              │  │  • regions       │  │
+│  │  /attractions│  │              │  │  • stations      │  │
+│  │  /meals      │  │              │  │  • attractions   │  │
+│  │  /stations   │  │              │  │  • meals         │  │
+│  │  /outlets    │  │              │  │  • outlets       │  │
+│  │  /itineraries│  │              │  │  • itineraries   │  │
+│  └──────────────┘  └──────────────┘  └──────────────────┘  │
+└─────────────────────────────────────────────────────────────┘
+```
 
-- 使用者口頭或文字指定地區（如：「我想做日本九州的資料」）
-- Agent 接到需求後，立即著手建立該地區的初始資料
-- 每個地區視為一個獨立模組，結構一致
+### 2.2 部署方式
 
-### 2.2 初始資料範圍（每個地區標配）
+**Docker Compose**（兩容器）：
+| 容器 | 技術 | Port | 職責 |
+|------|------|------|------|
+| `travel-planner` | nginx (靜態檔案) | 8080 | 前端靜態 HTML/CSS/JS |
+| `travel-api` | FastAPI + SQLite | 8001 | REST API + 資料庫 |
 
-每個新地區建立時，應涵蓋以下六個維度：
+**開發模式**：前端直接存取 `http://localhost:8001/api`（繞過 nginx）
 
-| 維度 | 內容 |
-|------|------|
-| 🛫 **航班交通** | 從平時日常地點（目前以台灣為主）出發的航班、票價範圍、航空公司 |
-| 📍 **景點資料** | 大眾景點 + 小眾秘境；含交通方式、門票、建議停留時間 |
-| 🍜 **美食推薦** | 當地代表美食、推薦店家、價格區間 |
-| 🏨 **住宿建議** | 各價格帶推薦、交通便利性 |
-| 🚇 **當地交通** | 大眾運輸系統、重要交通票券、租車資訊 |
-| 📅 **行程範例** | 5天4夜 / 6天5夜 / 7天6夜 三種天數的慢活行程（不趕路原則）|
+### 2.3 資料隔離原則
 
-### 2.3 資料格式
-
-- 主要格式：**Markdown（.md）**，方便直接閱讀
-- 結構化資料（日後若要機器查詢，可另外做 JSON/YAML 表格式）
-- 檔案組織：`/var/repo/travel-planner/{地區名}/`
+- 靜態資料（HTML/JS/CSS）：透過 `docker-compose` mount `./web`
+- 資料庫 `travel.db`：掛在 `./backend` volume，資料永久保存
+- `web/data/` 僅含 `regions.json`（下拉選單用）和 `food_preferences.json`
 
 ---
 
-## 3. 更新機制
+## 3. 資料模型（Schema）
 
-### 3.1 更新頻率
+### 3.1 Entity Relationship
 
-> **原則：每個已建立的地区，每月更新一次。**
+```
+Region (1) ─── (N) Station
+                    │
+                    ├── (N) Attraction  ── category: attraction / hidden_gem / shrine / hotel
+                    ├── (N) Meal
+                    └── (N) Outlet
+       (1) ─── (N) Itinerary
+```
 
-- **觸發方式**：Agent 主動發起（非被動等待使用者提醒）
-- **更新來源**：搜尋引擎、YouTube、Instagram 小紅書、PTT、Dcard 等社群平台
-- **時間點**：每月固定日期（如每月1號），或距離上次更新滿30天
+### 3.2 各資料表欄位
 
-### 3.2 更新內容
+#### `regions`
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `code` | TEXT PK | 'seoul', 'osaka', 'tokyo'... |
+| `name` | TEXT | 顯示名稱 |
+| `name_en` | TEXT | 英文名稱 |
 
-每次更新應覆蓋：
+#### `stations`
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `id` | TEXT PK | 'seoul_001', 'osaka_001'... |
+| `region_code` | TEXT FK | 關聯地區 |
+| `name` | TEXT | 車站名（中文） |
+| `name_en` | TEXT | 英文名 |
+| `company` | TEXT | 經營者：MRT / JR / KTX... |
+| `lines` | TEXT (JSON) | 路線陣列：["1號線","2號線"] |
+| `zone` | TEXT | 所屬區域：龍山/弘大/麻浦... |
+| `lat / lng` | REAL | 座標 |
+| `radius_m` | INTEGER | 服務半徑（預設 600m） |
+| `active` | INTEGER | 0=停用, 1=啟用 |
 
-| 更新項目 | 說明 |
-|---------|------|
-| 航班價格 | 更新當月機票價格區間 |
-| 景點資訊 | 新景點、已關閉景點、開放時間變動 |
-| 美食动态 | 新聞名店、口袋名單更換 |
-| 行程調整 | 根據最新路況/景點變動微調 |
-| 天氣/季節 | 提醒當月穿搭建議 |
+#### `attractions`
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `id` | TEXT PK | UUID 或短 ID |
+| `region_code` | TEXT FK | 關聯地區 |
+| `station_id` | TEXT FK | 主要車站（最近/地鐵優先） |
+| `name / name_en` | TEXT | 名稱 |
+| `category` | TEXT | `attraction` / `hidden_gem` / `shrine` / `hotel` |
+| `sub_category` | TEXT | 細分類 |
+| `zone` | TEXT | 所屬分區 |
+| `location` | TEXT | 地址/描述 |
+| `lat / lng` | REAL | 座標 |
+| `ticket` | TEXT | 免費/付費/約XXX |
+| `stay_duration` | TEXT | '1.5小時', '2小時' |
+| `need_reservation` | INTEGER | 0/1 是否需預約 |
+| `cash_only` | INTEGER | 0/1 是否只收現金 |
+| `priority` | INTEGER | 1=必去, 3=普通, 5=閒逛 |
+| `tags` | TEXT (JSON) | 標籤陣列：["市場","美食"] |
+| `description` | TEXT | 敘述 |
+| `sources` | TEXT (JSON) | 來源 URL 陣列 |
+| `nearby_stations` | TEXT (JSON) | 附近車站 ID 陣列 |
+| `details` | TEXT (JSON) | ```{google_maps, youtube, blog_article}``` |
 
-### 3.3 資料準確性原則
+#### `meals`
+與 `attractions` 結構相同，額外欄位：
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `sub_category` | TEXT | '小吃' / '餐廳' / '咖啡' |
 
-- 航班價格取區間（最低～最高），不寫死單一數字
-- 所有資訊需標明「資料更新日期」與「資料來源」
-- 發現資訊有誤時，立即更新並在 commit 記錄中說明修正原因
+#### `outlets`
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `category` | TEXT | `outlet` / `shopping` / `convenience` |
+
+#### `itineraries`
+| 欄位 | 類型 | 說明 |
+|------|------|------|
+| `region_code` | TEXT FK | 關聯地區 |
+| `day_key` | TEXT PK | 'day1', 'day2', ... |
+| `name` | TEXT | 行程名稱 |
+| `suitable_for` | TEXT | '商務/轉機客' / '家庭' / '情侶' |
+| `layout` | TEXT | '單區精華' / '多區漫遊' |
+| `days_json` | TEXT | 完整 JSON array（含所有天數 activities） |
 
 ---
 
-## 4. 地區更新開關（核心功能）
+## 4. API 端點
 
-### 4.1 設計需求
+### 4.1 地區
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/regions` | 列出所有地區 |
+| GET | `/api/regions/{code}` | 取得單一地區 |
+| POST | `/api/regions` | 新增地區 |
 
-> **每個地區需要有「開」與「關」的狀態，決定該地區是否參與自動更新。**
+### 4.2 車站
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/{region}/stations` | 列出地區所有車站（支援 `?zone=` / `?station_id=` 過濾） |
+| GET | `/api/{region}/stations/{id}` | 取得單一車站 |
+| POST | `/api/{region}/stations` | 新增或更新車站（upsert） |
 
-### 4.2 開關狀態定義
+### 4.3 景點
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/{region}/attractions` | 列出（支援 `?zone=` / `?category=` / `?station_id=` 過濾） |
+| GET | `/api/{region}/attractions/{id}` | 取得單一景點 |
+| POST | `/api/{region}/attractions` | 新增或更新景點 |
+| DELETE | `/api/{region}/attractions/{id}` | 刪除景點 |
 
-| 狀態 | 值 | 說明 |
-|------|-----|------|
-| **enabled** | `true` | 該地區參與每月自動更新 |
-| **enabled** | `false` | 該地區不參與自動更新，資料凍結 |
+### 4.4 美食
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/{region}/meals` | 列出（支援 `?zone=` / `?station_id=` 過濾） |
+| POST | `/api/{region}/meals` | 新增或更新美食 |
 
-### 4.3 實作方式
+### 4.5 Outlets
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/{region}/outlets` | 列出（支援 `?zone=` / `?station_id=` 過濾） |
+| POST | `/api/{region}/outlets` | 新增或更新 |
 
-在每個地區資料夾內，建立 `region.json` 配置文件：
+### 4.6 行程模板
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/{region}/itineraries` | 列出地區所有行程模板 |
+| GET | `/api/{region}/itineraries/{day_key}` | 取得單一天模板 |
+| POST | `/api/{region}/itineraries` | 新增或更新行程模板 |
+| DELETE | `/api/{region}/itineraries/{day_key}` | 刪除 |
 
-```json
-{
-  "name": "fukuoka",
-  "display_name": "日本福岡",
-  "enabled": true,
-  "last_updated": "2026-06-12",
-  "next_update_due": "2026-07-12",
-  "update_frequency_days": 30
-}
-```
-
-### 4.4 開關操作方式
-
-| 操作 | 方式 |
-|------|------|
-| 查詢狀態 | 讀取 `region.json` 中的 `enabled` 欄位 |
-| 關閉更新 | 將 `enabled` 改為 `false`，commit 並 push |
-| 開啟更新 | 將 `enabled` 改為 `true`，並補上一次漏更的資料 |
-| 批量查看 | 執行 `scripts/list-regions.sh`，列出所有地区與狀態 |
-
-> ⚠️ **注意**：關閉更新的地區，資料將不再每月更新，處於「凍結」狀態。如需重啟更新，應先補完該段期間的資料差異，再重新開啟。
-
----
-
-## 5. 自動化腳本（規劃中）
-
-```
-scripts/
-├── list-regions.sh          # 列出所有地區與狀態
-├── update-region.sh         # 更新單一地區（需先確認 enabled=true）
-├── update-all.sh            # 更新所有 enabled=true 的地區
-└── check-updates.sh         # 檢查每個地區是否已逾期（距上次更新>30天）
-```
-
-> ⚠️ 腳本為下一階段功能，本階段以手動維運為主。
+### 4.7 健康檢查
+| Method | 端點 | 說明 |
+|--------|------|------|
+| GET | `/api/health` | 服務狀態確認 |
 
 ---
 
-## 6. Repo 結構
+## 5. 前端功能規格
 
-```
-/var/repo/travel-planner/
-├── SPEC.md                        # 本規格文件
-├── README.md                      # 專案總覽
-├── attractions/                    # 景點資料
-│   ├── fukuoka-attractions.md     # 大眾景點
-│   └── fukuoka-hidden-gems.md     # 小眾秘境
-├── restaurants/                   # 美食資料
-│   └── fukuoka-food.md
-├── transport/                     # 交通資料
-│   └── fukuoka-transport.md
-├── itineraries/                   # 行程範例
-│   ├── fukuoka-5days.md
-│   ├── fukuoka-6days.md
-│   └── fukuoka-7days.md
-├── fukuoka/                       # 福岡地區設定檔
-│   └── region.json
-└── scripts/                        # 未來自動化腳本（預留）
-```
-
----
-
-## 7. 資料更新記錄格式
-
-每次 commit 更新時，請使用以下格式填寫 commit message：
-
-```
-Update {地區} - {更新項目} ({YYYY-MM-DD})
-
-例：Update fukuoka - 航班資訊與景點資訊 (2026-07-01)
-```
-
-若更新多個項目：
-
-```
-Update fukuoka - 月度資料更新：航班/景點/美食 (2026-07-01)
-```
-
----
-
-## 8. 現有地區狀態
-
-| 地區 | 顯示名稱 | 狀態 | 最後更新 |
-|------|---------|------|---------|
-| fukuoka | 日本福岡 | ✅ enabled | 2026-06-12 |
-
----
-
-## 9. 前端網頁系統（v0.2）
-
-### 9.1 系統架構
-
-> 考量：系統無需後端伺服器，純靜態前端即可運作。
-> 資料承載：JSON 結構化資料（由 Agent 維護，與 Markdown 同步更新）
-> 部署方式：GitHub Pages / Vercel / 直接開啟 HTML 檔案
-
-### 9.2 頁面佈局
-
-```
-┌──────────────────────────────────────────────────────────┐
-│  🌍 旅遊行程規劃系統                                        │
-├────────────────────┬─────────────────────────────────────┤
-│  【輸入面板】         │  【輸出面板】                           │
-│                     │                                      │
-│  📍 地區             │  📋 生成的行程                         │
-│  ▼ 選擇地區          │                                      │
-│                     │  Day 1                                │
-│  📅 天數             │  ├─ 09:00 景點A（来源）                │
-│  ▼ 選擇天數          │  ├─ 12:00 午餐推薦（来源）             │
-│                     │  └─ 14:00 景點B（来源）                │
-│  ─────────────────  │  ...                                  │
-│                     │                                      │
-│  ✅ 必去景點（3欄）   │  🚗 交通建議（Suica/現金/自駕）        │
-│  [景點1] [景點2] [景點3] │  🛍️ Outlet 建議                   │
-│                     │                                      │
-│  ❌ 不去景點（3欄）   │  🖨️ 列印按鈕                         │
-│  [景點1] [景點2] [景點3] │                                   │
-│                     │                                      │
-│  ─────────────────  │                                      │
-│  💬 其他需求          │                                      │
-│  [文字框]            │                                      │
-│                     │                                      │
-│  [🚀 生成行程]       │                                      │
-└────────────────────┴─────────────────────────────────────┘
-```
-
-### 9.3 景點資料的從屬階層
-
-> **重要原則：秘境與 Outlet 從屬於景點，不可能跳過景點直接去秘境/OUTLET。**
-
-資料結構（JSON）：
-```
-景點A
-  ├─ 秘境A1（距離景點A步行/開車X分鐘，可結合遊覽）
-  ├─ 秘境A2
-  └─ Outlet A（距離景點A XX分鐘）
-景點B
-  ├─ 秘境B1
-  ├─ 秘境B2
-  └─ Outlet B
-美食（可獨立存在，但建議結合景點一起遊覽）
-```
-
-### 9.4 選項連動邏輯
-
-**選擇秘境/OUTLET 時（自動帶入父景點）：**
-- 若勾選了秘境A1 → 自動勾選景點A（並提示）
-- 若勾選了 Outlet A → 自動勾選景點A（並提示）
-
-**排除父景點時（警告子項目）：**
-- 若勾選「景點A」為不去，但秘境A1或Outlet A被勾選為必去 → 顯示警告：「景點A被排除，但其下的秘境/OUTLET被選為必去，請確認」
-
-### 9.5 輸入欄位規格
+### 5.1 輸入欄位
 
 | 欄位 | 類型 | 說明 |
 |------|------|------|
-| 地區 | Select（下拉選單）| 動態讀取 `data/regions.json`，顯示 `display_name` |
-| 天數 | Select（下拉選單）| 支援 3/4/5/6/7/8/9/10 天（動態讀取各地區有的天數）|
-| 必去景點 | 3個自由輸入欄位 | 可打關鍵字，自動補齊（Autocomplete），類型可選：景點/秘境/OUTLET/美食 |
-| 不去景點 | 3個自由輸入欄位 | 同上 |
-| 其他需求 | Textarea | 用餐偏好、特殊需求、身體狀況、年齡/親子族群等 |
+| 地區 | Select 下拉 | 讀取 `data/regions.json`，動態顯示 `display_name` |
+| 天數 | Range Slider | 1-10 天，即時顯示「X天Y夜」 |
+| 同行人數 | Number | 目前未實際運用（預留） |
+| 必經車站 | 8 個文字輸入（Autocomplete） | 輸入自動補齊車站名稱 |
+| 必去景點 | 4 個文字輸入（Autocomplete） | 輸入自動補齊景點 |
+| Outlet | 2 個文字輸入（Autocomplete） | 輸入自動補齊 |
+| 用餐習慣 | 12+ 個 Checkbox | 燒肉/壽司/拉麵/懷石/居酒屋/甜點/海鮮/和牛/B級美食/早餐/宵夜/素食 |
+| 其他需求 | Textarea | 自由文字敘述（年齡/親子/特殊需求） |
 
-### 9.6 行程生成邏輯
+### 5.2 Autocomplete 機制
+
+- **觸發**：200ms debounce 後發送
+- **比對欄位**：`name` + `name_en`（以名稱為主）
+- **優先順序**：`attraction` > `hidden_gem` > `outlet` > `meal`
+- **車站 autocomplete**：僅比對 `state.stations`
+- **封閉**：點擊 dropdown 外部或按 `Escape` 關閉
+
+### 5.3 行程生成流程（核心邏輯）
 
 ```
-輸入：地區 + 天數 + 必去（景點/秘境/OUTLET/美食）+ 不去 + 其他需求
-輸出：每日行程時間表（含來源標註）
+使用者點擊「🚀 生成行程」
+         │
+         ▼
+┌─────────────────────────────────────────┐
+│  Step 1：收集使用者輸入                   │
+│  • wantStations（必經車站）               │
+│  • wantItems（必去景點，4個）             │
+│  • wantOutlets（想去的Outlet）           │
+│  • selectedFoods（用餐偏好）             │
+│  • selectedDays（天數）                  │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 2：建立 Zone Pool                 │
+│  • 找出 wantStations 對應的 zone         │
+│  • 找出 wantItems 所在 zone              │
+│  • 找出 template activities 的 zone      │
+│  • 合併去重 → enrichedZones             │
+│  • 從 state.attractions/stations        │
+│    建立 zone → items 對照表              │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 3：比對模板景點名稱 → DB 實體      │
+│  • 模板景點名（景福宮、北村韓屋村...）    │
+│    → 比對 state.attractions[name]        │
+│  • 匹配成功 → 加入 chosen 清單           │
+│  • 匹配失敗 → 嘗試部分名稱匹配           │
+│  • wantItems（用戶指定）→ 優先加入       │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 4：Zone Pool 補充                  │
+│  • 如果景點不足 2 個                     │
+│  • 從 finalZones 隨機抽取 attractions   │
+│  • 依舊去除已選過的（planned Set）       │
+│  • Deep Fallback：若 pool 仍空，         │
+│    擴大到全部可用 zone 隨機取            │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 5：填充每個時段（5 slots）         │
+│  • 上午 / 中午 / 下午 / 傍晚 / 晚上      │
+│  • ① 模板有指定 → 使用模板（標記）        │
+│  • ② 無模板 → 從 state.meals           │
+│     按 zone 匹配未選過的                 │
+│  • ③ 無合適 → Fallback 彈性用餐文字      │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 6：車站錨點標記                    │
+│  • 找出與 finalZones 對應的車站          │
+│  • 插入 transport_anchor 活動             │
+│  • 標記「必經車站：XXX」                 │
+└────────────────┬────────────────────────┘
+                 │
+                 ▼
+┌─────────────────────────────────────────┐
+│  Step 7：繪製 UI                         │
+│  • renderActivity() 處理每個活動         │
+│  • 景點：📍 + 名稱 + 時間 + 票價         │
+│    + 描述 + Maps/YouTube/部落格連結     │
+│  • 餐廳：🍽️ + 名稱 + 連結（按鈕）       │
+│  • 交通：🚇 + 說明文字                   │
+│  • 購物：🛍️ + 名稱                     │
+└─────────────────────────────────────────┘
+```
 
-排程原則（不趕路）：
-1. 每日景點不超過 2個主要（不含路過順遊）
+### 5.4 每日時段結構
+
+每個 Day 皆有 5 個時段：
+| 時段 | 說明 |
+|------|------|
+| 上午 | 09:00-12:00 |
+| 中午 | 12:00-14:00 |
+| 下午 | 14:00-17:00 |
+| 傍晚 | 17:00-19:00 |
+| 晚上 | 19:00-21:00 |
+
+**排程原則（不趕路）**：
+1. 每日主要景點不超過 2 個
 2. 必去項目優先排入
-3. 不去項目完全不入行程
-4. 秘境/OUTLET：排在對應景點的同一半天內（上午秘境→下午景點，或上午景點→下午秘境）
-5. 美食：午餐/晚餐時段自動插入當天最適合的推薦餐廳
-6. 每次只排「上午→午餐→下午」，不排晚間行程（留白給彈性）
-7. 最後一天只排半天（12:00前），下午保留給機場/最後採買
-8. 是否建議自駕：由系統根據該城市屬性（都會型 vs 郊區型）自動判斷並顯示
-```
+3. 秘境/Outlet 排在對應景點同一半天
+4. 最後一天（離開日）只排半天（12:00 前），下午保留給機場/最後採買
 
-### 9.7 交通建議模組
+### 5.5 連結呈現（Details 區塊）
 
-當老大選擇地區後，系統自動顯示：
+每個景點/餐廳的 `details{}` 最多含三個連結：
+| 連結類型 | 顯示文字 | 條件 |
+|----------|---------|------|
+| `google_maps` | 📍 Maps | 有值時顯示 |
+| `youtube` | 🎬 YouTube | 有值時顯示 |
+| `blog_article` | 📖 部落格 | 有值時顯示 |
 
+**來源標註**（Attraction 限定）：
+- 若 `sources[]` 有值，則顯示「📎 來源：」並列出各 URL 的 hostname
+
+### 5.6 交通建議面板
+
+選擇地區後，右側面板顯示：
 | 項目 | 內容 |
 |------|------|
-| 建議票卡 | Suica / PASMO / 地區限定交通卡（如有）|
-| 現金準備 | 建議每人換多少日幣（含交通+餐飲+門票）|
-| 換乘注意 | 重要轉乘站提示（如： Osaka → Kyoto 是不同鐵路公司）|
-| 自駕評估 | 「此城市為都會型，建議使用大眾交通；如欲前往郊區秘境建議自駕」|
+| 城市類型 | 都會型（建議大眾交通）/ 郊區型（建議自駕） |
+| 機場進入市區 | 方式、路線、時間、費用 |
+| 市區交通 | 主交通、建议票卡、優惠票券 |
+| 自駕評估 | 是否建議自駕 |
 
-### 9.8 Outlet 建議模組
+### 5.7 列印功能
 
-- Outlet 以「距離當日景點的順路程度」自動安排
-- 例如：Day 3 下午在景點A附近，且Outlet A在順路上 → 自動建議加入 Day 3 下午
-- Outlet 不佔用主要景點額度（視為順遊性質）
-
-### 9.9 資料來源標註
-
-行程輸出時，每個項目附帶來源：
-```
-09:00 櫛田神社
-    📍 博多灣｜🚇 地下鐵中洲川端站步行10分
-    📎 来源：attractions/fukuoka-attractions.md
-           https://kyushu.letsgojp.com/archives/692650/
-```
-
-### 9.10 列印功能
-
-- 按鈕：🖨️ 列印行程
-- 機制：喚起瀏覽器 `window.print()`，使用 `@media print` CSS 樣式
-- 列印樣式：去除側邊欄/裝飾，僅保留行程正文，格式適合 A4 紙張
-
-### 9.11 驗證警告（提交前）
-
-| 情境 | 系統行為 |
-|------|---------|
-| 必去景點選了秘境/OUTLET，但父景點未選 | 自動補上父景點，提示「已自動帶入父景點：XXX」|
-| 父景點選了不去，但子項目（秘境/OUTLET）被選為必去 | 顯示紅色警告：「XXX 被排除，但其下的秘境/OUTLET 被選為必去，請確認是否要移除這些子項目」|
-| 天數承載不了必去景點數量 | 提示：「必去景點（X個）超過Y天能容納的上限（約Y×2個），請拉長天數或減少必去」|
-| 必去與不去有衝突 | 提示並自動移除冲突選項 |
-
-### 9.12 資料結構
-
-```
-/web/
-├── index.html                 # 主頁面
-├── css/
-│   └── style.css             # 樣式（含 print 樣式）
-├── js/
-│   └── app.js                # 前端邏輯
-└── data/
-    ├── regions.json           # 地區清單
-    └── {region}/
-        ├── meta.json          # 地區設定（名稱/display_name/enabled/城市類型）
-        ├── attractions.json  # 景點（含秘境、OUTLET、美食的从屬關係）
-        ├── transport.json     # 交通建議（票卡/現金/自駕評估）
-        └── itineraries.json   # 行程基底（支援3-10天）
+- 按鈕：`🖨️ 列印行程`
+- 機制：喚起瀏覽器 `window.print()`
+- 樣式：去除裝飾，保留行程正文，適合 A4 紙張
 
 ---
 
-## 10. 未來擴展方向（預記）
+## 6. 資料完整性分級
 
-- [ ] 將 Markdown 資料轉為 JSON/YAML 結構化格式，供 API 查詢
-- [ ] 串接機票API（Skyscanner / Google Flocks）自動拉取航班價格
-- [ ] 串接天氣API，行程中標注建議攜帶物品
+### 6.1 欄位分級（Data Completeness）
+
+| 等級 | 欄位 | 說明 |
+|------|------|------|
+| **A（必填）** | `id`, `region_code`, `name`, `category` | 無法降級 |
+| **B（重要）** | `station_id`, `zone`, `description`, `details{}` | 影響推薦品質 |
+| **C（可選）** | `lat/lng`, `ticket`, `stay_duration`, `tags` | 增強體驗 |
+
+### 6.2 連結充實度目標
+
+每個景點/餐廳的 `details{}` 應逐步達到：
+```
+details {
+  google_maps: "https://www.google.com/maps/place/xxx",   // ✅ 標配
+  youtube: "https://www.youtube.com/results?search_query=xxx", // ✅ 標配
+  blog_article: "https://xxx"  // ✅ 標配
+}
+```
+- **景點**：`build_attractions.py` 自動建立 `details{}` 結構，`build_links.py` 補連結
+- **美食**：`build_links.py` 補連結（逐步進行中）
+
+---
+
+## 7. 現有地區狀態
+
+| 地區 | Attractions | Meals | Stations | Outlets | 狀態 |
+|------|-----------|-------|---------|---------|------|
+| seoul（韓國首爾） | 66 | 41 | 80 | 3 | ✅ |
+| busan（韓國釜山） | 29 | 26 | 60 | 2 | ✅ |
+| okinawa（日本沖繩） | 62 | 32 | 56 | 2 | ✅ |
+| fukuoka（日本福岡） | 92 | 26 | 50 | 6 | ✅ |
+| osaka（日本大阪） | 146 | 25 | 118 | 6 | ✅ |
+| tokyo（日本東京） | 75 | 24 | 100 | 4 | ✅ |
+
+---
+
+## 8. 自動化腳本
+
+### 8.1 建檔腳本（已完成）
+
+| 腳本 | 功能 |
+|------|------|
+| `build_attractions.py` | 工廠模式生成 attractions.json（A/F/H/Sh 四類工廠） |
+| `build_links.py` | 補 `details{}` 連結（blog/youtube/gmaps） |
+
+### 8.2 資料庫遷移腳本
+
+| 腳本 | 功能 |
+|------|------|
+| `migrate_region.py` | 將 JSON 資料寫入 SQLite |
+| `migrate_seoul.py` | 首爾專用遷移腳本 |
+
+### 8.3 cron 維運腳本
+
+| 腳本 | 功能 |
+|------|------|
+| `attraction-updater.py` | 每週自動更新景點資料 |
+
+---
+
+## 9. Repo 結構
+
+```
+/var/repo/travel-planner/
+├── SPEC.md                      # 本規格文件（v0.2）
+├── README.md                    # 專案總覽
+├── docker-compose.yml           # 容器编排
+├── docker/
+│   └── nginx.conf               # nginx 配置（API reverse proxy）
+├── backend/
+│   ├── app.py                   # FastAPI 主程式（384 行）
+│   ├── schema.sql               # SQLite Schema
+│   ├── requirements.txt         # Python 依賴
+│   ├── Dockerfile
+│   └── travel.db                # SQLite 資料庫（volume mount）
+├── web/
+│   ├── index.html               # 主頁（173 行）
+│   ├── css/style.css            # 樣式（含 print 樣式）
+│   ├── js/app.js                # 前端邏輯（1056 行）
+│   └── data/
+│       ├── regions.json          # 地區清單（6 區）
+│       └── food_preferences.json # 用餐偏好
+├── data/
+│   └── {region}/                # 地區資料（JSON）
+│       ├── attractions.json
+│       ├── stations.json
+│       ├── meals.json
+│       ├── outlets.json
+│       ├── itineraries.json
+│       └── transport.json
+├── scripts/
+│   ├── build_attractions.py     # 景點建檔工廠
+│   ├── build_links.py           # 連結充實腳本
+│   ├── migrate_region.py         # DB 遷移
+│   └── attraction-updater.py    # 每週 cron 更新
+└── docs/
+    ├── SESSION.md               # 工作流程會議記錄
+    └── PLAN-station-based-v2.md # Phase 2 技術方案
+```
+
+---
+
+## 10. 已知限制與未完成事項
+
+### 10.1 已知的資料缺口
+
+- **Tokyo attractions.json**：需全面重建（Phase 1 期間因需求變更中斷）
+- **Meals 連結充實度**：部分 meals 缺少 `google_maps` 和 `youtube`，`blog_article` 已由 `build_links.py` 補上
+- **同行人數**：輸入欄位存在但未實際運用
+
+### 10.2 邏輯缺口
+
+| 項目 | 說明 |
+|------|------|
+| 美食自動推薦 | `buildNormalDay` 的 meals 匹配邏輯需加強（Phase 1.2 已知問題） |
+| Autocomplete 多人支援 | `wantStations` 與 `wantItems` 尚未真正支援多人不同路線 |
+
+### 10.3 未來擴展方向
+
+- [ ] 串接機票 API（Skyscanner / Google Flights）自動拉取航班價格
+- [ ] 串接天氣 API，行程中標注建議攜帶物品
 - [ ] 支援多語系輸出（繁中/簡中/英文/日文）
+- [ ] 景點詳細頁（點擊景點展開完整資訊）
+- [ ] 行程儲存/分享（URL 參數化）
+- [ ] 使用者回饋（景點喜好學習）
+
+---
+
+## 11. 更新日誌
+
+| 日期 | 版本 | 異動內容 |
+|------|------|---------|
+| 2026-06-12 | v0.1 | 初版：純靜態 Markdown 規劃 |
+| 2026-07-22 | v0.2 | **全面重寫**：FastAPI + SQLite + Docker，前後端重構，行程生成邏輯實作 |
