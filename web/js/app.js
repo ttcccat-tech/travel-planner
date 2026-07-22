@@ -613,98 +613,92 @@ function buildZonePools(wantStations, wantItems) {
 }
 
 // ----- Build normal day -----
-// Parameters: day, dayIdx, zonePools, finalItems, wantStations, otherNeeds
+// Strategy: template as skeleton, real DB data as flesh
+// 1. Extract zones from template activities
+// 2. Find REAL attractions from state.attractions matching those zones
+// 3. Template meals → render directly (they're named restaurant suggestions)
+// 4. Zone pool fill → random DB items for zones with no template coverage
 function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherNeeds) {
   const { zoneMap, forcedZones } = zonePools;
   const zones = day.zones || [];
   const selectedZones = zones.length ? zones : forcedZones.slice(0, 2);
 
-  // Collect candidates from selected zones (景點/秘境 only；美食/shrine/hotel 不在景點 pool)
-  const candidates = [];
-  // Fallback: 如果 selectedZones 全都沒有對上 zoneMap，就用所有有景點的 zone
-  const allZoneNames = Object.keys(zoneMap);
-  const zonesWithCandidates = selectedZones.filter(z => zoneMap[z] && zoneMap[z].length > 0);
-  const finalZones = zonesWithCandidates.length > 0 ? zonesWithCandidates : (allZoneNames.length > 0 ? allZoneNames.slice(0, 2) : []);
+  // ── Step 0: Collect template info ────────────────────────────────────────
+  const templateZones = new Set();
+  const templateMeals = [];   // {slot, item}
+  const templateActivityNames = []; // attraction names from template to try to match DB
+  [...day.activities || []].forEach(act => {
+    if (act.zone) templateZones.add(act.zone);
+    if (act.type === 'meal' && act.slot && act.item && !act.item.includes('彈性用餐')) {
+      templateMeals.push({ slot: act.slot, item: act.item });
+    }
+    if ((act.type === 'attraction' || act.type === 'shopping' || act.type === 'general') && act.item) {
+      templateActivityNames.push(act.item);
+    }
+  });
+
+  // ── Step 1: Resolve zones ─────────────────────────────────────────────────
+  // enrichedZones = templateZones + selectedZones (with user picks) + forcedZones (from stations)
+  const allZonesAvailable = Object.keys(zoneMap);
+  const enrichedZones = [...new Set([...forcedZones, ...selectedZones, ...templateZones])];
+  const finalZones = enrichedZones.length > 0 ? enrichedZones : shuffle(allZonesAvailable).slice(0, Math.min(10, allZonesAvailable.length));
+
+  // ── Step 2: Find real attractions from DB matching template names ────────────
+  // Build a name→attraction map for fast lookup
+  const attractionByName = {};
+  state.attractions.forEach(a => { attractionByName[a.name] = a; });
+
+  const planned = new Set();
+  const chosen = [];  // final attraction/shopping items for this day
+  const userSelectedIds = new Set(finalItems.map(w => w.id));
+
+  // Try to match template activity names to real DB attractions
+  templateActivityNames.forEach(name => {
+    // Try exact match first
+    let match = attractionByName[name];
+    // Try partial match (template might say "景福宮、國立民俗博物館" as one item)
+    if (!match) {
+      const parts = name.split('、');
+      match = attractionByName[parts[0].trim()];
+    }
+    if (match && !planned.has(match.id)) {
+      chosen.push(match);
+      planned.add(match.id);
+    }
+  });
+
+  // Add user-selected items (priority)
+  finalItems.forEach(w => {
+    if (!planned.has(w.id) && ['attraction','hidden_gem','outlet','shopping'].includes(w.category)) {
+      chosen.push(w);
+      planned.add(w.id);
+    }
+  });
+
+  // ── Step 3: Zone pool fill — random DB items for empty slots ────────────────
+  // Collect all available items from finalZones into candidate pool
+  const candidatePool = [];
   finalZones.forEach(z => {
     if (zoneMap[z]) {
       zoneMap[z].forEach(a => {
-        if (a.category === 'attraction' || a.category === 'hidden_gem') {
-          candidates.push(a);
-        }
-      });
-    }
-  });
-
-  const planned = new Set();
-  const chosen = [];   // 景點（attraction/hidden_gem/outlet/shopping），上限每天2個
-  const usedMealSlots = new Set(); // 已填的用餐時段
-
-  // ── Step 1: 模板 activities 僅作 zone hint，餐廳則直接填入 slot ─────────────
-  const templateZones = new Set();
-  const templateMeals = []; // 模板中的真实餐厅
-  [...day.activities || []].forEach(act => {
-    if (act.zone) templateZones.add(act.zone);
-    // 模板中的 meal 若有真实名称 → 直接 render（不走自动推荐）
-    if (act.type === 'meal' && act.slot && act.item && !act.item.includes('彈性用餐')) {
-      templateMeals.push(act);
-      usedMealSlots.add(act.slot);
-    }
-  });
-  // 合併 zone 來源：模板 zone + 選擇的 zone → 形成最終 zone 列表
-  const enrichedZones = [...new Set([...forcedZones, ...selectedZones, ...templateZones])];
-
-  // ── Step 2: 候選景點池（含 attraction/hidden_gem/outlet/shopping）──────────
-  const candidatePool = [];
-  enrichedZones.forEach(z => {
-    if (zoneMap[z]) {
-      zoneMap[z].forEach(a => {
-        if (['attraction', 'hidden_gem', 'outlet', 'shopping'].includes(a.category)) {
+        if (!planned.has(a.id) && ['attraction','hidden_gem','outlet','shopping'].includes(a.category)) {
           candidatePool.push(a);
         }
       });
     }
   });
-  // 也加入 finalItems 中的景點（用戶自行選擇的）
-  finalItems.forEach(w => {
-    if (!planned.has(w.id) && ['attraction', 'hidden_gem', 'outlet', 'shopping'].includes(w.category)) {
-      candidatePool.push(w);
-    }
-  });
-  // 全局過濾：移除已安排的
-  const remaining = candidatePool.filter(a => !planned.has(a.id));
-  const shuffled  = shuffle(remaining);
-  // 每天最多 2 個景點（attraction/hidden_gem/outlet/shopping）
+  const shuffled = shuffle(candidatePool);
   const maxAttractions = 2;
   for (let i = 0; i < maxAttractions && i < shuffled.length; i++) {
     chosen.push(shuffled[i]);
     planned.add(shuffled[i].id);
   }
 
-  // ── Step 2b: 把使用者的美食選擇轉成 foodActivities ────────────────────────
-  const foodActivities = [];
-  finalItems.filter(w => !planned.has(w.id)).forEach(w => {
-    if (w.category === 'meal' || w.category === 'food') {
-      const slot = w.meal_time || '中午';
-      foodActivities.push({
-        type: 'meal',
-        item: w.name,
-        item_id: w.id,
-        slot,
-        note: `${w.name}`,
-        details: w.details || {},
-      });
-      usedMealSlots.add(slot);
-      planned.add(w.id);
-    }
-  });
-
-  // ── Step 3: Build activity list ───────────────────────────────────────────
+  // ── Step 4: Build activity list ──────────────────────────────────────────
   const activities = [];
 
   // Station anchor
-  const anchorStation = wantStations.find(s =>
-    enrichedZones.some(z => z === s.zone)
-  );
+  const anchorStation = wantStations.find(s => finalZones.some(z => z === s.zone));
   if (anchorStation) {
     activities.push({
       type: 'transport_anchor',
@@ -714,20 +708,46 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     });
   }
 
-  // Meals — 5 個時段，每段 slot 必填
+  // Meals — 5 slots: template meals first, then fill from meals DB by zone
   const mealSlots = ['上午', '中午', '下午', '傍晚', '晚上'];
   const foodPref = otherNeeds || state.selectedFoods.join('、');
 
+  // Build a meals-by-zone map for fast lookup
+  const mealsByZone = {};
+  if (state.meals) {
+    state.meals.forEach(m => {
+      const z = m.zone || '其他';
+      if (!mealsByZone[z]) mealsByZone[z] = [];
+      mealsByZone[z].push(m);
+    });
+  }
+
   mealSlots.forEach(slot => {
-    // 優先순위：① 模板餐廳 → ② 使用者選擇 → ③ 彈性用餐提示
+    // ① Template meal for this slot?
     const tmpl = templateMeals.find(m => m.slot === slot);
     if (tmpl) {
       activities.push({ type: 'meal', slot, note: `${tmpl.item}（模板推薦）` });
     } else {
-      const userFood = foodActivities.find(f => f.slot === slot);
-      if (userFood) {
-        activities.push(userFood);
+      // ② Find real meal from DB in finalZones
+      let foundMeal = null;
+      for (const z of finalZones) {
+        const pool = mealsByZone[z] || [];
+        const unused = pool.filter(m => !planned.has(m.id));
+        if (unused.length > 0) {
+          foundMeal = unused[0];
+          planned.add(foundMeal.id);
+          break;
+        }
+      }
+      if (foundMeal) {
+        activities.push({
+          type: 'meal',
+          slot,
+          note: `${foundMeal.name}`,
+          details: foundMeal.details || {},
+        });
       } else {
+        // ③ Fallback
         activities.push({
           type: 'meal',
           slot,
@@ -737,7 +757,7 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     }
   });
 
-  // Attractions（含 outlet/shopping）— 最多 2 個
+  // Attractions (max 2)
   chosen.forEach(attr => {
     activities.push({
       type: attr.category || 'attraction',
@@ -756,18 +776,43 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     ...day,
     day: dayIdx + 1,
     activities,
-    zones: enrichedZones.slice(0, 2),
+    zones: finalZones.slice(0, 2),
   };
 }
 
 // ----- Build special day (arrival/departure) -----
+// Strategy: keep transport/shopping, but fill all 5 meal slots like normal days
 function buildSpecialDay(day) {
+  const templateMeals = [];
+  const templateOthers = [];
+
+  [...(day.activities || [])].forEach(act => {
+    if (act.type === 'meal' && act.slot && act.item && !act.item.includes('彈性用餐')) {
+      templateMeals.push({ slot: act.slot, item: act.item });
+    } else {
+      templateOthers.push(act);
+    }
+  });
+
+  // Build all 5 meal slots
+  const mealSlots = ['上午', '中午', '下午', '傍晚', '晚上'];
+  const mealActivities = mealSlots.map(slot => {
+    const tmpl = templateMeals.find(m => m.slot === slot);
+    if (tmpl) {
+      return { type: 'meal', slot, note: `${tmpl.item}（模板推薦）` };
+    }
+    // For now, arrival/departure uses template meals only (DB fill not needed for these days)
+    return null;
+  }).filter(Boolean);
+
+  // Also keep the non-meal activities (transport, shopping, general)
+  const otherActivities = templateOthers.filter(act =>
+    ['transport', 'shopping', 'general', 'food'].includes(act.type)
+  );
+
   return {
     ...day,
-    activities: (day.activities || []).filter(act => {
-      // Keep transport / shopping / general / food; skip pure "meal placeholder"
-      return ['transport', 'shopping', 'general', 'food'].includes(act.type);
-    })
+    activities: [...otherActivities, ...mealActivities],
   };
 }
 
