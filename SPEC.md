@@ -272,9 +272,14 @@ Region (1) ─── (N) Station
 │  Step 5：填充每個時段（5 slots）         │
 │  • 上午 / 中午 / 下午 / 傍晚 / 晚上      │
 │  • ① 模板有指定 → 使用模板（標記）        │
-│  • ② 無模板 → 從 state.meals           │
-│     按 zone 匹配未選過的                 │
-│  • ③ 無合適 → Fallback 彈性用餐文字      │
+│  • ② want meal（在 finalItems 內）       │
+│     → 若 zone 符合，直接填入             │
+│  • ③ 無 want meal → 從 state.meals      │
+│     按 zone 匹配未選過的 meal            │
+│     （附 station 輻射範圍 fallback）     │
+│  • ④ 仍無合適 → Fallback 彈性用餐文字    │
+│  • ⑤ off-zone want meals → 替換        │
+│     彈性用餐 slot（Step 3.6）           │
 └────────────────┬────────────────────────┘
                  │
                  ▼

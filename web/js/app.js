@@ -708,6 +708,20 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     }
   }
 
+  // ── Step 3.5: Want meal items (category='meal') → prioritize in meal slots ─
+  // Extract want meals from finalItems (user-selected via Autocomplete)
+  const wantMealItems = finalItems.filter(w => w.category === 'meal' && !planned.has(w.id));
+  // Build a quick lookup: zone → want meal already added to chosen
+  const chosenMealByZone = {};
+  wantMealItems.forEach(wm => {
+    // If want meal's zone is in finalZones, add it directly to chosen (same priority as attractions)
+    if (finalZones.includes(wm.zone)) {
+      chosen.push(wm);
+      planned.add(wm.id);
+      chosenMealByZone[wm.zone] = wm;
+    }
+  });
+
   // ── Step 4: Build activity list ──────────────────────────────────────────
   const activities = [];
 
@@ -736,19 +750,48 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     });
   }
 
+  // ── Helper: find a meal for a given zone, with station辐射 fallback ─────────
+  // Tries: exact zone → nearby station zones → global fallback
+  const findMealForZone = (targetZone, excludeIds) => {
+    const station = state.stations.find(s => s.zone === targetZone);
+    const nearbyZones = station
+      ? Object.keys(mealsByZone).filter(z => z !== targetZone && mealsByZone[z].some(m => m.station_id && station.nearby_stations && station.nearby_stations.includes(m.station_id)))
+      : [];
+    const tryZones = [targetZone, ...nearbyZones, ...Object.keys(mealsByZone)];
+    for (const z of tryZones) {
+      const pool = mealsByZone[z] || [];
+      const unused = pool.filter(m => !excludeIds.has(m.id));
+      if (unused.length > 0) return { meal: unused[0], zone: z };
+    }
+    return null;
+  };
+
+  // Track which slots were filled by a want meal (for flexible slot replacement)
+  const flexibleSlots = []; // slots that fell back to "彈性用餐"
+
   mealSlots.forEach(slot => {
     const tmpl = templateMeals.find(m => m.slot === slot);
     if (tmpl) {
       activities.push({ type: 'meal', slot, note: `${tmpl.item}（模板推薦）` });
     } else {
       let foundMeal = null;
+      // ① Try a want meal already chosen for this zone
       for (const z of finalZones) {
-        const pool = mealsByZone[z] || [];
-        const unused = pool.filter(m => !planned.has(m.id));
-        if (unused.length > 0) {
-          foundMeal = unused[0];
+        if (chosenMealByZone[z]) {
+          foundMeal = chosenMealByZone[z];
           planned.add(foundMeal.id);
           break;
+        }
+      }
+      // ② Zone pool search with station辐射 fallback
+      if (!foundMeal) {
+        for (const z of finalZones) {
+          const result = findMealForZone(z, planned);
+          if (result) {
+            foundMeal = result.meal;
+            planned.add(foundMeal.id);
+            break;
+          }
         }
       }
       if (foundMeal) {
@@ -759,6 +802,7 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
           details: foundMeal.details || {},
         });
       } else {
+        flexibleSlots.push(slot);
         activities.push({
           type: 'meal',
           slot,
@@ -767,6 +811,25 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
       }
     }
   });
+
+  // ── Step 3.6: Replace flexible meal slots with off-zone want meals ──────────
+  // If a want meal's zone wasn't in finalZones, try to slot it into a flexible slot
+  const offZoneWantMeals = wantMealItems.filter(wm => !finalZones.includes(wm.zone));
+  if (offZoneWantMeals.length > 0 && flexibleSlots.length > 0) {
+    offZoneWantMeals.forEach(wm => {
+      const slotIdx = flexibleSlots.findIndex(s => s === flexibleSlots[0]); // replace in order
+      if (slotIdx >= 0) {
+        activities[activities.findIndex(a => a.type === 'meal' && a.slot === flexibleSlots[slotIdx])] = {
+          type: 'meal',
+          slot: flexibleSlots[slotIdx],
+          note: `${wm.name}`,
+          details: wm.details || {},
+        };
+        flexibleSlots.splice(slotIdx, 1);
+        planned.add(wm.id);
+      }
+    });
+  }
 
   // Attractions (max 2)
   chosen.forEach(attr => {
