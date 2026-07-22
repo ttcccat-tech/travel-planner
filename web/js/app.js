@@ -641,7 +641,26 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   // enrichedZones = templateZones + selectedZones (with user picks) + forcedZones (from stations)
   const allZonesAvailable = Object.keys(zoneMap);
   const enrichedZones = [...new Set([...forcedZones, ...selectedZones, ...templateZones])];
-  const finalZones = enrichedZones.length > 0 ? enrichedZones : shuffle(allZonesAvailable).slice(0, Math.min(10, allZonesAvailable.length));
+
+  // Build candidate pool from enrichedZones
+  const candidatePool = [];
+  const addToPool = (zones) => zones.forEach(z => {
+    if (zoneMap[z]) {
+      zoneMap[z].forEach(a => {
+        if (!planned.has(a.id) && ['attraction','hidden_gem','outlet','shopping'].includes(a.category)) {
+          candidatePool.push(a);
+        }
+      });
+    }
+  });
+  addToPool(enrichedZones);
+
+  // Deep fallback: if candidate pool is empty, use ALL zones with attractions
+  if (candidatePool.length === 0 && allZonesAvailable.length > 0) {
+    addToPool(shuffle(allZonesAvailable).slice(0, 10));
+  }
+
+  const finalZones = candidatePool.length > 0 ? enrichedZones : (shuffle(allZonesAvailable).slice(0, Math.min(10, allZonesAvailable.length)));
 
   // ── Step 2: Find real attractions from DB matching template names ────────────
   // Build a name→attraction map for fast lookup
@@ -675,10 +694,10 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     }
   });
 
-  // ── Step 3: Zone pool fill — random DB items for empty slots ────────────────
-  // Collect all available items from finalZones into candidate pool
-  const candidatePool = [];
-  finalZones.forEach(z => {
+  // ── Step 3: Zone pool fill — add more from finalZones ─────────────────────
+  // Only add from finalZones if they differ from enrichedZones (avoid duplicate push)
+  const finalZonesForFill = candidatePool.length > 0 ? enrichedZones : shuffle(allZonesAvailable).slice(0, 10);
+  finalZonesForFill.forEach(z => {
     if (zoneMap[z]) {
       zoneMap[z].forEach(a => {
         if (!planned.has(a.id) && ['attraction','hidden_gem','outlet','shopping'].includes(a.category)) {
@@ -781,34 +800,28 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
 }
 
 // ----- Build special day (arrival/departure) -----
-// Strategy: keep transport/shopping, but fill all 5 meal slots like normal days
+// Strategy: keep transport/shopping/general, fill all 5 meal slots
 function buildSpecialDay(day) {
-  const templateMeals = [];
-  const templateOthers = [];
+  const templateMeals = {};
+  const otherActivities = [];
 
   [...(day.activities || [])].forEach(act => {
     if (act.type === 'meal' && act.slot && act.item && !act.item.includes('彈性用餐')) {
-      templateMeals.push({ slot: act.slot, item: act.item });
+      templateMeals[act.slot] = act.item;
     } else {
-      templateOthers.push(act);
+      otherActivities.push(act);
     }
   });
 
   // Build all 5 meal slots
   const mealSlots = ['上午', '中午', '下午', '傍晚', '晚上'];
   const mealActivities = mealSlots.map(slot => {
-    const tmpl = templateMeals.find(m => m.slot === slot);
-    if (tmpl) {
-      return { type: 'meal', slot, note: `${tmpl.item}（模板推薦）` };
+    const item = templateMeals[slot];
+    if (item) {
+      return { type: 'meal', slot, note: `${item}（模板推薦）` };
     }
-    // For now, arrival/departure uses template meals only (DB fill not needed for these days)
     return null;
   }).filter(Boolean);
-
-  // Also keep the non-meal activities (transport, shopping, general)
-  const otherActivities = templateOthers.filter(act =>
-    ['transport', 'shopping', 'general', 'food'].includes(act.type)
-  );
 
   return {
     ...day,
