@@ -637,14 +637,22 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     }
   });
 
-  // ── Step 1: Resolve zones ─────────────────────────────────────────────────
-  // enrichedZones = templateZones + selectedZones (with user picks) + forcedZones (from stations)
+  // ── Step 1: Resolve zones and build candidate pool ─────────────────────────
   const allZonesAvailable = Object.keys(zoneMap);
   const enrichedZones = [...new Set([...forcedZones, ...selectedZones, ...templateZones])];
 
-  // Build candidate pool from enrichedZones
+  // planned Set must be declared before addToPool closure captures it
+  const planned = new Set();
+  const chosen = [];  // final attraction/shopping items for this day
+  const userSelectedIds = new Set(finalItems.map(w => w.id));
+
+  // Build name→attraction map for template name matching
+  const attractionByName = {};
+  state.attractions.forEach(a => { attractionByName[a.name] = a; });
+
+  // Candidate pool from enriched zones
   const candidatePool = [];
-  const addToPool = (zones) => zones.forEach(z => {
+  const addToPool = (zoneList) => zoneList.forEach(z => {
     if (zoneMap[z]) {
       zoneMap[z].forEach(a => {
         if (!planned.has(a.id) && ['attraction','hidden_gem','outlet','shopping'].includes(a.category)) {
@@ -655,27 +663,14 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   });
   addToPool(enrichedZones);
 
-  // Deep fallback: if candidate pool is empty, use ALL zones with attractions
+  // Deep fallback: if pool is empty, broaden to ALL zones
   if (candidatePool.length === 0 && allZonesAvailable.length > 0) {
     addToPool(shuffle(allZonesAvailable).slice(0, 10));
   }
 
-  const finalZones = candidatePool.length > 0 ? enrichedZones : (shuffle(allZonesAvailable).slice(0, Math.min(10, allZonesAvailable.length)));
-
-  // ── Step 2: Find real attractions from DB matching template names ────────────
-  // Build a name→attraction map for fast lookup
-  const attractionByName = {};
-  state.attractions.forEach(a => { attractionByName[a.name] = a; });
-
-  const planned = new Set();
-  const chosen = [];  // final attraction/shopping items for this day
-  const userSelectedIds = new Set(finalItems.map(w => w.id));
-
-  // Try to match template activity names to real DB attractions
+  // ── Step 2: Match template activity names to real DB attractions ────────────
   templateActivityNames.forEach(name => {
-    // Try exact match first
     let match = attractionByName[name];
-    // Try partial match (template might say "景福宮、國立民俗博物館" as one item)
     if (!match) {
       const parts = name.split('、');
       match = attractionByName[parts[0].trim()];
@@ -694,23 +689,18 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     }
   });
 
-  // ── Step 3: Zone pool fill — add more from finalZones ─────────────────────
-  // Only add from finalZones if they differ from enrichedZones (avoid duplicate push)
-  const finalZonesForFill = candidatePool.length > 0 ? enrichedZones : shuffle(allZonesAvailable).slice(0, 10);
-  finalZonesForFill.forEach(z => {
-    if (zoneMap[z]) {
-      zoneMap[z].forEach(a => {
-        if (!planned.has(a.id) && ['attraction','hidden_gem','outlet','shopping'].includes(a.category)) {
-          candidatePool.push(a);
-        }
-      });
-    }
-  });
+  // ── Step 3: Zone pool fill — random DB items for empty slots ────────────────
+  const finalZones = candidatePool.length > 0 ? enrichedZones : shuffle(allZonesAvailable).slice(0, 10);
+  if (candidatePool.length === 0) {
+    addToPool(finalZones);
+  }
   const shuffled = shuffle(candidatePool);
   const maxAttractions = 2;
   for (let i = 0; i < maxAttractions && i < shuffled.length; i++) {
-    chosen.push(shuffled[i]);
-    planned.add(shuffled[i].id);
+    if (!planned.has(shuffled[i].id)) {
+      chosen.push(shuffled[i]);
+      planned.add(shuffled[i].id);
+    }
   }
 
   // ── Step 4: Build activity list ──────────────────────────────────────────
@@ -742,12 +732,10 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
   }
 
   mealSlots.forEach(slot => {
-    // ① Template meal for this slot?
     const tmpl = templateMeals.find(m => m.slot === slot);
     if (tmpl) {
       activities.push({ type: 'meal', slot, note: `${tmpl.item}（模板推薦）` });
     } else {
-      // ② Find real meal from DB in finalZones
       let foundMeal = null;
       for (const z of finalZones) {
         const pool = mealsByZone[z] || [];
@@ -766,7 +754,6 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
           details: foundMeal.details || {},
         });
       } else {
-        // ③ Fallback
         activities.push({
           type: 'meal',
           slot,
