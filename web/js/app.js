@@ -12,6 +12,7 @@ window.state = state = {
   attractions: [],   // attractions.json
   stations: [],     // stations.json
   outlets: [],      // outlets.json
+  meals: [],        // meals.json
   itineraries: {},  // itineraries.json
   transport: {},    // transport.json
   foodOptions: [],  // food_preferences.json
@@ -161,22 +162,24 @@ async function onRegionChange(e) {
   // 開發：直接連 API（window.__API_BASE__ 可外部注入）
   const API_BASE = window.__API_BASE__ || (location.hostname === 'localhost' ? 'http://localhost:8001/api' : '/api');
 
-  let attData = [], staData = [], outData = [], itinData = {}, transData = {};
+  let attData = [], staData = [], outData = [], itinData = {}, transData = {}, mealData = [];
   try {
-    const [attRes, staRes, outRes, itinRes, transRes] = await Promise.all([
+    const [attRes, staRes, outRes, itinRes, transRes, mealRes] = await Promise.all([
       fetch(`${API_BASE}/${region}/attractions`),
       fetch(`${API_BASE}/${region}/stations`),
       fetch(`${API_BASE}/${region}/outlets`),
       fetch(`${API_BASE}/${region}/itineraries`),
       fetch(`data/${region}/transport.json`),
+      fetch(`${API_BASE}/${region}/meals`),
     ]);
 
-    [attData, staData, outData, itinData, transData] = await Promise.all([
+    [attData, staData, outData, itinData, transData, mealData] = await Promise.all([
       attRes.json().catch(() => []),
       staRes.json().catch(() => []),
       outRes.json().catch(() => []),
       itinRes.json().catch(() => ({})),
       transRes.json().catch(() => ({})),
+      mealRes.json().catch(() => []),
     ]);
   } catch(err) {
     console.error('[DEBUG] loadRegionData FAILED:', err.message);
@@ -187,6 +190,7 @@ async function onRegionChange(e) {
   state.attractions = attData.attractions || attData.data || attData || [];
   state.stations    = staData.stations    || staData.data || staData || [];
   state.outlets     = outData.outlets     || outData.data || outData || [];
+  state.meals       = mealData.meals      || mealData.data || mealData || [];
   // API returns raw arrays / dict; JSON wrapped data needs .attractions accessor
   // 重要：itineraries API 回傳 array，但舊程式期待 dict {day_key: row}，需要轉換
   const rawItineraries = itinData.itineraries || itinData || [];
@@ -198,6 +202,7 @@ async function onRegionChange(e) {
   console.log('[DEBUG] state after load:', {
     attractions: state.attractions.length,
     stations: state.stations.length,
+    meals: state.meals.length,
     itineraries_isArray: Array.isArray(state.itineraries),
   });
 
