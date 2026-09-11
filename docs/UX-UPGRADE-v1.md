@@ -148,7 +148,7 @@ Step 3：用餐插入（符合時段 + 多樣性）
   → 每餐最大排隊時間限制（可設定：30分鐘以內）
   → 同一 sub_category 當天不重複
 
-Step 4：交通anchor計算
+Step 4：交通anchor計算 ← 【本次新增重點】
   → 不是簡單的「找有相同zone的車站」
   → 而是：根據實際路線，計算「在這兩個景點之間最適合換線的車站」
   → 輸出：🚇 從「A站」搭「X線」到「B站」，約XX分鐘
@@ -157,7 +157,117 @@ Step 5：節奏標記
   → 每天標注「節奏」：🧘 慢活（每景點間隔>2hr）/ ⚡ 普通 / 🏃 緊湊
 ```
 
-### 3.4 新增 UI 功能
+---
+
+### 3.4 轉乘資訊規劃系統（Transfer Planner）← 新增高優先區塊
+
+#### 現況缺口分析
+
+| 現況 | 問題 |
+|------|------|
+| `transport.json` 只有城市層級的靜態資訊（機場進市區、市內交通票卡） | 使用者看到的永遠是「建議大眾交通」這類罐頭文字 |
+| 行程景點之間的交通只顯示「🚇 交通」抽象 block，沒有實際轉乘資訊 | 使用者不知道要搭哪條線、在哪站換車、要多久、多少錢 |
+| `stations` 表有 `lines` JSON 欄位（靜態路徑圖），但沒有實際站間時間/費用 | 系統有硬體（路徑圖），但沒有軟體（轉乘計算引擎） |
+
+#### 目標：讓使用者知道「怎麼從A景點到B景點」
+
+```
+【行程卡片示意】
+
+10:00 明洞站          🚇 10分鐘（忠武路站換線）
+       ↓              4號線 → 3號線 / IC 卡 1,400₩
+10:30 昌德宮
+       ↓              🚶 步行8分鐘（使用皇宮Passport）
+11:00 景福宮
+```
+
+#### 新資料模型：transfers 表
+
+```sql
+CREATE TABLE transfers (
+  id              TEXT PRIMARY KEY,           -- "seoul_sindang_to_jongno_4"
+  region_code     TEXT,
+  from_station_id TEXT,                        -- 起始站 ID
+  to_station_id   TEXT,                        -- 目的地站 ID
+  line            TEXT,                        -- 主要搭乘路線 "4號線"
+  transfer_at     TEXT,                        -- 換線站（無換線則 null）
+  estimated_min   INTEGER,                     -- 總耗時（分鐘）
+  fare_won        INTEGER,                     -- 費用（韓幣）/ Yen / TWD
+  transfer_count  INTEGER DEFAULT 0,            -- 換線次數
+  route_hint      TEXT,                        -- 實際路徑 "4號線 忠武路 → 3號線 景福宮"
+  walk_min        INTEGER DEFAULT 0,           -- 站內步行時間（分鐘）
+  created_at      TEXT
+);
+```
+
+#### transfers 資料建置策略
+
+**策略A：預先計算熱門站對（推薦先行）**
+```
+目標：覆蓋80%常見路線
+- 同一 zone 內兩站：transfer_count=0，estimated_min 查 Google Maps 估算
+- 跨 zone 但同線兩站：transfer_count=0
+- 跨線兩站：抓最多人使用的換線路徑（觀光手冊、Naver Map 熱門路徑）
+```
+
+**策略B：演算法即時推估（for 未預先計算的站對）**
+```
+若 transfers 表查無此站對：
+1. 找出 from_station 和 to_station 的 lat/lng
+2. 計算直線距離（Haversine）
+3. 推估公式：estimated_min = distance_m / 80(m/分鐘) + 換線惩罚（+3分鐘/次）
+4. fare = 基本費 + 距離費（按地區費率表）
+5. 標記 `route_hint = "（推估）"` 提醒使用者核實
+```
+
+**策略C：外部 API 串接（長遠目標）**
+```
+- Naver Map API（韓國）：真實轉乘時間、班距
+- Japan Transit API（日本）：IC/Kitaca 等多票卡系統
+- 實作順序：首爾 → 釜山 → 大阪 → 東京
+```
+
+#### 轉乘 block 生成邏輯（Route Builder 整合）
+
+```
+在 Step 2（每日路線建構）中：
+每當「景點A」結束後要前往「景點B」時：
+
+1. 取得 景點A最近的車站 → station_a
+2. 取得 景點B最近的車站 → station_b
+3. 查詢 transfers(from_station=station_a, to_station=station_b)
+
+若找到記錄：
+  → 插入 transport_block：line + estimated_min + fare
+  → 若 transfer_count > 0，則 block 內含換線提示
+
+若找不到（未預先計算）：
+  → 執行 Strategy B 即時推估
+  → 附帶 ⚠️「，推估時間，請以當日實際資訊為準」標記
+```
+
+#### 新增 UI 呈現
+
+| 元素 | 呈現方式 |
+|------|---------|
+| **轉乘 Block（行程內嵌）** | 灰色背景卡片，顯示：🚇 10分鐘 / 💰 1,400₩ / 📍 忠武路站換3號線 |
+| **transport-panel 重新設計** | 城市層級的「交通總覽」（現有功能）移到行程頂部摺疊 |
+| **站點詳情 Hover** | 滑鼠移到車站名稱，出現：途經路線、末班車時間、公休日 |
+| **跨日移動提示** | Day 1最後景點 → Day 2第一景點 的轉乘資訊（夜市往返交通） |
+
+#### 轉乘資料建置優先序
+
+| Phase | 覆蓋範圍 | 估計筆數 |
+|-------|---------|---------|
+| **Phase 0 緊急** | 首爾 30組熱門站對（明洞/弘大/乙支路/市廳/鍾路） | ~90筆 |
+| **Phase 1-a** | 首爾全 zone兩兩站對（20 zones → ~190筆） | ~190筆 |
+| **Phase 1-b** | 大阪主要景點站對（大阪/難波/天王寺/新大阪） | ~120筆 |
+| **Phase 2** | 釜山/東京/福岡主要站對 | 各~80筆 |
+| **長期** | 其餘全部站對（演算法推估填補） | 動態 |
+
+---
+
+### 3.5 新增 UI 功能
 
 | 功能 | 說明 |
 |------|------|
@@ -167,6 +277,8 @@ Step 5：節奏標記
 | **同行人數×用餐** | 揪3人以上：系統自動標注「建議預訂」餐廳（`need_reservation=1`） |
 | **時間軸視圖** | 橫軸時間（07:00-22:00），縱軸天數，視覺化每天的行程密度 |
 | **景點詳情卡** | 點擊景點展開：票價、營業時間、排隊預估、天氣提示、點我收藏 |
+| **轉乘 Block（內嵌行程）** | 灰色卡片：🚇 10分 / 💰 1,400₩ / 📍 忠武路站換3號線；⚠️ 推估標記 |
+| **跨日轉乘提示** | Day1 末 → Day2 首的夜交通資訊 |
 
 ---
 
@@ -248,6 +360,8 @@ score = base_score
 | 修復「同行人數」連動「need_reservation」提示 | 即刻提升實用性 |
 | 補完 Tokyo 22筆缺連結景點的 gmaps/youtube | 指標景點體驗 |
 | 將 meals sub_type（早餐/午餐/晚餐）正規化 | Phase 2基礎 |
+| **建立 transfers 表 + 首批首爾30組熱門站對** | 轉乘系統地基，覆蓋80%常見路線 |
+| **Phase 0 新增：transfer block 渲染** | 行程卡內嵌轉乘資訊，替換現有的罐頭「交通」block |
 
 ### Phase 1（核心重構，2-4週）
 
@@ -257,6 +371,7 @@ score = base_score
 | 新時間軸 UI | 時軸視圖 + 節奏標記 |
 | 用餐推薦引擎 | F1-F5 全部修復 |
 | 交通anchor重新計算 | 根據實際路線插入交通block |
+| **Transfer Planner 即時推估（Strategy B）** | 覆蓋未預先計算的站對，含⚠️推估標記 |
 
 ### Phase 2（功能強化，2-3週）
 
@@ -289,6 +404,8 @@ score = base_score
 | 同行人數 | 無功能 | 連動餐廳預訂需求提示 |
 | 路線視覺化 | 無 | 每日路線地圖 |
 | 行程分享 | 無 | URL參數化分享 |
+| **轉乘資訊** | transport.json 城市層級靜態罐頭文字 | 景點間實際轉乘block（線路/時間/費用/換線站） |
+| **轉乘資料庫** | 無（transfers表不存在） | 預先計算熱門站對 + 即時Haversine推估 |
 
 ---
 
@@ -302,6 +419,7 @@ Phase 1 的路線導向生成器需要：
 2. 重新實作 buildNormalDay 的核心邏輯（預計置換 70% 的現有邏輯）
 3. 新增 meals.sub_type 欄位並重新 migrate 既有 meals 資料
 4. 新增 API endpoint：/api/{region}/meals?sub_type=breakfast
+5. 新增 transfers 表（CREATE + 首批資料建置）
+6. 新增 API endpoint：/api/{region}/transfers?from={station_id}&to={station_id}
 
 建議：Phase 1 在新分支實作（feature/route-builder），確認穩定後再 merge 回 main
-```
