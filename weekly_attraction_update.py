@@ -1,620 +1,830 @@
 #!/usr/bin/env python3
-"""Weekly attraction update script - 2026-09-07"""
+"""每週旅遊景點擴充腳本 - 2026-09-12"""
+
 import sqlite3
 import json
+import uuid
 import os
+import sys
 
 DB_PATH = '/var/repo/travel-planner/backend/travel.db'
 
-# New attractions discovered this week
-# Format: (name, name_en, category, sub_category, zone, station_id, region_code, lat, lng,
-#          ticket, stay_duration, need_reservation, cash_only, priority, tags,
-#          description, sources, nearby_stations, details)
+def log(msg):
+    print(f"[INFO] {msg}", flush=True)
 
-NEW_ATTRACTIONS = [
-    # === SEOUL ===
-    {
-        "name": "延南洞",
-        "name_en": "Yeonnam-dong",
-        "category": "hidden_gem",
-        "sub_category": "街區",
-        "zone": "麻浦",
-        "station_id": "seoul_004",
-        "region_code": "seoul",
-        "lat": 37.5565,
-        "lng": 126.9235,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "延南洞|咖啡街|文青|散步|在地",
-        "description": "弘大入口站3號出口旁的特色街區，氛圍比弘大主商圈更安靜舒適，巷弄中散落不少早午餐店、咖啡館與特色小店，是近年首爾年輕人最愛的散步地點之一。",
-        "sources": "https://lilianyolo.wordpress.com/2025/11/21/hongdae-exit3-yeonnam-dong-food/",
-        "nearby_stations": "seoul_004",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/yeonnamdong",
-            "blog_article": "https://lilianyolo.wordpress.com/2025/11/21/hongdae-exit3-yeonnam-dong-food/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "貞洞展望台",
-        "name_en": "Jeongdong Observatory",
-        "category": "attraction",
-        "sub_category": "展望台",
-        "zone": "中區",
-        "station_id": "seoul_012",
-        "region_code": "seoul",
-        "lat": 37.5658,
-        "lng": 126.9769,
-        "ticket": "免費",
-        "stay_duration": "30分鐘",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "貞洞|展望台|市廳|免費|夜景",
-        "description": "位於市廳站附近，從貞洞展望台眺望可以看到德壽宮與周遭現代化建築的相融合，相當特別，是首爾市區隱藏版展望景點。",
-        "sources": "https://creatrip.com/zh-TW/blog/5305",
-        "nearby_stations": "seoul_012",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/jeongdong",
-            "blog_article": "https://creatrip.com/zh-TW/blog/5305",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "上水洞咖啡街",
-        "name_en": "Sangsu-dong Cafe Street",
-        "category": "hidden_gem",
-        "sub_category": "咖啡街",
-        "zone": "麻浦",
-        "station_id": "seoul_008",
-        "region_code": "seoul",
-        "lat": 37.5525,
-        "lng": 126.9069,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "上水洞|咖啡街|弘大|在地|隱藏",
-        "description": "上水站周邊的特色咖啡街區，隱藏在二樓的「SangSu JuTaek」等特色小店，是當地人才知道的低調放鬆去處，適合想要遠離觀光人潮的旅人。",
-        "sources": "https://hk.trip.com/moments/destination-sangsu-dong-2135602/",
-        "nearby_stations": "seoul_008",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/sangsu",
-            "blog_article": "https://hk.trip.com/moments/destination-sangsu-dong-2135602/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "西小門歷史博物館",
-        "name_en": "Seosomun History Museum",
-        "category": "attraction",
-        "sub_category": "博物館",
-        "zone": "中區",
-        "station_id": "seoul_011",
-        "region_code": "seoul",
-        "lat": 37.5661,
-        "lng": 126.9647,
-        "ticket": "免費",
-        "stay_duration": "1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "西小門|歷史|博物館|免費|忠正路",
-        "description": "地鐵2、5號線忠正路站4號出口步行約7分鐘可達，展示首爾西小門地區的歷史變遷，是深入了解首爾老城區的低調博物館。",
-        "sources": "https://mimigo.tw/seoul-trips/",
-        "nearby_stations": "seoul_011",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/seosomun",
-            "blog_article": "https://mimigo.tw/seoul-trips/",
-            "youtube": ""
-        })
-    },
+def log_err(msg):
+    print(f"[ERROR] {msg}", file=sys.stderr, flush=True)
 
-    # === BUSAN ===
-    {
-        "name": "草梁故事路",
-        "name_en": "Choryang Story Road (Ibagu-gil)",
-        "category": "attraction",
-        "sub_category": "歷史散步徑",
-        "zone": "東區",
-        "station_id": "busan_001",
-        "region_code": "busan",
-        "lat": 35.1028,
-        "lng": 129.0403,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "草梁|故事路|168階梯|歷史|釜山站",
-        "description": "釜山站7號出口出來約10分鐘可達的歷史散步路線，「草梁Ibagu-gil」是釜山方言【故事】的意思，連接168階梯和Ebagu作坊，沿途有許多壁畫和歷史建築，呈現朝鮮戰爭時期形成的獨特山坡聚落風貌。",
-        "sources": "https://flyfishlife.tw/busan-168/",
-        "nearby_stations": "busan_001",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/choryang",
-            "blog_article": "https://flyfishlife.tw/busan-168/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "田浦咖啡街",
-        "name_en": "Jeonpo Cafe Street",
-        "category": "hidden_gem",
-        "sub_category": "咖啡街",
-        "zone": "釜山鎮區",
-        "station_id": "busan_013",
-        "region_code": "busan",
-        "lat": 35.1587,
-        "lng": 129.0632,
-        "ticket": "免費",
-        "stay_duration": "2-3小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "田浦|咖啡街|文青|選物店|西面",
-        "description": "西面站與田浦站之間的特色咖啡街，曾是工具街轉型為文青勝地，2017年被《紐約時報》選為「世界旅遊景點52處」之一。匯集眾多特色咖啡廳與文創小店，是釜山最炙手可熱的散步區域。",
-        "sources": "https://lizzzstyle.tw/seomyeon-jeonpo",
-        "nearby_stations": "busan_013",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/jeonpo",
-            "blog_article": "https://lizzzstyle.tw/seomyeon-jeonpo",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "田浦工具街",
-        "name_en": "Jeonpo Tool Street",
-        "category": "hidden_gem",
-        "sub_category": "街區",
-        "zone": "釜山鎮區",
-        "station_id": "busan_013",
-        "region_code": "busan",
-        "lat": 35.1595,
-        "lng": 129.0640,
-        "ticket": "免費",
-        "stay_duration": "1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "田浦|工具街|文創|老街|西面",
-        "description": "田浦咖啡街相連的傳統工具街區域，許多老舊工廠與店鋪被年輕人改造成充滿設計感的文創空間是新舊融合的典型案例，與田理團路相鄰。",
-        "sources": "https://lizzzstyle.tw/seomyeon-jeonpo",
-        "nearby_stations": "busan_013",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/jeonpotool",
-            "blog_article": "https://lizzzstyle.tw/seomyeon-jeonpo",
-            "youtube": ""
-        })
-    },
+def generate_id(name, region_code):
+    """Generate a short ID from name"""
+    # Create a simple slug
+    slug = name[:20].lower()
+    slug = ''.join(c if c.isalnum() else '_' for c in slug)
+    return f"{region_code}_{slug[:15]}"
 
-    # === FUKUOKA ===
-    {
-        "name": "冷泉公園",
-        "name_en": "Reisen Park",
-        "category": "hidden_gem",
-        "sub_category": "公園",
-        "zone": "博多",
-        "station_id": "fukuoka_003",
-        "region_code": "fukuoka",
-        "lat": 33.6065,
-        "lng": 130.4182,
-        "ticket": "免費",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "冷泉|公園|博多|中洲川端|免費",
-        "description": "博多區域的靜謐公園，鳥語花香的休憩空間，適合想要在熱鬧商圈中找一個安靜角落的旅人。緊鄰中洲川端站與櫛田神社。",
-        "sources": "https://zh.hotels.com/de1755852/",
-        "nearby_stations": "fukuoka_003,fukuoka_004",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/reisenpark",
-            "blog_article": "https://zh.hotels.com/de1755852/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "藥院散步街",
-        "name_en": "Yakuin Shopping Street",
-        "category": "hidden_gem",
-        "sub_category": "商店街",
-        "zone": "中央區",
-        "station_id": "fukuoka_008",
-        "region_code": "fukuoka",
-        "lat": 33.5905,
-        "lng": 130.3997,
-        "ticket": "免費",
-        "stay_duration": "2-3小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "藥院|散步|選物店|咖啡|文青|天神",
-        "description": "距離天神僅一站路程，藥院少了商圈喧囂多了文青生活感。遍布特色咖啡館、老字號美食、風格雜貨與選物店，B.B.B POTTERS、None Too Soon、mille等人氣店家匯聚，非常適合花上一天慢慢散步。",
-        "sources": "https://www.funliday.com/posts/yakuin_shopping_map",
-        "nearby_stations": "fukuoka_008,fukuoka_009",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/yakuin",
-            "blog_article": "https://www.funliday.com/posts/yakuin_shopping_map",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "HIGHTIDE STORE 福岡",
-        "name_en": "HIGHTIDE STORE Fukuoka",
-        "category": "hidden_gem",
-        "sub_category": "文具店",
-        "zone": "中央區",
-        "station_id": "fukuoka_008",
-        "region_code": "fukuoka",
-        "lat": 33.5903,
-        "lng": 130.3992,
-        "ticket": "免費參觀",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "文具|選物|HIGHTIDE|藥院|設計|福岡",
-        "description": "HIGHTIDE是福岡代表性的文具品牌，店內販售各式各樣的筆記本、文具、收納與辦公小物，還有品牌獨家限定款。設計風格簡約卻實用，特別受到喜歡文具的旅人青睞。",
-        "sources": "https://www.funliday.com/posts/yakuin_shopping_map",
-        "nearby_stations": "fukuoka_008,fukuoka_009",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/hightide",
-            "blog_article": "https://www.funliday.com/posts/yakuin_shopping_map",
-            "youtube": ""
-        })
-    },
+def check_exists(cur, name, region_code):
+    """Check if attraction with same name already exists"""
+    cur.execute(
+        "SELECT id FROM attractions WHERE region_code=? AND name=?",
+        (region_code, name)
+    )
+    return cur.fetchone() is not None
 
-    # === OSAKA ===
-    {
-        "name": "豐國神社",
-        "name_en": "Hokokusha Shrine",
-        "category": "attraction",
-        "sub_category": "神社",
-        "zone": "中央區",
-        "station_id": "osaka_station_008",
-        "region_code": "osaka",
-        "lat": 34.6763,
-        "lng": 135.5263,
-        "ticket": "免費",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "豐國神社|大阪城|神社|秀吉|免費",
-        "description": "位於大阪城公園西之丸庭園附近，祭祀豐臣秀吉的神社，環境清幽，是參拜豐臣秀吉出世的能量景點。與大阪城天守閣同區域，可串聯參觀。",
-        "sources": "https://osaka.letsgojp.com/archives/52790/",
-        "nearby_stations": "osaka_station_008",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/hokokusha",
-            "blog_article": "https://osaka.letsgojp.com/archives/52790/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "鶴橋商店街",
-        "name_en": "Tsuruhashi Shopping Street",
-        "category": "hidden_gem",
-        "sub_category": "商店街",
-        "zone": "生野區",
-        "station_id": "osaka_station_006",
-        "region_code": "osaka",
-        "lat": 34.6647,
-        "lng": 135.5350,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "鶴橋|商店街|在地|市場|大阪",
-        "description": "JR、近鐵與地下鐵交會的鶴橋站周邊，是大阪重要的交通樞紐也是隱藏版逛街美食區。車站周邊遍布熱鬧的商店街與縱橫交錯的小巷，多元文化在此交融，形成獨具特色的在地商圈。",
-        "sources": "https://tw.tabiiro.travel/sightseeing/article/osakaloop-kankou-guide/",
-        "nearby_stations": "osaka_station_006",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/tsuruhashi",
-            "blog_article": "https://tw.tabiiro.travel/sightseeing/article/osakaloop-kankou-guide/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "西之丸庭園",
-        "name_en": "Nishinomaru Garden",
-        "category": "attraction",
-        "sub_category": "庭園",
-        "zone": "中央區",
-        "station_id": "osaka_station_008",
-        "region_code": "osaka",
-        "lat": 34.6747,
-        "lng": 135.5259,
-        "ticket": "免費",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "西之丸|庭園|大阪城|賞櫻|免費",
-        "description": "大阪城公園內的西之丸庭園，是欣賞大阪城天守閣同框的最佳取景地，春季櫻花圍繞護城河步道，景色優美，是大阪城公園內的必訪區域。",
-        "sources": "https://osaka.letsgojp.com/archives/52790/",
-        "nearby_stations": "osaka_station_008",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/nishinomaru",
-            "blog_article": "https://osaka.letsgojp.com/archives/52790/",
-            "youtube": ""
-        })
-    },
-
-    # === TOKYO ===
-    {
-        "name": "墨田水族館",
-        "name_en": "Sumida Aquarium",
-        "category": "attraction",
-        "sub_category": "水族館",
-        "zone": "墨田區",
-        "station_id": "tokyo_007",
-        "region_code": "tokyo",
-        "lat": 35.7100,
-        "lng": 139.8107,
-        "ticket": "門票",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "墨田水族館|晴空塔|水族館|押上|親子",
-        "description": "位於東京晴空塔5-6樓的墨田水族館，是關東第一個以人工海水生產系統打造的城市型水族館。透過三條開放式動線可自由來去，以不同視角觀察企鵝、海狗、水母與江戶風情金魚展示。",
-        "sources": "https://tw.wamazing.com/media/article/a-442",
-        "nearby_stations": "tokyo_007,tokyo_015",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/sumidaaquarium",
-            "blog_article": "https://tw.wamazing.com/media/article/a-442",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "十間橋",
-        "name_en": "Jukken Bridge",
-        "category": "hidden_gem",
-        "sub_category": "橋樑",
-        "zone": "墨田區",
-        "station_id": "tokyo_007",
-        "region_code": "tokyo",
-        "lat": 35.7095,
-        "lng": 139.8132,
-        "ticket": "免費",
-        "stay_duration": "15-30分鐘",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "十間橋|押上|晴空塔|攝影|免費",
-        "description": "能夠以完美角度拍攝東京晴空塔倒影的隱藏版攝影點，位於押上地區，緊鄰墨田區。適合想要拍出不一樣晴空塔風景的旅人，是日夜景拍攝的私房秘境。",
-        "sources": "https://tokyo.letsgojp.com/archives/835508/",
-        "nearby_stations": "tokyo_007",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/jukkenbridge",
-            "blog_article": "https://tokyo.letsgojp.com/archives/835508/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "淺草仲見世通",
-        "name_en": "Nakamise-dori",
-        "category": "attraction",
-        "sub_category": "商店街",
-        "zone": "台東區",
-        "station_id": "tokyo_006",
-        "region_code": "tokyo",
-        "lat": 35.7116,
-        "lng": 139.7966,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 1,
-        "tags": "仲見世|淺草|雷門|傳統|商店街|免費",
-        "description": "從淺草寺雷門到淺草寺本堂的參道，兩旁排列著90多家店鋪，是東京最古老的商店街之一。販售人形燒、雷門限定周邊、傳統工藝品等，是體驗東京下町風情的經典去處。",
-        "sources": "https://zh-hant.tokyo-skytree.jp/",
-        "nearby_stations": "tokyo_006",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/nakamise",
-            "blog_article": "https://zh-hant.tokyo-skytree.jp/",
-            "youtube": ""
-        })
-    },
-
-    # === OKINAWA ===
-    {
-        "name": "波上宮",
-        "name_en": "Naminoue Shrine",
-        "category": "attraction",
-        "sub_category": "神社",
-        "zone": "那霸",
-        "station_id": "okinawa_station_011",
-        "region_code": "okinawa",
-        "lat": 26.2126,
-        "lng": 127.6630,
-        "ticket": "免費",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "波上宮|神社|那霸|免費|海岸",
-        "description": "那霸市區最近海灘波之上海灘旁的波上宮，是琉球八社之一，歷史可追溯至15世紀，是當地人祈求開運、健康與交通安全的重要信仰中心。佇立於海岸懸崖上，可俯瞰美麗海景。",
-        "sources": "https://okinawa.letsgojp.com/archives/782803/",
-        "nearby_stations": "okinawa_station_011,okinawa_station_005",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/naminoue",
-            "blog_article": "https://okinawa.letsgojp.com/archives/782803/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "奧武山公園",
-        "name_en": "Onoyama Park",
-        "category": "hidden_gem",
-        "sub_category": "公園",
-        "zone": "那霸",
-        "station_id": "okinawa_station_011",
-        "region_code": "okinawa",
-        "lat": 26.2074,
-        "lng": 127.6648,
-        "ticket": "免費",
-        "stay_duration": "1-2小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 3,
-        "tags": "奧武山|公園|那霸|在地|散步",
-        "description": "那霸市最大型的綜合公園，園內設有親子遊具區、棒球場、武道館、慢跑道等多功能設施，是居民與觀光客都喜歡的放鬆去處。春季櫻花盛開、秋季微風徐徐，是全年皆適合的城市綠洲。",
-        "sources": "https://okinawa.letsgojp.com/archives/782803/",
-        "nearby_stations": "okinawa_station_011,okinawa_station_006",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/onoyama",
-            "blog_article": "https://okinawa.letsgojp.com/archives/782803/",
-            "youtube": ""
-        })
-    },
-    {
-        "name": "玉陵",
-        "name_en": "Tamaudeen (Royal Mausoleum)",
-        "category": "attraction",
-        "sub_category": "世界文化遺產",
-        "zone": "那霸",
-        "station_id": "okinawa_station_012",
-        "region_code": "okinawa",
-        "lat": 26.2141,
-        "lng": 127.7190,
-        "ticket": "成人300日圓",
-        "stay_duration": "30分鐘-1小時",
-        "need_reservation": 0,
-        "cash_only": 0,
-        "priority": 2,
-        "tags": "玉陵|首里|世界文化遺產|琉球|王族",
-        "description": "琉球王族的陵墓遺址，建於1501年，用來安葬第二尚氏王朝的歷代國王與家族成員。石造建築莊嚴而沉靜，展現琉球古代喪葬文化與宗教觀念，現為世界文化遺產之一。",
-        "sources": "https://okinawa.letsgojp.com/archives/782803/",
-        "nearby_stations": "okinawa_station_012",
-        "details": json.dumps({
-            "google_maps": "https://maps.app.goo.gl/tamaudeen",
-            "blog_article": "https://okinawa.letsgojp.com/archives/782803/",
-            "youtube": ""
-        })
-    },
-]
-
-
-def generate_id(name: str, region_code: str) -> str:
-    """Generate a unique ID for a new attraction using UUID."""
-    import uuid
-    # Create id from name (romanized approximation) + short uuid
-    import re
-    clean = re.sub(r'[^a-zA-Z0-9]', '', name)
-    base = clean[:15].lower()
-    uid = str(uuid.uuid4())[:8]
-    prefix_map = {
-        'seoul': 'seoul_',
-        'busan': 'busan_',
-        'fukuoka': 'fukuoka_',
-        'osaka': 'osaka_',
-        'tokyo': 'tokyo_',
-        'okinawa': 'okinawa_'
-    }
-    prefix = prefix_map.get(region_code, f'{region_code}_')
-    return f"{prefix}{base}_{uid}"
-
+def insert_attraction(conn, cur, attraction):
+    """Insert attraction, return True if inserted, False if skipped (duplicate)"""
+    region = attraction['region_code']
+    name = attraction['name']
+    
+    # Check duplicate by name
+    if check_exists(cur, name, region):
+        log(f"  SKIP (duplicate): {name}")
+        return False
+    
+    # Generate ID
+    att_id = generate_id(name, region)
+    
+    # Handle duplicate ID
+    cur.execute("SELECT id FROM attractions WHERE id=?", (att_id,))
+    if cur.fetchone():
+        att_id = f"{att_id}_{str(uuid.uuid4())[:4]}"
+    
+    # Build details JSON
+    details = {}
+    if attraction.get('google_maps'):
+        details['google_maps'] = attraction['google_maps']
+    if attraction.get('blog_article'):
+        details['blog_article'] = attraction['blog_article']
+    if attraction.get('youtube'):
+        details['youtube'] = attraction['youtube']
+    
+    # Build sources JSON
+    sources = []
+    if attraction.get('source_url'):
+        sources.append(attraction['source_url'])
+    
+    # Build nearby_stations JSON
+    nearby = []
+    if attraction.get('nearby_stations'):
+        nearby = attraction['nearby_stations']
+    
+    # Build tags JSON
+    tags = []
+    if attraction.get('tags'):
+        tags = attraction['tags']
+    
+    cur.execute("""
+        INSERT INTO attractions (
+            id, region_code, station_id, name, name_en, category, sub_category,
+            zone, location, lat, lng, ticket, stay_duration,
+            need_reservation, cash_only, priority, tags, description,
+            sources, nearby_stations, details
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    """, (
+        att_id,
+        region,
+        attraction.get('station_id'),
+        name,
+        attraction.get('name_en'),
+        attraction.get('category', 'attraction'),
+        attraction.get('sub_category'),
+        attraction.get('zone'),
+        attraction.get('location'),
+        attraction.get('lat'),
+        attraction.get('lng'),
+        attraction.get('ticket'),
+        attraction.get('stay_duration'),
+        attraction.get('need_reservation', 0),
+        attraction.get('cash_only', 0),
+        attraction.get('priority', 3),
+        json.dumps(tags, ensure_ascii=False),
+        attraction.get('description'),
+        json.dumps(sources, ensure_ascii=False),
+        json.dumps(nearby, ensure_ascii=False),
+        json.dumps(details, ensure_ascii=False)
+    ))
+    conn.commit()
+    log(f"  INSERTED: {name} (id: {att_id})")
+    return True
 
 def main():
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
-
-    # Get existing names and URLs to avoid duplicates
-    cur.execute('SELECT LOWER(name), details FROM attractions')
-    existing = {row[0]: row[1] for row in cur.fetchall()}
-
-    # Also check by URL in details
-    all_details = []
-    cur.execute('SELECT details FROM attractions')
-    for (detail_str,) in cur.fetchall():
-        if detail_str:
-            try:
-                d = json.loads(detail_str)
-                all_details.append(d)
-            except:
-                pass
-
-    added = 0
-    skipped = 0
-    errors = []
-
-    for attr in NEW_ATTRACTIONS:
-        name_lower = attr['name'].lower()
-
-        # Skip if name already exists
-        if name_lower in existing:
-            print(f"SKIP (name exists): {attr['name']}")
-            skipped += 1
-            continue
-
-        attr_id = generate_id(attr['name'], attr['region_code'])
-
+    
+    total_new = 0
+    region_counts = {}
+    
+    # ============================================================
+    # SEOUL - 은평구 area attractions
+    # ============================================================
+    log("\n=== Processing SEOUL attractions ===")
+    seoul_stations = {
+        'eunpyeong_hanok': None,  # station: None (not in DB)
+        'ep_history_museum': None,
+        'samgak_art': None,
+        'ep_sports_center': None,
+    }
+    
+    seoul_attrs = [
+        {
+            'name': '은평역사한옥박물관',
+            'name_en': 'Eunpyeong Historical Hanok Museum',
+            'region_code': 'seoul',
+            'category': 'attraction',
+            'sub_category': 'museum',
+            'zone': '은평',
+            'location': '서울특별시 은평구 연서로50길 8 (진관동)',
+            'lat': 37.5761,
+            'lng': 126.9294,
+            'ticket': '성인 1,000원 / 학생 500원',
+            'stay_duration': '1.5-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['한옥', '박물관', '은평', '체험'],
+            'description': '은평구의 역사와 한옥 문화를 한눈에 볼 수 있는 박물관. 통일신라시대부터 현대에 이르는 은평구의 역사를 다양한 유물과 모형으로 전시. 2층 한옥전시실에서는 한옥의 건축 과정과 과학적 원리를 소개.',
+            'source_url': 'https://museum.ep.go.kr/',
+            'google_maps': 'https://maps.google.com/?q=은평역사한옥박물관',
+            'nearby_stations': [],
+            'station_id': None
+        },
+        {
+            'name': '삼각산금암미술관',
+            'name_en': 'Samgaksan Geumgang Art Museum',
+            'region_code': 'seoul',
+            'category': 'hidden_gem',
+            'sub_category': 'museum',
+            'zone': '은평',
+            'location': '서울특별시 은평구 진관길 21-2',
+            'lat': 37.5778,
+            'lng': 126.9278,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['미술관', '은평', '한옥', '전시'],
+            'description': '은평한옥마을 골목을 거닔다 보면 만나는 한옥이 미술관으로 변신한 공간. 사랑방과 대청마루 등 한옥 공간 곳곳에 예술 작품이 전시된 독특한 풍경.',
+            'source_url': 'https://museum.ep.go.kr/',
+            'google_maps': 'https://maps.google.com/?q=삼각산금암미술관',
+            'nearby_stations': [],
+            'station_id': None
+        },
+        {
+            'name': '은평구민체육센터',
+            'name_en': 'Eunpyeong Public Sports Center',
+            'region_code': 'seoul',
+            'category': 'attraction',
+            'sub_category': 'sports',
+            'zone': '은평',
+            'location': '서울특별시 은평구 진관1로 40',
+            'lat': 37.5794,
+            'lng': 126.9228,
+            'ticket': '프로그램별 상이',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['체육시설', '수영', '은평', '운동'],
+            'description': '은평구민체육센터 수영장은 성인풀(25m) 7레인, 유아풀을 갖춘 공공 스포츠 시설. 지하 1층 수영장과 지상 3층 규모.',
+            'source_url': 'https://www.efmc.or.kr/fmcs/8',
+            'google_maps': 'https://maps.google.com/?q=은평구민체육센터',
+            'nearby_stations': [],
+            'station_id': None
+        },
+        {
+            'name': '은평한옥마을 1인1잔 카페',
+            'name_en': '1-in-1-jan Hanok Cafe',
+            'region_code': 'seoul',
+            'category': 'hidden_gem',
+            'sub_category': 'cafe',
+            'zone': '은평',
+            'location': '서울특별시 은평구 연서로 534',
+            'lat': 37.5767,
+            'lng': 126.9289,
+            'ticket': '무료입장 (음료 별도)',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['카페', '은평', '한옥', 'VIEW'],
+            'description': '은평한옥마을 언덕에 자리한 인기 카페. 5층짜리 한옥 건물 전체를 카페로 운영하며, 위로 올라갈수록 북한산과 한옥 지붕들이 어우러진 풍경을 한눈에 담을 수 있는 전망 카페.',
+            'source_url': 'https://love.seoul.go.kr/articles/10343',
+            'google_maps': 'https://maps.google.com/?q=1인1잔+은평한옥마을',
+            'nearby_stations': [],
+            'station_id': None
+        },
+        {
+            'name': '은평뉴타운도서관',
+            'name_en': 'Eunpyeong New Town Library',
+            'region_code': 'seoul',
+            'category': 'attraction',
+            'sub_category': 'library',
+            'zone': '은평',
+            'location': '서울특별시 은평구 진관2로 111-51',
+            'lat': 37.5794,
+            'lng': 126.9256,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['도서관', '은평', '북악', '여가'],
+            'description': '은평뉴타운 중심에 위치한 현대적 도서관. 밝고 쾌적한 실내에 다양한 서적이 빼곡하고, 창가 자리와 아늑한 소파도 마련. 독서 모임, 북 콘서트, 전시회 등 문화 프로그램도 수시로 진행.',
+            'source_url': 'https://love.seoul.go.kr/articles/10343',
+            'google_maps': 'https://maps.google.com/?q=은평뉴타운도서관',
+            'nearby_stations': [],
+            'station_id': None
+        },
+    ]
+    
+    region_new = 0
+    for att in seoul_attrs:
         try:
-            cur.execute('''
-                INSERT INTO attractions (
-                    id, region_code, station_id, name, name_en, category, sub_category,
-                    zone, location, lat, lng, ticket, stay_duration, need_reservation,
-                    cash_only, priority, tags, description, sources, nearby_stations,
-                    details, created_at
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
-            ''', (
-                attr_id,
-                attr['region_code'],
-                attr['station_id'],
-                attr['name'],
-                attr['name_en'],
-                attr['category'],
-                attr['sub_category'],
-                attr['zone'],
-                '',  # location
-                attr['lat'],
-                attr['lng'],
-                attr['ticket'],
-                attr['stay_duration'],
-                attr['need_reservation'],
-                attr['cash_only'],
-                attr['priority'],
-                attr['tags'],
-                attr['description'],
-                attr['sources'],
-                attr['nearby_stations'],
-                attr['details']
-            ))
-            added += 1
-            print(f"ADDED ({attr['region_code']}/{attr['station_id']}): {attr['name']}")
-
+            if insert_attraction(conn, cur, att):
+                region_new += 1
         except Exception as e:
-            errors.append(f"ERROR {attr['name']}: {e}")
-            print(f"ERROR {attr['name']}: {e}")
-
-    conn.commit()
-
-    # Verify counts per region
-    print("\n=== Verification ===")
-    for region in ['seoul', 'busan', 'fukuoka', 'osaka', 'tokyo', 'okinawa']:
-        cur.execute(f'SELECT COUNT(*) FROM attractions WHERE region_code = ?', (region,))
-        count = cur.fetchone()[0]
-        print(f'{region}: {count} attractions')
-
-    print(f"\nSummary: +{added} added, {skipped} skipped, {len(errors)} errors")
-    if errors:
-        print("Errors:")
-        for e in errors:
-            print(f"  {e}")
-
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['seoul'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # BUSAN - 영도 area attractions
+    # ============================================================
+    log("\n=== Processing BUSAN attractions ===")
+    busan_attrs = [
+        {
+            'name': '깡깡이예술마을',
+            'name_en': 'Kangkangi Art Village',
+            'region_code': 'busan',
+            'category': 'hidden_gem',
+            'sub_category': 'culture',
+            'zone': '영도',
+            'location': '부산광역시 영도구 대평북로 36',
+            'lat': 35.0978,
+            'lng': 129.0367,
+            'ticket': '투어 신청 (유료)',
+            'stay_duration': '2-3시간',
+            'need_reservation': 1,
+            'priority': 3,
+            'tags': ['영도', '산업관광', '예술마을', '조선소'],
+            'description': "부산 영도의 깡깡이예술마을은 1970~80년대 원양어업 붐을 타고 수리조선업이 번성했던 마을. '깡깡'은 망치로 녹슨 배의 철판을 두드릴 때 나는 소리에서 유래. 8개의 수리조선소와 260여 개의 공장 및 부품 업체가 영위하는 산업관광지.",
+            'source_url': 'http://kangkangee.com/',
+            'google_maps': 'https://maps.google.com/?q=깡깡이예술마을',
+            'blog_article': 'https://korean.visitkorea.or.kr/detail/rem_detail.do?cotid=3f8fe6f5-8674-4dd8-ba2e-a33ea0177052',
+            'nearby_stations': ['busan_029', 'busan_027'],
+            'station_id': 'busan_029'  # 中央站 is closest
+        },
+        {
+            'name': '국립해양박물관',
+            'name_en': 'National Maritime Museum',
+            'region_code': 'busan',
+            'category': 'attraction',
+            'sub_category': 'museum',
+            'zone': '영도',
+            'location': '부산광역시 영도구 해양로301번길 45',
+            'lat': 35.0956,
+            'lng': 129.0389,
+            'ticket': '무료',
+            'stay_duration': '2-3시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['영도', '박물관', '해양', '가족'],
+            'description': '부산 영도에 위치한 국립해양박물관. 바다의 역사, 해양생태, 과학 등을 전시하는 종합 해양문화시설. 물방울을 형상화한 외관建筑设计로 유명.',
+            'source_url': 'https://www.mmk.or.kr/',
+            'google_maps': 'https://maps.google.com/?q=국립해양박물관+부산',
+            'blog_article': 'https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=79080',
+            'nearby_stations': ['busan_029', 'busan_027'],
+            'station_id': 'busan_029'
+        },
+        {
+            'name': '절영해안산책로',
+            'name_en': 'Jeolnyeong Coastal Trail',
+            'region_code': 'busan',
+            'category': 'hidden_gem',
+            'sub_category': 'hiking',
+            'zone': '영도',
+            'location': '부산광역시 영도구 와치로 2-14',
+            'lat': 35.0911,
+            'lng': 129.0294,
+            'ticket': '무료',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['영도', '해안', '산책', '드라마틱'],
+            'description': '영도 서쪽 봉래산 아래 해안선을 따라 이어져 있는 3Km의 해안산책로. 원래 군사보호구역으로 접근이 어려웠으나 2001년 산책로가 개설됨. 기암괴석과 푸른 바다가 어우러진 절경.',
+            'source_url': 'https://www.yeongdo.go.kr/tour/01462/02205.web',
+            'google_maps': 'https://maps.google.com/?q=절영해안산책로',
+            'nearby_stations': ['busan_029'],
+            'station_id': 'busan_029'
+        },
+        {
+            'name': '감지해변산책로',
+            'name_en': 'Gamji Beach Trail',
+            'region_code': 'busan',
+            'category': 'hidden_gem',
+            'sub_category': 'hiking',
+            'zone': '영도',
+            'location': '부산광역시 영도구 동삼동 639-13',
+            'lat': 35.0906,
+            'lng': 129.0428,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['영도', '해변', '산책', '자연'],
+            'description': '태종대 해안선을 따라 조성된 약 3Km의 산책로. 인공으로 조성된 구절초 야생초 꽃밭과 함께하며, 완만한 경사로 어린이를 동반해도 무리없음.',
+            'source_url': 'https://www.yeongdo.go.kr/tour/01462/02205.web',
+            'google_maps': 'https://maps.google.com/?q=감지해변산책로',
+            'nearby_stations': ['busan_029'],
+            'station_id': 'busan_029'
+        },
+        {
+            'name': '아레아식스(AREA6)',
+            'name_en': 'AREA6',
+            'region_code': 'busan',
+            'category': 'hidden_gem',
+            'sub_category': 'culture',
+            'zone': '영도',
+            'location': '부산광역시 영도구 태종로105번길 37-3',
+            'lat': 35.0967,
+            'lng': 129.0356,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['영도', '문화', '아트', '쇼핑'],
+            'description': "삼진어묵의 비영리법인인 삼진이음에서 설립한 지역 문화 플랫폼. '로컬을 밝히는 아티장 골목'이 콘셉트. 부산주당, 송월타올, 취프로젝트 등 지역 대표 브랜드들이 입점.",
+            'source_url': 'https://blog.naver.com/area6yeongdo',
+            'google_maps': 'https://maps.google.com/?q=AREA6+영도',
+            'nearby_stations': ['busan_029', 'busan_027'],
+            'station_id': 'busan_029'
+        },
+    ]
+    
+    region_new = 0
+    for att in busan_attrs:
+        try:
+            if insert_attraction(conn, cur, att):
+                region_new += 1
+        except Exception as e:
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['busan'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # FUKUOKA - 旦過市場/小倉/柳橋 area attractions
+    # ============================================================
+    log("\n=== Processing FUKUOKA attractions ===")
+    fukuoka_attrs = [
+        {
+            'name': '旦過市場',
+            'name_en': 'Tangaichi Market',
+            'region_code': 'fukuoka',
+            'category': 'hidden_gem',
+            'sub_category': 'market',
+            'zone': '小倉',
+            'location': '福岡県北九州市小倉北区魚町4-2-18',
+            'lat': 33.8847,
+            'lng': 130.8744,
+            'ticket': '무료입장 (식사 별도)',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['北九州', '市場', 'グルメ', '昭和'],
+            'description': '大正時代に魚の荷揚げ場から始まった100年の歴史を持つ市場。北九州の台所として親しまれ、新鮮な野菜や果物、鮮魚、手作りのお惣菜や地元伝統食「ぬか炊き」が所狭しと並んでいる。',
+            'source_url': 'https://www.tangaichiba.jp/',
+            'google_maps': 'https://maps.google.com/?q=旦過市場',
+            'blog_article': 'https://www.crossroadfukuoka.jp/spot/13182',
+            'nearby_stations': ['fukuoka_041'],
+            'station_id': 'fukuoka_041'
+        },
+        {
+            'name': '柳橋連合市場',
+            'name_en': 'Yanagibashi Rengo Market',
+            'region_code': 'fukuoka',
+            'category': 'attraction',
+            'sub_category': 'market',
+            'zone': '博多',
+            'location': '福岡県福岡市中央区春吉1-5-1',
+            'lat': 33.5908,
+            'lng': 130.4053,
+            'ticket': '무료입장 (식사 별도)',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['博多', '市場', '魚市場', 'グルメ'],
+            'description': '昭和初期に始まり、別名「博多の台所」と呼ばれる活気あふれる市場。新鮮な海産物や食材が並び、特に朝市や夜市が人気。玄界灘の鮮魚や辛子明太子、青果や和菓子などが揃う。',
+            'source_url': 'https://yanagibashi-rengo.net/',
+            'google_maps': 'https://maps.google.com/?q=柳橋連合市場',
+            'nearby_stations': ['fukuoka_007'],
+            'station_id': 'fukuoka_007'
+        },
+        {
+            'name': '楽水園',
+            'name_en': 'Rakusuien Garden',
+            'region_code': 'fukuoka',
+            'category': 'attraction',
+            'sub_category': 'garden',
+            'zone': '博多',
+            'location': '福岡県福岡市中央区春吉',
+            'lat': 33.5903,
+            'lng': 130.4044,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['博多', '庭園', '日本庭園', '抹茶'],
+            'description': '博多の中心部天神に程近い清流沿いにある池泉回遊式日本庭園。明治39年に豪商が建てた住吉別荘の跡地に整備され、楽水の名は親正の雅号に由来。都会の喧騒を忘れ，静寂と美しい庭園美を堪能できる穴場スポット.',
+            'source_url': 'https://rakusuien.fukuoka-teien.com/',
+            'google_maps': 'https://maps.google.com/?q=楽水園+福岡',
+            'nearby_stations': ['fukuoka_007'],
+            'station_id': 'fukuoka_007'
+        },
+        {
+            'name': '石穴稲荷神社',
+            'name_en': 'Ishiana Inari Shrine',
+            'region_code': 'fukuoka',
+            'category': 'shrine',
+            'sub_category': 'shrine',
+            'zone': '太宰府',
+            'location': '福岡県太宰府市石坂2丁目13-1',
+            'lat': 33.3144,
+            'lng': 130.5478,
+            'ticket': '무료',
+            'stay_duration': '30분-1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['太宰府', '神社', 'PowerSpot', '歴史'],
+            'description': '九州三大稲荷の一つに数えられる古社。静かな神社で地元や各地から商圈繁盛や家内安全を祈願する人々が訪れ、境内にはうつくしい自然が広がる。鳥居をくぐると不思議な雰囲楽しめる奥宮あり.',
+            'source_url': 'http://ishiana.com/',
+            'google_maps': 'https://maps.google.com/?q=石穴稲荷神社',
+            'nearby_stations': ['fukuoka_007'],
+            'station_id': 'fukuoka_007'
+        },
+        {
+            'name': '小倉魚町銀天街',
+            'name_en': 'Kokura Uomachi Shopping Street',
+            'region_code': 'fukuoka',
+            'category': 'hidden_gem',
+            'sub_category': 'shopping',
+            'zone': '小倉',
+            'location': '福岡県北九州市小倉北区魚町',
+            'lat': 33.8847,
+            'lng': 130.8750,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['小倉', '商店街', ' Shopping', '在地'],
+            'description': '北九州市小倉北区の銀天街。旦過市場とを結ぶ活気ある商店街で、B級グルメ店铺や，干物屋、台所道具店が轩を連ねる。',
+            'source_url': 'https://www.tangaichiba.jp/',
+            'google_maps': 'https://maps.google.com/?q=小倉魚町銀天街',
+            'nearby_stations': ['fukuoka_041'],
+            'station_id': 'fukuoka_041'
+        },
+    ]
+    
+    region_new = 0
+    for att in fukuoka_attrs:
+        try:
+            if insert_attraction(conn, cur, att):
+                region_new += 1
+        except Exception as e:
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['fukuoka'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # TOKYO - 赤羽/王子/荒川 area attractions
+    # ============================================================
+    log("\n=== Processing TOKYO attractions ===")
+    tokyo_attrs = [
+        {
+            'name': '飛鳥山公園',
+            'name_en': 'Asukayama Park',
+            'region_code': 'tokyo',
+            'category': 'attraction',
+            'sub_category': 'park',
+            'zone': '王子',
+            'location': '東京都北区王子1-1-3',
+            'lat': 35.7544,
+            'lng': 139.7458,
+            'ticket': '무료',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['北区', '桜', '公園', '歴史'],
+            'description': '約300年前に幕府将軍徳川吉宗が桜を植えて以来，日本最早の民衆開放公園として知られる。約650本の桜が公园を染め、桜の名所として有名。飛鳥山博物館、紙博物館、渋沢史料館も隣接.',
+            'source_url': 'https://www.city.kita.lg.jp/ches',
+            'google_maps': 'https://maps.google.com/?q=飛鳥山公園',
+            'blog_article': 'https://www.gotokyo.org/tc/spot/510/index.html',
+            'nearby_stations': ['tokyo_031'],
+            'station_id': 'tokyo_031'
+        },
+        {
+            'name': '旧古河庭園',
+            'name_en': 'Kyu Furukawa Garden',
+            'region_code': 'tokyo',
+            'category': 'attraction',
+            'sub_category': 'garden',
+            'zone': '王子',
+            'location': '東京都北区西ケ原1-27-39',
+            'lat': 35.7544,
+            'lng': 139.7394,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['北区', '庭園', 'バラ', '洋館'],
+            'description': '1917年に建築家ジョサイア・コンドルが設計した洋館を囲む美しい日本庭園と洋風庭園。石壁が美しい洋館と5月から初夏のバラ園の美しさで知られ、四季折々の景色を楽しめる.',
+            'source_url': 'https://www.gotokyo.org/cn/destinations/northern-tokyo/akabane/index.html',
+            'google_maps': 'https://maps.google.com/?q=旧古河庭園',
+            'nearby_stations': ['tokyo_031'],
+            'station_id': 'tokyo_031'
+        },
+        {
+            'name': '赤羽一番街商店街',
+            'name_en': 'Akabane Ichiban Shopping Street',
+            'region_code': 'tokyo',
+            'category': 'hidden_gem',
+            'sub_category': 'shopping',
+            'zone': '赤羽',
+            'location': '東京都北区赤羽',
+            'lat': 35.7622,
+            'lng': 139.7208,
+            'ticket': '무료',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['北区', '商店街', '居酒屋', 'グルメ'],
+            'description': 'JR赤羽駅東口から北に広がる約400mの商店街。終戦直後の黒市から始まった歴史を持ち、今はせんべろの聖地として有名。赤提灯が灯る居酒屋や多种多样的グルメ店铺が轩を連ねる.',
+            'source_url': 'https://www.mec-h.com/town/mh-akabane/118',
+            'google_maps': 'https://maps.google.com/?q=赤羽一番街商店街',
+            'nearby_stations': ['tokyo_031'],
+            'station_id': 'tokyo_031'
+        },
+        {
+            'name': '赤羽八幡神社',
+            'name_en': 'Akabane Hachimangu',
+            'region_code': 'tokyo',
+            'category': 'shrine',
+            'sub_category': 'shrine',
+            'zone': '赤羽',
+            'location': '東京都北区赤羽台4-1-6',
+            'lat': 35.7603,
+            'lng': 139.7247,
+            'ticket': '무료',
+            'stay_duration': '30분',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['北区', '神社', '神社', ' 승용'],
+            'description': '赤羽を代表する神社。鳥居越しに新幹線能看到るという日本でしか見られない光景で有名。勝負の神様を祀り、athleteや不合格祈願の場所で知られる.',
+            'source_url': 'https://www.gotokyo.org/cn/destinations/northern-tokyo/akabane/index.html',
+            'google_maps': 'https://maps.google.com/?q=赤羽八幡神社',
+            'nearby_stations': ['tokyo_031'],
+            'station_id': 'tokyo_031'
+        },
+        {
+            'name': '十条銀座商店街',
+            'name_en': 'Jujo Ginza Shopping Street',
+            'region_code': 'tokyo',
+            'category': 'hidden_gem',
+            'sub_category': 'shopping',
+            'zone': '十条',
+            'location': '東京都北区昭和園',
+            'lat': 35.7578,
+            'lng': 139.7111,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['北区', '商店街', '食べ歩き', '住民'],
+            'description': '東京都北区最大規模の商店街で、メディアにもよく取り上げられる食べ歩きスポットとして有名な商店街。活気あふれる氛囲と多种多样的店铺が並ぶ.',
+            'source_url': 'https://www.mec-h.com/town/mh-akabane/118',
+            'google_maps': 'https://maps.google.com/?q=十条銀座商店街',
+            'nearby_stations': ['tokyo_031'],
+            'station_id': 'tokyo_031'
+        },
+    ]
+    
+    region_new = 0
+    for att in tokyo_attrs:
+        try:
+            if insert_attraction(conn, cur, att):
+                region_new += 1
+        except Exception as e:
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['tokyo'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # OKINAWA - うるま/普天間/北谷 area attractions
+    # ============================================================
+    log("\n=== Processing OKINAWA attractions ===")
+    okinawa_attrs = [
+        {
+            'name': '伊計ビーチ',
+            'name_en': 'Ikei Beach',
+            'region_code': 'okinawa',
+            'category': 'attraction',
+            'sub_category': 'beach',
+            'zone': 'うるま',
+            'location': '沖縄県うるま市与那城伊計405',
+            'lat': 26.3844,
+            'lng': 127.9208,
+            'ticket': '大人400円，孩子300円',
+            'stay_duration': '2-3시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['うるま市', 'ビーチ', 'シュノーケル', '透明度'],
+            'description': '海中道路を渡り車で行ける伊計島にあるビーチ。沖縄でも屈指の透明度を誇り、潮の干満に影響を受けることなくいつでも海水浴を楽しめる。マリンスポーツも<delete_file>.',
+            'source_url': 'http://www.ikei-beach.com/',
+            'google_maps': 'https://maps.google.com/?q=伊計ビーチ',
+            'nearby_stations': ['okinawa_station_026'],
+            'station_id': 'okinawa_station_026'
+        },
+        {
+            'name': '普天満山神宮寺',
+            'name_en': 'Futenma Sanugu Shrine',
+            'region_code': 'okinawa',
+            'category': 'shrine',
+            'sub_category': 'shrine',
+            'zone': '宜野湾',
+            'location': '沖縄県宜野湾市普天間1-27-10',
+            'lat': 26.2758,
+            'lng': 127.6794,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['宜野湾市', '神社', '洞窟', 'パワースポット'],
+            'description': '琉球八社のひとつに数えられる古宮。1459年に創建された500年以上の歴史を持つ。地域住民が御嶽として信仰していた洞窟があり、普天間洞穴と呼ばれ境内から溥れる.',
+            'source_url': 'http://futenmagu.or.jp/',
+            'google_maps': 'https://maps.google.com/?q=普天満山神宮寺',
+            'nearby_stations': ['okinawa_station_022'],
+            'station_id': 'okinawa_station_022'
+        },
+        {
+            'name': '浜比嘉島',
+            'name_en': 'Hamahiga Island',
+            'region_code': 'okinawa',
+            'category': 'hidden_gem',
+            'sub_category': 'island',
+            'zone': 'うるま',
+            'location': '沖縄県うるま市勝連',
+            'lat': 26.3414,
+            'lng': 127.8997,
+            'ticket': '무료',
+            'stay_duration': '2-3시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['うるま市', '離島', '神话', 'ビーチ'],
+            'description': '琉球神話の舞台とされる神の島。赤瓦屋根の家並みが残る集落にはどこか懐かしい沖縄の風景が広がる。美しいビーチでは海水浴やマリンアクティビティも楽しめ、新鲜なモズク料理も味は Ast.',
+            'source_url': 'https://www.okinawastory.jp/news/tourism/4219',
+            'google_maps': 'https://maps.google.com/?q=浜比嘉島',
+            'nearby_stations': ['okinawa_station_026'],
+            'station_id': 'okinawa_station_026'
+        },
+        {
+            'name': '果報バンタ',
+            'name_en': 'Kafuku Banta',
+            'region_code': 'okinawa',
+            'category': 'attraction',
+            'sub_category': 'scenic',
+            'zone': 'うるま',
+            'location': '沖縄県うるま市与那城宮2768',
+            'lat': 26.3531,
+            'lng': 127.9139,
+            'ticket': '、施設利用料あり',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['うるま市', '絶景', '岬', 'フォトジェニック'],
+            'description': '约120メートルの崖の上から楽しめる沖縄屈指の絶景スポット。別名「幸せ岬」と呼ばれ Behancerと訳される。 берег岩とエメラルドグリーンの海のパノラマビュー.',
+            'source_url': 'https://www.okinawastory.jp/news/tourism/4219',
+            'google_maps': 'https://maps.google.com/?q=果報バンタ',
+            'nearby_stations': ['okinawa_station_026'],
+            'station_id': 'okinawa_station_026'
+        },
+        {
+            'name': '平安座島',
+            'name_en': 'Heianza Island',
+            'region_code': 'okinawa',
+            'category': 'hidden_gem',
+            'sub_category': 'island',
+            'zone': 'うるま',
+            'location': '沖縄県うるま市与那城',
+            'lat': 26.3619,
+            'lng': 127.9031,
+            'ticket': '무료',
+            'stay_duration': '1-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['うるま市', '離島', 'アート', '住民'],
+            'description': '防波堤に约300mのアーチが描かれ、市の小中学生が描いた护岸アートが海と空に映えるレトロ岛。屁股肉せ釜밥等等の店铺も並ぶ.',
+            'source_url': 'https://www.okinawastory.jp/news/tourism/4219',
+            'google_maps': 'https://maps.google.com/?q=平安座島',
+            'nearby_stations': ['okinawa_station_026'],
+            'station_id': 'okinawa_station_026'
+        },
+    ]
+    
+    region_new = 0
+    for att in okinawa_attrs:
+        try:
+            if insert_attraction(conn, cur, att):
+                region_new += 1
+        except Exception as e:
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['okinawa'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # OSAKA - 住之江/浪速 area attractions
+    # ============================================================
+    log("\n=== Processing OSAKA attractions ===")
+    osaka_attrs = [
+        {
+            'name': '天然露天温泉SPA住之江',
+            'name_en': 'Spa Suminoe',
+            'region_code': 'osaka',
+            'category': 'attraction',
+            'sub_category': 'onsen',
+            'zone': '住之江',
+            'location': '大阪府大阪市住之江区泉1-1-82',
+            'lat': 34.6011,
+            'lng': 135.4903,
+            'ticket': '800-900円',
+            'stay_duration': '1.5-2시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['住之江区', '温泉', '汕火照', 'リラックス'],
+            'description': '大阪唯一の天然露天温泉。住之江区に位置し、岩石を配した野外の浴槽で四季の景色を楽しみながら入るえる。団体でも利用可能.',
+            'source_url': 'http://spasuminoe.jp/',
+            'google_maps': 'https://maps.google.com/?q=天然露天温泉SPA住之江',
+            'nearby_stations': ['osaka_station_058'],
+            'station_id': 'osaka_station_058'
+        },
+        {
+            'name': '住之江公園',
+            'name_en': 'Suminoe Park',
+            'region_code': 'osaka',
+            'category': 'attraction',
+            'sub_category': 'park',
+            'zone': '住之江',
+            'location': '大阪府大阪市住之江区',
+            'lat': 34.6033,
+            'lng': 135.4919,
+            'ticket': '무료',
+            'stay_duration': '1시간',
+            'need_reservation': 0,
+            'priority': 3,
+            'tags': ['住之江区', '公園', '休闲', '家族'],
+            'description': '大阪市の住之江区にある大きな公园。木や緑が茂り、游び場や步道も整備されている。市民の想いの場として愛される.',
+            'source_url': 'https://www.city.osaka.lg.jp/',
+            'google_maps': 'https://maps.google.com/?q=住之江公園',
+            'nearby_stations': ['osaka_station_058'],
+            'station_id': 'osaka_station_058'
+        },
+        {
+            'name': 'SPA WORLD 溫泉世界',
+            'name_en': 'SPAWORLD HOTEL & RESORT',
+            'region_code': 'osaka',
+            'category': 'attraction',
+            'sub_category': 'onsen',
+            'zone': '浪速',
+            'location': '大阪府大阪市浪速区恵美須東3-4-24',
+            'lat': 34.6486,
+            'lng': 135.5072,
+            'ticket': '施設による',
+            'stay_duration': '3-4시간',
+            'need_reservation': 0,
+            'priority': 2,
+            'tags': ['浪速区', '温泉', 'テーマパーク', '家族'],
+            'description': '世界のさまざまなお風呂文化を体験できる温泉テーマパーク。ヨーロッパ・アジアなど各国の風呂を楽しめる。2025年には浴室がリニューアル、日本最大のサウナシアータなども开设.',
+            'source_url': 'https://spa-world.jp/',
+            'google_maps': 'https://maps.google.com/?q=SPA+WORLD+大阪',
+            'nearby_stations': ['osaka_station_058'],
+            'station_id': 'osaka_station_058'
+        },
+    ]
+    
+    region_new = 0
+    for att in osaka_attrs:
+        try:
+            if insert_attraction(conn, cur, att):
+                region_new += 1
+        except Exception as e:
+            log_err(f"  Failed to insert {att['name']}: {e}")
+    region_counts['osaka'] = region_new
+    total_new += region_new
+    
+    # ============================================================
+    # Summary
+    # ============================================================
+    log(f"\n{'='*50}")
+    log(f"SUMMARY: 本週新增 {total_new} 筆景點")
+    for region, count in region_counts.items():
+        log(f"  {region}: {count} 筆")
+    log(f"{'='*50}")
+    
     conn.close()
-
-    # Set permissions
-    os.chmod(DB_PATH, 0o644)
-
-    return added, skipped, errors
-
+    return total_new
 
 if __name__ == '__main__':
     main()
