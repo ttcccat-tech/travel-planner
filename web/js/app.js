@@ -15,6 +15,7 @@ window.state = state = {
   meals: [],        // meals.json
   itineraries: {},  // itineraries.json
   transport: {},    // transport.json
+  transfers: [],    // transfers from DB
   foodOptions: [],  // food_preferences.json
 
   // 車站錨點（必經車站，最多8個）
@@ -164,22 +165,24 @@ async function onRegionChange(e) {
 
   let attData = [], staData = [], outData = [], itinData = {}, transData = {}, mealData = [];
   try {
-    const [attRes, staRes, outRes, itinRes, transRes, mealRes] = await Promise.all([
+    const [attRes, staRes, outRes, itinRes, transRes, mealRes, tfRes] = await Promise.all([
       fetch(`${API_BASE}/${region}/attractions`),
       fetch(`${API_BASE}/${region}/stations`),
       fetch(`${API_BASE}/${region}/outlets`),
       fetch(`${API_BASE}/${region}/itineraries`),
       fetch(`data/${region}/transport.json`),
       fetch(`${API_BASE}/${region}/meals`),
+      fetch(`${API_BASE}/${region}/transfers`),
     ]);
 
-    [attData, staData, outData, itinData, transData, mealData] = await Promise.all([
+    [attData, staData, outData, itinData, transData, mealData, tfData] = await Promise.all([
       attRes.json().catch(() => []),
       staRes.json().catch(() => []),
       outRes.json().catch(() => []),
       itinRes.json().catch(() => ({})),
       transRes.json().catch(() => ({})),
       mealRes.json().catch(() => []),
+      tfRes.json().catch(() => []),
     ]);
   } catch(err) {
     console.error('[DEBUG] loadRegionData FAILED:', err.message);
@@ -198,6 +201,7 @@ async function onRegionChange(e) {
     ? Object.fromEntries(rawItineraries.map(r => [String(r.day_key), r]))
     : (itinData.itineraries || itinData || {});
   state.transport    = transData || {};
+  state.transfers   = Array.isArray(tfData) ? tfData : (tfData.transfers || tfData.data || []);
 
   console.log('[DEBUG] state after load:', {
     attractions: state.attractions.length,
@@ -846,10 +850,65 @@ function buildNormalDay(day, dayIdx, zonePools, finalItems, wantStations, otherN
     });
   });
 
+  // ── Step 4.5: Inject transfer blocks between consecutive activities ─────────
+  // Look up actual route info from state.transfers (pre-computed hot station pairs)
+  const findTransfer = (fromId, toId) => {
+    if (!fromId || !toId || fromId === toId) return null;
+    // Bi-directional lookup (a->b or b->a)
+    let t = state.transfers.find(x =>
+      x.from_station_id === fromId && x.to_station_id === toId
+    );
+    if (!t) {
+      t = state.transfers.find(x =>
+        x.from_station_id === toId && x.to_station_id === fromId
+      );
+    }
+    return t || null;
+  };
+
+  // Haversine fallback for un-precomputed pairs (rough estimate)
+  const haversineEst = (fromId, toId) => {
+    const fromS = state.stations.find(s => s.id === fromId);
+    const toS   = state.stations.find(s => s.id === toId);
+    if (!fromS || !toS || !fromS.lat || !toS.lat) return null;
+    const R = 6371;
+    const dLat = (toS.lat - fromS.lat) * Math.PI / 180;
+    const dLng = (toS.lng - fromS.lng) * Math.PI / 180;
+    const a = Math.sin(dLat/2)**2 + Math.cos(fromS.lat*Math.PI/180)*Math.sin(dLng/2)**2;
+    const dist = R * 2 * Math.asin(Math.sqrt(a));
+    const mins = Math.round(dist / 35 * 60);
+    return { estimated_min: mins, line: '（推估）', transfer_count: 0, transfer_at: null };
+  };
+
+  const enriched = [];
+  for (let i = 0; i < activities.length; i++) {
+    enriched.push(activities[i]);
+    // Find next activity that has a station_id
+    let nextIdx = i + 1;
+    while (nextIdx < activities.length && !activities[nextIdx].station_id) nextIdx++;
+    if (nextIdx < activities.length) {
+      const curr = activities[i];
+      const next = activities[nextIdx];
+      const t = findTransfer(curr.station_id, next.station_id) || haversineEst(curr.station_id, next.station_id);
+      if (t) {
+        enriched.push({
+          type: 'transfer',
+          estimated_min: t.estimated_min,
+          line: t.line || '',
+          transfer_at: t.transfer_at,
+          transfer_count: t.transfer_count || 0,
+          currency: '₩',
+          fare: t.fare_won || null,
+          is_estimate: !findTransfer(curr.station_id, next.station_id),
+        });
+      }
+    }
+  }
+
   return {
     ...day,
     day: dayIdx + 1,
-    activities,
+    activities: enriched,
     zones: finalZones.slice(0, 2),
   };
 }
@@ -937,6 +996,23 @@ function renderActivity(act) {
       <div class="act-content">
         <div class="act-title">${act.item}</div>
         ${act.note ? `<div class="act-note">${act.note}</div>` : ''}
+      </div>
+    </div>`;
+  }
+  if (act.type === 'transfer') {
+    const estMark = act.is_estimate ? '<span class="transfer-est">⚠️推估</span>' : '';
+    const transferNote = act.transfer_count > 0 && act.transfer_at
+      ? `<span class="transfer-line">→ 在「${act.transfer_at}」換線</span>`
+      : '';
+    const fareLine = act.fare ? `<span class="transfer-fare">💰 ${act.fare}${act.currency || ''}</span>` : '';
+    return `<div class="activity activity-transfer">
+      <div class="act-icon">🚇</div>
+      <div class="act-content transfer-content">
+        <span class="transfer-time">${act.estimated_min}分鐘</span>
+        ${act.line ? `<span class="transfer-line">${act.line}</span>` : ''}
+        ${transferNote}
+        ${fareLine}
+        ${estMark}
       </div>
     </div>`;
   }

@@ -603,7 +603,14 @@ header .subtitle { opacity: 0.85; font-size: 0.95rem; }
 .activity-meal       { background: #fffbf0; }
 .activity-transport-anchor { background: #e8f0fe; }
 .activity-transport  { background: #f0f4ff; }
+.activity-transfer   { background: #f0f4ff; border-left: 3px solid #5c9eff; }
 .activity-shopping   { background: #f5f0ff; }
+
+.transfer-content { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.transfer-time     { font-weight: 600; color: #1a73e8; }
+.transfer-line     { color: #555; }
+.transfer-fare     { color: #666; font-size: 0.9em; }
+.transfer-est      { color: #e65100; font-size: 0.85em; }
 
 .act-icon {
   font-size: 1.2rem;

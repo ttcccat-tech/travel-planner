@@ -123,3 +123,24 @@ CREATE TABLE IF NOT EXISTS itineraries (
 -- CREATE INDEX IF NOT EXISTS idx_attractions_station ON attractions(station_id);
 -- CREATE INDEX IF NOT EXISTS idx_attractions_zone   ON attractions(zone);
 -- CREATE INDEX IF NOT EXISTS idx_stations_region    ON stations(region_code);
+
+CREATE TABLE IF NOT EXISTS transfers (
+    id              TEXT PRIMARY KEY,
+    region_code     TEXT NOT NULL,
+    from_station_id TEXT NOT NULL,
+    to_station_id   TEXT NOT NULL,
+    line            TEXT,
+    transfer_at     TEXT,
+    estimated_min   INTEGER,
+    fare_won        INTEGER,
+    transfer_count  INTEGER DEFAULT 0,
+    route_hint      TEXT,
+    walk_min        INTEGER DEFAULT 0,
+    created_at      TEXT DEFAULT (datetime('now')),
+    FOREIGN KEY (from_station_id) REFERENCES stations(id),
+    FOREIGN KEY (to_station_id)   REFERENCES stations(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_transfers_region ON transfers(region_code);
+CREATE INDEX IF NOT EXISTS idx_transfers_from   ON transfers(from_station_id);
+CREATE INDEX IF NOT EXISTS idx_transfers_to     ON transfers(to_station_id);

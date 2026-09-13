@@ -144,6 +144,36 @@ def upsert_station(region: str, payload: dict):
     return {"id": payload["id"], "status": "ok"}
 
 # ═══════════════════════════════════════════════════════════════════════════
+# TRANSFERS
+# ═══════════════════════════════════════════════════════════════════════════
+@app.get("/api/{region}/transfers")
+def list_transfers(region: str, from_station: str = None, to_station: str = None):
+    """List transfers for a region. Optionally filter by from_station or to_station."""
+    with get_db() as con:
+        q = "SELECT * FROM transfers WHERE region_code=?";
+        params = [region]
+        if from_station:
+            q += " AND from_station_id=?"
+            params.append(from_station)
+        if to_station:
+            q += " AND to_station_id=?"
+            params.append(to_station)
+        q += " ORDER BY from_station_id, to_station_id"
+        rows = con.execute(q, params).fetchall()
+    return rows2list(rows)
+
+@app.get("/api/{region}/transfers/{transfer_id}")
+def get_transfer(region: str, transfer_id: str):
+    with get_db() as con:
+        row = con.execute(
+            "SELECT * FROM transfers WHERE id=? AND region_code=?",
+            (transfer_id, region)
+        ).fetchone()
+    if not row:
+        raise HTTPException(404, f"Transfer '{transfer_id}' not found")
+    return row2dict(row)
+
+# ═══════════════════════════════════════════════════════════════════════════
 # ATTRACTIONS
 # ═══════════════════════════════════════════════════════════════════════════
 @app.get("/api/{region}/attractions")
