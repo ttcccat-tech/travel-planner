@@ -1038,16 +1038,28 @@ function renderActivity(act) {
   const sourceLabel = sourceUrls.length
     ? `<div class="act-sources">
         <span class="source-label">📎 來源：</span>
-        ${sourceUrls.map(url => `<a href="${url}" target="_blank" rel="noopener" class="source-link">${new URL(url).hostname.replace('www.','')}</a>`).join(' · ')}
+        ${sourceUrls.map(url => {
+          try {
+            const u = new URL(url);
+            return `<a href="${url}" target="_blank" rel="noopener" class="source-link">${u.hostname.replace('www.','')}</a>`;
+          } catch {
+            return `<span class="source-link">${url}</span>`;
+          }
+        }).join(' · ')}
        </div>`
     : '';
 
   // Phase 3: 三種連結（Google Maps / YouTube / 部落格）
+  const makeLink = (href, label, cls) => {
+    if (!href) return '';
+    try { new URL(href); return `<a href="${href}" target="_blank" rel="noopener" class="${cls}">${label}</a>`; }
+    catch { return `<span class="${cls}" title="無效連結">${label}</span>`; }
+  };
   const linksHtml = (details.google_maps || details.youtube || details.blog_article)
     ? `<div class="act-links">
-        ${details.google_maps ? `<a href="${details.google_maps}" target="_blank" rel="noopener" class="act-link-btn">📍 Maps</a>` : ''}
-        ${details.youtube    ? `<a href="${details.youtube}" target="_blank" rel="noopener" class="act-link-btn">🎬 YouTube</a>` : ''}
-        ${details.blog_article ? `<a href="${details.blog_article}" target="_blank" rel="noopener" class="act-link-btn">📖 部落格</a>` : ''}
+        ${makeLink(details.google_maps, '📍 Maps', 'act-link-btn')}
+        ${makeLink(details.youtube, '🎬 YouTube', 'act-link-btn')}
+        ${makeLink(details.blog_article, '📖 部落格', 'act-link-btn')}
        </div>`
     : '';
 
