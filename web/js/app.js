@@ -1034,7 +1034,7 @@ function renderActivity(act) {
   const details    = act.details || {};
 
   // Phase 3: 來源標註（SPEC 9.9）
-  const sourceUrls = act.sources || [];
+  const sourceUrls = Array.isArray(act.sources) ? act.sources : [];
   const sourceLabel = sourceUrls.length
     ? `<div class="act-sources">
         <span class="source-label">📎 來源：</span>
